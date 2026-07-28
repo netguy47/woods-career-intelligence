@@ -12,9 +12,9 @@ import { z } from 'zod';
 export const searchJobsPrompt = server => server.prompt(
   'search_jobs',
   'Extract job search parameters from a natural language query',
-  z.object({
+  {
     query: z.string().describe('Job search query'),
-  }),
+  },
   (inputs) => {
     return {
       messages: [

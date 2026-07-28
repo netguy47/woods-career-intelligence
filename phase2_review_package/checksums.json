@@ -1,0 +1,27 @@
+{
+  "generated_at": "2026-07-27T16:28:00Z",
+  "snapshot_title": "Frozen Phase 2 Review Snapshot (Full Code & Scorer Audited)",
+  "self_exclusion_note": "checksums.sha256 and checksums.json exclude their own hashes from their internal lists to prevent recursive hash instability.",
+  "total_non_checksum_artifacts": 19,
+  "checksums": {
+    "career_evidence_registry.json": "20c18c1405708cb15eae924aa73d1d5515a55de904c1cd28454eed2265fbc488",
+    "genuine_phase2_ingestion_manifest.json": "e15537bcd775de7cca4ada5943b2acce7ecb451840dc4c3acafc46517764221c",
+    "ingestion_completeness_report.md": "90310b52f8ab881f0a41b0f82398f77f1dc64db61a30f4f3399953183fb41b2d",
+    "linkedin_profile_gap_analysis.md": "6c231b7349638a4f73eb087c5f7077598d45b33327b520a005b2804fd4acea54",
+    "pbs_fit_scorer.py": "726fbcfbeab950dade6cae7e55c95dfeb3077d3d47077ae691df92f8ca37d7c3",
+    "pbs_fit_scorer_pre_career_direction.py": "ff940e395c4dba1324be94c22e3d8cb1a96371a64280b2395a3e5c4f90ccaac5",
+    "phase1_manifest_incorrectly_packaged_as_phase2.json": "d4e5c39aada327fc69cb303edbd63a3603e93bf936e3cc0af9ffe38878863646",
+    "phase2_correction_report.md": "6a97342e77ed294bf1bb6a05f442abfff0eddc27c162322df1a5fd2c67b6bfc4",
+    "phase2_execution_log.md": "99e46204a2dc40c23e00dc32c1595c8290d7b1e69f1976127d2a60fd8b935984",
+    "professional_identity_model.json": "3b146c72fa0609d537767cb45cbb959238989bd76e7923f03e956cc98e0edb60",
+    "project_evidence_dossiers.md": "ab2c2a2acc4d5ebff63d569e1871ffccfe70b7615bceeaadb4a96f748e57e983",
+    "scorer_change_log.md": "c507823d5371d5b0d7538bed6b5048f3dbc1660eb3742921cf2a414d3ab85da6",
+    "scorer_revision_plan.md": "86986ccf0442b5e9b24cd407fd6dc71bb9629053b249dd15f0ff00d589a8d0b0",
+    "scorer_schema_example.json": "a4c9ee1e988babeae49fdb3c019bbae5eee50c88635c8dbc47d848b973795054",
+    "scorer_unit_test_results.json": "fe91b38042247483f2cf6e747c9d89d4a48fd4e2f640397b862c4ba9d54be70a",
+    "scorer_weight_validation.json": "0f325a6623e55eae70e3fabc7b00728b7afcf4fe9590ad36f6f36a40e77c4777",
+    "test_pbs_fit_scorer.py": "e4471cd8400e2d57acf2c80bb3f14f54d51161649d009f3a5b1e63b3cb1896a7",
+    "top_10_bias_audit.md": "0d4b97fd04b543e175f4497d5f03a7aad5c2fe1a5719cc82dbce6e3c6c70bba0",
+    "woods_professional_capability_map.md": "34e22568acc08da26eac71053e02f5da74f9764783e8f3a0c21f3609812cbf3f"
+  }
+}

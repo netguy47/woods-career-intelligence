@@ -1,0 +1,17 @@
+{
+  "test_suite": "Revision 4.1 Citation Integrity Suite",
+  "was_successful": true,
+  "required_fields_validated": [
+    "evidence_id",
+    "dimension_supported",
+    "evidence_strength",
+    "classification",
+    "evidence_relationship",
+    "matching_rationale",
+    "limitation",
+    "source_path",
+    "distinct_evidence_group",
+    "raw_match_score",
+    "adjusted_match_score"
+  ]
+}

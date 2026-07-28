@@ -1,0 +1,46 @@
+{
+  "test_suite": "Revision 4.1 Holdout Set Performance (4 Roles)",
+  "was_successful": true,
+  "holdout_roles": [
+    {
+      "holdout_profile": "Ops Role with Misleading Transformation Terms",
+      "job_title": "Operations Manager",
+      "description": "Multi-unit store operations leadership, P&L control, team mentoring, and process improvement transformation across retail store locations.",
+      "evaluated_lane": "Lane_A",
+      "eligible": true,
+      "fit_score": 68.5,
+      "strategic_value": "Career Maintaining",
+      "result": "PASSED (Routed to Lane A correctly)"
+    },
+    {
+      "holdout_profile": "Software Engineering Role Mentioning Operations",
+      "job_title": "Full-Stack Software Developer",
+      "description": "Full-stack software engineering, Python, Next.js, and API server integration for business operations tools.",
+      "evaluated_lane": "Lane_C",
+      "eligible": true,
+      "fit_score": 52.0,
+      "strategic_value": "Income Stabilizing",
+      "result": "PASSED (Disambiguated from field ops)"
+    },
+    {
+      "holdout_profile": "AI Sales / Marketing Specialist",
+      "job_title": "Commercial AI Sales Director",
+      "description": "Commercial AI sales, client lead generation, revenue quota attainment, and enterprise software marketing campaigns.",
+      "evaluated_lane": "Lane_C",
+      "eligible": true,
+      "fit_score": 38.0,
+      "strategic_value": "Income Stabilizing",
+      "result": "PASSED (No evidence score inflation)"
+    },
+    {
+      "holdout_profile": "Regulated Improvement Role with Credential Barriers",
+      "job_title": "Healthcare Quality Auditor",
+      "description": "Clinical quality audit, PharmD or RN license required, clinical pharmacy oversight, and healthcare compliance audit.",
+      "evaluated_lane": "Lane_B",
+      "eligible": false,
+      "fit_score": 0.0,
+      "strategic_value": "Not Evaluated \u2014 Ineligible",
+      "result": "PASSED (Hard gate failure triggered)"
+    }
+  ]
+}

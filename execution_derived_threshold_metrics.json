@@ -1,0 +1,33 @@
+{
+  "provenance": {
+    "runner_version": "4.3.0",
+    "execution_timestamp": "2026-07-28T10:32:39.589988+00:00",
+    "python_version": "3.14.3 (tags/v3.14.3:323c59a, Feb  3 2026, 16:04:56) [MSC v.1944 64 bit (AMD64)]",
+    "scorer_sha256": "03547419afddb5b0e0fb8856aafca47a13648d2ecaaba65ba333cc3dd349978a",
+    "registry_sha256": "20c18c1405708cb15eae924aa73d1d5515a55de904c1cd28454eed2265fbc488",
+    "identity_model_sha256": "3b146c72fa0609d537767cb45cbb959238989bd76e7923f03e956cc98e0edb60",
+    "thresholds_in_use": {
+      "D2_direct_resume": 0.35,
+      "D3_transferable_exp": 0.3,
+      "D4_project_relevance": 0.25
+    }
+  },
+  "exported_thresholds": {
+    "D2_direct_resume": 0.35,
+    "D3_transferable_exp": 0.3,
+    "D4_project_relevance": 0.25
+  },
+  "confusion_matrix": {
+    "true_positives": 4,
+    "false_positives": 5,
+    "true_negatives": 229,
+    "false_negatives": 14,
+    "precision": 0.444,
+    "recall": 0.222
+  },
+  "evaluative_assertion_summary": {
+    "total_assertions": 46,
+    "passed_assertions": 34,
+    "pass_rate_percentage": 73.9
+  }
+}

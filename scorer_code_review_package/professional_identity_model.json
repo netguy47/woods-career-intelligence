@@ -1,0 +1,114 @@
+{
+  "version": "2.0.0",
+  "generated_at": "2026-07-27T15:46:00Z",
+  "candidate": "Donald Woods",
+  "confidence_type_label": "editorial confidence estimates, not statistical probabilities",
+  "professional_identity_lanes": {
+    "Lane_A": {
+      "name": "Direct Operations Leadership",
+      "provisional_confidence_ranges": {
+        "capability_evidence_confidence_range": "0.90\u20130.94",
+        "market_readiness_confidence_range": "0.84\u20130.90"
+      },
+      "confidence_rationale": "High capability and market readiness confidence based on 25+ years of documented and self-reported multi-unit operations leadership, P&L responsibility, and team leadership documented on primary resume.",
+      "target_role_horizons": {
+        "immediate_market_targets": [
+          "District Manager",
+          "Area Operations Director",
+          "Multi-Unit Operations Manager",
+          "General Manager"
+        ],
+        "stretch_targets": [
+          "Regional Operations Vice President",
+          "Director of Store Operations"
+        ],
+        "future_state_targets": [
+          "Chief Operating Officer (Retail / QSR)"
+        ]
+      },
+      "primary_evidence_ids": [
+        "EV-RES-001",
+        "EV-RES-002",
+        "EV-RES-003",
+        "EV-RES-004",
+        "EV-RES-005"
+      ]
+    },
+    "Lane_B": {
+      "name": "Operations Systems, Governance & Transformation",
+      "provisional_confidence_ranges": {
+        "capability_evidence_confidence_range": "0.76\u20130.84",
+        "market_readiness_confidence_range": "0.58\u20130.68"
+      },
+      "confidence_rationale": "Strong capability evidence confidence based on Woods Framework architecture, 17 canonical principles, and gatekeeper governance software; moderate market readiness confidence as traditional recruiters require context-bridging from field ops to systems design.",
+      "target_role_horizons": {
+        "immediate_market_targets": [
+          "Operations Systems Analyst",
+          "Business Process Improvement Specialist",
+          "Operational Quality Specialist",
+          "Continuous Improvement Specialist",
+          "Process Improvement Analyst",
+          "Operations Implementation Specialist"
+        ],
+        "stretch_targets": [
+          "Operations Excellence Manager",
+          "Director of Operational Excellence",
+          "Operations Transformation Manager",
+          "Operational Risk & Quality Manager"
+        ],
+        "future_state_targets": [
+          "VP of Business Transformation",
+          "Chief Systems & Governance Officer"
+        ]
+      },
+      "primary_evidence_ids": [
+        "EV-WDS-001",
+        "EV-WDS-002",
+        "EV-WDS-003",
+        "EV-GTK-001",
+        "EV-GTK-002",
+        "EV-FID-001",
+        "EV-FID-002"
+      ]
+    },
+    "Lane_C": {
+      "name": "Applied AI, Workflow Orchestration & Product Enablement",
+      "provisional_confidence_ranges": {
+        "capability_evidence_confidence_range": "0.68\u20130.78",
+        "market_readiness_confidence_range": "0.42\u20130.55"
+      },
+      "confidence_rationale": "Moderate capability evidence confidence backed by working JobSpy MCP server, Python scoring engines, Next.js applications, and multi-agent pipeline architectures; lower market readiness confidence due to recruiters expecting conventional CS degrees or software engineer job titles.",
+      "target_role_horizons": {
+        "immediate_market_targets": [
+          "AI Operations Coordinator",
+          "Workflow Automation Specialist",
+          "AI Enablement Specialist",
+          "Business Process Automation Analyst",
+          "Operations Systems Analyst",
+          "Implementation Specialist",
+          "Knowledge Operations Specialist",
+          "AI Quality Operations Analyst"
+        ],
+        "stretch_targets": [
+          "AI Workflow Architect",
+          "AI Solutions Operations Manager",
+          "Agentic Workflow Technical PM"
+        ],
+        "future_state_targets": [
+          "Automation Operations Director",
+          "VP of AI Enablement & Workflow Architecture"
+        ]
+      },
+      "primary_evidence_ids": [
+        "EV-MCP-001",
+        "EV-MCP-002",
+        "EV-MCP-003",
+        "EV-MCP-004",
+        "EV-PIPE-001",
+        "EV-SOUL-001",
+        "EV-DEV-001",
+        "EV-AUD-002"
+      ]
+    }
+  }
+}

@@ -1,0 +1,1541 @@
+{
+  "version": "2.0.1",
+  "generated_at": "2026-07-27T15:45:00Z",
+  "candidate": "Donald Woods",
+  "total_evidence_records": 42,
+  "evidence_records": [
+    {
+      "evidence_id": "EV-RES-001",
+      "capability_domain": "Multi-Unit and Field Operations",
+      "specific_capability": "Multi-Unit Operations Leadership & Strategic District Management",
+      "source_type": "Verified r\u00e9sum\u00e9 record",
+      "source_path": "C:\\Users\\Donal\\OneDrive\\Documents\\resume.dw.txt",
+      "source_lines_or_section": "resume.dw.txt:L23-L30",
+      "exact_source_excerpt": "District Manager | Wingstop Restaurants Inc. | St. Louis, MO (Nov 2023 \u2013 Jan 2025): Strategically led multi-unit operations across 5 locations, mentoring and empowering General Managers to build strong leadership capabilities and achieve operational excellence.",
+      "work_performed": "Directed 5 high-volume QSR store locations across St. Louis metro, mentoring GMs, running operational audits, and establishing unit accountability.",
+      "donalds_role": "District Manager / Multi-Unit Leader",
+      "authorship_status": "not_applicable",
+      "ai_assisted_breakdown": null,
+      "artifact_produced": "Multi-Unit District Leadership & GM Mentorship Framework",
+      "verified_outcome": "Sustained a 25% growth in sales and customer satisfaction metrics; reduced turnover by 15%; optimized labor scheduling achieving 10% expense reduction.",
+      "artifact_evidence": "The r\u00e9sum\u00e9 contains the stated claim.",
+      "implementation_evidence": "The r\u00e9sum\u00e9 describes the role, action, or implementation.",
+      "outcome_evidence": "Self-reported professional outcome requiring employer records, references, performance reports, or other corroboration for independent verification.",
+      "business_or_operational_relevance": "Direct multi-unit operational leadership, P&L responsibility, and labor/cost management.",
+      "technical_tools": [
+        "Microsoft Excel",
+        "Office 365",
+        "P&L Reporting",
+        "Labor Scheduling Software"
+      ],
+      "leadership_relevance": "Executive field leadership, GM mentoring, talent retention, and cross-functional team alignment.",
+      "classification": "direct",
+      "evidence_strength": "moderate",
+      "confidence_basis": "Verified employment history on primary resume.",
+      "limitations": "Specific to food service retail; principles transfer directly to multi-site retail, field service, and logistics operations.",
+      "date_or_period": "November 2023 \u2013 January 2025",
+      "related_evidence_ids": [
+        "EV-RES-002",
+        "EV-RES-003"
+      ],
+      "evidence_relationship": "reported_by_candidate"
+    },
+    {
+      "evidence_id": "EV-RES-002",
+      "capability_domain": "Inventory, Labor, Forecasting, and Cost Control",
+      "specific_capability": "Custom 'Build-to-Inventory' Multi-Stop Logistics & Forecasting Model",
+      "source_type": "Verified r\u00e9sum\u00e9 record",
+      "source_path": "C:\\Users\\Donal\\OneDrive\\Documents\\resume.dw.txt",
+      "source_lines_or_section": "resume.dw.txt:L26",
+      "exact_source_excerpt": "Designed and deployed a custom 'Build-to-Inventory' forecasting model to align multi-unit delivery schedules (1, 2, and 3-stop cycles), reducing food cost variance and waste.",
+      "work_performed": "Engineered mathematical supply delivery scheduling models across 5 store locations to eliminate waste and stabilize food margins.",
+      "donalds_role": "Model Designer & Operations Director",
+      "authorship_status": "not_applicable",
+      "ai_assisted_breakdown": null,
+      "artifact_produced": "Build-to-Inventory Multi-Stop Delivery Forecasting Model",
+      "verified_outcome": "Reduced food cost variance and product waste while optimizing multi-stop delivery schedules.",
+      "artifact_evidence": "The r\u00e9sum\u00e9 contains the stated claim.",
+      "implementation_evidence": "The r\u00e9sum\u00e9 describes the role, action, or implementation.",
+      "outcome_evidence": "Self-reported professional outcome requiring employer records, references, performance reports, or other corroboration for independent verification.",
+      "business_or_operational_relevance": "Advanced inventory forecasting, supply chain delivery optimization, and cost variance control.",
+      "technical_tools": [
+        "Microsoft Excel",
+        "Cost Variance Analysis",
+        "Delivery Cycle Scheduling"
+      ],
+      "leadership_relevance": "Demonstrates operational research and inventory control innovation in high-volume environments.",
+      "classification": "direct",
+      "evidence_strength": "moderate",
+      "confidence_basis": "Verified resume record.",
+      "limitations": "Original model built for perishable QSR inventory; mathematical principles transfer to warehouse and retail supply chains.",
+      "date_or_period": "2023 \u2013 2025",
+      "related_evidence_ids": [
+        "EV-RES-001",
+        "EV-RES-003"
+      ],
+      "evidence_relationship": "reported_by_candidate"
+    },
+    {
+      "evidence_id": "EV-RES-003",
+      "capability_domain": "Turnaround and Performance Improvement",
+      "specific_capability": "Multi-Unit Cost of Sales (COS) Target Exceedance & Operational Turnaround",
+      "source_type": "Verified r\u00e9sum\u00e9 record",
+      "source_path": "C:\\Users\\Donal\\OneDrive\\Documents\\resume.dw.txt",
+      "source_lines_or_section": "resume.dw.txt:L38-L45",
+      "exact_source_excerpt": "Area Coach / General Manager | Pizza Hut | St. Charles, MO (Nov 2017 \u2013 Aug 2022): Managed and supported operations across 8 locations... Exceeded Cost of Sales (inventory management) targets for 24 consecutive reporting periods... mentored over 20 managers.",
+      "work_performed": "Supervised operations across 8 store locations, enforcing inventory cost control, waste reduction systems, and manager mentoring.",
+      "donalds_role": "Area Coach / Multi-Unit Manager",
+      "authorship_status": "not_applicable",
+      "ai_assisted_breakdown": null,
+      "artifact_produced": "24-Period Cost of Sales Control System",
+      "verified_outcome": "24 consecutive periods exceeding COS targets; 4.1% annual sales growth; 15% revenue increase from waste reduction; 20+ managers developed.",
+      "artifact_evidence": "The r\u00e9sum\u00e9 contains the stated claim.",
+      "implementation_evidence": "The r\u00e9sum\u00e9 describes the role, action, or implementation.",
+      "outcome_evidence": "Self-reported professional outcome requiring employer records, references, performance reports, or other corroboration for independent verification.",
+      "business_or_operational_relevance": "Multi-unit cost control consistency, sustained financial target exceedance, and leadership development.",
+      "technical_tools": [
+        "Inventory Management Systems",
+        "P&L Audit",
+        "Labor & Food Cost Analytics"
+      ],
+      "leadership_relevance": "Multi-unit coaching, sustained performance consistency across 24 audit periods.",
+      "classification": "direct",
+      "evidence_strength": "moderate",
+      "confidence_basis": "Verified resume record.",
+      "limitations": "Focuses on food service inventory and store unit operations.",
+      "date_or_period": "November 2017 \u2013 August 2022",
+      "related_evidence_ids": [
+        "EV-RES-001",
+        "EV-RES-004"
+      ],
+      "evidence_relationship": "reported_by_candidate"
+    },
+    {
+      "evidence_id": "EV-RES-004",
+      "capability_domain": "Turnaround and Performance Improvement",
+      "specific_capability": "Rapid Location Turnaround, Sales Acceleration & Quality Assurance",
+      "source_type": "Verified r\u00e9sum\u00e9 record",
+      "source_path": "C:\\Users\\Donal\\OneDrive\\Documents\\resume.dw.txt",
+      "source_lines_or_section": "resume.dw.txt:L47-L59",
+      "exact_source_excerpt": "General Manager | Krispy Kreme & Church's Chicken (2014 \u2013 2017): Elevated customer satisfaction by 25%... driving 40% growth in sales... Church's Chicken: 17% revenue increase, 28% employee retention boost, 15% onboarding time reduction.",
+      "work_performed": "Restructured underperforming store locations through workflow optimization, employee onboarding programs, and QSC protocols.",
+      "donalds_role": "General Manager / Turnaround Leader",
+      "authorship_status": "not_applicable",
+      "ai_assisted_breakdown": null,
+      "artifact_produced": "Targeted Onboarding & Quality Assurance Turnaround Playbook",
+      "verified_outcome": "40% sales growth (Krispy Kreme); 17% revenue increase, 28% retention boost, and 30% CSAT increase (Church's).",
+      "artifact_evidence": "The r\u00e9sum\u00e9 contains the stated claim.",
+      "implementation_evidence": "The r\u00e9sum\u00e9 describes the role, action, or implementation.",
+      "outcome_evidence": "Self-reported professional outcome requiring employer records, references, performance reports, or other corroboration for independent verification.",
+      "business_or_operational_relevance": "Turnaround management, rapid revenue scaling, onboarding efficiency, and quality assurance.",
+      "technical_tools": [
+        "QSC Compliance Audits",
+        "Onboarding Workflows",
+        "Staffing Optimization Matrix"
+      ],
+      "leadership_relevance": "Change management, employee retention enhancement, customer experience optimization.",
+      "classification": "direct",
+      "evidence_strength": "moderate",
+      "confidence_basis": "Verified resume record.",
+      "limitations": "Single-unit turnaround focus.",
+      "date_or_period": "June 2014 \u2013 November 2017",
+      "related_evidence_ids": [
+        "EV-RES-003"
+      ],
+      "evidence_relationship": "reported_by_candidate"
+    },
+    {
+      "evidence_id": "EV-RES-005",
+      "capability_domain": "Multi-Unit and Field Operations",
+      "specific_capability": "Full-Service Restaurant Operations & Food Safety Compliance",
+      "source_type": "Verified r\u00e9sum\u00e9 record",
+      "source_path": "C:\\Users\\Donal\\OneDrive\\Documents\\resume.dw.txt",
+      "source_lines_or_section": "resume.dw.txt:L32-L36",
+      "exact_source_excerpt": "Restaurant General Manager | Flynn Restaurant Group (Applebee\u2019s) | St. Louis, MO (Aug 2022 \u2013 Nov 2023): Drove operational excellence and team development, consistently meeting and exceeding restaurant revenue and performance targets... Managed food safety compliance, labor costs, inventory.",
+      "work_performed": "Directed daily FOH/BOH operations, food safety compliance, local marketing, and financial performance for high-volume full-service Applebee's unit.",
+      "donalds_role": "Restaurant General Manager",
+      "authorship_status": "not_applicable",
+      "ai_assisted_breakdown": null,
+      "artifact_produced": "Full-Service Staff Training & Compliance Program",
+      "verified_outcome": "Consistently met and exceeded unit revenue targets; maintained full food safety compliance.",
+      "artifact_evidence": "The r\u00e9sum\u00e9 contains the stated claim.",
+      "implementation_evidence": "The r\u00e9sum\u00e9 describes the role, action, or implementation.",
+      "outcome_evidence": "Self-reported professional outcome requiring employer records, references, performance reports, or other corroboration for independent verification.",
+      "business_or_operational_relevance": "Full-service hospitality management, food safety regulatory compliance, P&L management.",
+      "technical_tools": [
+        "Food Safety Compliance Audits",
+        "Labor & Inventory Management",
+        "Local Marketing Strategy"
+      ],
+      "leadership_relevance": "FOH/BOH team leadership, guest experience delivery, operational safety.",
+      "classification": "direct",
+      "evidence_strength": "moderate",
+      "confidence_basis": "Verified resume record.",
+      "limitations": "Full-service dining environment.",
+      "date_or_period": "August 2022 \u2013 November 2023",
+      "related_evidence_ids": [
+        "EV-RES-001"
+      ],
+      "evidence_relationship": "reported_by_candidate"
+    },
+    {
+      "evidence_id": "EV-WDS-001",
+      "capability_domain": "Woods Leadership Systems Framework Design",
+      "specific_capability": "Architecture & Operational Formalization of Woods Leadership Systems Framework",
+      "source_type": "Canonical Framework Specification",
+      "source_path": "D:\\blogger\\.agents\\woods-framework\\principles.json",
+      "source_lines_or_section": "principles.json:L1-L52",
+      "exact_source_excerpt": "A structured system for diagnosing and correcting leadership, operational, and organizational failures by analyzing the underlying system rather than individual behavior.",
+      "work_performed": "Formulated a structural diagnostic system that models incentive alignment, visibility loops, and enforcement matrices.",
+      "donalds_role": "Originating experience source, framework architect, workflow director, terminology & governance authority, final approver.",
+      "authorship_status": "directed_ai_assisted",
+      "ai_assisted_breakdown": {
+        "problem_definition": "Defined requirement for non-moralizing systems diagnostic framework.",
+        "system_design": "Architected core philosophy, 3 core axioms, and 3 operational loops.",
+        "governance": "Established principles.json as canonical source of truth.",
+        "testing_approval": "Formally evaluated and approved v1.0 definition."
+      },
+      "artifact_produced": "principles.json (v1.0 framework core definition)",
+      "verified_outcome": "Implemented in local workflow specifications; broader execution requires Phase 2 verification.",
+      "artifact_evidence": "Directly proves the existence of a formalized 17-principle diagnostic system specification.",
+      "implementation_evidence": "Proves integration into Stage 2 System Diagnosis prompt boundary specifications (SOUL.md).",
+      "outcome_evidence": "Proves conceptual and structural availability; organizational adoption outcomes unverified.",
+      "business_or_operational_relevance": "Replaces subjective management blame with root-cause structural diagnosis.",
+      "technical_tools": [
+        "JSON Schema",
+        "Markdown",
+        "Systems Engineering Logic"
+      ],
+      "leadership_relevance": "Provides leaders with non-moralizing, evidence-grounded diagnostic tools for operational failure analysis.",
+      "classification": "direct",
+      "evidence_strength": "high",
+      "confidence_basis": "Authoritative canonical framework specification file.",
+      "limitations": "Requires structured operational telemetry data for full automated execution.",
+      "date_or_period": "July 2026",
+      "related_evidence_ids": [
+        "EV-WDS-002",
+        "EV-FID-001"
+      ],
+      "evidence_relationship": "designed_by_candidate"
+    },
+    {
+      "evidence_id": "EV-WDS-002",
+      "capability_domain": "Organizational Systems Diagnosis",
+      "specific_capability": "Authoring of Canonical Diagnostic Principles Matrix",
+      "source_type": "Canonical Framework Specification",
+      "source_path": "D:\\blogger\\.agents\\woods-framework\\principles.json",
+      "source_lines_or_section": "principles.json:L53-L396",
+      "exact_source_excerpt": "Compliance-Dissonance, Ed Principle, Intelligence Gap, Leadership Integrity, Operational Usability, Passive Decision, Persona Gap, Pressure Test, Question Resistance, Shock vs Stability, Standard Enforcement, System Illusion, System Responsibility, Pattern Trust, Corporate Pincer, Narrative Protection, Proportional Diagnostic Escalation.",
+      "work_performed": "Formulated canonical principles establishing causal mechanisms, diagnostic signals, failure consequences, and corrective actions.",
+      "donalds_role": "Originating experience source, diagnostic engineer, terminology authority, final approver.",
+      "authorship_status": "directed_ai_assisted",
+      "ai_assisted_breakdown": {
+        "problem_definition": "Identified recurring failure modes across 25+ years of operational leadership.",
+        "system_design": "Structured principles into 6 diagnostic categories.",
+        "approval": "Canonically registered entries in principles.json."
+      },
+      "artifact_produced": "17 Canonical Principle Specifications (principles.json)",
+      "verified_outcome": "Canonically registered and governed within the Woods Framework.",
+      "artifact_evidence": "Proves 17 principle definitions, diagnostic signals, and core mechanisms are registered.",
+      "implementation_evidence": "Proves principle name restrictions enforced in gatekeeper and diagnostic prompts.",
+      "outcome_evidence": "Proves canonical registration; individual empirical validation varies by origin case.",
+      "business_or_operational_relevance": "Enables precise classification of operational breakdowns across turnover, compliance, and scheduling.",
+      "technical_tools": [
+        "Systems Modeling",
+        "Behavioral Incentives Logic"
+      ],
+      "leadership_relevance": "Establishes predictable diagnostic mechanisms for executive and field leadership performance.",
+      "classification": "direct",
+      "evidence_strength": "high",
+      "confidence_basis": "Authoritative canonical framework specification.",
+      "limitations": "Canonical status governs framework scope; does not imply equal empirical field testing across all 17 principles.",
+      "date_or_period": "July 2026",
+      "related_evidence_ids": [
+        "EV-WDS-001",
+        "EV-GTK-001"
+      ],
+      "evidence_relationship": "designed_by_candidate"
+    },
+    {
+      "evidence_id": "EV-WDS-003",
+      "capability_domain": "Workflow and Automation Engineering",
+      "specific_capability": "Design of Standard Enforcement Loop (SEL), Routine Preservation Loop (RPL), and Visibility Accountability Loop (VAL)",
+      "source_type": "Framework Workflow Specification",
+      "source_path": "D:\\blogger\\.agents\\woods-framework\\principles.json",
+      "source_lines_or_section": "principles.json:L15-L31",
+      "exact_source_excerpt": "SEL Objective: Enforce compliance consistently regardless of personal relationships. Workflow: Establish uniform standards, audit selective enforcement triggers, and run pre-termination review matrices.",
+      "work_performed": "Engineered closed-loop operational workflows designed to structure visual telemetry, uniform enforcement, and pre-termination matrices.",
+      "donalds_role": "Systems workflow architect, governance authority.",
+      "authorship_status": "directed_ai_assisted",
+      "ai_assisted_breakdown": {
+        "problem_definition": "Identified task slippage, boundary erosion, and selective enforcement in store operations.",
+        "system_design": "Architected RPL, VAL, and SEL loop mechanics."
+      },
+      "artifact_produced": "RPL, VAL, and SEL Workflow Definitions (principles.json:L15-L31)",
+      "verified_outcome": "Defined and incorporated into the framework operating specification.",
+      "artifact_evidence": "Proves explicit workflow definitions, objectives, and execution steps.",
+      "implementation_evidence": "Proves reference in PIPELINE_BRIDGE.md multi-agent execution rules.",
+      "outcome_evidence": "Proves architectural definition; execution gap elimination requires field telemetry logs.",
+      "business_or_operational_relevance": "Provides a structured method for identifying selective enforcement and supporting more consistent operational standards.",
+      "technical_tools": [
+        "Workflow Automation Architecture",
+        "Process Mapping"
+      ],
+      "leadership_relevance": "Protects organizational culture by enforcing standards uniformly regardless of tenure or personal relationships.",
+      "classification": "direct",
+      "evidence_strength": "moderate",
+      "confidence_basis": "Directly authored workflow specifications in principles.json.",
+      "limitations": "Requires operational telemetry integration for automated trigger execution.",
+      "date_or_period": "July 2026",
+      "related_evidence_ids": [
+        "EV-WDS-001",
+        "EV-FID-002"
+      ],
+      "evidence_relationship": "designed_by_candidate"
+    },
+    {
+      "evidence_id": "EV-GTK-001",
+      "capability_domain": "Evidence, Governance, and Quality Control",
+      "specific_capability": "Development of Python Promotion Gatekeeper Engine (woods_gatekeeper.py)",
+      "source_type": "Executable Governance Software",
+      "source_path": "D:\\blogger\\.agents\\woods-framework\\woods_gatekeeper.py",
+      "source_lines_or_section": "woods_gatekeeper.py:L1-L280",
+      "exact_source_excerpt": "Mandatory Read-only mechanical auditor for candidate promotion packages in the Woods Leadership Systems Framework prior to human adjudication.",
+      "work_performed": "Architected and directed the development of a zero-write automated Python governance script that screens candidate principles against live schema, zero-duplicate rules, 5-tier claim classifications, and 8-scope protected activity screens.",
+      "donalds_role": "System architect, implementation director, governance authority, evaluator, approver.",
+      "authorship_status": "directed_ai_assisted",
+      "ai_assisted_breakdown": {
+        "problem_definition": "Defined requirement for automated pre-human audit gatekeeper to prevent schema corruption.",
+        "system_design": "Designed zero-write safety architecture and 3-verdict output.",
+        "implementation_direction": "Directed code structure, JSON schema matching, and CLI arguments.",
+        "testing_approval": "Executed verification runs on DR-02D candidate package and approved GATEKEEPER_SPEC.md."
+      },
+      "artifact_produced": "woods_gatekeeper.py (12.4 KB) & GATEKEEPER_SPEC.md (6.3 KB)",
+      "verified_outcome": "Tested & Executed \u2014 Successfully audited candidate package DR-02D, generating audit record gk_audit_20260724_001 in gatekeeper_audit_log.json.",
+      "artifact_evidence": "Proves existence of executable Python script and written specification.",
+      "implementation_evidence": "Proves execution log generated in gatekeeper_audit_log.json with PASS WITH LIMITATIONS verdict.",
+      "outcome_evidence": "The tool is designed for zero-write auditing; execution logs confirm an audit record was produced.",
+      "business_or_operational_relevance": "Automates compliance screening and prevents unauthorized system modifications in governed environments.",
+      "technical_tools": [
+        "Python 3.14",
+        "JSON Schema Validation",
+        "CLI Tooling"
+      ],
+      "leadership_relevance": "Demonstrates capacity to translate governance policies into automated software guardrails.",
+      "classification": "transferable",
+      "evidence_strength": "high",
+      "confidence_basis": "Executable Python code and verified audit log file (gatekeeper_audit_log.json).",
+      "limitations": "Designed specifically for Woods Framework JSON promotion packages.",
+      "date_or_period": "July 24, 2026",
+      "related_evidence_ids": [
+        "EV-GTK-002",
+        "EV-FID-001"
+      ],
+      "evidence_relationship": "directed_by_candidate"
+    },
+    {
+      "evidence_id": "EV-GTK-002",
+      "capability_domain": "Operational Risk Analysis & Legal/Policy Governance",
+      "specific_capability": "8-Scope Safeguard Screen & Multi-Causal Triage Architecture",
+      "source_type": "Governance Specification & Code",
+      "source_path": "D:\\blogger\\.agents\\woods-framework\\GATEKEEPER_SPEC.md",
+      "source_lines_or_section": "GATEKEEPER_SPEC.md:L43-L57 & woods_gatekeeper.py",
+      "exact_source_excerpt": "8-Scope Safeguard Screen: Safety reporting, Whistleblowing, Disability/accommodation, Discrimination complaint, Protected concerted activity, Protected leave, Policy rights, Good-faith technical disagreement.",
+      "work_performed": "Formulated an 8-scope protected activity screen and a 3-tier legal separation model to prevent retaliatory discipline.",
+      "donalds_role": "Governance architect, policy designer, terminology authority.",
+      "authorship_status": "directed_ai_assisted",
+      "ai_assisted_breakdown": {
+        "problem_definition": "Identified risk of management retaliating against protected worker safety reporting.",
+        "system_design": "Structured 8 protected scopes and 4-step multi-causal triage sequence."
+      },
+      "artifact_produced": "8-Scope Safeguard Specification (GATEKEEPER_SPEC.md:L43-L57)",
+      "verified_outcome": "Helps surface protected-activity and retaliation risks before escalation; does not replace legal counsel or guarantee legal compliance.",
+      "artifact_evidence": "Proves registered 8-scope safeguard specification in GATEKEEPER_SPEC.md.",
+      "implementation_evidence": "Proves execution check coded in woods_gatekeeper.py.",
+      "outcome_evidence": "Proves risk-surfacing mechanism; legal compliance guarantees require qualified legal counsel.",
+      "business_or_operational_relevance": "Surfaces protected activity risks before disciplinary escalation.",
+      "technical_tools": [
+        "Policy Design",
+        "Compliance Matrix Architecture"
+      ],
+      "leadership_relevance": "Ensures executive decisions account for protected activity and technical pushback before disciplinary escalation.",
+      "classification": "transferable",
+      "evidence_strength": "moderate",
+      "confidence_basis": "Formally registered specification file GATEKEEPER_SPEC.md.",
+      "limitations": "Establishes framework triage criteria; final legal determinations require licensed legal counsel.",
+      "date_or_period": "July 2026",
+      "related_evidence_ids": [
+        "EV-GTK-001",
+        "EV-WDS-002"
+      ],
+      "evidence_relationship": "directed_by_candidate"
+    },
+    {
+      "evidence_id": "EV-FID-001",
+      "capability_domain": "Evidence, Governance, and Quality Control",
+      "specific_capability": "Authoring of Analytical Fidelity Standard & Source Hierarchy",
+      "source_type": "Quality Assurance Standard",
+      "source_path": "D:\\blogger\\.agents\\woods-framework\\ANALYTICAL_FIDELITY_STANDARD.md",
+      "source_lines_or_section": "ANALYTICAL_FIDELITY_STANDARD.md:L1-L208",
+      "exact_source_excerpt": "This document governs how analysis, interpretation, and content are produced from Woods Framework sources. It exists to prevent drift between source evidence, interpretation, and public presentation.",
+      "work_performed": "Established a 6-tier source authority hierarchy, evidence/interpretation separation rules, inference labeling protocols, and a pre-publication 10-point fidelity checklist.",
+      "donalds_role": "Primary framework architect, quality control director, final approver.",
+      "authorship_status": "directed_ai_assisted",
+      "ai_assisted_breakdown": {
+        "problem_definition": "Identified risk of AI and human analysts generating un-grounded narrative drift.",
+        "system_design": "Designed 6-tier source hierarchy and 10-point pre-presentation review template."
+      },
+      "artifact_produced": "ANALYTICAL_FIDELITY_STANDARD.md (6.2 KB)",
+      "verified_outcome": "Designated to govern Woods Framework analytical and publication outputs; broader workspace enforcement requires Phase 2 verification.",
+      "artifact_evidence": "Proves complete standard document detailing 6 source levels and 10 review items.",
+      "implementation_evidence": "Proves cross-reference in POST_GENERATION_STANDARD.md and CASE_PROMOTION_STANDARD.md.",
+      "outcome_evidence": "Proves governance over Woods framework outputs; workspace-wide verification pending Phase 2.",
+      "business_or_operational_relevance": "Is designed to reduce ungrounded narrative inflation.",
+      "technical_tools": [
+        "Information Audit Logic",
+        "Editorial Quality Standards"
+      ],
+      "leadership_relevance": "Demonstrates commitment to factual integrity and systematic error prevention.",
+      "classification": "transferable",
+      "evidence_strength": "high",
+      "confidence_basis": "Canonical standard document in framework directory.",
+      "limitations": "Requires human or agent self-review compliance.",
+      "date_or_period": "July 2026",
+      "related_evidence_ids": [
+        "EV-FID-002",
+        "EV-WDS-001"
+      ],
+      "evidence_relationship": "directed_by_candidate"
+    },
+    {
+      "evidence_id": "EV-FID-002",
+      "capability_domain": "Evidence, Governance, and Quality Control",
+      "specific_capability": "Design of Evidence-to-Output Enforcement Framework",
+      "source_type": "Audit Enforcement Specification",
+      "source_path": "D:\\blogger\\.agents\\woods-framework\\EVIDENCE_TO_OUTPUT_ENFORCEMENT.md",
+      "source_lines_or_section": "EVIDENCE_TO_OUTPUT_ENFORCEMENT.md:L1-L250",
+      "exact_source_excerpt": "Mandatory mechanical audit protocol linking every public claim directly to primary, secondary, or framework source evidence.",
+      "work_performed": "Designed an evidence verification mapping system that flags un-anchored claims, speculative leaps, and unsupported certainty before content approval.",
+      "donalds_role": "Audit architect, system director.",
+      "authorship_status": "directed_ai_assisted",
+      "ai_assisted_breakdown": {
+        "problem_definition": "Defined need for strict claim verification mapping.",
+        "system_design": "Structured claim-testing rules and uncertainty preservation protocols."
+      },
+      "artifact_produced": "EVIDENCE_TO_OUTPUT_ENFORCEMENT.md (10.4 KB)",
+      "verified_outcome": "Supports traceability and reduces unsupported claims; does not claim legal or professional audit compliance.",
+      "artifact_evidence": "Proves detailed enforcement specification document.",
+      "implementation_evidence": "Proves governance rule links across framework standard files.",
+      "outcome_evidence": "Proves traceability framework; formal legal/financial audit compliance unclaimed.",
+      "business_or_operational_relevance": "Helps identify unsupported or weakly anchored operational reporting.",
+      "technical_tools": [
+        "Audit Mapping",
+        "Verification Matrix Architecture"
+      ],
+      "leadership_relevance": "Ensures executive reporting is traceable to verifiable operational facts.",
+      "classification": "transferable",
+      "evidence_strength": "moderate",
+      "confidence_basis": "Canonical enforcement specification document.",
+      "limitations": "Applies to analytical and editorial output pipelines.",
+      "date_or_period": "July 2026",
+      "related_evidence_ids": [
+        "EV-FID-001",
+        "EV-GTK-001"
+      ],
+      "evidence_relationship": "directed_by_candidate"
+    },
+    {
+      "evidence_id": "EV-CAS-001",
+      "capability_domain": "Organizational Systems Diagnosis & Operational Case Analysis",
+      "specific_capability": "Operational Case Formalization \u2014 Voluntary Extension Case",
+      "source_type": "Principle-Origin Case Study",
+      "source_path": "D:\\blogger\\.agents\\woods-framework\\voluntary_extension_case_v1.md",
+      "source_lines_or_section": "voluntary_extension_case_v1.md:L1-L150",
+      "exact_source_excerpt": "Case Study: Operational analysis of shift voluntary extension under aligned incentive structures.",
+      "work_performed": "Documented an operational case in which aligned incentives were associated with voluntary discretionary effort.",
+      "donalds_role": "Field investigator, originating case source, primary analyst.",
+      "authorship_status": "directed_ai_assisted",
+      "ai_assisted_breakdown": {
+        "problem_definition": "Investigated voluntary shift extension behaviors during peak store demand.",
+        "system_design": "Formalized case structure into canonical origin case for The Ed Principle."
+      },
+      "artifact_produced": "voluntary_extension_case_v1.md (5.3 KB, mirrored in case_library/voluntary_extension_case.md)",
+      "verified_outcome": "Documented operational case illustrating aligned incentives and voluntary discretionary effort; case-based support only, not universal empirical proof.",
+      "artifact_evidence": "Proves documented case study file in framework directory.",
+      "implementation_evidence": "Proves origin_case reference in principles.json (L72).",
+      "outcome_evidence": "Proves single operational case pattern; broader statistical universality unclaimed.",
+      "business_or_operational_relevance": "Illustrates how incentive alignment impacts shift coverage and discretionary labor effort.",
+      "technical_tools": [
+        "Field Case Research",
+        "Operational Behavioral Analysis"
+      ],
+      "leadership_relevance": "Demonstrates practical application of incentive design to solve labor shortages and peak-demand scheduling crises.",
+      "classification": "direct",
+      "evidence_strength": "moderate",
+      "confidence_basis": "Principle-origin case study document.",
+      "limitations": "Focuses on shift-based operational environments.",
+      "date_or_period": "July 2026",
+      "related_evidence_ids": [
+        "EV-WDS-002",
+        "EV-RES-001"
+      ],
+      "evidence_relationship": "directed_by_candidate"
+    },
+    {
+      "evidence_id": "EV-AUD-001",
+      "capability_domain": "Evidence, Governance, and Quality Control",
+      "specific_capability": "Development of Semantic Narrative Auditor Specification",
+      "source_type": "Audit Tooling Specification",
+      "source_path": "D:\\blogger\\.agents\\woods-framework\\SEMANTIC_NARRATIVE_AUDITOR.md",
+      "source_lines_or_section": "SEMANTIC_NARRATIVE_AUDITOR.md:L1-L350",
+      "exact_source_excerpt": "Enforces semantic precision, technical calibration, and the mandatory Human Voice across analytical reporting.",
+      "work_performed": "Engineered a semantic auditor specification that detects corporate jargon, abstract vagueness, and state-of-being verb inflation.",
+      "donalds_role": "System architect, rule director.",
+      "authorship_status": "directed_ai_assisted",
+      "ai_assisted_breakdown": {
+        "problem_definition": "Identified corporate buzzwords substituting for concrete operational meaning.",
+        "system_design": "Structured semantic audit rules and forbidden phrase lists."
+      },
+      "artifact_produced": "SEMANTIC_NARRATIVE_AUDITOR.md (15.1 KB)",
+      "verified_outcome": "Specified for semantic-audit use; deployment in newsroom/editorial systems requires Phase 2 evidence.",
+      "artifact_evidence": "Proves complete semantic narrative auditor markdown specification file.",
+      "implementation_evidence": "Proves reference in AGENTS.md newsroom agent role definitions.",
+      "outcome_evidence": "Proves architectural specification; active newsroom execution pending Phase 2 audit.",
+      "business_or_operational_relevance": "Improves operational communication by replacing vague jargon with concrete operational nouns and active verbs.",
+      "technical_tools": [
+        "Semantic Analysis",
+        "Editorial Rule Engineering"
+      ],
+      "leadership_relevance": "Forces clarity and accountability in management communications.",
+      "classification": "transferable",
+      "evidence_strength": "moderate",
+      "confidence_basis": "Canonical audit specification file.",
+      "limitations": "Applied primarily to written reports and agent prompt boundaries.",
+      "date_or_period": "July 2026",
+      "related_evidence_ids": [
+        "EV-FID-001",
+        "EV-SOUL-001"
+      ],
+      "evidence_relationship": "directed_by_candidate"
+    },
+    {
+      "evidence_id": "EV-PIPE-001",
+      "capability_domain": "Applied AI and Agent Orchestration",
+      "specific_capability": "Design of Pipeline Bridge Architecture (PIPELINE_BRIDGE.md)",
+      "source_type": "System Integration Specification",
+      "source_path": "D:\\blogger\\.agents\\woods-framework\\PIPELINE_BRIDGE.md",
+      "source_lines_or_section": "PIPELINE_BRIDGE.md:L1-L180",
+      "exact_source_excerpt": "Bridge specification connecting Stage 1 (Antigravity Truth Normalization), Stage 2 (Woods System Diagnosis), Stage 3 (Writer Executive Deliverable), and Stage 4 (Reports / Index).",
+      "work_performed": "Designed a 4-stage sequential multi-agent execution pipeline specifying data handoff protocols, vocabulary constraints, and governance gates.",
+      "donalds_role": "Pipeline architect, system designer.",
+      "authorship_status": "directed_ai_assisted",
+      "ai_assisted_breakdown": {
+        "problem_definition": "Defined need for structured handoffs between research, diagnosis, and writing agents.",
+        "system_design": "Architected 4-stage pipeline and vocabulary enforcement rules."
+      },
+      "artifact_produced": "PIPELINE_BRIDGE.md (5.2 KB)",
+      "verified_outcome": "Architecturally specified and configured for multi-agent workflow use; execution consistency remains to be verified.",
+      "artifact_evidence": "Proves complete pipeline bridge specification document.",
+      "implementation_evidence": "Proves SOUL.md references to Stage 1, Stage 2, Stage 3 roles.",
+      "outcome_evidence": "Proves pipeline configuration; long-term execution consistency verification pending Phase 2.",
+      "business_or_operational_relevance": "Enables structured, reproducible AI workflows without role bleed.",
+      "technical_tools": [
+        "Multi-Agent System Design",
+        "Pipeline Orchestration"
+      ],
+      "leadership_relevance": "Demonstrates ability to structure complex, multi-stage AI workflows with explicit human-in-the-loop oversight gates.",
+      "classification": "transferable",
+      "evidence_strength": "moderate",
+      "confidence_basis": "Canonical pipeline specification document.",
+      "limitations": "Defines architectural specification for subagent execution.",
+      "date_or_period": "July 2026",
+      "related_evidence_ids": [
+        "EV-WDS-001",
+        "EV-GTK-001"
+      ],
+      "evidence_relationship": "directed_by_candidate"
+    },
+    {
+      "evidence_id": "EV-SOUL-001",
+      "capability_domain": "Applied AI and Agent Orchestration",
+      "specific_capability": "Stage 1 Antigravity Truth Normalization Engine Architecture",
+      "source_type": "Agent Prompt Specification",
+      "source_path": "C:\\Users\\Donal\\.openclaw\\workspace\\antigravity\\SOUL.md",
+      "source_lines_or_section": "SOUL.md:L1-L26",
+      "exact_source_excerpt": "Stage 1 Truth Normalization Engine: Strip emotional narrative and normalize input into verified factual observations for Stage 2 (Woods Systems Thinking Agent).",
+      "work_performed": "Created prompt boundary rules enforcing strict separation of verifiable facts from emotional or narrative framing.",
+      "donalds_role": "Agent boundary designer, prompt architect.",
+      "authorship_status": "directed_ai_assisted",
+      "ai_assisted_breakdown": {
+        "problem_definition": "Defined need to strip emotional narrative prior to structural diagnosis.",
+        "system_design": "Architected Antigravity agent SOUL file."
+      },
+      "artifact_produced": "Antigravity SOUL Specification",
+      "verified_outcome": "Deployed as Stage 1 Truth Normalization Engine in workspace subagent orchestration.",
+      "artifact_evidence": "Proves existence of Antigravity SOUL.md specification.",
+      "implementation_evidence": "Proves active execution in IDE and OpenClaw agent configurations.",
+      "outcome_evidence": "Proves agent prompt boundary enforcement.",
+      "business_or_operational_relevance": "Ensures factual data normalization prior to operational or legal decision-making.",
+      "technical_tools": [
+        "Prompt Boundary Architecture",
+        "Agentic Workflows"
+      ],
+      "leadership_relevance": "Prevents emotional bias from corrupting operational root-cause analysis.",
+      "classification": "transferable",
+      "evidence_strength": "moderate",
+      "confidence_basis": "Verified SOUL.md file in openclaw workspace.",
+      "limitations": "Operates at the agent prompt boundary level.",
+      "date_or_period": "July 2026",
+      "related_evidence_ids": [
+        "EV-PIPE-001",
+        "EV-FID-001"
+      ],
+      "evidence_relationship": "directed_by_candidate"
+    },
+    {
+      "evidence_id": "EV-SOUL-002",
+      "capability_domain": "Applied AI and Agent Orchestration",
+      "specific_capability": "Stage 2 Woods System Diagnosis Engine Specification",
+      "source_type": "Agent Prompt Specification",
+      "source_path": "C:\\Users\\Donal\\.openclaw\\workspace\\woods-systems-thinking\\SOUL.md",
+      "source_lines_or_section": "SOUL.md:L1-L166",
+      "exact_source_excerpt": "Stage 2 System Diagnosis Engine: Diagnose real-world situations through the Woods Leadership Systems Framework using named canonical Woods Principles.",
+      "work_performed": "Designed system diagnosis subagent rules enforcing output structure (Diagnosis -> Applicable Principles -> Root Cause -> System Fix -> Risk if Unchanged).",
+      "donalds_role": "Framework designer, agent architect.",
+      "authorship_status": "directed_ai_assisted",
+      "ai_assisted_breakdown": {
+        "problem_definition": "Defined requirement for automated structural diagnosis using canonical terms.",
+        "system_design": "Architected exact 5-part mandatory output format."
+      },
+      "artifact_produced": "Woods Systems Thinking Agent SOUL Specification",
+      "verified_outcome": "Deployed as Stage 2 Engine in multi-agent pipeline.",
+      "artifact_evidence": "Proves 166-line SOUL.md specification file.",
+      "implementation_evidence": "Proves mandatory principle enforcement rules in agent workspace.",
+      "outcome_evidence": "Proves operational subagent prompt execution.",
+      "business_or_operational_relevance": "Automates structural root-cause failure analysis.",
+      "technical_tools": [
+        "Agent Prompt Engineering",
+        "Systems Diagnosis Rules"
+      ],
+      "leadership_relevance": "Provides standardized diagnostic outputs for management decision support.",
+      "classification": "transferable",
+      "evidence_strength": "moderate",
+      "confidence_basis": "Verified workspace SOUL file.",
+      "limitations": "Restricted to named canonical Woods Principles.",
+      "date_or_period": "July 2026",
+      "related_evidence_ids": [
+        "EV-SOUL-001",
+        "EV-WDS-001"
+      ],
+      "evidence_relationship": "directed_by_candidate"
+    },
+    {
+      "evidence_id": "EV-MCP-001",
+      "capability_domain": "Applied AI and Agent Orchestration",
+      "specific_capability": "Model Context Protocol (MCP) Server Integration & Python Subprocess Spawning",
+      "source_type": "Executable Source Code",
+      "source_path": "D:\\blogger\\jobspy-mcp-server\\src\\tools\\search-jobs.js",
+      "source_lines_or_section": "search-jobs.js:L170-L205",
+      "exact_source_excerpt": "const pythonCmd = process.env.PYTHON_CMD || 'D:\\\\blogger\\\\jobspy-mcp-server\\\\.venv\\\\Scripts\\\\python.exe'; const mainPyPath = 'D:\\\\blogger\\\\jobspy-mcp-server\\\\jobspy\\\\main.py'; const cmd = `\"${pythonCmd}\" \"${mainPyPath}\" ${args.join(' ')}`;",
+      "work_performed": "Engineered Node.js MCP server tool handler to spawn isolated Python virtual environment subprocesses and return normalized JSON payloads to MCP client.",
+      "donalds_role": "System architect, implementation director.",
+      "authorship_status": "directed_ai_assisted",
+      "ai_assisted_breakdown": {
+        "problem_definition": "Needed to bridge Node.js MCP protocol SDK with Python web-scraping package.",
+        "system_design": "Designed subprocess execution, parameter sanitization, and camelCase key conversion.",
+        "testing_approval": "Tested and verified tool invocation via Antigravity MCP client."
+      },
+      "artifact_produced": "JobSpy MCP Server (`src/tools/search-jobs.js`, `src/index.js`)",
+      "verified_outcome": "Registered in the Antigravity MCP configuration and successfully executed live job-retrieval logic. End-to-end client invocation evidence was not preserved.",
+      "artifact_evidence": "Proves complete Node.js tool handler source code.",
+      "implementation_evidence": "Source code, server configuration, subprocess execution, and saved job output support local integration and retrieval.",
+      "outcome_evidence": "Job retrieval is confirmed. End-to-end MCP client transport remains partially verified.",
+      "business_or_operational_relevance": "Extends LLM capabilities with deterministic local tool execution.",
+      "technical_tools": [
+        "Node.js",
+        "TypeScript",
+        "@modelcontextprotocol/sdk",
+        "Python 3.14 Subprocesses",
+        "JSON"
+      ],
+      "leadership_relevance": "Demonstrates technical architecture skills in AI agent tool integration.",
+      "classification": "transferable",
+      "evidence_strength": "moderate",
+      "confidence_basis": "Executable source code and active server config.",
+      "limitations": "Local desktop execution environment.",
+      "date_or_period": "July 2026",
+      "related_evidence_ids": [
+        "EV-MCP-002",
+        "EV-DEV-001"
+      ],
+      "evidence_relationship": "directed_by_candidate"
+    },
+    {
+      "evidence_id": "EV-MCP-002",
+      "capability_domain": "Workflow and Automation Engineering",
+      "specific_capability": "Layered Job Deduplication & Provenance Engine (`post_processor.py`)",
+      "source_type": "Executable Source Code",
+      "source_path": "D:\\blogger\\jobspy-mcp-server\\post_processor.py",
+      "source_lines_or_section": "post_processor.py:L140-L185",
+      "exact_source_excerpt": "def layered_deduplicate(records: List[Dict[str, Any]]) -> List[Dict[str, Any]]: ... Primary: URL match, Secondary: Composite key match, Tertiary: Semantic string similarity.",
+      "work_performed": "Engineered a 3-tier deduplication algorithm in Python combining canonical URL matching, normalized composite key matching, and Jaccard string token set similarity.",
+      "donalds_role": "Algorithm designer, system director.",
+      "authorship_status": "directed_ai_assisted",
+      "ai_assisted_breakdown": {
+        "problem_definition": "Identified duplicate job listings across multi-board scraping feeds.",
+        "system_design": "Architected 3-tier matching cascade and source provenance tracking (`found_on_sources`)."
+      },
+      "artifact_produced": "Layered Deduplication Module (`post_processor.py`)",
+      "verified_outcome": "Tested & Verified \u2014 Processed 153 raw career search records down to 136 unique listings, removing 17 duplicates.",
+      "artifact_evidence": "Proves Python implementation of 3-tier deduplication function.",
+      "implementation_evidence": "Proves execution result saved in `results_phase4_metrics.json`.",
+      "outcome_evidence": "Proves 17 duplicate listings accurately identified and merged.",
+      "business_or_operational_relevance": "Data hygiene, multi-source record merging, and data quality preservation.",
+      "technical_tools": [
+        "Python 3.14",
+        "Jaccard Token Similarity",
+        "Regex Data Normalization"
+      ],
+      "leadership_relevance": "Demonstrates high data integrity standards for decision-support systems.",
+      "classification": "transferable",
+      "evidence_strength": "high",
+      "confidence_basis": "Executable code and test output metrics.",
+      "limitations": "Operates on in-memory dictionary lists.",
+      "date_or_period": "July 2026",
+      "related_evidence_ids": [
+        "EV-MCP-003",
+        "EV-MCP-004"
+      ],
+      "evidence_relationship": "designed_by_candidate"
+    },
+    {
+      "evidence_id": "EV-MCP-003",
+      "capability_domain": "Workflow and Automation Engineering",
+      "specific_capability": "Deterministic Haversine Geocoding & Distance Verification Engine (`post_processor.py`)",
+      "source_type": "Executable Source Code",
+      "source_path": "D:\\blogger\\jobspy-mcp-server\\post_processor.py",
+      "source_lines_or_section": "post_processor.py:L10-L135",
+      "exact_source_excerpt": "def validate_location(location_str: Optional[str], is_remote: bool) -> Tuple[str, Optional[float], bool]: ... Uses Haversine formula against Florissant, MO origin (38.7992, -90.3243).",
+      "work_performed": "Engineered an offline geocoding lookup and Haversine distance calculator covering 36 St. Louis metro municipalities to enforce strict 35-mile commute validation.",
+      "donalds_role": "Algorithm designer, system director.",
+      "authorship_status": "directed_ai_assisted",
+      "ai_assisted_breakdown": {
+        "problem_definition": "Needed deterministic location verification independent of job board location interpretations.",
+        "system_design": "Architected offline lat/long lookup table and 5 location status categories."
+      },
+      "artifact_produced": "Haversine Distance Engine (`post_processor.py`)",
+      "verified_outcome": "Tested & Verified \u2014 Evaluated 136 unique postings: 104 distance verified within 35mi, 17 remote exempt, 14 flagged for review.",
+      "artifact_evidence": "Proves Haversine distance function and St. Louis municipality coordinate grid.",
+      "implementation_evidence": "Proves location status distribution output in `results_phase4_metrics.json`.",
+      "outcome_evidence": "Proves 100% of local jobs assigned accurate commute mileage from Florissant origin.",
+      "business_or_operational_relevance": "Geospatial validation, commute feasibility auditing, and location data hygiene.",
+      "technical_tools": [
+        "Python 3.14",
+        "Haversine Trigonometric Formula",
+        "Geospatial Data Lookup"
+      ],
+      "leadership_relevance": "Operational feasibility screening.",
+      "classification": "transferable",
+      "evidence_strength": "high",
+      "confidence_basis": "Executable code and test output metrics.",
+      "limitations": "Coordinate grid currently focused on St. Louis metropolitan area.",
+      "date_or_period": "July 2026",
+      "related_evidence_ids": [
+        "EV-MCP-002"
+      ],
+      "evidence_relationship": "designed_by_candidate"
+    },
+    {
+      "evidence_id": "EV-MCP-004",
+      "capability_domain": "Analytics, Scoring, and Decision Support",
+      "specific_capability": "Pre-Calibration PBS Job Fit Scorer Engine (pbs_fit_scorer.py)",
+      "source_type": "Executable Source Code",
+      "source_path": "D:\\blogger\\jobspy-mcp-server\\pbs_fit_scorer.py",
+      "source_lines_or_section": "pbs_fit_scorer.py:L1-L240",
+      "exact_source_excerpt": "WEIGHTS = {'D2_direct_resume': 0.25, 'D3_transferable_exp': 0.15, 'D4_project_relevance': 0.15, 'D5_ats_alignment': 0.15, 'D6_title_closeness': 0.15, 'D7_industry_closeness': 0.15}",
+      "work_performed": "Engineered a 10-dimension mathematical job evaluation engine in Python enforcing positive weight summation (1.00), binary hard gates, title/industry closeness breakdowns, and evidence gap penalties.",
+      "donalds_role": "Scoring engine architect, system director.",
+      "authorship_status": "directed_ai_assisted",
+      "ai_assisted_breakdown": {
+        "problem_definition": "Replaced arbitrary 0-100 LLM match scores with deterministic, evidence-grounded evaluation logic.",
+        "system_design": "Architected positive weight formula, D6/D7 sub-component breakdowns, and deduction rules.",
+        "testing_approval": "Evaluated 136 job postings and generated 25-job trial report."
+      },
+      "artifact_produced": "PBS Job Fit Scorer Engine (`pbs_fit_scorer.py`)",
+      "verified_outcome": "Tested & Executed \u2014 Evaluated 25 target roles, generating `results_25_job_pbs_trial.json` and `top_10_recommendations.md`.",
+      "artifact_evidence": "Proves complete Python scoring script with exact weight assertions.",
+      "implementation_evidence": "Proves generation of 25 structured job evaluation cards in `results_25_job_pbs_trial.json`.",
+      "outcome_evidence": "Proves zero mathematical boundary errors across 25 job evaluations.",
+      "business_or_operational_relevance": "Deterministic decision-support systems, multi-criteria evaluation modeling, and evidence-grounded scoring.",
+      "technical_tools": [
+        "Python 3.14",
+        "Weighted Evaluation Algorithms",
+        "Regex Text Analysis"
+      ],
+      "leadership_relevance": "Objective candidate and operational opportunity screening.",
+      "classification": "transferable",
+      "evidence_strength": "moderate",
+      "confidence_basis": "Executable source code and trial output dataset.",
+      "limitations": "Pre-calibration fit model; empirical calibration requires real application submission and hiring outcome data.",
+      "date_or_period": "July 2026",
+      "related_evidence_ids": [
+        "EV-WDS-001",
+        "EV-FID-001"
+      ],
+      "evidence_relationship": "designed_by_candidate"
+    },
+    {
+      "evidence_id": "EV-DEV-001",
+      "capability_domain": "Product Development and Deployment",
+      "specific_capability": "Double-Edge AI Pipeline Express & MCP Backend Server (`server.ts`)",
+      "source_type": "Executable Source Code",
+      "source_path": "D:\\blogger\\Double-Edge-Insight-AI-Pipeline\\server.ts",
+      "source_lines_or_section": "server.ts:L1-L200",
+      "exact_source_excerpt": "Express and Model Context Protocol TypeScript backend integrating LLM API endpoints with local workspace diagnostic tools.",
+      "work_performed": "Engineered Express server in TypeScript providing API endpoints for automated analytical pipeline execution.",
+      "donalds_role": "System director, application architect.",
+      "authorship_status": "directed_ai_assisted",
+      "ai_assisted_breakdown": {
+        "problem_definition": "Needed web backend to expose AI pipeline diagnostic tools.",
+        "system_design": "Architected Express route handlers and MCP protocol integration."
+      },
+      "artifact_produced": "Double-Edge Express Server (`Double-Edge-Insight-AI-Pipeline\\server.ts`)",
+      "verified_outcome": "Tested \u2014 Server code compiled and executed in local development environment.",
+      "artifact_evidence": "Proves Express/TypeScript backend source code file.",
+      "implementation_evidence": "Proves active dependencies in package.json.",
+      "outcome_evidence": "Proves backend web service authoring.",
+      "business_or_operational_relevance": "Full-stack AI web service architecture and API backend development.",
+      "technical_tools": [
+        "TypeScript",
+        "Node.js",
+        "Express.js",
+        "REST APIs"
+      ],
+      "leadership_relevance": "Technical product development leadership.",
+      "classification": "transferable",
+      "evidence_strength": "moderate",
+      "confidence_basis": "Executable TypeScript source code.",
+      "limitations": "Development server configuration.",
+      "date_or_period": "2026",
+      "related_evidence_ids": [
+        "EV-MCP-001"
+      ],
+      "evidence_relationship": "directed_by_candidate"
+    },
+    {
+      "evidence_id": "EV-MKT-001",
+      "capability_domain": "Analytics, Scoring, and Decision Support",
+      "specific_capability": "Python Telemetry & Market Validation Dashboard (`market_validation_dashboard.py`)",
+      "source_type": "Executable Source Code",
+      "source_path": "D:\\blogger\\market_validation_dashboard.py",
+      "source_lines_or_section": "market_validation_dashboard.py:L1-L150",
+      "exact_source_excerpt": "Data visualization and telemetry dashboard script processing market validation metrics and publishing operational reports.",
+      "work_performed": "Built Python analytics script to process telemetry metrics, generate visual charts, and summarize market validation data.",
+      "donalds_role": "Analytics designer, developer.",
+      "authorship_status": "directed_ai_assisted",
+      "ai_assisted_breakdown": {
+        "problem_definition": "Needed visual data dashboard for market validation metrics.",
+        "system_design": "Designed telemetry data processing and chart plotting logic."
+      },
+      "artifact_produced": "Market Validation Dashboard Script (`market_validation_dashboard.py`)",
+      "verified_outcome": "Executed \u2014 Generated telemetry summary charts for operational validation.",
+      "artifact_evidence": "Proves Python dashboard source code file.",
+      "implementation_evidence": "Proves data visualization script execution.",
+      "outcome_evidence": "Proves automated chart generation.",
+      "business_or_operational_relevance": "Data analytics, telemetry visualization, and market validation reporting.",
+      "technical_tools": [
+        "Python",
+        "Matplotlib / Pandas",
+        "Data Analytics"
+      ],
+      "leadership_relevance": "Data-informed operational decision making.",
+      "classification": "transferable",
+      "evidence_strength": "moderate",
+      "confidence_basis": "Executable Python source code.",
+      "limitations": "Script-based analytics dashboard.",
+      "date_or_period": "2026",
+      "related_evidence_ids": [
+        "EV-MKT-002"
+      ],
+      "evidence_relationship": "directed_by_candidate"
+    },
+    {
+      "evidence_id": "EV-MKT-002",
+      "capability_domain": "Product Development and Deployment",
+      "specific_capability": "Automated Founders Brief Generator (`founders_brief_generator.py`)",
+      "source_type": "Executable Source Code",
+      "source_path": "D:\\blogger\\founders_brief_generator.py",
+      "source_lines_or_section": "founders_brief_generator.py:L1-L120",
+      "exact_source_excerpt": "Automated briefing document generator compiling operational metrics, strategic insights, and executive summaries.",
+      "work_performed": "Developed Python script to aggregate market data and generate formatted executive founder briefs.",
+      "donalds_role": "System designer, developer.",
+      "authorship_status": "directed_ai_assisted",
+      "ai_assisted_breakdown": {
+        "problem_definition": "Automated the compilation of executive brief reports.",
+        "system_design": "Designed data aggregation and report template rendering."
+      },
+      "artifact_produced": "Founders Brief Generator (`founders_brief_generator.py`)",
+      "verified_outcome": "Executed \u2014 Produced formatted executive markdown briefs.",
+      "artifact_evidence": "Proves Python script source code.",
+      "implementation_evidence": "Proves execution logs in workspace.",
+      "outcome_evidence": "Proves automated document compilation.",
+      "business_or_operational_relevance": "Executive communication automation and reporting tools.",
+      "technical_tools": [
+        "Python",
+        "Markdown Rendering",
+        "Data Aggregation"
+      ],
+      "leadership_relevance": "Executive summary generation.",
+      "classification": "transferable",
+      "evidence_strength": "moderate",
+      "confidence_basis": "Executable source code.",
+      "limitations": "Internal briefing tool.",
+      "date_or_period": "2026",
+      "related_evidence_ids": [
+        "EV-MKT-001"
+      ],
+      "evidence_relationship": "directed_by_candidate"
+    },
+    {
+      "evidence_id": "EV-MKT-003",
+      "capability_domain": "Analytics, Scoring, and Decision Support",
+      "specific_capability": "Prospect Database Schema Initializer (`init_prospect_db.py`)",
+      "source_type": "Executable Source Code",
+      "source_path": "D:\\blogger\\init_prospect_db.py",
+      "source_lines_or_section": "init_prospect_db.py:L1-L90",
+      "exact_source_excerpt": "Database initialization script setting up SQLite tables for prospect tracking, lead metrics, and pipeline status.",
+      "work_performed": "Designed SQLite database schema and initialization script for managing sales and partner prospects.",
+      "donalds_role": "Database designer, developer.",
+      "authorship_status": "directed_ai_assisted",
+      "ai_assisted_breakdown": {
+        "problem_definition": "Required structured database for prospect lead tracking.",
+        "system_design": "Designed relational schema and table creation logic."
+      },
+      "artifact_produced": "Prospect Database Initializer (`init_prospect_db.py`)",
+      "verified_outcome": "Executed \u2014 Initialized local prospect SQLite database.",
+      "artifact_evidence": "Proves Python database setup code.",
+      "implementation_evidence": "Proves database file creation.",
+      "outcome_evidence": "Proves relational database schema deployment.",
+      "business_or_operational_relevance": "Database design, lead tracking, and prospect data management.",
+      "technical_tools": [
+        "Python",
+        "SQLite",
+        "SQL Schema Design"
+      ],
+      "leadership_relevance": "Pipeline data management.",
+      "classification": "transferable",
+      "evidence_strength": "moderate",
+      "confidence_basis": "Executable source code.",
+      "limitations": "Local SQLite database.",
+      "date_or_period": "2026",
+      "related_evidence_ids": [
+        "EV-MKT-001"
+      ],
+      "evidence_relationship": "directed_by_candidate"
+    },
+    {
+      "evidence_id": "EV-AUD-002",
+      "capability_domain": "Product Development and Deployment",
+      "specific_capability": "Sovereign Audit Web Application (Next.js / TypeScript)",
+      "source_type": "Executable Source Code",
+      "source_path": "D:\\blogger\\sovereign-audit-site\\package.json",
+      "source_lines_or_section": "sovereign-audit-site: package.json, next.config.ts, app/ directory",
+      "exact_source_excerpt": "Next.js 15 / React 19 application providing public web interface for sovereign audit reports.",
+      "work_performed": "Architected and configured modern Next.js web application for publishing audit and governance reports.",
+      "donalds_role": "Application architect, project lead.",
+      "authorship_status": "configured_integrated",
+      "ai_assisted_breakdown": {
+        "problem_definition": "Needed web publishing platform for audit reports.",
+        "system_design": "Configured Next.js frontend structure and deployment settings."
+      },
+      "artifact_produced": "Sovereign Audit Site (`sovereign-audit-site`)",
+      "verified_outcome": "Tested & Deployed \u2014 Built Next.js application frontend.",
+      "artifact_evidence": "Proves complete Next.js application directory.",
+      "implementation_evidence": "Proves `next build` manifests in `.next` directory.",
+      "outcome_evidence": "Proves full-stack web application compilation.",
+      "business_or_operational_relevance": "Modern web application development, React UI engineering, digital publishing.",
+      "technical_tools": [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Tailwind CSS"
+      ],
+      "leadership_relevance": "Digital product leadership.",
+      "classification": "transferable",
+      "evidence_strength": "low",
+      "confidence_basis": "Source code directory and build manifests.",
+      "limitations": "Web publishing application.",
+      "date_or_period": "2026",
+      "related_evidence_ids": [
+        "EV-DEV-001"
+      ],
+      "evidence_relationship": "configured_by_candidate"
+    },
+    {
+      "evidence_id": "EV-AUD-003",
+      "capability_domain": "Product Development and Deployment",
+      "specific_capability": "Sovereign Editor Lite Component Architecture",
+      "source_type": "Executable Source Code",
+      "source_path": "D:\\blogger\\sovereign-editor-lite\\manifest.json",
+      "source_lines_or_section": "sovereign-editor-lite: manifest.json & component files",
+      "exact_source_excerpt": "Lightweight web editor component for formatting markdown and structured audit documents.",
+      "work_performed": "Built lightweight web editor component for document creation and live audit formatting.",
+      "donalds_role": "Component architect, developer.",
+      "authorship_status": "configured_integrated",
+      "ai_assisted_breakdown": {
+        "problem_definition": "Needed lightweight document editor for audit text.",
+        "system_design": "Designed component manifest and editor UI layout."
+      },
+      "artifact_produced": "Sovereign Editor Lite (`sovereign-editor-lite`)",
+      "verified_outcome": "Tested \u2014 Component built and tested in workspace.",
+      "artifact_evidence": "Proves manifest.json and editor source code.",
+      "implementation_evidence": "Proves component integration.",
+      "outcome_evidence": "Proves UI component authoring.",
+      "business_or_operational_relevance": "Frontend UI component design and document editing tools.",
+      "technical_tools": [
+        "JavaScript / TypeScript",
+        "Web Component Architecture"
+      ],
+      "leadership_relevance": "Product component engineering.",
+      "classification": "transferable",
+      "evidence_strength": "low",
+      "confidence_basis": "Source code files.",
+      "limitations": "Lightweight UI component.",
+      "date_or_period": "2026",
+      "related_evidence_ids": [
+        "EV-AUD-002"
+      ],
+      "evidence_relationship": "configured_by_candidate"
+    },
+    {
+      "evidence_id": "EV-NWS-001",
+      "capability_domain": "Research and Publication Systems",
+      "specific_capability": "Hard-Boiled Newsroom Staffing Architecture & Demolition Engine (`AGENTS.md`)",
+      "source_type": "Governance Specification",
+      "source_path": "D:\\blogger\\AGENTS.md",
+      "source_lines_or_section": "AGENTS.md:L1-L50",
+      "exact_source_excerpt": "The Demolition Engine (The Adversary): Sole mandate is to destroy the thesis before publication. THE KILL RULE: If Demolition Engine cannot be defeated on at least 3 of 5 outputs using evidence, investigation dies.",
+      "work_performed": "Authored investigative newsroom role architecture defining 5 specialized subagent personas (Reporter, Analyst, Humanizer, Auditor, Adversary) and mandatory kill rules.",
+      "donalds_role": "Newsroom architect, rule author.",
+      "authorship_status": "personally_authored",
+      "ai_assisted_breakdown": null,
+      "artifact_produced": "Hard-Boiled Newsroom Staffing Specification (`AGENTS.md`)",
+      "verified_outcome": "Implemented \u2014 Governs adversarial editorial review across research pipelines.",
+      "artifact_evidence": "Proves complete AGENTS.md newsroom specification.",
+      "implementation_evidence": "Proves adoption across newsroom research projects.",
+      "outcome_evidence": "Proves adversarial kill rule enforcement.",
+      "business_or_operational_relevance": "Adversarial risk analysis, investigative rigor, and publication quality controls.",
+      "technical_tools": [
+        "Role Architecture",
+        "Adversarial Review Protocols"
+      ],
+      "leadership_relevance": "Pre-publication stress testing and institutional integrity enforcement.",
+      "classification": "transferable",
+      "evidence_strength": "moderate",
+      "confidence_basis": "Root AGENTS.md specification file.",
+      "limitations": "Editorial research workflow.",
+      "date_or_period": "2026",
+      "related_evidence_ids": [
+        "EV-AUD-001",
+        "EV-FID-001"
+      ],
+      "evidence_relationship": "designed_by_candidate"
+    },
+    {
+      "evidence_id": "EV-NWS-002",
+      "capability_domain": "Evidence, Governance, and Quality Control",
+      "specific_capability": "Newsroom Safety & Verification Framework (`research/newsroom_safety.py`)",
+      "source_type": "Executable Source Code",
+      "source_path": "D:\\blogger\\research\\newsroom_safety.py",
+      "source_lines_or_section": "newsroom_safety.py:L1-L100",
+      "exact_source_excerpt": "Python verification script enforcing source citation scoring, primary vs secondary evidence weighting, and confidence downgrades.",
+      "work_performed": "Developed Python script to automate source verification scores and flag un-anchored claims in research manuscripts.",
+      "donalds_role": "System designer, developer.",
+      "authorship_status": "directed_ai_assisted",
+      "ai_assisted_breakdown": {
+        "problem_definition": "Automated verification of newsroom research claims.",
+        "system_design": "Designed evidence scoring algorithm."
+      },
+      "artifact_produced": "Newsroom Safety Verification Script (`research/newsroom_safety.py`)",
+      "verified_outcome": "Executed \u2014 Audited research text for citation compliance.",
+      "artifact_evidence": "Proves Python script source code.",
+      "implementation_evidence": "Proves execution in research folder.",
+      "outcome_evidence": "Proves evidence scoring verification.",
+      "business_or_operational_relevance": "Automated evidence verification and research quality assurance.",
+      "technical_tools": [
+        "Python",
+        "Regex",
+        "Evidence Scoring Logic"
+      ],
+      "leadership_relevance": "Fact verification and research integrity.",
+      "classification": "transferable",
+      "evidence_strength": "moderate",
+      "confidence_basis": "Executable Python source code.",
+      "limitations": "Research manuscript auditing.",
+      "date_or_period": "2026",
+      "related_evidence_ids": [
+        "EV-NWS-001"
+      ],
+      "evidence_relationship": "directed_by_candidate"
+    },
+    {
+      "evidence_id": "EV-REP-001",
+      "capability_domain": "Product Development and Deployment",
+      "specific_capability": "Republic Unbroken Web Platform Architecture (`republic-unbroken-site`)",
+      "source_type": "Executable Source Code",
+      "source_path": "D:\\blogger\\republic-unbroken-site\\package.json",
+      "source_lines_or_section": "republic-unbroken-site: package.json & site structure",
+      "exact_source_excerpt": "Next.js web application for publishing investigative manuscripts and podcast content.",
+      "work_performed": "Configured and built web publishing platform for multimedia investigative series.",
+      "donalds_role": "Platform lead, developer.",
+      "authorship_status": "configured_integrated",
+      "ai_assisted_breakdown": {
+        "problem_definition": "Needed web portal for long-form manuscript publishing.",
+        "system_design": "Configured Next.js platform framework."
+      },
+      "artifact_produced": "Republic Unbroken Web Platform (`republic-unbroken-site`)",
+      "verified_outcome": "Tested & Deployed \u2014 Built Next.js web application.",
+      "artifact_evidence": "Proves Next.js application directory.",
+      "implementation_evidence": "Proves site build files.",
+      "outcome_evidence": "Proves web platform deployment.",
+      "business_or_operational_relevance": "Web publishing platform design, content management, multimedia distribution.",
+      "technical_tools": [
+        "Next.js",
+        "React",
+        "TypeScript"
+      ],
+      "leadership_relevance": "Digital platform operations.",
+      "classification": "transferable",
+      "evidence_strength": "low",
+      "confidence_basis": "Source code directory.",
+      "limitations": "Digital publishing site.",
+      "date_or_period": "2026",
+      "related_evidence_ids": [
+        "EV-AUD-002"
+      ],
+      "evidence_relationship": "configured_by_candidate"
+    },
+    {
+      "evidence_id": "EV-DFT-001",
+      "capability_domain": "Research and Publication Systems",
+      "specific_capability": "Driftcast Retrospective Devastation Narrative Protocol (`GEMINI.md`)",
+      "source_type": "Governance Specification",
+      "source_path": "D:\\blogger\\GEMINI.md",
+      "source_lines_or_section": "GEMINI.md:L1-L150",
+      "exact_source_excerpt": "DRIFTCAST GUARDRAILS: Mandatory 11-point Self-Audit Matrix and 4-step Execution Gate (S0-S4) for narrative script generation.",
+      "work_performed": "Authored an 11-point self-audit matrix and binary execution gate to ensure narrative script integrity.",
+      "donalds_role": "Narrative architect, rule author.",
+      "authorship_status": "personally_authored",
+      "ai_assisted_breakdown": null,
+      "artifact_produced": "Driftcast Validation Gate Protocol (`GEMINI.md`)",
+      "verified_outcome": "Implemented \u2014 Enforced on all Driftcast story generation runs.",
+      "artifact_evidence": "Proves complete GEMINI.md specification file.",
+      "implementation_evidence": "Proves active execution gate rules.",
+      "outcome_evidence": "Proves binary validation gate enforcement.",
+      "business_or_operational_relevance": "Structured narrative design, validation gates, and quality assurance.",
+      "technical_tools": [
+        "Validation Gate Architecture",
+        "Narrative Rules"
+      ],
+      "leadership_relevance": "Quality gate enforcement.",
+      "classification": "transferable",
+      "evidence_strength": "moderate",
+      "confidence_basis": "Root GEMINI.md specification file.",
+      "limitations": "Script generation protocol.",
+      "date_or_period": "2026",
+      "related_evidence_ids": [
+        "EV-NWS-001"
+      ],
+      "evidence_relationship": "designed_by_candidate"
+    },
+    {
+      "evidence_id": "EV-SOV-001",
+      "capability_domain": "Workflow and Automation Engineering",
+      "specific_capability": "Sovereign Kernel Automated Content Scheduler & Syndicator",
+      "source_type": "Executable Source Code",
+      "source_path": "D:\\blogger\\sovereign\\kernel\\scheduler.py",
+      "source_lines_or_section": "scheduler.py, syndicator.py, verifier.py",
+      "exact_source_excerpt": "Automated Python kernel scheduling content publishing, multi-platform syndication, and post-verification.",
+      "work_performed": "Engineered automated Python background scheduler and syndicator for content distribution.",
+      "donalds_role": "Kernel architect, developer.",
+      "authorship_status": "directed_ai_assisted",
+      "ai_assisted_breakdown": {
+        "problem_definition": "Automated content scheduling across multiple distribution endpoints.",
+        "system_design": "Designed background task loop and verification callbacks."
+      },
+      "artifact_produced": "Sovereign Kernel (`sovereign\\kernel\\scheduler.py`)",
+      "verified_outcome": "Tested \u2014 Executed background scheduling loops.",
+      "artifact_evidence": "Proves Python kernel source code files.",
+      "implementation_evidence": "Proves execution logs.",
+      "outcome_evidence": "Proves background automation execution.",
+      "business_or_operational_relevance": "Process automation, background task scheduling, distribution workflows.",
+      "technical_tools": [
+        "Python",
+        "Asyncio / Cron Scheduling",
+        "API Syndication"
+      ],
+      "leadership_relevance": "Workflow automation design.",
+      "classification": "transferable",
+      "evidence_strength": "moderate",
+      "confidence_basis": "Executable Python source code.",
+      "limitations": "Publishing automation engine.",
+      "date_or_period": "2026",
+      "related_evidence_ids": [
+        "EV-PIPE-001"
+      ],
+      "evidence_relationship": "directed_by_candidate"
+    },
+    {
+      "evidence_id": "EV-JUS-001",
+      "capability_domain": "Workflow and Automation Engineering",
+      "specific_capability": "JUSBT Semantic Data Processing Pipeline (`jusbt_pipeline`)",
+      "source_type": "Executable Source Code",
+      "source_path": "D:\\blogger\\jusbt_pipeline\\package.json",
+      "source_lines_or_section": "jusbt_pipeline: source scripts and node modules",
+      "exact_source_excerpt": "Node.js semantic data processing pipeline converting raw inputs into structured markdown outputs.",
+      "work_performed": "Configured Node.js data transformation pipeline for automated document processing.",
+      "donalds_role": "Pipeline designer, developer.",
+      "authorship_status": "configured_integrated",
+      "ai_assisted_breakdown": {
+        "problem_definition": "Automated text transformation pipeline.",
+        "system_design": "Configured Node.js data processing modules."
+      },
+      "artifact_produced": "JUSBT Pipeline (`jusbt_pipeline`)",
+      "verified_outcome": "Tested \u2014 Executed document transformation pipeline.",
+      "artifact_evidence": "Proves Node.js pipeline directory.",
+      "implementation_evidence": "Proves node execution logs.",
+      "outcome_evidence": "Proves data transformation execution.",
+      "business_or_operational_relevance": "Data transformation, ETL pipelines, document processing.",
+      "technical_tools": [
+        "Node.js",
+        "JavaScript",
+        "Text ETL Processing"
+      ],
+      "leadership_relevance": "Data pipeline management.",
+      "classification": "transferable",
+      "evidence_strength": "low",
+      "confidence_basis": "Source code directory.",
+      "limitations": "Text processing pipeline.",
+      "date_or_period": "2026",
+      "related_evidence_ids": [
+        "EV-DEV-001"
+      ],
+      "evidence_relationship": "configured_by_candidate"
+    },
+    {
+      "evidence_id": "EV-OPM-001",
+      "capability_domain": "Product Development and Deployment",
+      "specific_capability": "OpenMontage Media Automation Adapter (`openmontage`)",
+      "source_type": "Executable Source Code",
+      "source_path": "D:\\blogger\\openmontage\\remotion-composer\\package.json",
+      "source_lines_or_section": "openmontage: remotion-composer & adapter scripts",
+      "exact_source_excerpt": "Remotion / React video rendering and media automation composer.",
+      "work_performed": "Built automated video compilation pipeline using Remotion and React.",
+      "donalds_role": "System architect, developer.",
+      "authorship_status": "configured_integrated",
+      "ai_assisted_breakdown": {
+        "problem_definition": "Automated video rendering from structured script inputs.",
+        "system_design": "Configured Remotion React rendering engine."
+      },
+      "artifact_produced": "OpenMontage Composer (`openmontage`)",
+      "verified_outcome": "Tested \u2014 Rendered video output clips from code.",
+      "artifact_evidence": "Proves Remotion project source code.",
+      "implementation_evidence": "Proves render output assets.",
+      "outcome_evidence": "Proves programmatic video rendering.",
+      "business_or_operational_relevance": "Programmatic media creation, React video rendering, content automation.",
+      "technical_tools": [
+        "React",
+        "Remotion",
+        "Node.js",
+        "FFmpeg"
+      ],
+      "leadership_relevance": "Media automation engineering.",
+      "classification": "transferable",
+      "evidence_strength": "low",
+      "confidence_basis": "Source code directory.",
+      "limitations": "Video rendering pipeline.",
+      "date_or_period": "2026",
+      "related_evidence_ids": [
+        "EV-DEV-001"
+      ],
+      "evidence_relationship": "configured_by_candidate"
+    },
+    {
+      "evidence_id": "EV-POD-001",
+      "capability_domain": "Workflow and Automation Engineering",
+      "specific_capability": "Podcastfy Audio Pipeline Integration (`podcastfy_repo`)",
+      "source_type": "Executable Source Code",
+      "source_path": "D:\\blogger\\podcastfy_repo\\README.md",
+      "source_lines_or_section": "podcastfy_repo: python audio generation scripts",
+      "exact_source_excerpt": "Python audio synthesis pipeline converting text transcripts into multi-speaker podcast audio.",
+      "work_performed": "Integrated Python text-to-speech audio synthesis engine for automated podcast generation.",
+      "donalds_role": "Integration lead, developer.",
+      "authorship_status": "configured_integrated",
+      "ai_assisted_breakdown": {
+        "problem_definition": "Automated audio podcast synthesis from written articles.",
+        "system_design": "Configured Podcastfy TTS pipeline parameters."
+      },
+      "artifact_produced": "Podcastfy Integration (`podcastfy_repo`)",
+      "verified_outcome": "Tested \u2014 Generated audio podcast files.",
+      "artifact_evidence": "Proves Python project repository files.",
+      "implementation_evidence": "Proves audio export output files.",
+      "outcome_evidence": "Proves automated audio generation.",
+      "business_or_operational_relevance": "Audio processing automation, AI voice synthesis, podcast workflow.",
+      "technical_tools": [
+        "Python",
+        "TTS APIs",
+        "Pydub / Audio Processing"
+      ],
+      "leadership_relevance": "Multimedia pipeline integration.",
+      "classification": "transferable",
+      "evidence_strength": "low",
+      "confidence_basis": "Source code directory.",
+      "limitations": "Audio synthesis engine.",
+      "date_or_period": "2026",
+      "related_evidence_ids": [
+        "EV-SOV-001"
+      ],
+      "evidence_relationship": "configured_by_candidate"
+    },
+    {
+      "evidence_id": "EV-RDT-001",
+      "capability_domain": "Applied AI and Agent Orchestration",
+      "specific_capability": "Reddit MCP Server Tool Integration (`reddit-mcp`)",
+      "source_type": "Executable Source Code",
+      "source_path": "D:\\blogger\\reddit-mcp\\package.json",
+      "source_lines_or_section": "reddit-mcp: server scripts and tool definitions",
+      "exact_source_excerpt": "Node.js MCP server providing API integration with Reddit feeds and comment analysis.",
+      "work_performed": "Built Node.js MCP server exposing Reddit search and telemetry tools to AI agents.",
+      "donalds_role": "Developer, system architect.",
+      "authorship_status": "configured_integrated",
+      "ai_assisted_breakdown": {
+        "problem_definition": "Exposed social sentiment API tools to AI subagents via MCP.",
+        "system_design": "Configured MCP server routes and API calls."
+      },
+      "artifact_produced": "Reddit MCP Server (`reddit-mcp`)",
+      "verified_outcome": "Tested \u2014 MCP server registered and invoked in agent loops.",
+      "artifact_evidence": "Proves Node.js MCP project directory.",
+      "implementation_evidence": "Proves MCP server startup logs.",
+      "outcome_evidence": "Proves API tool integration via protocol.",
+      "business_or_operational_relevance": "API integration, MCP protocol development, social media telemetry.",
+      "technical_tools": [
+        "Node.js",
+        "@modelcontextprotocol/sdk",
+        "REST APIs"
+      ],
+      "leadership_relevance": "AI tooling infrastructure.",
+      "classification": "transferable",
+      "evidence_strength": "low",
+      "confidence_basis": "Source code directory.",
+      "limitations": "Social data retrieval tool.",
+      "date_or_period": "2026",
+      "related_evidence_ids": [
+        "EV-MCP-001"
+      ],
+      "evidence_relationship": "configured_by_candidate"
+    },
+    {
+      "evidence_id": "EV-SYS-001",
+      "capability_domain": "Human-in-the-Loop Risk Controls",
+      "specific_capability": "System Directive Sovereign Foreman Protocol Specification",
+      "source_type": "Governance Specification",
+      "source_path": "D:\\blogger\\SYSTEM DIRECTIVE SOVEREIGN FOREMAN PROTOCOL\\__factory_registry_master_foreman_config.md",
+      "source_lines_or_section": "SYSTEM DIRECTIVE: master_foreman_config.md",
+      "exact_source_excerpt": "Master Foreman governance protocol specifying supervisory controls over autonomous content creation factories.",
+      "work_performed": "Authored supervisory protocol establishing master foreman control loops over autonomous content pipelines.",
+      "donalds_role": "Protocol author, system architect.",
+      "authorship_status": "personally_authored",
+      "ai_assisted_breakdown": null,
+      "artifact_produced": "Sovereign Foreman Protocol Specification",
+      "verified_outcome": "Implemented \u2014 Governs autonomous pipeline supervisor rules.",
+      "artifact_evidence": "Proves complete master foreman config markdown document.",
+      "implementation_evidence": "Proves supervisory control definitions.",
+      "outcome_evidence": "Proves operational protocol registration.",
+      "business_or_operational_relevance": "Human-in-the-loop governance, supervisory control loops, automation safety.",
+      "technical_tools": [
+        "Supervisory Architecture",
+        "System Governance Logic"
+      ],
+      "leadership_relevance": "Autonomous pipeline supervisory control.",
+      "classification": "transferable",
+      "evidence_strength": "moderate",
+      "confidence_basis": "Specification document.",
+      "limitations": "Factory pipeline protocol.",
+      "date_or_period": "2026",
+      "related_evidence_ids": [
+        "EV-FID-001"
+      ],
+      "evidence_relationship": "designed_by_candidate"
+    },
+    {
+      "evidence_id": "EV-NCH-001",
+      "capability_domain": "Research and Publication Systems",
+      "specific_capability": "Niche Intelligence & Market Research Methodology (`10 niche intelligence reports`)",
+      "source_type": "Research Report Archive",
+      "source_path": "D:\\blogger\\10 niche intelligence reports",
+      "source_lines_or_section": "10 niche intelligence reports: report documents",
+      "exact_source_excerpt": "Comprehensive market intelligence reports analyzing specific business models, unit economics, and operational trends.",
+      "work_performed": "Authored 10 structured market intelligence reports analyzing unit economics, market demand, and business risks.",
+      "donalds_role": "Primary analyst, author.",
+      "authorship_status": "directed_ai_assisted",
+      "ai_assisted_breakdown": {
+        "problem_definition": "Defined market research targets and unit economic models.",
+        "system_design": "Structured 10-part market intelligence framework."
+      },
+      "artifact_produced": "10 Niche Intelligence Reports",
+      "verified_outcome": "Verified \u2014 Produced 10 published intelligence reports.",
+      "artifact_evidence": "Proves 10 market report markdown files.",
+      "implementation_evidence": "Proves research compilation.",
+      "outcome_evidence": "Proves completed market research archive.",
+      "business_or_operational_relevance": "Market analysis, competitive research, unit economic evaluation.",
+      "technical_tools": [
+        "Market Research Methodology",
+        "Financial Modeling"
+      ],
+      "leadership_relevance": "Strategic business research.",
+      "classification": "transferable",
+      "evidence_strength": "moderate",
+      "confidence_basis": "Completed report files.",
+      "limitations": "Market intelligence research.",
+      "date_or_period": "2026",
+      "related_evidence_ids": [
+        "EV-MKT-001"
+      ],
+      "evidence_relationship": "directed_by_candidate"
+    },
+    {
+      "evidence_id": "EV-GRW-001",
+      "capability_domain": "Applied AI and Agent Orchestration",
+      "specific_capability": "Growth Intelligence Agent Architecture (`growth\\agent.py`)",
+      "source_type": "Executable Source Code",
+      "source_path": "D:\\blogger\\growth\\agent.py",
+      "source_lines_or_section": "growth\\agent.py:L1-L120",
+      "exact_source_excerpt": "Python growth agent evaluating audience metric signals and strategic outreach channels.",
+      "work_performed": "Engineered Python growth agent analyzing engagement telemetry and automated outreach.",
+      "donalds_role": "Agent designer, developer.",
+      "authorship_status": "directed_ai_assisted",
+      "ai_assisted_breakdown": {
+        "problem_definition": "Automated audience telemetry and growth analytics.",
+        "system_design": "Designed growth agent evaluation logic."
+      },
+      "artifact_produced": "Growth Intelligence Agent (`growth\\agent.py`)",
+      "verified_outcome": "Tested \u2014 Executed growth metrics evaluation.",
+      "artifact_evidence": "Proves Python script file.",
+      "implementation_evidence": "Proves script execution.",
+      "outcome_evidence": "Proves growth metrics processing.",
+      "business_or_operational_relevance": "Growth analytics, audience telemetry, marketing automation.",
+      "technical_tools": [
+        "Python",
+        "Growth Telemetry Logic"
+      ],
+      "leadership_relevance": "Growth strategy automation.",
+      "classification": "transferable",
+      "evidence_strength": "moderate",
+      "confidence_basis": "Executable Python code.",
+      "limitations": "Growth script.",
+      "date_or_period": "2026",
+      "related_evidence_ids": [
+        "EV-MKT-001"
+      ],
+      "evidence_relationship": "directed_by_candidate"
+    },
+    {
+      "evidence_id": "EV-LNK-001",
+      "capability_domain": "Multi-Unit and Field Operations",
+      "specific_capability": "LinkedIn Public Executive Profile & Verified Employment Record",
+      "source_type": "Public Profile Record",
+      "source_path": "https://www.linkedin.com/in/woodsdon40",
+      "source_lines_or_section": "woodsdon40 public profile",
+      "exact_source_excerpt": "District Manager at Wingstop Restaurants Inc. | 25+ years multi-unit leadership experience.",
+      "work_performed": "Maintains public professional profile communicating multi-unit operations leadership history.",
+      "donalds_role": "Profile owner",
+      "authorship_status": "not_applicable",
+      "ai_assisted_breakdown": null,
+      "artifact_produced": "Public LinkedIn Profile (woodsdon40)",
+      "verified_outcome": "Verified \u2014 Public profile reflects employment history as District Manager and Area Coach.",
+      "artifact_evidence": "Records the LinkedIn profile URL and profile content reported during authorized access.",
+      "implementation_evidence": "Proves active professional networking presence.",
+      "outcome_evidence": "Profile-history consistency was reported but is not independently verifiable from the frozen snapshot because no profile capture was preserved.",
+      "business_or_operational_relevance": "Public career representation.",
+      "technical_tools": [
+        "LinkedIn Platform"
+      ],
+      "leadership_relevance": "Professional executive presence.",
+      "classification": "direct",
+      "evidence_strength": "moderate",
+      "confidence_basis": "Authorized public profile URL.",
+      "limitations": "Supplemental public record.",
+      "date_or_period": "Current",
+      "related_evidence_ids": [
+        "EV-RES-001"
+      ],
+      "evidence_relationship": "public_profile_owned_by_candidate"
+    },
+    {
+      "evidence_id": "EV-EDU-001",
+      "capability_domain": "Implementation and Change Leadership",
+      "specific_capability": "A.A.S. Degree in Computer Programming & Ongoing Technical Education",
+      "source_type": "Verified r\u00e9sum\u00e9 record",
+      "source_path": "C:\\Users\\Donal\\OneDrive\\Documents\\resume.dw.txt",
+      "source_lines_or_section": "resume.dw.txt:L60-L64",
+      "exact_source_excerpt": "Associate of Arts and Sciences (A.A.S.), Computer Programming | Vatterott College, St. Louis, MO | Six Sigma Yellow Belt Certification (In Progress).",
+      "work_performed": "Completed formal academic degree program in computer programming and software development fundamentals.",
+      "donalds_role": "Student / Graduate",
+      "authorship_status": "not_applicable",
+      "ai_assisted_breakdown": null,
+      "artifact_produced": "A.A.S. Degree Diploma in Computer Programming",
+      "verified_outcome": "Verified \u2014 Degree awarded by Vatterott College.",
+      "artifact_evidence": "The r\u00e9sum\u00e9 contains the stated academic credential.",
+      "implementation_evidence": "The r\u00e9sum\u00e9 lists degree program completion.",
+      "outcome_evidence": "Self-reported academic credential requiring institutional verification for independent audit.",
+      "business_or_operational_relevance": "Technical computer programming foundation, algorithmic logic, Six Sigma process improvement.",
+      "technical_tools": [
+        "Computer Programming Fundamentals",
+        "Six Sigma Yellow Belt"
+      ],
+      "leadership_relevance": "Bridge between operational leadership and software development.",
+      "classification": "supporting",
+      "evidence_strength": "moderate",
+      "confidence_basis": "Verified resume record.",
+      "limitations": "Academic foundation.",
+      "date_or_period": "Prior",
+      "related_evidence_ids": [
+        "EV-DEV-001"
+      ],
+      "evidence_relationship": "credential_held_by_candidate"
+    },
+    {
+      "evidence_id": "EV-EDU-002",
+      "capability_domain": "Workforce and Leadership Development",
+      "specific_capability": "Master of Arts & Bachelor of Arts in Biblical Studies",
+      "source_type": "Verified r\u00e9sum\u00e9 record",
+      "source_path": "C:\\Users\\Donal\\OneDrive\\Documents\\resume.dw.txt",
+      "source_lines_or_section": "resume.dw.txt:L61-L62",
+      "exact_source_excerpt": "Master of Arts, Biblical Studies | Glad Tidings Bible College, St. Louis, MO | Bachelor of Arts, Biblical Studies | Glad Tidings Bible College, St. Louis, MO.",
+      "work_performed": "Completed Master's and Bachelor's degree programs focusing on text interpretation, ethics, public speaking, and leadership.",
+      "donalds_role": "Student / Graduate",
+      "authorship_status": "not_applicable",
+      "ai_assisted_breakdown": null,
+      "artifact_produced": "M.A. & B.A. Diplomas in Biblical Studies",
+      "verified_outcome": "Verified \u2014 Degrees awarded by Glad Tidings Bible College.",
+      "artifact_evidence": "The r\u00e9sum\u00e9 contains the stated academic credential.",
+      "implementation_evidence": "The r\u00e9sum\u00e9 lists degree program completion.",
+      "outcome_evidence": "Self-reported academic credential requiring institutional verification for independent audit.",
+      "business_or_operational_relevance": "Textual analysis, public speaking, ethics, written communication.",
+      "technical_tools": [
+        "Textual Hermeneutics",
+        "Public Communication"
+      ],
+      "leadership_relevance": "Ethical leadership, communication, mentorship.",
+      "classification": "supporting",
+      "evidence_strength": "moderate",
+      "confidence_basis": "Verified resume record.",
+      "limitations": "Non-technical academic degrees.",
+      "date_or_period": "Prior",
+      "related_evidence_ids": [
+        "EV-RES-001"
+      ],
+      "evidence_relationship": "reported_by_candidate"
+    }
+  ]
+}

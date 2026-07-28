@@ -1,0 +1,6 @@
+{
+  "test_suite": "PBS Fit Scorer Revision 4.1 Unit Test Suite",
+  "was_successful": true,
+  "tests_run": 9,
+  "safeguard_status": "PASSED \u2014 professional_identity_model.json file SHA-256 unchanged"
+}

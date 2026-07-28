@@ -1,0 +1,106 @@
+{
+  "description": "Ground-truth evidence relevance labels across calibration and holdout cases for Revision 4.3 precision/recall calculations",
+  "version": "4.3.0",
+  "case_labels": {
+    "calib-01": {
+      "case_id": "calib-01",
+      "title": "District Manager",
+      "expected_lane": "Lane_A",
+      "expected_eligibility": true,
+      "expected_fit_recommendation": "Priority Application",
+      "expected_strategic_value": "Career Advancing",
+      "relevant_evidence_ids": ["EV-RES-001", "EV-RES-002", "EV-RES-003", "EV-LNK-001"],
+      "prohibited_evidence_ids": []
+    },
+    "calib-02": {
+      "case_id": "calib-02",
+      "title": "Business Process Improvement Specialist",
+      "expected_lane": "Lane_B",
+      "expected_eligibility": true,
+      "expected_fit_recommendation": "Consider Application",
+      "expected_strategic_value": "Career Maintaining",
+      "relevant_evidence_ids": ["EV-WDS-001", "EV-GTK-001", "EV-CAS-001"],
+      "prohibited_evidence_ids": []
+    },
+    "calib-03": {
+      "case_id": "calib-03",
+      "title": "Operations Transformation Manager",
+      "expected_lane": "Lane_B",
+      "expected_eligibility": true,
+      "expected_fit_recommendation": "Priority Application",
+      "expected_strategic_value": "Career Advancing",
+      "relevant_evidence_ids": ["EV-WDS-001", "EV-GTK-001", "EV-CAS-001"],
+      "prohibited_evidence_ids": []
+    },
+    "calib-04": {
+      "case_id": "calib-04",
+      "title": "AI Enablement Specialist",
+      "expected_lane": "Lane_C",
+      "expected_eligibility": true,
+      "expected_fit_recommendation": "Priority Application",
+      "expected_strategic_value": "Career Advancing",
+      "relevant_evidence_ids": ["EV-MCP-001", "EV-PIPE-001", "EV-SOUL-001", "EV-DEV-001"],
+      "prohibited_evidence_ids": []
+    },
+    "calib-05": {
+      "case_id": "calib-05",
+      "title": "Workflow Automation Specialist",
+      "expected_lane": "Lane_C",
+      "expected_eligibility": true,
+      "expected_fit_recommendation": "Priority Application",
+      "expected_strategic_value": "Career Advancing",
+      "relevant_evidence_ids": ["EV-MCP-001", "EV-PIPE-001", "EV-SOUL-001", "EV-DEV-001"],
+      "prohibited_evidence_ids": []
+    },
+    "calib-06": {
+      "case_id": "calib-06",
+      "title": "Particle Physics Research Scientist",
+      "expected_lane": "Unresolved",
+      "expected_eligibility": true,
+      "expected_fit_recommendation": "Do Not Prioritize",
+      "expected_strategic_value": "Insufficient Information",
+      "relevant_evidence_ids": [],
+      "prohibited_evidence_ids": ["EV-RES-001", "EV-WDS-001", "EV-MCP-001"]
+    },
+    "holdout-01": {
+      "case_id": "holdout-01",
+      "title": "Operations Manager",
+      "expected_lane": "Lane_A",
+      "expected_eligibility": true,
+      "expected_fit_recommendation": "Consider Application",
+      "expected_strategic_value": "Career Maintaining",
+      "relevant_evidence_ids": ["EV-RES-001", "EV-RES-002"],
+      "prohibited_evidence_ids": []
+    },
+    "holdout-02": {
+      "case_id": "holdout-02",
+      "title": "Full-Stack Software Developer",
+      "expected_lane": "Unresolved",
+      "expected_eligibility": true,
+      "expected_fit_recommendation": "Do Not Prioritize",
+      "expected_strategic_value": "Insufficient Information",
+      "relevant_evidence_ids": [],
+      "prohibited_evidence_ids": ["EV-RES-001", "EV-WDS-001"]
+    },
+    "holdout-03": {
+      "case_id": "holdout-03",
+      "title": "Commercial AI Sales Director",
+      "expected_lane": "Unresolved",
+      "expected_eligibility": true,
+      "expected_fit_recommendation": "Do Not Prioritize",
+      "expected_strategic_value": "Insufficient Information",
+      "relevant_evidence_ids": [],
+      "prohibited_evidence_ids": ["EV-RES-001", "EV-WDS-001"]
+    },
+    "holdout-04": {
+      "case_id": "holdout-04",
+      "title": "Healthcare Quality Auditor",
+      "expected_lane": "Unresolved",
+      "expected_eligibility": false,
+      "expected_fit_recommendation": "Do Not Apply — Ineligible",
+      "expected_strategic_value": "Not Evaluated — Ineligible",
+      "relevant_evidence_ids": [],
+      "prohibited_evidence_ids": []
+    }
+  }
+}

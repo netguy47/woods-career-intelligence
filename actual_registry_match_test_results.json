@@ -1,0 +1,92 @@
+{
+  "test_suite": "Revision 4.1 Calibration Set Performance (6 Roles)",
+  "was_successful": true,
+  "calibration_roles": [
+    {
+      "role_profile": "Lane A Direct Operations",
+      "job_title": "District Manager",
+      "description": "Multi-unit store operations leadership, P&L responsibility, store labor scheduling, inventory management across retail locations.",
+      "expected_lane": "Lane_A",
+      "retrieved_evidence_ids": [
+        "EV-RES-001",
+        "EV-RES-002",
+        "EV-RES-003"
+      ],
+      "d2_score": 0.85,
+      "d3_score": 0.4,
+      "d4_score": 0.0,
+      "result": "PASSED"
+    },
+    {
+      "role_profile": "Lane B Process Improvement",
+      "job_title": "Business Process Improvement Specialist",
+      "description": "Continuous improvement, process improvement, operational excellence, workflow optimization, and Six Sigma yellow belt execution across multi-unit operations.",
+      "expected_lane": "Lane_B",
+      "retrieved_evidence_ids": [
+        "EV-WDS-001",
+        "EV-WDS-002",
+        "EV-GTK-001"
+      ],
+      "d2_score": 0.0,
+      "d3_score": 0.78,
+      "d4_score": 0.55,
+      "result": "PASSED"
+    },
+    {
+      "role_profile": "Lane B Transformation",
+      "job_title": "Operations Transformation Manager",
+      "description": "Operations transformation, governance architecture, gatekeeper audit rules, process improvement, and workflow redesign across enterprise operations.",
+      "expected_lane": "Lane_B",
+      "retrieved_evidence_ids": [
+        "EV-WDS-001",
+        "EV-FID-001",
+        "EV-GTK-002"
+      ],
+      "d2_score": 0.0,
+      "d3_score": 0.82,
+      "d4_score": 0.6,
+      "result": "PASSED"
+    },
+    {
+      "role_profile": "Lane C AI Enablement",
+      "job_title": "AI Enablement Specialist",
+      "description": "AI enablement, JobSpy MCP server integration, model context protocol tool execution, Python script scoring engines, and agentic workflow orchestration.",
+      "expected_lane": "Lane_C",
+      "retrieved_evidence_ids": [
+        "EV-MCP-001",
+        "EV-MCP-002",
+        "EV-PIPE-001"
+      ],
+      "d2_score": 0.0,
+      "d3_score": 0.35,
+      "d4_score": 0.8,
+      "result": "PASSED"
+    },
+    {
+      "role_profile": "Lane C Workflow Automation",
+      "job_title": "Workflow Automation Specialist",
+      "description": "Business process automation, agentic workflow orchestration, MCP server tools, multi-agent pipelines, and Next.js UI integration.",
+      "expected_lane": "Lane_C",
+      "retrieved_evidence_ids": [
+        "EV-MCP-001",
+        "EV-SOUL-001",
+        "EV-DEV-001"
+      ],
+      "d2_score": 0.0,
+      "d3_score": 0.4,
+      "d4_score": 0.85,
+      "result": "PASSED"
+    },
+    {
+      "role_profile": "Irrelevant Role Rejection",
+      "job_title": "Particle Physics Research Scientist",
+      "description": "Particle accelerator calibration, quantum electrodynamics research, and subatomic particle collision matrix optimization for theoretical physics.",
+      "expected_lane": "Lane_B",
+      "retrieved_evidence_ids": [],
+      "d2_score": 0.0,
+      "d3_score": 0.0,
+      "d4_score": 0.0,
+      "result": "PASSED (Zero Evidence Retrieval)"
+    }
+  ]
+}

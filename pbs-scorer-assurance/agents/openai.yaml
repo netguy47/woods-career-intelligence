@@ -1,0 +1,12 @@
+interface:
+  display_name: PBS Scorer Assurance
+  short_description: Govern scorer verification and trial readiness
+  default_prompt: Use $pbs-scorer-assurance to audit the scorer, update its assurance
+    state, and identify the next authorized gate.
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

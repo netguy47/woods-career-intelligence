@@ -1,4 +1,11 @@
 node_modules
+.next
+.venv
+__pycache__
+*.pyc
 dist
 tmp
-
+.vercel
+.env
+.env.local
+*.zip.tmp

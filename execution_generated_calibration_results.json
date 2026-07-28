@@ -1,0 +1,555 @@
+{
+  "provenance": {
+    "runner_version": "4.2.0",
+    "execution_timestamp": "2026-07-28T01:41:07.542871+00:00",
+    "python_version": "3.14.3 (tags/v3.14.3:323c59a, Feb  3 2026, 16:04:56) [MSC v.1944 64 bit (AMD64)]",
+    "scorer_sha256": "bf7d46f8bf2eec58f52b4802e20712b41eb66141cfad3566449c9472d789133d",
+    "registry_sha256": "20c18c1405708cb15eae924aa73d1d5515a55de904c1cd28454eed2265fbc488",
+    "identity_model_sha256": "3b146c72fa0609d537767cb45cbb959238989bd76e7923f03e956cc98e0edb60"
+  },
+  "results": [
+    {
+      "case_id": "calib-01",
+      "title": "District Manager",
+      "expected_lane": "Lane_A",
+      "description": "District Manager | Multi-Unit Restaurant Operations Leadership. Oversee store P&L management, general manager mentorship, inventory forecasting, labor scheduling, and operational quality control across 5 locations. Must have proven multi-unit leadership experience.",
+      "execution_output": {
+        "job_id": null,
+        "title": "District Manager",
+        "company": null,
+        "location": "St. Louis, MO",
+        "score_status": "complete",
+        "eligible": true,
+        "recommendation_status": "Recommend for Application",
+        "professional_lane": "Lane_A",
+        "professional_lane_name": "Direct Operations Leadership",
+        "target_role_horizon": "immediate_market_targets",
+        "hard_requirement_failures": [],
+        "requirement_details": [
+          {
+            "requirement_type": "Geographic / Commute",
+            "requirement_text": "35-mile Commute Radius",
+            "requirement_level": "required",
+            "state": "satisfied",
+            "candidate_evidence_ids": [
+              "EV-RES-001"
+            ],
+            "reason": "Location confirmed within 35-mile commute radius",
+            "confidence": 0.9
+          }
+        ],
+        "pbs_job_fit_score_pre_calibration": 46.3,
+        "diagnostic_fit_score": 46.3,
+        "capability_fit_score": 21.3,
+        "market_readiness_fit_score": 82.5,
+        "strategic_value": "Income Stabilizing",
+        "evidence_confidence": "Moderate",
+        "evidence_confidence_breakdown": {
+          "strength_distribution": {
+            "high_count": 0,
+            "moderate_count": 1,
+            "low_count": 0
+          },
+          "source_authority": {
+            "candidate_reported_count": 1,
+            "author_architect_count": 0,
+            "artifact_count": 0
+          },
+          "dimension_coverage": {
+            "d2_active": true,
+            "d3_active": false,
+            "d4_active": false
+          },
+          "confidence_score": 0.52,
+          "confidence_level": "Moderate"
+        },
+        "industry_match_status": "confirmed_close",
+        "dimension_scores": {
+          "D2_direct_resume": 0.38,
+          "D3_transferable_exp": 0.0,
+          "D4_project_relevance": 0.0,
+          "D5_static_career_keyword_alignment": 0.51,
+          "D6_title_closeness": 0.8,
+          "D7_industry_closeness": 0.85,
+          "D8_career_direction_alignment": 0.85
+        },
+        "evidence_citations": [
+          {
+            "evidence_id": "EV-RES-001",
+            "dimension_supported": "D2_direct_resume",
+            "evidence_strength": "moderate",
+            "classification": "direct",
+            "evidence_relationship": "reported_by_candidate",
+            "matching_rationale": "Matched terms (scheduling, district manager, district) in Multi-Unit Operations Leadership & Strategic District Management",
+            "limitation": "Specific to food service retail; principles transfer directly to multi-site retail, field service, and logistics operations.",
+            "source_path": "C:\\Users\\Donal\\OneDrive\\Documents\\resume.dw.txt",
+            "distinct_evidence_group": "EV-RES-001",
+            "raw_match_score": 0.55,
+            "adjusted_match_score": 0.38
+          }
+        ]
+      }
+    },
+    {
+      "case_id": "calib-02",
+      "title": "Business Process Improvement Specialist",
+      "expected_lane": "Lane_B",
+      "description": "Business Process Improvement Specialist. Drive continuous improvement, process improvement, operational excellence, workflow optimization, Six Sigma quality control, and operational audit systems across enterprise business units.",
+      "execution_output": {
+        "job_id": null,
+        "title": "Business Process Improvement Specialist",
+        "company": null,
+        "location": "Remote",
+        "score_status": "complete",
+        "eligible": true,
+        "recommendation_status": "Recommend for Application",
+        "professional_lane": "Lane_B",
+        "professional_lane_name": "Operations Systems, Governance & Transformation",
+        "target_role_horizon": "immediate_market_targets",
+        "hard_requirement_failures": [],
+        "requirement_details": [
+          {
+            "requirement_type": "Geographic / Commute",
+            "requirement_text": "Work Location / Remote Status",
+            "requirement_level": "required",
+            "state": "not_applicable",
+            "candidate_evidence_ids": [
+              "EV-RES-001"
+            ],
+            "reason": "Position confirmed remote; local commute radius not applicable",
+            "confidence": 1.0
+          }
+        ],
+        "pbs_job_fit_score_pre_calibration": 32.7,
+        "diagnostic_fit_score": 32.7,
+        "capability_fit_score": 12.9,
+        "market_readiness_fit_score": 40.0,
+        "strategic_value": "Income Stabilizing",
+        "evidence_confidence": "Moderate",
+        "evidence_confidence_breakdown": {
+          "strength_distribution": {
+            "high_count": 1,
+            "moderate_count": 1,
+            "low_count": 0
+          },
+          "source_authority": {
+            "candidate_reported_count": 0,
+            "author_architect_count": 0,
+            "artifact_count": 0
+          },
+          "dimension_coverage": {
+            "d2_active": false,
+            "d3_active": false,
+            "d4_active": true
+          },
+          "confidence_score": 0.59,
+          "confidence_level": "Moderate"
+        },
+        "industry_match_status": "unresolved",
+        "dimension_scores": {
+          "D2_direct_resume": 0.0,
+          "D3_transferable_exp": 0.0,
+          "D4_project_relevance": 0.41,
+          "D5_static_career_keyword_alignment": 0.15,
+          "D6_title_closeness": 0.8,
+          "D7_industry_closeness": 0.0,
+          "D8_career_direction_alignment": 0.85
+        },
+        "evidence_citations": [
+          {
+            "evidence_id": "EV-EDU-001",
+            "dimension_supported": "D4_project_relevance",
+            "evidence_strength": "moderate",
+            "classification": "supporting",
+            "evidence_relationship": "credential_held_by_candidate",
+            "matching_rationale": "Matched terms (and, improvement, six) in A.A.S. Degree in Computer Programming & Ongoing Technical Education",
+            "limitation": "Academic foundation.",
+            "source_path": "C:\\Users\\Donal\\OneDrive\\Documents\\resume.dw.txt",
+            "distinct_evidence_group": "EV-DEV-001",
+            "raw_match_score": 0.49,
+            "adjusted_match_score": 0.34
+          },
+          {
+            "evidence_id": "EV-FID-001",
+            "dimension_supported": "D4_project_relevance",
+            "evidence_strength": "high",
+            "classification": "transferable",
+            "evidence_relationship": "directed_by_candidate",
+            "matching_rationale": "Matched terms (and, quality, audit) in Authoring of Analytical Fidelity Standard & Source Hierarchy",
+            "limitation": "Requires human or agent self-review compliance.",
+            "source_path": "D:\\blogger\\.agents\\woods-framework\\ANALYTICAL_FIDELITY_STANDARD.md",
+            "distinct_evidence_group": "EV-FID-001",
+            "raw_match_score": 0.27,
+            "adjusted_match_score": 0.27
+          }
+        ]
+      }
+    },
+    {
+      "case_id": "calib-03",
+      "title": "Operations Transformation Manager",
+      "expected_lane": "Lane_B",
+      "description": "Operations Transformation Manager. Lead operational transformation, gatekeeper governance frameworks, risk auditing, compliance architectures, process redesign, and organizational change leadership.",
+      "execution_output": {
+        "job_id": null,
+        "title": "Operations Transformation Manager",
+        "company": null,
+        "location": "Remote",
+        "score_status": "complete",
+        "eligible": true,
+        "recommendation_status": "Recommend for Application",
+        "professional_lane": "Lane_B",
+        "professional_lane_name": "Operations Systems, Governance & Transformation",
+        "target_role_horizon": "stretch_targets",
+        "hard_requirement_failures": [],
+        "requirement_details": [
+          {
+            "requirement_type": "Geographic / Commute",
+            "requirement_text": "Work Location / Remote Status",
+            "requirement_level": "required",
+            "state": "not_applicable",
+            "candidate_evidence_ids": [
+              "EV-RES-001"
+            ],
+            "reason": "Position confirmed remote; local commute radius not applicable",
+            "confidence": 1.0
+          }
+        ],
+        "pbs_job_fit_score_pre_calibration": 33.4,
+        "diagnostic_fit_score": 33.4,
+        "capability_fit_score": 14.0,
+        "market_readiness_fit_score": 35.0,
+        "strategic_value": "Income Stabilizing",
+        "evidence_confidence": "Moderate",
+        "evidence_confidence_breakdown": {
+          "strength_distribution": {
+            "high_count": 1,
+            "moderate_count": 0,
+            "low_count": 0
+          },
+          "source_authority": {
+            "candidate_reported_count": 0,
+            "author_architect_count": 0,
+            "artifact_count": 0
+          },
+          "dimension_coverage": {
+            "d2_active": false,
+            "d3_active": false,
+            "d4_active": true
+          },
+          "confidence_score": 0.67,
+          "confidence_level": "Moderate"
+        },
+        "industry_match_status": "unresolved",
+        "dimension_scores": {
+          "D2_direct_resume": 0.0,
+          "D3_transferable_exp": 0.0,
+          "D4_project_relevance": 0.35,
+          "D5_static_career_keyword_alignment": 0.31,
+          "D6_title_closeness": 0.7,
+          "D7_industry_closeness": 0.0,
+          "D8_career_direction_alignment": 0.9
+        },
+        "evidence_citations": [
+          {
+            "evidence_id": "EV-GTK-001",
+            "dimension_supported": "D4_project_relevance",
+            "evidence_strength": "high",
+            "classification": "transferable",
+            "evidence_relationship": "directed_by_candidate",
+            "matching_rationale": "Matched terms (compliance, and, gatekeeper) in Development of Python Promotion Gatekeeper Engine (woods_gatekeeper.py)",
+            "limitation": "Designed specifically for Woods Framework JSON promotion packages.",
+            "source_path": "D:\\blogger\\.agents\\woods-framework\\woods_gatekeeper.py",
+            "distinct_evidence_group": "EV-FID-001",
+            "raw_match_score": 0.35,
+            "adjusted_match_score": 0.35
+          }
+        ]
+      }
+    },
+    {
+      "case_id": "calib-04",
+      "title": "AI Enablement Specialist",
+      "expected_lane": "Lane_C",
+      "description": "AI Enablement Specialist. Implement JobSpy MCP server integration, Model Context Protocol tools, Python script scoring engines, agentic workflow orchestration, multi-agent AI pipelines, and Next.js data application UIs.",
+      "execution_output": {
+        "job_id": null,
+        "title": "AI Enablement Specialist",
+        "company": null,
+        "location": "Remote",
+        "score_status": "complete",
+        "eligible": true,
+        "recommendation_status": "Recommend for Application",
+        "professional_lane": "Lane_C",
+        "professional_lane_name": "Applied AI, Workflow Orchestration & Product Enablement",
+        "target_role_horizon": "immediate_market_targets",
+        "hard_requirement_failures": [],
+        "requirement_details": [
+          {
+            "requirement_type": "Geographic / Commute",
+            "requirement_text": "Work Location / Remote Status",
+            "requirement_level": "required",
+            "state": "not_applicable",
+            "candidate_evidence_ids": [
+              "EV-RES-001"
+            ],
+            "reason": "Position confirmed remote; local commute radius not applicable",
+            "confidence": 1.0
+          }
+        ],
+        "pbs_job_fit_score_pre_calibration": 34.2,
+        "diagnostic_fit_score": 34.2,
+        "capability_fit_score": 15.4,
+        "market_readiness_fit_score": 40.0,
+        "strategic_value": "Income Stabilizing",
+        "evidence_confidence": "Moderate",
+        "evidence_confidence_breakdown": {
+          "strength_distribution": {
+            "high_count": 0,
+            "moderate_count": 2,
+            "low_count": 0
+          },
+          "source_authority": {
+            "candidate_reported_count": 0,
+            "author_architect_count": 0,
+            "artifact_count": 0
+          },
+          "dimension_coverage": {
+            "d2_active": false,
+            "d3_active": false,
+            "d4_active": true
+          },
+          "confidence_score": 0.52,
+          "confidence_level": "Moderate"
+        },
+        "industry_match_status": "unresolved",
+        "dimension_scores": {
+          "D2_direct_resume": 0.0,
+          "D3_transferable_exp": 0.0,
+          "D4_project_relevance": 0.48,
+          "D5_static_career_keyword_alignment": 0.21,
+          "D6_title_closeness": 0.8,
+          "D7_industry_closeness": 0.0,
+          "D8_career_direction_alignment": 0.85
+        },
+        "evidence_citations": [
+          {
+            "evidence_id": "EV-DEV-001",
+            "dimension_supported": "D4_project_relevance",
+            "evidence_strength": "moderate",
+            "classification": "transferable",
+            "evidence_relationship": "directed_by_candidate",
+            "matching_rationale": "Matched terms (context, model, protocol) in Double-Edge AI Pipeline Express & MCP Backend Server (`server.ts`)",
+            "limitation": "Development server configuration.",
+            "source_path": "D:\\blogger\\Double-Edge-Insight-AI-Pipeline\\server.ts",
+            "distinct_evidence_group": "EV-DEV-001",
+            "raw_match_score": 0.59,
+            "adjusted_match_score": 0.42
+          },
+          {
+            "evidence_id": "EV-MKT-002",
+            "dimension_supported": "D4_project_relevance",
+            "evidence_strength": "moderate",
+            "classification": "transferable",
+            "evidence_relationship": "directed_by_candidate",
+            "matching_rationale": "Matched terms (script, and, data) in Automated Founders Brief Generator (`founders_brief_generator.py`)",
+            "limitation": "Internal briefing tool.",
+            "source_path": "D:\\blogger\\founders_brief_generator.py",
+            "distinct_evidence_group": "EV-MKT-001",
+            "raw_match_score": 0.36,
+            "adjusted_match_score": 0.25
+          }
+        ]
+      }
+    },
+    {
+      "case_id": "calib-05",
+      "title": "Workflow Automation Specialist",
+      "expected_lane": "Lane_C",
+      "description": "Workflow Automation Specialist. Design and deploy business process automation, agentic workflow orchestration, MCP server tool integration, automated telemetry logging, and operational dashboards.",
+      "execution_output": {
+        "job_id": null,
+        "title": "Workflow Automation Specialist",
+        "company": null,
+        "location": "Remote",
+        "score_status": "complete",
+        "eligible": true,
+        "recommendation_status": "Recommend for Application",
+        "professional_lane": "Lane_C",
+        "professional_lane_name": "Applied AI, Workflow Orchestration & Product Enablement",
+        "target_role_horizon": "immediate_market_targets",
+        "hard_requirement_failures": [],
+        "requirement_details": [
+          {
+            "requirement_type": "Geographic / Commute",
+            "requirement_text": "Work Location / Remote Status",
+            "requirement_level": "required",
+            "state": "not_applicable",
+            "candidate_evidence_ids": [
+              "EV-RES-001"
+            ],
+            "reason": "Position confirmed remote; local commute radius not applicable",
+            "confidence": 1.0
+          }
+        ],
+        "pbs_job_fit_score_pre_calibration": 44.1,
+        "diagnostic_fit_score": 44.1,
+        "capability_fit_score": 31.8,
+        "market_readiness_fit_score": 40.0,
+        "strategic_value": "Income Stabilizing",
+        "evidence_confidence": "Moderate",
+        "evidence_confidence_breakdown": {
+          "strength_distribution": {
+            "high_count": 0,
+            "moderate_count": 4,
+            "low_count": 0
+          },
+          "source_authority": {
+            "candidate_reported_count": 0,
+            "author_architect_count": 0,
+            "artifact_count": 0
+          },
+          "dimension_coverage": {
+            "d2_active": true,
+            "d3_active": false,
+            "d4_active": true
+          },
+          "confidence_score": 0.68,
+          "confidence_level": "Moderate"
+        },
+        "industry_match_status": "unresolved",
+        "dimension_scores": {
+          "D2_direct_resume": 0.45,
+          "D3_transferable_exp": 0.0,
+          "D4_project_relevance": 0.47,
+          "D5_static_career_keyword_alignment": 0.31,
+          "D6_title_closeness": 0.8,
+          "D7_industry_closeness": 0.0,
+          "D8_career_direction_alignment": 0.85
+        },
+        "evidence_citations": [
+          {
+            "evidence_id": "EV-WDS-003",
+            "dimension_supported": "D2_direct_resume",
+            "evidence_strength": "moderate",
+            "classification": "direct",
+            "evidence_relationship": "designed_by_candidate",
+            "matching_rationale": "Matched terms (design, operational, workflow) in Design of Standard Enforcement Loop (SEL), Routine Preservation Loop (RPL), and Visibility Accountability Loop (VAL)",
+            "limitation": "Requires operational telemetry integration for automated trigger execution.",
+            "source_path": "D:\\blogger\\.agents\\woods-framework\\principles.json",
+            "distinct_evidence_group": "EV-FID-002",
+            "raw_match_score": 0.64,
+            "adjusted_match_score": 0.45
+          },
+          {
+            "evidence_id": "EV-DEV-001",
+            "dimension_supported": "D4_project_relevance",
+            "evidence_strength": "moderate",
+            "classification": "transferable",
+            "evidence_relationship": "directed_by_candidate",
+            "matching_rationale": "Matched terms (automated, and, server) in Double-Edge AI Pipeline Express & MCP Backend Server (`server.ts`)",
+            "limitation": "Development server configuration.",
+            "source_path": "D:\\blogger\\Double-Edge-Insight-AI-Pipeline\\server.ts",
+            "distinct_evidence_group": "EV-DEV-001",
+            "raw_match_score": 0.53,
+            "adjusted_match_score": 0.37
+          },
+          {
+            "evidence_id": "EV-GRW-001",
+            "dimension_supported": "D4_project_relevance",
+            "evidence_strength": "moderate",
+            "classification": "transferable",
+            "evidence_relationship": "directed_by_candidate",
+            "matching_rationale": "Matched terms (automated, automation, and) in Growth Intelligence Agent Architecture (`growth\\agent.py`)",
+            "limitation": "Growth script.",
+            "source_path": "D:\\blogger\\growth\\agent.py",
+            "distinct_evidence_group": "EV-GRW-001",
+            "raw_match_score": 0.43,
+            "adjusted_match_score": 0.3
+          },
+          {
+            "evidence_id": "EV-MKT-002",
+            "dimension_supported": "D4_project_relevance",
+            "evidence_strength": "moderate",
+            "classification": "transferable",
+            "evidence_relationship": "directed_by_candidate",
+            "matching_rationale": "Matched terms (automated, automation, operational) in Automated Founders Brief Generator (`founders_brief_generator.py`)",
+            "limitation": "Internal briefing tool.",
+            "source_path": "D:\\blogger\\founders_brief_generator.py",
+            "distinct_evidence_group": "EV-MKT-001",
+            "raw_match_score": 0.39,
+            "adjusted_match_score": 0.27
+          }
+        ]
+      }
+    },
+    {
+      "case_id": "calib-06",
+      "title": "Particle Physics Research Scientist",
+      "expected_lane": "Irrelevant",
+      "description": "Particle Physics Research Scientist. Calibrate subatomic particle accelerator detectors, model quantum electrodynamics equations, analyze dark matter collision matrices, and publish academic research.",
+      "execution_output": {
+        "job_id": null,
+        "title": "Particle Physics Research Scientist",
+        "company": null,
+        "location": "Remote",
+        "score_status": "complete",
+        "eligible": true,
+        "recommendation_status": "Recommend for Application",
+        "professional_lane": "Unresolved",
+        "professional_lane_name": "Unresolved",
+        "target_role_horizon": "Unresolved",
+        "hard_requirement_failures": [],
+        "requirement_details": [
+          {
+            "requirement_type": "Geographic / Commute",
+            "requirement_text": "Work Location / Remote Status",
+            "requirement_level": "required",
+            "state": "not_applicable",
+            "candidate_evidence_ids": [
+              "EV-RES-001"
+            ],
+            "reason": "Position confirmed remote; local commute radius not applicable",
+            "confidence": 1.0
+          }
+        ],
+        "pbs_job_fit_score_pre_calibration": 2.0,
+        "diagnostic_fit_score": 2.0,
+        "capability_fit_score": 0.0,
+        "market_readiness_fit_score": 10.0,
+        "strategic_value": "Income Stabilizing",
+        "evidence_confidence": "Low",
+        "evidence_confidence_breakdown": {
+          "strength_distribution": {
+            "high_count": 0,
+            "moderate_count": 0,
+            "low_count": 0
+          },
+          "source_authority": {
+            "candidate_reported_count": 0,
+            "author_architect_count": 0,
+            "artifact_count": 0
+          },
+          "dimension_coverage": {
+            "d2_active": false,
+            "d3_active": false,
+            "d4_active": false
+          },
+          "confidence_score": 0.0,
+          "confidence_level": "Low"
+        },
+        "industry_match_status": "confirmed_distant",
+        "dimension_scores": {
+          "D2_direct_resume": 0.0,
+          "D3_transferable_exp": 0.0,
+          "D4_project_relevance": 0.0,
+          "D5_static_career_keyword_alignment": 0.0,
+          "D6_title_closeness": 0.0,
+          "D7_industry_closeness": 0.2,
+          "D8_career_direction_alignment": 0.0
+        },
+        "evidence_citations": []
+      }
+    }
+  ]
+}

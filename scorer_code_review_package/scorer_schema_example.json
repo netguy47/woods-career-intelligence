@@ -1,0 +1,184 @@
+{
+  "eligible_job_sample": {
+    "job_id": "job-example-01",
+    "title": "AI Enablement Manager",
+    "company": "Enterprise AI Solutions",
+    "location": "St. Louis, MO",
+    "site": "indeed",
+    "job_url": "https://example.com/viewjob?jk=123",
+    "eligible": true,
+    "recommendation_status": "Recommend for Application",
+    "professional_lane": "Lane C",
+    "professional_lane_name": "Applied AI, Workflow Orchestration & Product Enablement",
+    "target_role_horizon": "immediate_market_targets",
+    "lane_reason": "Mapped to Applied AI, Workflow Orchestration & Product Enablement (Lane C) under immediate_market_targets.",
+    "hard_eligibility": true,
+    "hard_eligibility_reasons": [],
+    "hard_requirement_failures": [],
+    "pbs_job_fit_score_pre_calibration": 72.6,
+    "diagnostic_fit_score": 72.6,
+    "capability_fit_score": 67.3,
+    "market_readiness_fit_score": 61.0,
+    "unfiltered_diagnostic_score": 72.6,
+    "strategic_value": "Career Advancing",
+    "evidence_confidence": "Moderate",
+    "dimension_scores": {
+      "D2_direct_resume": 0.95,
+      "D3_transferable_exp": 0.95,
+      "D4_project_relevance": 0.9,
+      "D5_ats_alignment": 0.36,
+      "D6_title_closeness": 0.52,
+      "D7_industry_closeness": 0.7,
+      "D8_career_direction_alignment": 1.0
+    },
+    "dimension_details": {
+      "D6_title_details": {
+        "title_family": 0.6,
+        "responsibility": 0.2,
+        "scope_seniority": 1.0
+      },
+      "D7_industry_details": {
+        "base_prior": 0.6,
+        "adjustments": 0.1,
+        "notes": [
+          "High operational similarity (+0.10)"
+        ]
+      },
+      "D8_career_direction_details": {
+        "score": 1.0,
+        "rubric_level": "1.00",
+        "justification": "Strongly advances systems, transformation, implementation, operational excellence, or AI-enablement direction."
+      }
+    },
+    "penalties": {
+      "P_evidence_gap": 0.0,
+      "P_evidence_gap_reasons": [],
+      "P_uncertainty": 0.0,
+      "P_uncertainty_reasons": []
+    },
+    "evidence_citations": [
+      {
+        "dimension": "D2 Direct Resume Evidence",
+        "citation": "resume.dw.txt:L23-L30 (5-unit DM Wingstop), resume.dw.txt:L38-L45 (8-unit Area Coach Pizza Hut)",
+        "matched_score": 0.95,
+        "evidence_id": "EV-RES-001"
+      },
+      {
+        "dimension": "D3 Transferable Experience",
+        "citation": "resume.dw.txt:L26 (Build-to-Inventory Model), principles.json:Operational Usability Principle",
+        "matched_score": 0.95,
+        "evidence_id": "EV-RES-002"
+      },
+      {
+        "dimension": "D4 Recent Project Relevance",
+        "citation": "woods_gatekeeper.py (Automated Governance Engine), jobspy-mcp-server/post_processor.py",
+        "matched_score": 0.9,
+        "evidence_id": "EV-GTK-001"
+      },
+      {
+        "dimension": "D8 Career Direction Alignment",
+        "citation": "professional_identity_model.json (Lane C immediate_market_targets)",
+        "matched_score": 1.0,
+        "evidence_id": "EV-WDS-001"
+      }
+    ],
+    "top_strengths": [
+      "Extensive documented multi-unit operations leadership and P&L accountability",
+      "Proven process improvement, scheduling, and Build-to-Inventory cost reduction",
+      "High Career Direction Alignment with operational systems & AI enablement"
+    ],
+    "top_gaps": [
+      "No major hard requirement gaps identified"
+    ]
+  },
+  "ineligible_job_sample": {
+    "job_id": "job-example-02",
+    "title": "Licensed Pharmacist",
+    "company": "Healthcare Corp",
+    "location": "Florissant, MO",
+    "site": "indeed",
+    "job_url": "https://example.com/viewjob?jk=456",
+    "eligible": false,
+    "recommendation_status": "Do Not Recommend",
+    "professional_lane": "Lane B",
+    "professional_lane_name": "Operations Systems, Governance & Transformation",
+    "target_role_horizon": "future_state_targets",
+    "lane_reason": "Mapped to Operations Systems, Governance & Transformation (Lane B) under future_state_targets.",
+    "hard_eligibility": false,
+    "hard_eligibility_reasons": [
+      "Requires Licensed Pharmacist (PharmD)"
+    ],
+    "hard_requirement_failures": [
+      "Requires Licensed Pharmacist (PharmD)"
+    ],
+    "pbs_job_fit_score_pre_calibration": 0.0,
+    "diagnostic_fit_score": 45.3,
+    "capability_fit_score": 44.5,
+    "market_readiness_fit_score": 43.0,
+    "unfiltered_diagnostic_score": 45.3,
+    "strategic_value": "Not Evaluated \u2014 Ineligible",
+    "evidence_confidence": "Low",
+    "dimension_scores": {
+      "D2_direct_resume": 0.7,
+      "D3_transferable_exp": 0.75,
+      "D4_project_relevance": 0.6,
+      "D5_ats_alignment": 0.0,
+      "D6_title_closeness": 0.26,
+      "D7_industry_closeness": 0.6,
+      "D8_career_direction_alignment": 0.5
+    },
+    "dimension_details": {
+      "D6_title_details": {
+        "title_family": 0.4,
+        "responsibility": 0.0,
+        "scope_seniority": 0.5
+      },
+      "D7_industry_details": {
+        "base_prior": 0.6,
+        "adjustments": 0.0,
+        "notes": []
+      },
+      "D8_career_direction_details": {
+        "score": 0.5,
+        "rubric_level": "0.50",
+        "justification": "General operational management role aligning with historical operations track."
+      }
+    },
+    "penalties": {
+      "P_evidence_gap": 0.0,
+      "P_evidence_gap_reasons": [],
+      "P_uncertainty": 0.0,
+      "P_uncertainty_reasons": []
+    },
+    "evidence_citations": [
+      {
+        "dimension": "D2 Direct Resume Evidence",
+        "citation": "resume.dw.txt:L23-L30 (5-unit DM Wingstop), resume.dw.txt:L38-L45 (8-unit Area Coach Pizza Hut)",
+        "matched_score": 0.7,
+        "evidence_id": "EV-RES-001"
+      },
+      {
+        "dimension": "D3 Transferable Experience",
+        "citation": "resume.dw.txt:L26 (Build-to-Inventory Model), principles.json:Operational Usability Principle",
+        "matched_score": 0.75,
+        "evidence_id": "EV-RES-002"
+      },
+      {
+        "dimension": "D4 Recent Project Relevance",
+        "citation": "woods_gatekeeper.py (Automated Governance Engine), jobspy-mcp-server/post_processor.py",
+        "matched_score": 0.6,
+        "evidence_id": "EV-GTK-001"
+      },
+      {
+        "dimension": "D8 Career Direction Alignment",
+        "citation": "professional_identity_model.json (Lane B future_state_targets)",
+        "matched_score": 0.5,
+        "evidence_id": "EV-WDS-001"
+      }
+    ],
+    "top_strengths": [],
+    "top_gaps": [
+      "Requires Licensed Pharmacist (PharmD)"
+    ]
+  }
+}

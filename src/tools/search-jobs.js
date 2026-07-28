@@ -1,6 +1,9 @@
 import logger from '../logger.js';
 import { searchParams } from '../schemas/searchParamsSchema.js';
-import { execSync } from 'node:child_process';
+import { spawnSync } from 'node:child_process';
+import { existsSync } from 'node:fs';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
 import { z } from 'zod';
 import changeCase from 'change-case-object';
 
@@ -172,12 +175,37 @@ export function searchJobsHandler(params) {
     logger.info('Validated parameters', { validatedParams });
 
     const args = buildCommandArgs(validatedParams);
-    const dockerCmd = process.env.DOCKER_CMD || 'docker';
-    const cmd = `${dockerCmd} run --rm jobspy ${args.join(' ')}`;
-    logger.info(`Spawning process with args: ${cmd}`);
-
+    const projectRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
+    const configuredPython = process.env.PYTHON_CMD;
+    const projectPython = path.join(projectRoot, '.venv', 'Scripts', 'python.exe');
+    const mainPyPath = process.env.JOBSPY_MAIN_PATH || path.join(projectRoot, 'jobspy', 'main.py');
     const timeout = params.timeout || 60000; // Default timeout of 60 seconds
-    result = execSync(cmd, { timeout }).toString();
+    let command;
+    let commandArgs;
+
+    if (configuredPython || existsSync(projectPython)) {
+      command = configuredPython || projectPython;
+      commandArgs = [mainPyPath, ...args];
+    } else {
+      command = process.env.DOCKER_CMD || 'docker';
+      commandArgs = ['run', '--rm', '-v', `${projectRoot}:/app`, '-w', '/app', process.env.JOBSPY_DOCKER_IMAGE || 'jobspy', ...args];
+    }
+
+    logger.info('Spawning process', { command, commandArgs });
+
+    const processResult = spawnSync(command, commandArgs, {
+      timeout,
+      encoding: 'utf8',
+      windowsHide: true,
+    });
+
+    if (processResult.error) {
+      throw processResult.error;
+    }
+    if (processResult.status !== 0) {
+      throw new Error(processResult.stderr || `JobSpy process exited with status ${processResult.status}`);
+    }
+    result = processResult.stdout;
 
     const parsedData = JSON.parse(result);
 
@@ -218,13 +246,13 @@ function buildCommandArgs(params) {
 
   // Add each parameter as a command line argument
   if (params.siteNames) {
-    args.push('--site_name', `"${params.siteNames}"`);
+    args.push('--site_name', params.siteNames);
   }
   if (params.searchTerm) {
-    args.push('--search_term', `"${params.searchTerm}"`);
+    args.push('--search_term', params.searchTerm);
   }
   if (params.location) {
-    args.push('--location', `"${params.location}"`);
+    args.push('--location', params.location);
   }
   if (params.distance) {
     args.push('--distance', `${params.distance}`);
@@ -233,7 +261,7 @@ function buildCommandArgs(params) {
     args.push('--job_type', `${params.jobType}`);
   }
   if (params.googleSearchTerm) {
-    args.push('--google_search_term', `"${params.googleSearchTerm}"`);
+    args.push('--google_search_term', params.googleSearchTerm);
   }
   if (params.resultsWanted) {
     args.push('--results_wanted', `${params.resultsWanted}`);
@@ -254,7 +282,7 @@ function buildCommandArgs(params) {
     args.push('--verbose', `${params.verbose}`);
   }
   if (params.countryIndeed) {
-    args.push('--country_indeed', `"${params.countryIndeed}"`);
+    args.push('--country_indeed', params.countryIndeed);
   }
   if (params.isRemote) {
     args.push('--is_remote');
@@ -263,16 +291,16 @@ function buildCommandArgs(params) {
     args.push('--linkedin_fetch_description');
   }
   if (params.linkedinCompanyIds) {
-    args.push('--linkedin_company_ids', `"${params.linkedinCompanyIds}"`);
+    args.push('--linkedin_company_ids', params.linkedinCompanyIds);
   }
   if (params.enforceAnnualSalary) {
     args.push('--enforce_annual_salary');
   }
   if (params.proxies) {
-    args.push('--proxies', `"${params.proxies}"`);
+    args.push('--proxies', params.proxies);
   }
   if (params.caCert) {
-    args.push('--ca_cert', `"${params.caCert}"`);
+    args.push('--ca_cert', params.caCert);
   }
   args.push('--format', params.format || 'json');
   return args;

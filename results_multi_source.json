@@ -1,0 +1,42 @@
+{
+  "indeed": {
+    "status": "success",
+    "count": 5,
+    "descriptions": 5,
+    "urls": 5,
+    "elapsed_seconds": 0.65,
+    "warning": null
+  },
+  "linkedin": {
+    "status": "success",
+    "count": 5,
+    "descriptions": 5,
+    "urls": 5,
+    "elapsed_seconds": 5.07,
+    "warning": null
+  },
+  "glassdoor": {
+    "status": "zero_results",
+    "count": 0,
+    "descriptions": 0,
+    "urls": 0,
+    "elapsed_seconds": 1.21,
+    "warning": null
+  },
+  "zip_recruiter": {
+    "status": "zero_results",
+    "count": 0,
+    "descriptions": 0,
+    "urls": 0,
+    "elapsed_seconds": 0.28,
+    "warning": null
+  },
+  "google": {
+    "status": "zero_results",
+    "count": 0,
+    "descriptions": 0,
+    "urls": 0,
+    "elapsed_seconds": 0.79,
+    "warning": null
+  }
+}

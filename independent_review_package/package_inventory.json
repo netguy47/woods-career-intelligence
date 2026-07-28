@@ -1,0 +1,21 @@
+{
+  "package": "PBS Scorer Revision 4.3 independent review",
+  "gate": "independent_review",
+  "builder_material_classification": "internal_evidence",
+  "holdout_scope": "holdout-01 recorded artifact only; no additional holdout material inspected",
+  "protected_policy_changed": false,
+  "files": [
+    "README.md",
+    "review_packet.md",
+    "adjudication_form.md",
+    "protected_checksums.sha256",
+    "package_inventory.json"
+  ],
+  "excluded": [
+    "live search output",
+    "30-job trial output",
+    "additional holdout material",
+    "protected source files",
+    "suggested adjudication answers"
+  ]
+}

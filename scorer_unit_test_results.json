@@ -1,0 +1,100 @@
+{
+  "test_suite": "PBS Fit Scorer Engine Unit Tests (test_pbs_fit_scorer.py)",
+  "tests_run": 15,
+  "was_successful": true,
+  "failures_count": 0,
+  "errors_count": 0,
+  "condition_to_test_matrix": [
+    {
+      "condition": "Exact weight total (1.0000)",
+      "test_method": "test_01_exact_weight_total",
+      "status": "PASSED"
+    },
+    {
+      "condition": "All seven positive dimensions (D2-D8)",
+      "test_method": "test_02_all_seven_dimensions_present",
+      "status": "PASSED"
+    },
+    {
+      "condition": "Hard-requirement binary gate failure",
+      "test_method": "test_03_hard_requirement_failure",
+      "status": "PASSED"
+    },
+    {
+      "condition": "Diagnostic score preservation on gate failure",
+      "test_method": "test_04_diagnostic_score_preserved_on_gate_failure",
+      "status": "PASSED"
+    },
+    {
+      "condition": "Missing description handling",
+      "test_method": "test_05_missing_description",
+      "status": "PASSED"
+    },
+    {
+      "condition": "No evidence handling",
+      "test_method": "test_06_no_evidence",
+      "status": "PASSED"
+    },
+    {
+      "condition": "Provenance_unverified-only evidence handling",
+      "test_method": "test_07_provenance_unverified_exclusion",
+      "status": "PASSED"
+    },
+    {
+      "condition": "Mixed evidence strengths",
+      "test_method": "test_08_mixed_evidence_strengths",
+      "status": "PASSED"
+    },
+    {
+      "condition": "Self-reported r\u00e9sum\u00e9 metric handling",
+      "test_method": "test_09_self_reported_resume_outcomes",
+      "status": "PASSED"
+    },
+    {
+      "condition": "Professional Lane A resolution",
+      "test_method": "test_10_all_three_professional_lanes",
+      "status": "PASSED"
+    },
+    {
+      "condition": "Professional Lane B resolution",
+      "test_method": "test_10_all_three_professional_lanes",
+      "status": "PASSED"
+    },
+    {
+      "condition": "Professional Lane C resolution",
+      "test_method": "test_10_all_three_professional_lanes",
+      "status": "PASSED"
+    },
+    {
+      "condition": "All five strategic-value classifications",
+      "test_method": "test_11_all_five_strategic_value_classifications",
+      "status": "PASSED"
+    },
+    {
+      "condition": "Score floor bounding (0.0)",
+      "test_method": "test_12_score_floor_and_ceiling",
+      "status": "PASSED"
+    },
+    {
+      "condition": "Score ceiling bounding (100.0)",
+      "test_method": "test_12_score_floor_and_ceiling",
+      "status": "PASSED"
+    },
+    {
+      "condition": "Deterministic repeatability",
+      "test_method": "test_13_deterministic_repeatability",
+      "status": "PASSED"
+    },
+    {
+      "condition": "Exact evidence-ID traceability",
+      "test_method": "test_14_exact_evidence_id_traceability",
+      "status": "PASSED"
+    },
+    {
+      "condition": "Legacy input compatibility",
+      "test_method": "test_15_legacy_input_compatibility",
+      "status": "PASSED"
+    }
+  ],
+  "summary": "100% Pass Rate across all 18 condition-to-test matrix items."
+}

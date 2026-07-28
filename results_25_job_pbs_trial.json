@@ -1,0 +1,1642 @@
+[
+  {
+    "job_id": "in-d12dd7e33057d39c",
+    "title": "General Manager - STL Fulfillment",
+    "company": "Southern Hobby Distribution",
+    "location": "Hazelwood, MO, US",
+    "site": "indeed",
+    "job_url": "https://www.indeed.com/viewjob?jk=d12dd7e33057d39c",
+    "lane": "Direct-Match Lane",
+    "lane_reason": "Direct alignment with 25+ years of multi-unit food service & retail operations leadership.",
+    "hard_eligibility": true,
+    "hard_eligibility_reasons": [],
+    "pbs_job_fit_score": 87.7,
+    "evidence_confidence": "High",
+    "dimension_scores": {
+      "D2_direct_resume": 0.85,
+      "D3_transferable_exp": 0.95,
+      "D4_project_relevance": 0.9,
+      "D5_ats_alignment": 0.77,
+      "D6_title_closeness": 0.96,
+      "D7_industry_closeness": 0.85
+    },
+    "dimension_details": {
+      "D6_title_details": {
+        "title_family": 1.0,
+        "responsibility": 1.0,
+        "scope_seniority": 0.8
+      },
+      "D7_industry_details": {
+        "base_prior": 0.85,
+        "adjustments": 0.0,
+        "notes": []
+      }
+    },
+    "penalties": {
+      "P_evidence_gap": 0.0,
+      "P_evidence_gap_reasons": [],
+      "P_uncertainty": 0.0,
+      "P_uncertainty_reasons": []
+    },
+    "evidence_citations": [
+      {
+        "dimension": "D2 Direct Resume Evidence",
+        "citation": "resume.dw.txt:L23-L30 (5-unit DM Wingstop), resume.dw.txt:L38-L45 (8-unit Area Coach Pizza Hut)",
+        "matched_score": 0.85
+      },
+      {
+        "dimension": "D3 Transferable Experience",
+        "citation": "resume.dw.txt:L26 (Build-to-Inventory Model), principles.json:Operational Usability Principle",
+        "matched_score": 0.95
+      },
+      {
+        "dimension": "D4 Recent Project Relevance",
+        "citation": "woods_gatekeeper.py (Automated Governance Engine), SOUL.md (Antigravity Stage 1 Truth Engine)",
+        "matched_score": 0.9
+      }
+    ],
+    "top_strengths": [
+      "Extensive 25+ year multi-unit leadership and P&L accountability",
+      "Proven process improvement, scheduling, and Build-to-Inventory cost reduction",
+      "High title and operational responsibility alignment"
+    ],
+    "top_gaps": [
+      "No major hard requirement gaps identified"
+    ]
+  },
+  {
+    "job_id": "li-4442920279",
+    "title": "District Manager",
+    "company": "Snarf's Sandwiches",
+    "location": "St Louis, MO",
+    "site": "linkedin",
+    "job_url": "https://www.linkedin.com/jobs/view/4442920279",
+    "lane": "Direct-Match Lane",
+    "lane_reason": "Direct alignment with 25+ years of multi-unit food service & retail operations leadership.",
+    "hard_eligibility": true,
+    "hard_eligibility_reasons": [],
+    "pbs_job_fit_score": 86.8,
+    "evidence_confidence": "High",
+    "dimension_scores": {
+      "D2_direct_resume": 0.95,
+      "D3_transferable_exp": 0.95,
+      "D4_project_relevance": 0.9,
+      "D5_ats_alignment": 0.51,
+      "D6_title_closeness": 0.84,
+      "D7_industry_closeness": 1.0
+    },
+    "dimension_details": {
+      "D6_title_details": {
+        "title_family": 1.0,
+        "responsibility": 0.6,
+        "scope_seniority": 1.0
+      },
+      "D7_industry_details": {
+        "base_prior": 1.0,
+        "adjustments": 0.1,
+        "notes": [
+          "High operational similarity (+0.10)"
+        ]
+      }
+    },
+    "penalties": {
+      "P_evidence_gap": 0.0,
+      "P_evidence_gap_reasons": [],
+      "P_uncertainty": 0.0,
+      "P_uncertainty_reasons": []
+    },
+    "evidence_citations": [
+      {
+        "dimension": "D2 Direct Resume Evidence",
+        "citation": "resume.dw.txt:L23-L30 (5-unit DM Wingstop), resume.dw.txt:L38-L45 (8-unit Area Coach Pizza Hut)",
+        "matched_score": 0.95
+      },
+      {
+        "dimension": "D3 Transferable Experience",
+        "citation": "resume.dw.txt:L26 (Build-to-Inventory Model), principles.json:Operational Usability Principle",
+        "matched_score": 0.95
+      },
+      {
+        "dimension": "D4 Recent Project Relevance",
+        "citation": "woods_gatekeeper.py (Automated Governance Engine), SOUL.md (Antigravity Stage 1 Truth Engine)",
+        "matched_score": 0.9
+      }
+    ],
+    "top_strengths": [
+      "Extensive 25+ year multi-unit leadership and P&L accountability",
+      "Proven process improvement, scheduling, and Build-to-Inventory cost reduction",
+      "High title and operational responsibility alignment"
+    ],
+    "top_gaps": [
+      "No major hard requirement gaps identified"
+    ]
+  },
+  {
+    "job_id": "in-e5af8d568ce9735e",
+    "title": "Operations Restaurant Manager",
+    "company": "Peel Wood Fired Pizza",
+    "location": "Edwardsville, IL, US",
+    "site": "indeed",
+    "job_url": "https://www.indeed.com/viewjob?jk=e5af8d568ce9735e",
+    "lane": "Direct-Match Lane",
+    "lane_reason": "Direct alignment with 25+ years of multi-unit food service & retail operations leadership.",
+    "hard_eligibility": true,
+    "hard_eligibility_reasons": [],
+    "pbs_job_fit_score": 86.7,
+    "evidence_confidence": "High",
+    "dimension_scores": {
+      "D2_direct_resume": 0.95,
+      "D3_transferable_exp": 0.95,
+      "D4_project_relevance": 0.9,
+      "D5_ats_alignment": 0.39,
+      "D6_title_closeness": 0.96,
+      "D7_industry_closeness": 1.0
+    },
+    "dimension_details": {
+      "D6_title_details": {
+        "title_family": 1.0,
+        "responsibility": 1.0,
+        "scope_seniority": 0.8
+      },
+      "D7_industry_details": {
+        "base_prior": 1.0,
+        "adjustments": 0.0,
+        "notes": []
+      }
+    },
+    "penalties": {
+      "P_evidence_gap": 0.0,
+      "P_evidence_gap_reasons": [],
+      "P_uncertainty": 0.0,
+      "P_uncertainty_reasons": []
+    },
+    "evidence_citations": [
+      {
+        "dimension": "D2 Direct Resume Evidence",
+        "citation": "resume.dw.txt:L23-L30 (5-unit DM Wingstop), resume.dw.txt:L38-L45 (8-unit Area Coach Pizza Hut)",
+        "matched_score": 0.95
+      },
+      {
+        "dimension": "D3 Transferable Experience",
+        "citation": "resume.dw.txt:L26 (Build-to-Inventory Model), principles.json:Operational Usability Principle",
+        "matched_score": 0.95
+      },
+      {
+        "dimension": "D4 Recent Project Relevance",
+        "citation": "woods_gatekeeper.py (Automated Governance Engine), SOUL.md (Antigravity Stage 1 Truth Engine)",
+        "matched_score": 0.9
+      }
+    ],
+    "top_strengths": [
+      "Extensive 25+ year multi-unit leadership and P&L accountability",
+      "Proven process improvement, scheduling, and Build-to-Inventory cost reduction",
+      "High title and operational responsibility alignment"
+    ],
+    "top_gaps": [
+      "No major hard requirement gaps identified"
+    ]
+  },
+  {
+    "job_id": "li-4444360293",
+    "title": "Site District Manager",
+    "company": "Aramark",
+    "location": "Parkway, MO",
+    "site": "linkedin",
+    "job_url": "https://www.linkedin.com/jobs/view/4444360293",
+    "lane": "Direct-Match Lane",
+    "lane_reason": "Direct alignment with 25+ years of multi-unit food service & retail operations leadership.",
+    "hard_eligibility": true,
+    "hard_eligibility_reasons": [],
+    "pbs_job_fit_score": 86.6,
+    "evidence_confidence": "High",
+    "dimension_scores": {
+      "D2_direct_resume": 0.95,
+      "D3_transferable_exp": 0.95,
+      "D4_project_relevance": 0.9,
+      "D5_ats_alignment": 0.84,
+      "D6_title_closeness": 0.84,
+      "D7_industry_closeness": 1.0
+    },
+    "dimension_details": {
+      "D6_title_details": {
+        "title_family": 1.0,
+        "responsibility": 0.6,
+        "scope_seniority": 1.0
+      },
+      "D7_industry_details": {
+        "base_prior": 1.0,
+        "adjustments": 0.0,
+        "notes": []
+      }
+    },
+    "penalties": {
+      "P_evidence_gap": 0.0,
+      "P_evidence_gap_reasons": [],
+      "P_uncertainty": 5.0,
+      "P_uncertainty_reasons": [
+        "Location municipality requires review (-5.0)"
+      ]
+    },
+    "evidence_citations": [
+      {
+        "dimension": "D2 Direct Resume Evidence",
+        "citation": "resume.dw.txt:L23-L30 (5-unit DM Wingstop), resume.dw.txt:L38-L45 (8-unit Area Coach Pizza Hut)",
+        "matched_score": 0.95
+      },
+      {
+        "dimension": "D3 Transferable Experience",
+        "citation": "resume.dw.txt:L26 (Build-to-Inventory Model), principles.json:Operational Usability Principle",
+        "matched_score": 0.95
+      },
+      {
+        "dimension": "D4 Recent Project Relevance",
+        "citation": "woods_gatekeeper.py (Automated Governance Engine), SOUL.md (Antigravity Stage 1 Truth Engine)",
+        "matched_score": 0.9
+      }
+    ],
+    "top_strengths": [
+      "Extensive 25+ year multi-unit leadership and P&L accountability",
+      "Proven process improvement, scheduling, and Build-to-Inventory cost reduction",
+      "High title and operational responsibility alignment"
+    ],
+    "top_gaps": [
+      "No major hard requirement gaps identified"
+    ]
+  },
+  {
+    "job_id": "in-9ffcb33fdc674232",
+    "title": "General Manager (02967) 427 Edwardsville Rd",
+    "company": "MBR Management Corporation",
+    "location": "Troy, IL, US",
+    "site": "indeed",
+    "job_url": "https://www.indeed.com/viewjob?jk=9ffcb33fdc674232",
+    "lane": "Direct-Match Lane",
+    "lane_reason": "Direct alignment with 25+ years of multi-unit food service & retail operations leadership.",
+    "hard_eligibility": true,
+    "hard_eligibility_reasons": [],
+    "pbs_job_fit_score": 86.5,
+    "evidence_confidence": "High",
+    "dimension_scores": {
+      "D2_direct_resume": 0.95,
+      "D3_transferable_exp": 0.95,
+      "D4_project_relevance": 0.9,
+      "D5_ats_alignment": 0.71,
+      "D6_title_closeness": 0.96,
+      "D7_industry_closeness": 1.0
+    },
+    "dimension_details": {
+      "D6_title_details": {
+        "title_family": 1.0,
+        "responsibility": 1.0,
+        "scope_seniority": 0.8
+      },
+      "D7_industry_details": {
+        "base_prior": 1.0,
+        "adjustments": 0.0,
+        "notes": []
+      }
+    },
+    "penalties": {
+      "P_evidence_gap": 0.0,
+      "P_evidence_gap_reasons": [],
+      "P_uncertainty": 5.0,
+      "P_uncertainty_reasons": [
+        "Location municipality requires review (-5.0)"
+      ]
+    },
+    "evidence_citations": [
+      {
+        "dimension": "D2 Direct Resume Evidence",
+        "citation": "resume.dw.txt:L23-L30 (5-unit DM Wingstop), resume.dw.txt:L38-L45 (8-unit Area Coach Pizza Hut)",
+        "matched_score": 0.95
+      },
+      {
+        "dimension": "D3 Transferable Experience",
+        "citation": "resume.dw.txt:L26 (Build-to-Inventory Model), principles.json:Operational Usability Principle",
+        "matched_score": 0.95
+      },
+      {
+        "dimension": "D4 Recent Project Relevance",
+        "citation": "woods_gatekeeper.py (Automated Governance Engine), SOUL.md (Antigravity Stage 1 Truth Engine)",
+        "matched_score": 0.9
+      }
+    ],
+    "top_strengths": [
+      "Extensive 25+ year multi-unit leadership and P&L accountability",
+      "Proven process improvement, scheduling, and Build-to-Inventory cost reduction",
+      "High title and operational responsibility alignment"
+    ],
+    "top_gaps": [
+      "No major hard requirement gaps identified"
+    ]
+  },
+  {
+    "job_id": "li-4440198226",
+    "title": "General Manager",
+    "company": "SFE- Southwest Foodservice Excellence",
+    "location": "Chesterfield, MO",
+    "site": "linkedin",
+    "job_url": "https://www.linkedin.com/jobs/view/4440198226",
+    "lane": "Direct-Match Lane",
+    "lane_reason": "Direct alignment with 25+ years of multi-unit food service & retail operations leadership.",
+    "hard_eligibility": true,
+    "hard_eligibility_reasons": [],
+    "pbs_job_fit_score": 86.3,
+    "evidence_confidence": "High",
+    "dimension_scores": {
+      "D2_direct_resume": 0.95,
+      "D3_transferable_exp": 0.85,
+      "D4_project_relevance": 0.9,
+      "D5_ats_alignment": 0.58,
+      "D6_title_closeness": 0.84,
+      "D7_industry_closeness": 1.0
+    },
+    "dimension_details": {
+      "D6_title_details": {
+        "title_family": 1.0,
+        "responsibility": 0.6,
+        "scope_seniority": 1.0
+      },
+      "D7_industry_details": {
+        "base_prior": 1.0,
+        "adjustments": 0.0,
+        "notes": []
+      }
+    },
+    "penalties": {
+      "P_evidence_gap": 0.0,
+      "P_evidence_gap_reasons": [],
+      "P_uncertainty": 0.0,
+      "P_uncertainty_reasons": []
+    },
+    "evidence_citations": [
+      {
+        "dimension": "D2 Direct Resume Evidence",
+        "citation": "resume.dw.txt:L23-L30 (5-unit DM Wingstop), resume.dw.txt:L38-L45 (8-unit Area Coach Pizza Hut)",
+        "matched_score": 0.95
+      },
+      {
+        "dimension": "D3 Transferable Experience",
+        "citation": "resume.dw.txt:L26 (Build-to-Inventory Model), principles.json:Operational Usability Principle",
+        "matched_score": 0.85
+      },
+      {
+        "dimension": "D4 Recent Project Relevance",
+        "citation": "woods_gatekeeper.py (Automated Governance Engine), SOUL.md (Antigravity Stage 1 Truth Engine)",
+        "matched_score": 0.9
+      }
+    ],
+    "top_strengths": [
+      "Extensive 25+ year multi-unit leadership and P&L accountability",
+      "Proven process improvement, scheduling, and Build-to-Inventory cost reduction",
+      "High title and operational responsibility alignment"
+    ],
+    "top_gaps": [
+      "No major hard requirement gaps identified"
+    ]
+  },
+  {
+    "job_id": "li-4431551755",
+    "title": "District Manager",
+    "company": "Rally House",
+    "location": "St Louis, MO",
+    "site": "linkedin",
+    "job_url": "https://www.linkedin.com/jobs/view/4431551755",
+    "lane": "Direct-Match Lane",
+    "lane_reason": "Direct alignment with 25+ years of multi-unit food service & retail operations leadership.",
+    "hard_eligibility": true,
+    "hard_eligibility_reasons": [],
+    "pbs_job_fit_score": 85.7,
+    "evidence_confidence": "High",
+    "dimension_scores": {
+      "D2_direct_resume": 0.85,
+      "D3_transferable_exp": 0.95,
+      "D4_project_relevance": 0.9,
+      "D5_ats_alignment": 0.58,
+      "D6_title_closeness": 0.92,
+      "D7_industry_closeness": 0.95
+    },
+    "dimension_details": {
+      "D6_title_details": {
+        "title_family": 1.0,
+        "responsibility": 0.8,
+        "scope_seniority": 1.0
+      },
+      "D7_industry_details": {
+        "base_prior": 0.85,
+        "adjustments": 0.1,
+        "notes": [
+          "High operational similarity (+0.10)"
+        ]
+      }
+    },
+    "penalties": {
+      "P_evidence_gap": 0.0,
+      "P_evidence_gap_reasons": [],
+      "P_uncertainty": 0.0,
+      "P_uncertainty_reasons": []
+    },
+    "evidence_citations": [
+      {
+        "dimension": "D2 Direct Resume Evidence",
+        "citation": "resume.dw.txt:L23-L30 (5-unit DM Wingstop), resume.dw.txt:L38-L45 (8-unit Area Coach Pizza Hut)",
+        "matched_score": 0.85
+      },
+      {
+        "dimension": "D3 Transferable Experience",
+        "citation": "resume.dw.txt:L26 (Build-to-Inventory Model), principles.json:Operational Usability Principle",
+        "matched_score": 0.95
+      },
+      {
+        "dimension": "D4 Recent Project Relevance",
+        "citation": "woods_gatekeeper.py (Automated Governance Engine), SOUL.md (Antigravity Stage 1 Truth Engine)",
+        "matched_score": 0.9
+      }
+    ],
+    "top_strengths": [
+      "Extensive 25+ year multi-unit leadership and P&L accountability",
+      "Proven process improvement, scheduling, and Build-to-Inventory cost reduction",
+      "High title and operational responsibility alignment"
+    ],
+    "top_gaps": [
+      "No major hard requirement gaps identified"
+    ]
+  },
+  {
+    "job_id": "in-bc1bdbfc360b2ec8",
+    "title": "General Manager (01594)- 10486 W Florissant Ave",
+    "company": "Domino's",
+    "location": "St. Louis, MO, US",
+    "site": "indeed",
+    "job_url": "https://www.indeed.com/viewjob?jk=bc1bdbfc360b2ec8",
+    "lane": "Direct-Match Lane",
+    "lane_reason": "Direct alignment with 25+ years of multi-unit food service & retail operations leadership.",
+    "hard_eligibility": true,
+    "hard_eligibility_reasons": [],
+    "pbs_job_fit_score": 85.2,
+    "evidence_confidence": "High",
+    "dimension_scores": {
+      "D2_direct_resume": 0.95,
+      "D3_transferable_exp": 0.95,
+      "D4_project_relevance": 0.9,
+      "D5_ats_alignment": 0.45,
+      "D6_title_closeness": 0.8,
+      "D7_industry_closeness": 1.0
+    },
+    "dimension_details": {
+      "D6_title_details": {
+        "title_family": 1.0,
+        "responsibility": 0.6,
+        "scope_seniority": 0.8
+      },
+      "D7_industry_details": {
+        "base_prior": 1.0,
+        "adjustments": 0.0,
+        "notes": []
+      }
+    },
+    "penalties": {
+      "P_evidence_gap": 0.0,
+      "P_evidence_gap_reasons": [],
+      "P_uncertainty": 0.0,
+      "P_uncertainty_reasons": []
+    },
+    "evidence_citations": [
+      {
+        "dimension": "D2 Direct Resume Evidence",
+        "citation": "resume.dw.txt:L23-L30 (5-unit DM Wingstop), resume.dw.txt:L38-L45 (8-unit Area Coach Pizza Hut)",
+        "matched_score": 0.95
+      },
+      {
+        "dimension": "D3 Transferable Experience",
+        "citation": "resume.dw.txt:L26 (Build-to-Inventory Model), principles.json:Operational Usability Principle",
+        "matched_score": 0.95
+      },
+      {
+        "dimension": "D4 Recent Project Relevance",
+        "citation": "woods_gatekeeper.py (Automated Governance Engine), SOUL.md (Antigravity Stage 1 Truth Engine)",
+        "matched_score": 0.9
+      }
+    ],
+    "top_strengths": [
+      "Extensive 25+ year multi-unit leadership and P&L accountability",
+      "Proven process improvement, scheduling, and Build-to-Inventory cost reduction",
+      "High title and operational responsibility alignment"
+    ],
+    "top_gaps": [
+      "No major hard requirement gaps identified"
+    ]
+  },
+  {
+    "job_id": "in-148f12d11103a2ef",
+    "title": "General Manager (02930) - 4000 West Main St",
+    "company": "Domino's",
+    "location": "Belleville, IL, US",
+    "site": "indeed",
+    "job_url": "https://www.indeed.com/viewjob?jk=148f12d11103a2ef",
+    "lane": "Direct-Match Lane",
+    "lane_reason": "Direct alignment with 25+ years of multi-unit food service & retail operations leadership.",
+    "hard_eligibility": true,
+    "hard_eligibility_reasons": [],
+    "pbs_job_fit_score": 82.2,
+    "evidence_confidence": "High",
+    "dimension_scores": {
+      "D2_direct_resume": 0.85,
+      "D3_transferable_exp": 0.85,
+      "D4_project_relevance": 0.9,
+      "D5_ats_alignment": 0.51,
+      "D6_title_closeness": 0.8,
+      "D7_industry_closeness": 1.0
+    },
+    "dimension_details": {
+      "D6_title_details": {
+        "title_family": 1.0,
+        "responsibility": 0.6,
+        "scope_seniority": 0.8
+      },
+      "D7_industry_details": {
+        "base_prior": 1.0,
+        "adjustments": 0.0,
+        "notes": []
+      }
+    },
+    "penalties": {
+      "P_evidence_gap": 0.0,
+      "P_evidence_gap_reasons": [],
+      "P_uncertainty": 0.0,
+      "P_uncertainty_reasons": []
+    },
+    "evidence_citations": [
+      {
+        "dimension": "D2 Direct Resume Evidence",
+        "citation": "resume.dw.txt:L23-L30 (5-unit DM Wingstop), resume.dw.txt:L38-L45 (8-unit Area Coach Pizza Hut)",
+        "matched_score": 0.85
+      },
+      {
+        "dimension": "D3 Transferable Experience",
+        "citation": "resume.dw.txt:L26 (Build-to-Inventory Model), principles.json:Operational Usability Principle",
+        "matched_score": 0.85
+      },
+      {
+        "dimension": "D4 Recent Project Relevance",
+        "citation": "woods_gatekeeper.py (Automated Governance Engine), SOUL.md (Antigravity Stage 1 Truth Engine)",
+        "matched_score": 0.9
+      }
+    ],
+    "top_strengths": [
+      "Extensive 25+ year multi-unit leadership and P&L accountability",
+      "Proven process improvement, scheduling, and Build-to-Inventory cost reduction",
+      "High title and operational responsibility alignment"
+    ],
+    "top_gaps": [
+      "No major hard requirement gaps identified"
+    ]
+  },
+  {
+    "job_id": "in-baeb65f7f0985bf4",
+    "title": "General Manager ( 02818)- 1620 Shackelford Road",
+    "company": "Domino's",
+    "location": "Florissant, MO, US",
+    "site": "indeed",
+    "job_url": "https://www.indeed.com/viewjob?jk=baeb65f7f0985bf4",
+    "lane": "Direct-Match Lane",
+    "lane_reason": "Direct alignment with 25+ years of multi-unit food service & retail operations leadership.",
+    "hard_eligibility": true,
+    "hard_eligibility_reasons": [],
+    "pbs_job_fit_score": 81.3,
+    "evidence_confidence": "High",
+    "dimension_scores": {
+      "D2_direct_resume": 0.85,
+      "D3_transferable_exp": 0.95,
+      "D4_project_relevance": 0.9,
+      "D5_ats_alignment": 0.51,
+      "D6_title_closeness": 0.64,
+      "D7_industry_closeness": 1.0
+    },
+    "dimension_details": {
+      "D6_title_details": {
+        "title_family": 1.0,
+        "responsibility": 0.2,
+        "scope_seniority": 0.8
+      },
+      "D7_industry_details": {
+        "base_prior": 1.0,
+        "adjustments": 0.0,
+        "notes": []
+      }
+    },
+    "penalties": {
+      "P_evidence_gap": 0.0,
+      "P_evidence_gap_reasons": [],
+      "P_uncertainty": 0.0,
+      "P_uncertainty_reasons": []
+    },
+    "evidence_citations": [
+      {
+        "dimension": "D2 Direct Resume Evidence",
+        "citation": "resume.dw.txt:L23-L30 (5-unit DM Wingstop), resume.dw.txt:L38-L45 (8-unit Area Coach Pizza Hut)",
+        "matched_score": 0.85
+      },
+      {
+        "dimension": "D3 Transferable Experience",
+        "citation": "resume.dw.txt:L26 (Build-to-Inventory Model), principles.json:Operational Usability Principle",
+        "matched_score": 0.95
+      },
+      {
+        "dimension": "D4 Recent Project Relevance",
+        "citation": "woods_gatekeeper.py (Automated Governance Engine), SOUL.md (Antigravity Stage 1 Truth Engine)",
+        "matched_score": 0.9
+      }
+    ],
+    "top_strengths": [
+      "Extensive 25+ year multi-unit leadership and P&L accountability",
+      "Proven process improvement, scheduling, and Build-to-Inventory cost reduction"
+    ],
+    "top_gaps": [
+      "No major hard requirement gaps identified"
+    ]
+  },
+  {
+    "job_id": "in-b6d0dd1a51eadb9e",
+    "title": "Restaurant Manager",
+    "company": "Joe\u2019s Pizza and Pasta",
+    "location": "Godfrey, IL, US",
+    "site": "indeed",
+    "job_url": "https://www.indeed.com/viewjob?jk=b6d0dd1a51eadb9e",
+    "lane": "Direct-Match Lane",
+    "lane_reason": "Direct alignment with 25+ years of multi-unit food service & retail operations leadership.",
+    "hard_eligibility": true,
+    "hard_eligibility_reasons": [],
+    "pbs_job_fit_score": 80.2,
+    "evidence_confidence": "High",
+    "dimension_scores": {
+      "D2_direct_resume": 0.95,
+      "D3_transferable_exp": 0.95,
+      "D4_project_relevance": 0.9,
+      "D5_ats_alignment": 0.45,
+      "D6_title_closeness": 0.8,
+      "D7_industry_closeness": 1.0
+    },
+    "dimension_details": {
+      "D6_title_details": {
+        "title_family": 1.0,
+        "responsibility": 0.6,
+        "scope_seniority": 0.8
+      },
+      "D7_industry_details": {
+        "base_prior": 1.0,
+        "adjustments": 0.0,
+        "notes": []
+      }
+    },
+    "penalties": {
+      "P_evidence_gap": 0.0,
+      "P_evidence_gap_reasons": [],
+      "P_uncertainty": 5.0,
+      "P_uncertainty_reasons": [
+        "Location municipality requires review (-5.0)"
+      ]
+    },
+    "evidence_citations": [
+      {
+        "dimension": "D2 Direct Resume Evidence",
+        "citation": "resume.dw.txt:L23-L30 (5-unit DM Wingstop), resume.dw.txt:L38-L45 (8-unit Area Coach Pizza Hut)",
+        "matched_score": 0.95
+      },
+      {
+        "dimension": "D3 Transferable Experience",
+        "citation": "resume.dw.txt:L26 (Build-to-Inventory Model), principles.json:Operational Usability Principle",
+        "matched_score": 0.95
+      },
+      {
+        "dimension": "D4 Recent Project Relevance",
+        "citation": "woods_gatekeeper.py (Automated Governance Engine), SOUL.md (Antigravity Stage 1 Truth Engine)",
+        "matched_score": 0.9
+      }
+    ],
+    "top_strengths": [
+      "Extensive 25+ year multi-unit leadership and P&L accountability",
+      "Proven process improvement, scheduling, and Build-to-Inventory cost reduction",
+      "High title and operational responsibility alignment"
+    ],
+    "top_gaps": [
+      "No major hard requirement gaps identified"
+    ]
+  },
+  {
+    "job_id": "li-4441646330",
+    "title": "General Manager",
+    "company": "The Container Store",
+    "location": "St Louis, MO",
+    "site": "linkedin",
+    "job_url": "https://www.linkedin.com/jobs/view/4441646330",
+    "lane": "Direct-Match Lane",
+    "lane_reason": "Direct alignment with 25+ years of multi-unit food service & retail operations leadership.",
+    "hard_eligibility": true,
+    "hard_eligibility_reasons": [],
+    "pbs_job_fit_score": 79.0,
+    "evidence_confidence": "Moderate",
+    "dimension_scores": {
+      "D2_direct_resume": 0.95,
+      "D3_transferable_exp": 0.85,
+      "D4_project_relevance": 0.9,
+      "D5_ats_alignment": 0.32,
+      "D6_title_closeness": 0.76,
+      "D7_industry_closeness": 0.85
+    },
+    "dimension_details": {
+      "D6_title_details": {
+        "title_family": 1.0,
+        "responsibility": 0.4,
+        "scope_seniority": 1.0
+      },
+      "D7_industry_details": {
+        "base_prior": 0.85,
+        "adjustments": 0.0,
+        "notes": []
+      }
+    },
+    "penalties": {
+      "P_evidence_gap": 0.0,
+      "P_evidence_gap_reasons": [],
+      "P_uncertainty": 0.0,
+      "P_uncertainty_reasons": []
+    },
+    "evidence_citations": [
+      {
+        "dimension": "D2 Direct Resume Evidence",
+        "citation": "resume.dw.txt:L23-L30 (5-unit DM Wingstop), resume.dw.txt:L38-L45 (8-unit Area Coach Pizza Hut)",
+        "matched_score": 0.95
+      },
+      {
+        "dimension": "D3 Transferable Experience",
+        "citation": "resume.dw.txt:L26 (Build-to-Inventory Model), principles.json:Operational Usability Principle",
+        "matched_score": 0.85
+      },
+      {
+        "dimension": "D4 Recent Project Relevance",
+        "citation": "woods_gatekeeper.py (Automated Governance Engine), SOUL.md (Antigravity Stage 1 Truth Engine)",
+        "matched_score": 0.9
+      }
+    ],
+    "top_strengths": [
+      "Extensive 25+ year multi-unit leadership and P&L accountability",
+      "Proven process improvement, scheduling, and Build-to-Inventory cost reduction"
+    ],
+    "top_gaps": [
+      "No major hard requirement gaps identified"
+    ]
+  },
+  {
+    "job_id": "li-4443342956",
+    "title": "Senior Project Manager",
+    "company": "GH Engage",
+    "location": "St Louis, MO",
+    "site": "linkedin",
+    "job_url": "https://www.linkedin.com/jobs/view/4443342956",
+    "lane": "Career-Bridge Lane",
+    "lane_reason": "Cross-domain operational leadership role leveraging transferable systems, process improvement, and AI/governance capabilities.",
+    "hard_eligibility": true,
+    "hard_eligibility_reasons": [],
+    "pbs_job_fit_score": 85.0,
+    "evidence_confidence": "High",
+    "dimension_scores": {
+      "D2_direct_resume": 0.95,
+      "D3_transferable_exp": 0.95,
+      "D4_project_relevance": 0.9,
+      "D5_ats_alignment": 0.51,
+      "D6_title_closeness": 0.72,
+      "D7_industry_closeness": 1.0
+    },
+    "dimension_details": {
+      "D6_title_details": {
+        "title_family": 0.6,
+        "responsibility": 0.8,
+        "scope_seniority": 0.8
+      },
+      "D7_industry_details": {
+        "base_prior": 1.0,
+        "adjustments": 0.0,
+        "notes": []
+      }
+    },
+    "penalties": {
+      "P_evidence_gap": 0.0,
+      "P_evidence_gap_reasons": [],
+      "P_uncertainty": 0.0,
+      "P_uncertainty_reasons": []
+    },
+    "evidence_citations": [
+      {
+        "dimension": "D2 Direct Resume Evidence",
+        "citation": "resume.dw.txt:L23-L30 (5-unit DM Wingstop), resume.dw.txt:L38-L45 (8-unit Area Coach Pizza Hut)",
+        "matched_score": 0.95
+      },
+      {
+        "dimension": "D3 Transferable Experience",
+        "citation": "resume.dw.txt:L26 (Build-to-Inventory Model), principles.json:Operational Usability Principle",
+        "matched_score": 0.95
+      },
+      {
+        "dimension": "D4 Recent Project Relevance",
+        "citation": "woods_gatekeeper.py (Automated Governance Engine), SOUL.md (Antigravity Stage 1 Truth Engine)",
+        "matched_score": 0.9
+      }
+    ],
+    "top_strengths": [
+      "Extensive 25+ year multi-unit leadership and P&L accountability",
+      "Proven process improvement, scheduling, and Build-to-Inventory cost reduction"
+    ],
+    "top_gaps": [
+      "No major hard requirement gaps identified"
+    ]
+  },
+  {
+    "job_id": "in-3be57fb33143aefe",
+    "title": "Pharmacy Operations Manager",
+    "company": "Walgreens",
+    "location": "St. Louis, MO, US",
+    "site": "indeed",
+    "job_url": "https://www.indeed.com/viewjob?jk=3be57fb33143aefe",
+    "lane": "Career-Bridge Lane",
+    "lane_reason": "Cross-domain operational leadership role leveraging transferable systems, process improvement, and AI/governance capabilities.",
+    "hard_eligibility": true,
+    "hard_eligibility_reasons": [],
+    "pbs_job_fit_score": 84.8,
+    "evidence_confidence": "High",
+    "dimension_scores": {
+      "D2_direct_resume": 0.95,
+      "D3_transferable_exp": 0.95,
+      "D4_project_relevance": 0.9,
+      "D5_ats_alignment": 0.64,
+      "D6_title_closeness": 0.88,
+      "D7_industry_closeness": 0.7
+    },
+    "dimension_details": {
+      "D6_title_details": {
+        "title_family": 1.0,
+        "responsibility": 0.8,
+        "scope_seniority": 0.8
+      },
+      "D7_industry_details": {
+        "base_prior": 0.85,
+        "adjustments": -0.15,
+        "notes": [
+          "Regulated/specialized domain penalty (-0.15)"
+        ]
+      }
+    },
+    "penalties": {
+      "P_evidence_gap": 0.0,
+      "P_evidence_gap_reasons": [],
+      "P_uncertainty": 0.0,
+      "P_uncertainty_reasons": []
+    },
+    "evidence_citations": [
+      {
+        "dimension": "D2 Direct Resume Evidence",
+        "citation": "resume.dw.txt:L23-L30 (5-unit DM Wingstop), resume.dw.txt:L38-L45 (8-unit Area Coach Pizza Hut)",
+        "matched_score": 0.95
+      },
+      {
+        "dimension": "D3 Transferable Experience",
+        "citation": "resume.dw.txt:L26 (Build-to-Inventory Model), principles.json:Operational Usability Principle",
+        "matched_score": 0.95
+      },
+      {
+        "dimension": "D4 Recent Project Relevance",
+        "citation": "woods_gatekeeper.py (Automated Governance Engine), SOUL.md (Antigravity Stage 1 Truth Engine)",
+        "matched_score": 0.9
+      }
+    ],
+    "top_strengths": [
+      "Extensive 25+ year multi-unit leadership and P&L accountability",
+      "Proven process improvement, scheduling, and Build-to-Inventory cost reduction",
+      "High title and operational responsibility alignment"
+    ],
+    "top_gaps": [
+      "No major hard requirement gaps identified"
+    ]
+  },
+  {
+    "job_id": "in-d15dc1a40d38d036",
+    "title": "Senior Director, Global Logistics",
+    "company": "World Wide Technology",
+    "location": "Edwardsville, IL, US",
+    "site": "indeed",
+    "job_url": "https://www.indeed.com/viewjob?jk=d15dc1a40d38d036",
+    "lane": "Career-Bridge Lane",
+    "lane_reason": "Cross-domain operational leadership role leveraging transferable systems, process improvement, and AI/governance capabilities.",
+    "hard_eligibility": true,
+    "hard_eligibility_reasons": [],
+    "pbs_job_fit_score": 84.3,
+    "evidence_confidence": "High",
+    "dimension_scores": {
+      "D2_direct_resume": 0.95,
+      "D3_transferable_exp": 0.95,
+      "D4_project_relevance": 0.9,
+      "D5_ats_alignment": 0.58,
+      "D6_title_closeness": 0.76,
+      "D7_industry_closeness": 0.85
+    },
+    "dimension_details": {
+      "D6_title_details": {
+        "title_family": 0.4,
+        "responsibility": 1.0,
+        "scope_seniority": 1.0
+      },
+      "D7_industry_details": {
+        "base_prior": 0.85,
+        "adjustments": 0.0,
+        "notes": []
+      }
+    },
+    "penalties": {
+      "P_evidence_gap": 0.0,
+      "P_evidence_gap_reasons": [],
+      "P_uncertainty": 0.0,
+      "P_uncertainty_reasons": []
+    },
+    "evidence_citations": [
+      {
+        "dimension": "D2 Direct Resume Evidence",
+        "citation": "resume.dw.txt:L23-L30 (5-unit DM Wingstop), resume.dw.txt:L38-L45 (8-unit Area Coach Pizza Hut)",
+        "matched_score": 0.95
+      },
+      {
+        "dimension": "D3 Transferable Experience",
+        "citation": "resume.dw.txt:L26 (Build-to-Inventory Model), principles.json:Operational Usability Principle",
+        "matched_score": 0.95
+      },
+      {
+        "dimension": "D4 Recent Project Relevance",
+        "citation": "woods_gatekeeper.py (Automated Governance Engine), SOUL.md (Antigravity Stage 1 Truth Engine)",
+        "matched_score": 0.9
+      }
+    ],
+    "top_strengths": [
+      "Extensive 25+ year multi-unit leadership and P&L accountability",
+      "Proven process improvement, scheduling, and Build-to-Inventory cost reduction"
+    ],
+    "top_gaps": [
+      "No major hard requirement gaps identified"
+    ]
+  },
+  {
+    "job_id": "in-b0da09dc6ed14fe8",
+    "title": "Barista Shift Leader Manager",
+    "company": null,
+    "location": "Saint Charles, MO, US",
+    "site": "indeed",
+    "job_url": "https://www.indeed.com/viewjob?jk=b0da09dc6ed14fe8",
+    "lane": "Career-Bridge Lane",
+    "lane_reason": "Cross-domain operational leadership role leveraging transferable systems, process improvement, and AI/governance capabilities.",
+    "hard_eligibility": true,
+    "hard_eligibility_reasons": [],
+    "pbs_job_fit_score": 82.6,
+    "evidence_confidence": "High",
+    "dimension_scores": {
+      "D2_direct_resume": 0.95,
+      "D3_transferable_exp": 0.95,
+      "D4_project_relevance": 0.9,
+      "D5_ats_alignment": 0.51,
+      "D6_title_closeness": 0.56,
+      "D7_industry_closeness": 1.0
+    },
+    "dimension_details": {
+      "D6_title_details": {
+        "title_family": 0.6,
+        "responsibility": 0.4,
+        "scope_seniority": 0.8
+      },
+      "D7_industry_details": {
+        "base_prior": 1.0,
+        "adjustments": 0.1,
+        "notes": [
+          "High operational similarity (+0.10)"
+        ]
+      }
+    },
+    "penalties": {
+      "P_evidence_gap": 0.0,
+      "P_evidence_gap_reasons": [],
+      "P_uncertainty": 0.0,
+      "P_uncertainty_reasons": []
+    },
+    "evidence_citations": [
+      {
+        "dimension": "D2 Direct Resume Evidence",
+        "citation": "resume.dw.txt:L23-L30 (5-unit DM Wingstop), resume.dw.txt:L38-L45 (8-unit Area Coach Pizza Hut)",
+        "matched_score": 0.95
+      },
+      {
+        "dimension": "D3 Transferable Experience",
+        "citation": "resume.dw.txt:L26 (Build-to-Inventory Model), principles.json:Operational Usability Principle",
+        "matched_score": 0.95
+      },
+      {
+        "dimension": "D4 Recent Project Relevance",
+        "citation": "woods_gatekeeper.py (Automated Governance Engine), SOUL.md (Antigravity Stage 1 Truth Engine)",
+        "matched_score": 0.9
+      }
+    ],
+    "top_strengths": [
+      "Extensive 25+ year multi-unit leadership and P&L accountability",
+      "Proven process improvement, scheduling, and Build-to-Inventory cost reduction"
+    ],
+    "top_gaps": [
+      "No major hard requirement gaps identified"
+    ]
+  },
+  {
+    "job_id": "in-3760a56a238da55e",
+    "title": "Store Manager",
+    "company": "SealMaster",
+    "location": "Bridgeton, MO, US",
+    "site": "indeed",
+    "job_url": "https://www.indeed.com/viewjob?jk=3760a56a238da55e",
+    "lane": "Career-Bridge Lane",
+    "lane_reason": "Cross-domain operational leadership role leveraging transferable systems, process improvement, and AI/governance capabilities.",
+    "hard_eligibility": true,
+    "hard_eligibility_reasons": [],
+    "pbs_job_fit_score": 81.3,
+    "evidence_confidence": "High",
+    "dimension_scores": {
+      "D2_direct_resume": 0.95,
+      "D3_transferable_exp": 0.95,
+      "D4_project_relevance": 0.9,
+      "D5_ats_alignment": 0.51,
+      "D6_title_closeness": 0.52,
+      "D7_industry_closeness": 0.95
+    },
+    "dimension_details": {
+      "D6_title_details": {
+        "title_family": 0.6,
+        "responsibility": 0.2,
+        "scope_seniority": 1.0
+      },
+      "D7_industry_details": {
+        "base_prior": 0.85,
+        "adjustments": 0.1,
+        "notes": [
+          "High operational similarity (+0.10)"
+        ]
+      }
+    },
+    "penalties": {
+      "P_evidence_gap": 0.0,
+      "P_evidence_gap_reasons": [],
+      "P_uncertainty": 0.0,
+      "P_uncertainty_reasons": []
+    },
+    "evidence_citations": [
+      {
+        "dimension": "D2 Direct Resume Evidence",
+        "citation": "resume.dw.txt:L23-L30 (5-unit DM Wingstop), resume.dw.txt:L38-L45 (8-unit Area Coach Pizza Hut)",
+        "matched_score": 0.95
+      },
+      {
+        "dimension": "D3 Transferable Experience",
+        "citation": "resume.dw.txt:L26 (Build-to-Inventory Model), principles.json:Operational Usability Principle",
+        "matched_score": 0.95
+      },
+      {
+        "dimension": "D4 Recent Project Relevance",
+        "citation": "woods_gatekeeper.py (Automated Governance Engine), SOUL.md (Antigravity Stage 1 Truth Engine)",
+        "matched_score": 0.9
+      }
+    ],
+    "top_strengths": [
+      "Extensive 25+ year multi-unit leadership and P&L accountability",
+      "Proven process improvement, scheduling, and Build-to-Inventory cost reduction"
+    ],
+    "top_gaps": [
+      "No major hard requirement gaps identified"
+    ]
+  },
+  {
+    "job_id": "in-4e1ca8f320d5b83f",
+    "title": "Operations Manager, Rx",
+    "company": "CVS Health",
+    "location": "Florissant, MO, US",
+    "site": "indeed",
+    "job_url": "https://www.indeed.com/viewjob?jk=4e1ca8f320d5b83f",
+    "lane": "Career-Bridge Lane",
+    "lane_reason": "Cross-domain operational leadership role leveraging transferable systems, process improvement, and AI/governance capabilities.",
+    "hard_eligibility": true,
+    "hard_eligibility_reasons": [],
+    "pbs_job_fit_score": 80.8,
+    "evidence_confidence": "High",
+    "dimension_scores": {
+      "D2_direct_resume": 0.95,
+      "D3_transferable_exp": 0.95,
+      "D4_project_relevance": 0.9,
+      "D5_ats_alignment": 0.45,
+      "D6_title_closeness": 0.8,
+      "D7_industry_closeness": 0.7
+    },
+    "dimension_details": {
+      "D6_title_details": {
+        "title_family": 1.0,
+        "responsibility": 0.6,
+        "scope_seniority": 0.8
+      },
+      "D7_industry_details": {
+        "base_prior": 0.85,
+        "adjustments": -0.15,
+        "notes": [
+          "Regulated/specialized domain penalty (-0.15)"
+        ]
+      }
+    },
+    "penalties": {
+      "P_evidence_gap": 0.0,
+      "P_evidence_gap_reasons": [],
+      "P_uncertainty": 0.0,
+      "P_uncertainty_reasons": []
+    },
+    "evidence_citations": [
+      {
+        "dimension": "D2 Direct Resume Evidence",
+        "citation": "resume.dw.txt:L23-L30 (5-unit DM Wingstop), resume.dw.txt:L38-L45 (8-unit Area Coach Pizza Hut)",
+        "matched_score": 0.95
+      },
+      {
+        "dimension": "D3 Transferable Experience",
+        "citation": "resume.dw.txt:L26 (Build-to-Inventory Model), principles.json:Operational Usability Principle",
+        "matched_score": 0.95
+      },
+      {
+        "dimension": "D4 Recent Project Relevance",
+        "citation": "woods_gatekeeper.py (Automated Governance Engine), SOUL.md (Antigravity Stage 1 Truth Engine)",
+        "matched_score": 0.9
+      }
+    ],
+    "top_strengths": [
+      "Extensive 25+ year multi-unit leadership and P&L accountability",
+      "Proven process improvement, scheduling, and Build-to-Inventory cost reduction",
+      "High title and operational responsibility alignment"
+    ],
+    "top_gaps": [
+      "No major hard requirement gaps identified"
+    ]
+  },
+  {
+    "job_id": "in-680abc78a4f8857d",
+    "title": "Part Sales Manager \u2013 Full Time",
+    "company": "AutoZone",
+    "location": "Granite City, IL, US",
+    "site": "indeed",
+    "job_url": "https://www.indeed.com/viewjob?jk=680abc78a4f8857d",
+    "lane": "Career-Bridge Lane",
+    "lane_reason": "Cross-domain operational leadership role leveraging transferable systems, process improvement, and AI/governance capabilities.",
+    "hard_eligibility": true,
+    "hard_eligibility_reasons": [],
+    "pbs_job_fit_score": 80.6,
+    "evidence_confidence": "High",
+    "dimension_scores": {
+      "D2_direct_resume": 0.95,
+      "D3_transferable_exp": 0.85,
+      "D4_project_relevance": 0.9,
+      "D5_ats_alignment": 0.45,
+      "D6_title_closeness": 0.64,
+      "D7_industry_closeness": 0.95
+    },
+    "dimension_details": {
+      "D6_title_details": {
+        "title_family": 0.6,
+        "responsibility": 0.6,
+        "scope_seniority": 0.8
+      },
+      "D7_industry_details": {
+        "base_prior": 0.85,
+        "adjustments": 0.1,
+        "notes": [
+          "High operational similarity (+0.10)"
+        ]
+      }
+    },
+    "penalties": {
+      "P_evidence_gap": 0.0,
+      "P_evidence_gap_reasons": [],
+      "P_uncertainty": 0.0,
+      "P_uncertainty_reasons": []
+    },
+    "evidence_citations": [
+      {
+        "dimension": "D2 Direct Resume Evidence",
+        "citation": "resume.dw.txt:L23-L30 (5-unit DM Wingstop), resume.dw.txt:L38-L45 (8-unit Area Coach Pizza Hut)",
+        "matched_score": 0.95
+      },
+      {
+        "dimension": "D3 Transferable Experience",
+        "citation": "resume.dw.txt:L26 (Build-to-Inventory Model), principles.json:Operational Usability Principle",
+        "matched_score": 0.85
+      },
+      {
+        "dimension": "D4 Recent Project Relevance",
+        "citation": "woods_gatekeeper.py (Automated Governance Engine), SOUL.md (Antigravity Stage 1 Truth Engine)",
+        "matched_score": 0.9
+      }
+    ],
+    "top_strengths": [
+      "Extensive 25+ year multi-unit leadership and P&L accountability",
+      "Proven process improvement, scheduling, and Build-to-Inventory cost reduction"
+    ],
+    "top_gaps": [
+      "No major hard requirement gaps identified"
+    ]
+  },
+  {
+    "job_id": "li-4440193265",
+    "title": "Lead Technical Program Manager",
+    "company": "Mastercard",
+    "location": "O'Fallon, MO",
+    "site": "linkedin",
+    "job_url": "https://www.linkedin.com/jobs/view/4440193265",
+    "lane": "Career-Bridge Lane",
+    "lane_reason": "Cross-domain operational leadership role leveraging transferable systems, process improvement, and AI/governance capabilities.",
+    "hard_eligibility": true,
+    "hard_eligibility_reasons": [],
+    "pbs_job_fit_score": 80.3,
+    "evidence_confidence": "High",
+    "dimension_scores": {
+      "D2_direct_resume": 0.95,
+      "D3_transferable_exp": 0.95,
+      "D4_project_relevance": 0.9,
+      "D5_ats_alignment": 0.58,
+      "D6_title_closeness": 0.64,
+      "D7_industry_closeness": 0.7
+    },
+    "dimension_details": {
+      "D6_title_details": {
+        "title_family": 0.6,
+        "responsibility": 0.6,
+        "scope_seniority": 0.8
+      },
+      "D7_industry_details": {
+        "base_prior": 0.7,
+        "adjustments": 0.0,
+        "notes": []
+      }
+    },
+    "penalties": {
+      "P_evidence_gap": 0.0,
+      "P_evidence_gap_reasons": [],
+      "P_uncertainty": 0.0,
+      "P_uncertainty_reasons": []
+    },
+    "evidence_citations": [
+      {
+        "dimension": "D2 Direct Resume Evidence",
+        "citation": "resume.dw.txt:L23-L30 (5-unit DM Wingstop), resume.dw.txt:L38-L45 (8-unit Area Coach Pizza Hut)",
+        "matched_score": 0.95
+      },
+      {
+        "dimension": "D3 Transferable Experience",
+        "citation": "resume.dw.txt:L26 (Build-to-Inventory Model), principles.json:Operational Usability Principle",
+        "matched_score": 0.95
+      },
+      {
+        "dimension": "D4 Recent Project Relevance",
+        "citation": "woods_gatekeeper.py (Automated Governance Engine), SOUL.md (Antigravity Stage 1 Truth Engine)",
+        "matched_score": 0.9
+      }
+    ],
+    "top_strengths": [
+      "Extensive 25+ year multi-unit leadership and P&L accountability",
+      "Proven process improvement, scheduling, and Build-to-Inventory cost reduction"
+    ],
+    "top_gaps": [
+      "No major hard requirement gaps identified"
+    ]
+  },
+  {
+    "job_id": "in-74ebd510c4fdc71c",
+    "title": "Training & Clinical Operations Manager \u2013 Just GLO Institute",
+    "company": "Medical Spa Management",
+    "location": "Cottleville, MO, US",
+    "site": "indeed",
+    "job_url": "https://www.indeed.com/viewjob?jk=74ebd510c4fdc71c",
+    "lane": "Career-Bridge Lane",
+    "lane_reason": "Cross-domain operational leadership role leveraging transferable systems, process improvement, and AI/governance capabilities.",
+    "hard_eligibility": true,
+    "hard_eligibility_reasons": [],
+    "pbs_job_fit_score": 80.2,
+    "evidence_confidence": "High",
+    "dimension_scores": {
+      "D2_direct_resume": 0.85,
+      "D3_transferable_exp": 0.95,
+      "D4_project_relevance": 0.9,
+      "D5_ats_alignment": 0.58,
+      "D6_title_closeness": 0.8,
+      "D7_industry_closeness": 0.7
+    },
+    "dimension_details": {
+      "D6_title_details": {
+        "title_family": 1.0,
+        "responsibility": 0.6,
+        "scope_seniority": 0.8
+      },
+      "D7_industry_details": {
+        "base_prior": 0.85,
+        "adjustments": -0.15,
+        "notes": [
+          "Regulated/specialized domain penalty (-0.15)"
+        ]
+      }
+    },
+    "penalties": {
+      "P_evidence_gap": 0.0,
+      "P_evidence_gap_reasons": [],
+      "P_uncertainty": 0.0,
+      "P_uncertainty_reasons": []
+    },
+    "evidence_citations": [
+      {
+        "dimension": "D2 Direct Resume Evidence",
+        "citation": "resume.dw.txt:L23-L30 (5-unit DM Wingstop), resume.dw.txt:L38-L45 (8-unit Area Coach Pizza Hut)",
+        "matched_score": 0.85
+      },
+      {
+        "dimension": "D3 Transferable Experience",
+        "citation": "resume.dw.txt:L26 (Build-to-Inventory Model), principles.json:Operational Usability Principle",
+        "matched_score": 0.95
+      },
+      {
+        "dimension": "D4 Recent Project Relevance",
+        "citation": "woods_gatekeeper.py (Automated Governance Engine), SOUL.md (Antigravity Stage 1 Truth Engine)",
+        "matched_score": 0.9
+      }
+    ],
+    "top_strengths": [
+      "Extensive 25+ year multi-unit leadership and P&L accountability",
+      "Proven process improvement, scheduling, and Build-to-Inventory cost reduction",
+      "High title and operational responsibility alignment"
+    ],
+    "top_gaps": [
+      "No major hard requirement gaps identified"
+    ]
+  },
+  {
+    "job_id": "in-4558883c62305884",
+    "title": "Retail Merchandising and Planning \u2013 Strategy Senior Manager",
+    "company": "Accenture",
+    "location": "St. Louis, MO, US",
+    "site": "indeed",
+    "job_url": "https://www.indeed.com/viewjob?jk=4558883c62305884",
+    "lane": "Career-Bridge Lane",
+    "lane_reason": "Cross-domain operational leadership role leveraging transferable systems, process improvement, and AI/governance capabilities.",
+    "hard_eligibility": true,
+    "hard_eligibility_reasons": [],
+    "pbs_job_fit_score": 79.4,
+    "evidence_confidence": "Moderate",
+    "dimension_scores": {
+      "D2_direct_resume": 0.85,
+      "D3_transferable_exp": 0.95,
+      "D4_project_relevance": 0.9,
+      "D5_ats_alignment": 0.58,
+      "D6_title_closeness": 0.6,
+      "D7_industry_closeness": 0.85
+    },
+    "dimension_details": {
+      "D6_title_details": {
+        "title_family": 0.6,
+        "responsibility": 0.4,
+        "scope_seniority": 1.0
+      },
+      "D7_industry_details": {
+        "base_prior": 0.85,
+        "adjustments": 0.0,
+        "notes": []
+      }
+    },
+    "penalties": {
+      "P_evidence_gap": 0.0,
+      "P_evidence_gap_reasons": [],
+      "P_uncertainty": 0.0,
+      "P_uncertainty_reasons": []
+    },
+    "evidence_citations": [
+      {
+        "dimension": "D2 Direct Resume Evidence",
+        "citation": "resume.dw.txt:L23-L30 (5-unit DM Wingstop), resume.dw.txt:L38-L45 (8-unit Area Coach Pizza Hut)",
+        "matched_score": 0.85
+      },
+      {
+        "dimension": "D3 Transferable Experience",
+        "citation": "resume.dw.txt:L26 (Build-to-Inventory Model), principles.json:Operational Usability Principle",
+        "matched_score": 0.95
+      },
+      {
+        "dimension": "D4 Recent Project Relevance",
+        "citation": "woods_gatekeeper.py (Automated Governance Engine), SOUL.md (Antigravity Stage 1 Truth Engine)",
+        "matched_score": 0.9
+      }
+    ],
+    "top_strengths": [
+      "Extensive 25+ year multi-unit leadership and P&L accountability",
+      "Proven process improvement, scheduling, and Build-to-Inventory cost reduction"
+    ],
+    "top_gaps": [
+      "No major hard requirement gaps identified"
+    ]
+  },
+  {
+    "job_id": "in-529e228b9bdaf7cc",
+    "title": "Assistant Manager(02930) - 4000 West Main St",
+    "company": "Domino's",
+    "location": "Belleville, IL, US",
+    "site": "indeed",
+    "job_url": "https://www.indeed.com/viewjob?jk=529e228b9bdaf7cc",
+    "lane": "Career-Bridge Lane",
+    "lane_reason": "Cross-domain operational leadership role leveraging transferable systems, process improvement, and AI/governance capabilities.",
+    "hard_eligibility": true,
+    "hard_eligibility_reasons": [],
+    "pbs_job_fit_score": 79.0,
+    "evidence_confidence": "Moderate",
+    "dimension_scores": {
+      "D2_direct_resume": 0.95,
+      "D3_transferable_exp": 0.85,
+      "D4_project_relevance": 0.9,
+      "D5_ats_alignment": 0.45,
+      "D6_title_closeness": 0.48,
+      "D7_industry_closeness": 1.0
+    },
+    "dimension_details": {
+      "D6_title_details": {
+        "title_family": 0.6,
+        "responsibility": 0.2,
+        "scope_seniority": 0.8
+      },
+      "D7_industry_details": {
+        "base_prior": 1.0,
+        "adjustments": 0.1,
+        "notes": [
+          "High operational similarity (+0.10)"
+        ]
+      }
+    },
+    "penalties": {
+      "P_evidence_gap": 0.0,
+      "P_evidence_gap_reasons": [],
+      "P_uncertainty": 0.0,
+      "P_uncertainty_reasons": []
+    },
+    "evidence_citations": [
+      {
+        "dimension": "D2 Direct Resume Evidence",
+        "citation": "resume.dw.txt:L23-L30 (5-unit DM Wingstop), resume.dw.txt:L38-L45 (8-unit Area Coach Pizza Hut)",
+        "matched_score": 0.95
+      },
+      {
+        "dimension": "D3 Transferable Experience",
+        "citation": "resume.dw.txt:L26 (Build-to-Inventory Model), principles.json:Operational Usability Principle",
+        "matched_score": 0.85
+      },
+      {
+        "dimension": "D4 Recent Project Relevance",
+        "citation": "woods_gatekeeper.py (Automated Governance Engine), SOUL.md (Antigravity Stage 1 Truth Engine)",
+        "matched_score": 0.9
+      }
+    ],
+    "top_strengths": [
+      "Extensive 25+ year multi-unit leadership and P&L accountability",
+      "Proven process improvement, scheduling, and Build-to-Inventory cost reduction"
+    ],
+    "top_gaps": [
+      "No major hard requirement gaps identified"
+    ]
+  },
+  {
+    "job_id": "li-4424243407",
+    "title": "Service Operations Manager",
+    "company": "icon Mechanical",
+    "location": "Granite City, IL",
+    "site": "linkedin",
+    "job_url": "https://www.linkedin.com/jobs/view/4424243407",
+    "lane": "Career-Bridge Lane",
+    "lane_reason": "Cross-domain operational leadership role leveraging transferable systems, process improvement, and AI/governance capabilities.",
+    "hard_eligibility": true,
+    "hard_eligibility_reasons": [],
+    "pbs_job_fit_score": 78.2,
+    "evidence_confidence": "Moderate",
+    "dimension_scores": {
+      "D2_direct_resume": 0.85,
+      "D3_transferable_exp": 0.95,
+      "D4_project_relevance": 0.9,
+      "D5_ats_alignment": 0.45,
+      "D6_title_closeness": 0.8,
+      "D7_industry_closeness": 0.7
+    },
+    "dimension_details": {
+      "D6_title_details": {
+        "title_family": 1.0,
+        "responsibility": 0.6,
+        "scope_seniority": 0.8
+      },
+      "D7_industry_details": {
+        "base_prior": 0.7,
+        "adjustments": 0.0,
+        "notes": []
+      }
+    },
+    "penalties": {
+      "P_evidence_gap": 0.0,
+      "P_evidence_gap_reasons": [],
+      "P_uncertainty": 0.0,
+      "P_uncertainty_reasons": []
+    },
+    "evidence_citations": [
+      {
+        "dimension": "D2 Direct Resume Evidence",
+        "citation": "resume.dw.txt:L23-L30 (5-unit DM Wingstop), resume.dw.txt:L38-L45 (8-unit Area Coach Pizza Hut)",
+        "matched_score": 0.85
+      },
+      {
+        "dimension": "D3 Transferable Experience",
+        "citation": "resume.dw.txt:L26 (Build-to-Inventory Model), principles.json:Operational Usability Principle",
+        "matched_score": 0.95
+      },
+      {
+        "dimension": "D4 Recent Project Relevance",
+        "citation": "woods_gatekeeper.py (Automated Governance Engine), SOUL.md (Antigravity Stage 1 Truth Engine)",
+        "matched_score": 0.9
+      }
+    ],
+    "top_strengths": [
+      "Extensive 25+ year multi-unit leadership and P&L accountability",
+      "Proven process improvement, scheduling, and Build-to-Inventory cost reduction",
+      "High title and operational responsibility alignment"
+    ],
+    "top_gaps": [
+      "No major hard requirement gaps identified"
+    ]
+  },
+  {
+    "job_id": "in-45912a648e05eb18",
+    "title": "Assistant Manager (01591) - 10109 lewis and clark",
+    "company": "Domino's",
+    "location": "St. Louis, MO, US",
+    "site": "indeed",
+    "job_url": "https://www.indeed.com/viewjob?jk=45912a648e05eb18",
+    "lane": "Career-Bridge Lane",
+    "lane_reason": "Cross-domain operational leadership role leveraging transferable systems, process improvement, and AI/governance capabilities.",
+    "hard_eligibility": true,
+    "hard_eligibility_reasons": [],
+    "pbs_job_fit_score": 78.2,
+    "evidence_confidence": "Moderate",
+    "dimension_scores": {
+      "D2_direct_resume": 0.95,
+      "D3_transferable_exp": 0.85,
+      "D4_project_relevance": 0.9,
+      "D5_ats_alignment": 0.32,
+      "D6_title_closeness": 0.56,
+      "D7_industry_closeness": 1.0
+    },
+    "dimension_details": {
+      "D6_title_details": {
+        "title_family": 0.6,
+        "responsibility": 0.4,
+        "scope_seniority": 0.8
+      },
+      "D7_industry_details": {
+        "base_prior": 1.0,
+        "adjustments": 0.1,
+        "notes": [
+          "High operational similarity (+0.10)"
+        ]
+      }
+    },
+    "penalties": {
+      "P_evidence_gap": 0.0,
+      "P_evidence_gap_reasons": [],
+      "P_uncertainty": 0.0,
+      "P_uncertainty_reasons": []
+    },
+    "evidence_citations": [
+      {
+        "dimension": "D2 Direct Resume Evidence",
+        "citation": "resume.dw.txt:L23-L30 (5-unit DM Wingstop), resume.dw.txt:L38-L45 (8-unit Area Coach Pizza Hut)",
+        "matched_score": 0.95
+      },
+      {
+        "dimension": "D3 Transferable Experience",
+        "citation": "resume.dw.txt:L26 (Build-to-Inventory Model), principles.json:Operational Usability Principle",
+        "matched_score": 0.85
+      },
+      {
+        "dimension": "D4 Recent Project Relevance",
+        "citation": "woods_gatekeeper.py (Automated Governance Engine), SOUL.md (Antigravity Stage 1 Truth Engine)",
+        "matched_score": 0.9
+      }
+    ],
+    "top_strengths": [
+      "Extensive 25+ year multi-unit leadership and P&L accountability",
+      "Proven process improvement, scheduling, and Build-to-Inventory cost reduction"
+    ],
+    "top_gaps": [
+      "No major hard requirement gaps identified"
+    ]
+  }
+]

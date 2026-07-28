@@ -1,0 +1,27 @@
+{
+  "provenance": {
+    "runner_version": "4.2.0",
+    "execution_timestamp": "2026-07-28T01:41:07.542871+00:00",
+    "python_version": "3.14.3 (tags/v3.14.3:323c59a, Feb  3 2026, 16:04:56) [MSC v.1944 64 bit (AMD64)]",
+    "scorer_sha256": "bf7d46f8bf2eec58f52b4802e20712b41eb66141cfad3566449c9472d789133d",
+    "registry_sha256": "20c18c1405708cb15eae924aa73d1d5515a55de904c1cd28454eed2265fbc488",
+    "identity_model_sha256": "3b146c72fa0609d537767cb45cbb959238989bd76e7923f03e956cc98e0edb60"
+  },
+  "metrics": {
+    "D2_direct_resume": {
+      "threshold": 0.45,
+      "accepted_count": 1,
+      "rejected_count": 5
+    },
+    "D3_transferable_exp": {
+      "threshold": 0.35,
+      "accepted_count": 2,
+      "rejected_count": 4
+    },
+    "D4_project_relevance": {
+      "threshold": 0.3,
+      "accepted_count": 2,
+      "rejected_count": 4
+    }
+  }
+}

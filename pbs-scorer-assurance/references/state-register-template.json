@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0",
+  "project": "Woods Career Intelligence PBS Scorer",
+  "revision": "4.3",
+  "current_gate": "independent_review",
+  "human_authorizations": {
+    "controlled_trial": false,
+    "production": false
+  },
+  "prohibited_actions": [
+    "live_job_search",
+    "controlled_trial",
+    "production_deployment"
+  ],
+  "protected_files": [],
+  "requirements": [],
+  "unresolved_items": [],
+  "latest_verification": {
+    "timestamp": null,
+    "unit_tests_passed": null,
+    "integration_tests_passed": null,
+    "policy_boundaries_passed": null,
+    "eligibility_none_safety_passed": null,
+    "adversarial_tests_passed": null,
+    "report_integrity_passed": null,
+    "protected_hashes_passed": null,
+    "independent_checksums_passed": null,
+    "determinism_passed": null,
+    "branch_coverage_pct": null,
+    "mutation_score_pct": null,
+    "critical_defects_open": 0
+  },
+  "independent_review": {
+    "status": "pending",
+    "reviewer": null,
+    "timestamp": null,
+    "artifact_digest": null
+  },
+  "bayesian_ledger": {
+    "prior_alpha": 1.0,
+    "prior_beta": 1.0,
+    "evidence": []
+  },
+  "baseline": {
+    "artifact_digest": null,
+    "metrics": {}
+  },
+  "next_authorized_action": "Perform read-only independent code review"
+}

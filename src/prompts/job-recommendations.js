@@ -23,7 +23,18 @@ export const jobRecommendationsSchema = z.object({
 export const jobRecommendationsPrompt = (server) => server.prompt(
   'job_recommendations',
   'Get personalized job recommendations based on skills and preferences',
-  jobRecommendationsSchema,
+  {
+    skills: z.string()
+      .describe('A list of skills the job seeker possesses'),
+    experienceLevel: z.string()
+      .describe('The experience level of the job seeker (e.g., entry-level, mid-level, senior)'),
+    preferredLocation: z.string()
+      .describe('The preferred location for jobs (can be remote, hybrid, or specific locations)'),
+    jobSeekerInterests: z.string()
+      .describe('Areas of interest for the job seeker that can help guide job recommendations'),
+    jobType: z.string()
+      .describe('The type of job the seeker is looking for (e.g., full-time, part-time, contract, internship)'),
+  },
   (inputs) => {
     return {
       messages: [

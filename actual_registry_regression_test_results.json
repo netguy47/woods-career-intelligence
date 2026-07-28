@@ -1,0 +1,9 @@
+{
+  "test_suite": "Revision 4.2 Actual Registry Regression Suite (42 Records)",
+  "was_successful": true,
+  "lane_a_district_manager_retrieval": "PASSED \u2014 Valid D2 direct resume evidence retrieved",
+  "lane_b_process_improvement_retrieval": "PASSED \u2014 Valid D3/D4 transferable evidence retrieved",
+  "lane_c_ai_enablement_retrieval": "PASSED \u2014 Valid D4 project evidence retrieved",
+  "irrelevant_physics_role_rejection": "PASSED \u2014 Zero citations retrieved (D2=0, D3=0, D4=0)",
+  "evidence_id_validity": "PASSED \u2014 All cited evidence IDs exist in career_evidence_registry.json"
+}

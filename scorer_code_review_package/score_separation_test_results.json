@@ -1,0 +1,9 @@
+{
+  "test_suite": "Revision 4.3 Score-Separation Acceptance Suite",
+  "was_successful": true,
+  "status": "Implemented, execution-tested, pending independent approval",
+  "lane_a_vs_irrelevant_physics_margin": "PASSED \u2014 Margin >= 25.0 points",
+  "lane_a_vs_misleading_sales_margin": "PASSED \u2014 Margin >= 20.0 points",
+  "lane_b_vs_holdout_software_margin": "PASSED \u2014 Margin >= 20.0 points",
+  "lane_c_vs_ai_sales_margin": "PASSED \u2014 Margin >= 20.0 points"
+}

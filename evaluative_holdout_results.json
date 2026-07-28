@@ -1,0 +1,529 @@
+{
+  "provenance": {
+    "runner_version": "4.3.0",
+    "execution_timestamp": "2026-07-28T10:32:39.589988+00:00",
+    "python_version": "3.14.3 (tags/v3.14.3:323c59a, Feb  3 2026, 16:04:56) [MSC v.1944 64 bit (AMD64)]",
+    "scorer_sha256": "03547419afddb5b0e0fb8856aafca47a13648d2ecaaba65ba333cc3dd349978a",
+    "registry_sha256": "20c18c1405708cb15eae924aa73d1d5515a55de904c1cd28454eed2265fbc488",
+    "identity_model_sha256": "3b146c72fa0609d537767cb45cbb959238989bd76e7923f03e956cc98e0edb60",
+    "thresholds_in_use": {
+      "D2_direct_resume": 0.35,
+      "D3_transferable_exp": 0.3,
+      "D4_project_relevance": 0.25
+    }
+  },
+  "results": [
+    {
+      "case_id": "holdout-01",
+      "title": "Operations Manager",
+      "status": "FAILED",
+      "assertions": [
+        {
+          "test": "lane_resolution",
+          "expected": "Lane_A",
+          "actual": "Lane_A",
+          "passed": true
+        },
+        {
+          "test": "eligibility_disposition",
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "test": "fit_recommendation",
+          "expected": "Consider Application",
+          "actual": "Do Not Prioritize",
+          "passed": false
+        },
+        {
+          "test": "strategic_value",
+          "expected": "Career Maintaining",
+          "actual": "Income Stabilizing",
+          "passed": false
+        }
+      ],
+      "execution_output": {
+        "job_id": null,
+        "title": "Operations Manager",
+        "company": null,
+        "location": "St. Louis, MO",
+        "score_status": "complete",
+        "eligibility_disposition": true,
+        "eligible": true,
+        "fit_recommendation": "Do Not Prioritize",
+        "recommendation_status": "Do Not Prioritize",
+        "recommendation_policy_trace": {
+          "pbs_threshold_pass": false,
+          "eligibility_pass": true,
+          "lane_resolution": "Lane_A",
+          "title_alignment": 0.8,
+          "career_direction": 0.85,
+          "evidence_confidence": "Moderate",
+          "supported_dimensions": [
+            "d2_active"
+          ],
+          "unresolved_requirements": [],
+          "decisive_rules": [
+            "PBS fit score below minimum 50.0 application threshold"
+          ]
+        },
+        "professional_lane": "Lane_A",
+        "professional_lane_name": "Direct Operations Leadership",
+        "target_role_horizon": "immediate_market_targets",
+        "hard_requirement_failures": [],
+        "requirement_details": [
+          {
+            "requirement_type": "Geographic / Commute",
+            "requirement_text": "35-mile Commute Radius",
+            "requirement_level": "required",
+            "state": "satisfied",
+            "candidate_evidence_ids": [
+              "EV-RES-001"
+            ],
+            "reason": "Location confirmed within 35-mile commute radius",
+            "confidence": 0.9
+          }
+        ],
+        "pbs_job_fit_score_pre_calibration": 44.3,
+        "diagnostic_fit_score": 44.3,
+        "capability_fit_score": 18.1,
+        "market_readiness_fit_score": 82.5,
+        "strategic_value": "Income Stabilizing",
+        "evidence_confidence": "Moderate",
+        "evidence_confidence_breakdown": {
+          "strength_distribution": {
+            "high_count": 1,
+            "moderate_count": 0,
+            "low_count": 0
+          },
+          "source_authority": {
+            "candidate_reported_count": 0,
+            "author_architect_count": 0,
+            "artifact_count": 0
+          },
+          "dimension_coverage": {
+            "d2_active": true,
+            "d3_active": false,
+            "d4_active": false
+          },
+          "confidence_score": 0.67,
+          "confidence_level": "Moderate"
+        },
+        "industry_match_status": "confirmed_close",
+        "dimension_scores": {
+          "D2_direct_resume": 0.36,
+          "D3_transferable_exp": 0.0,
+          "D4_project_relevance": 0.0,
+          "D5_static_career_keyword_alignment": 0.36,
+          "D6_title_closeness": 0.8,
+          "D7_industry_closeness": 0.85,
+          "D8_career_direction_alignment": 0.85
+        },
+        "evidence_citations": [
+          {
+            "evidence_id": "EV-WDS-002",
+            "dimension_supported": "D2_direct_resume",
+            "evidence_strength": "high",
+            "classification": "direct",
+            "evidence_relationship": "designed_by_candidate",
+            "routing_basis": "metadata_authoritative",
+            "routing_confidence": 1.0,
+            "matching_rationale": "Matched terms (responsibility, operational, across) in Authoring of Canonical Diagnostic Principles Matrix [Routed by direct employment/resume metadata]",
+            "limitation": "Canonical status governs framework scope; does not imply equal empirical field testing across all 17 principles.",
+            "source_path": "D:\\blogger\\.agents\\woods-framework\\principles.json",
+            "distinct_evidence_group": "EV-GTK-001",
+            "raw_match_score": 0.36,
+            "adjusted_match_score": 0.36
+          }
+        ]
+      }
+    },
+    {
+      "case_id": "holdout-02",
+      "title": "Full-Stack Software Developer",
+      "status": "PASSED",
+      "assertions": [
+        {
+          "test": "lane_resolution",
+          "expected": "Unresolved",
+          "actual": "Unresolved",
+          "passed": true
+        },
+        {
+          "test": "eligibility_disposition",
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "test": "fit_recommendation",
+          "expected": "Do Not Prioritize",
+          "actual": "Do Not Prioritize",
+          "passed": true
+        },
+        {
+          "test": "strategic_value",
+          "expected": "Insufficient Information",
+          "actual": "Insufficient Information",
+          "passed": true
+        }
+      ],
+      "execution_output": {
+        "job_id": null,
+        "title": "Full-Stack Software Developer",
+        "company": null,
+        "location": "Remote",
+        "score_status": "complete",
+        "eligibility_disposition": true,
+        "eligible": true,
+        "fit_recommendation": "Do Not Prioritize",
+        "recommendation_status": "Do Not Prioritize",
+        "recommendation_policy_trace": {
+          "pbs_threshold_pass": false,
+          "eligibility_pass": true,
+          "lane_resolution": "Unresolved",
+          "title_alignment": 0.0,
+          "career_direction": 0.0,
+          "evidence_confidence": "Moderate",
+          "supported_dimensions": [
+            "d4_active"
+          ],
+          "unresolved_requirements": [],
+          "decisive_rules": [
+            "PBS fit score below minimum 50.0 application threshold",
+            "Unresolved career identity lane alignment"
+          ]
+        },
+        "professional_lane": "Unresolved",
+        "professional_lane_name": "Unresolved",
+        "target_role_horizon": "Unresolved",
+        "hard_requirement_failures": [],
+        "requirement_details": [
+          {
+            "requirement_type": "Geographic / Commute",
+            "requirement_text": "Work Location / Remote Status",
+            "requirement_level": "required",
+            "state": "not_applicable",
+            "candidate_evidence_ids": [
+              "EV-RES-001"
+            ],
+            "reason": "Position confirmed remote; local commute radius not applicable",
+            "confidence": 1.0
+          }
+        ],
+        "pbs_job_fit_score_pre_calibration": 6.6,
+        "diagnostic_fit_score": 6.6,
+        "capability_fit_score": 11.0,
+        "market_readiness_fit_score": 0.0,
+        "strategic_value": "Insufficient Information",
+        "evidence_confidence": "Moderate",
+        "evidence_confidence_breakdown": {
+          "strength_distribution": {
+            "high_count": 1,
+            "moderate_count": 2,
+            "low_count": 0
+          },
+          "source_authority": {
+            "candidate_reported_count": 0,
+            "author_architect_count": 0,
+            "artifact_count": 0
+          },
+          "dimension_coverage": {
+            "d2_active": false,
+            "d3_active": false,
+            "d4_active": true
+          },
+          "confidence_score": 0.57,
+          "confidence_level": "Moderate"
+        },
+        "industry_match_status": "unresolved",
+        "dimension_scores": {
+          "D2_direct_resume": 0.0,
+          "D3_transferable_exp": 0.0,
+          "D4_project_relevance": 0.41,
+          "D5_static_career_keyword_alignment": 0.05,
+          "D6_title_closeness": 0.0,
+          "D7_industry_closeness": 0.0,
+          "D8_career_direction_alignment": 0.0
+        },
+        "evidence_citations": [
+          {
+            "evidence_id": "EV-GTK-001",
+            "dimension_supported": "D4_project_relevance",
+            "evidence_strength": "high",
+            "classification": "transferable",
+            "evidence_relationship": "directed_by_candidate",
+            "routing_basis": "metadata_authoritative",
+            "routing_confidence": 1.0,
+            "matching_rationale": "Matched terms (tooling, and, for) in Development of Python Promotion Gatekeeper Engine (woods_gatekeeper.py) [Routed by explicit artifact/project metadata]",
+            "limitation": "Designed specifically for Woods Framework JSON promotion packages.",
+            "source_path": "D:\\blogger\\.agents\\woods-framework\\woods_gatekeeper.py",
+            "distinct_evidence_group": "EV-FID-001",
+            "raw_match_score": 0.31,
+            "adjusted_match_score": 0.31
+          },
+          {
+            "evidence_id": "EV-DEV-001",
+            "dimension_supported": "D4_project_relevance",
+            "evidence_strength": "moderate",
+            "classification": "transferable",
+            "evidence_relationship": "directed_by_candidate",
+            "routing_basis": "metadata_authoritative",
+            "routing_confidence": 1.0,
+            "matching_rationale": "Matched terms (for, full-stack, backend) in Double-Edge AI Pipeline Express & MCP Backend Server (`server.ts`) [Routed by explicit artifact/project metadata]",
+            "limitation": "Development server configuration.",
+            "source_path": "D:\\blogger\\Double-Edge-Insight-AI-Pipeline\\server.ts",
+            "distinct_evidence_group": "EV-DEV-001",
+            "raw_match_score": 0.42,
+            "adjusted_match_score": 0.3
+          },
+          {
+            "evidence_id": "EV-SOV-001",
+            "dimension_supported": "D4_project_relevance",
+            "evidence_strength": "moderate",
+            "classification": "transferable",
+            "evidence_relationship": "directed_by_candidate",
+            "routing_basis": "metadata_authoritative",
+            "routing_confidence": 1.0,
+            "matching_rationale": "Matched terms (and, for, python) in Sovereign Kernel Automated Content Scheduler & Syndicator [Routed by explicit artifact/project metadata]",
+            "limitation": "Publishing automation engine.",
+            "source_path": "D:\\blogger\\sovereign\\kernel\\scheduler.py",
+            "distinct_evidence_group": "EV-PIPE-001",
+            "raw_match_score": 0.37,
+            "adjusted_match_score": 0.26
+          }
+        ]
+      }
+    },
+    {
+      "case_id": "holdout-03",
+      "title": "Commercial AI Sales Director",
+      "status": "PASSED",
+      "assertions": [
+        {
+          "test": "lane_resolution",
+          "expected": "Unresolved",
+          "actual": "Unresolved",
+          "passed": true
+        },
+        {
+          "test": "eligibility_disposition",
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "test": "fit_recommendation",
+          "expected": "Do Not Prioritize",
+          "actual": "Do Not Prioritize",
+          "passed": true
+        },
+        {
+          "test": "strategic_value",
+          "expected": "Insufficient Information",
+          "actual": "Insufficient Information",
+          "passed": true
+        }
+      ],
+      "execution_output": {
+        "job_id": null,
+        "title": "Commercial AI Sales Director",
+        "company": null,
+        "location": "Remote",
+        "score_status": "complete",
+        "eligibility_disposition": true,
+        "eligible": true,
+        "fit_recommendation": "Do Not Prioritize",
+        "recommendation_status": "Do Not Prioritize",
+        "recommendation_policy_trace": {
+          "pbs_threshold_pass": false,
+          "eligibility_pass": true,
+          "lane_resolution": "Unresolved",
+          "title_alignment": 0.0,
+          "career_direction": 0.0,
+          "evidence_confidence": "Low",
+          "supported_dimensions": [],
+          "unresolved_requirements": [],
+          "decisive_rules": [
+            "PBS fit score below minimum 50.0 application threshold",
+            "Unresolved career identity lane alignment",
+            "Insufficient active evidence dimension coverage"
+          ]
+        },
+        "professional_lane": "Unresolved",
+        "professional_lane_name": "Unresolved",
+        "target_role_horizon": "Unresolved",
+        "hard_requirement_failures": [],
+        "requirement_details": [
+          {
+            "requirement_type": "Geographic / Commute",
+            "requirement_text": "Work Location / Remote Status",
+            "requirement_level": "required",
+            "state": "not_applicable",
+            "candidate_evidence_ids": [
+              "EV-RES-001"
+            ],
+            "reason": "Position confirmed remote; local commute radius not applicable",
+            "confidence": 1.0
+          }
+        ],
+        "pbs_job_fit_score_pre_calibration": 1.0,
+        "diagnostic_fit_score": 1.0,
+        "capability_fit_score": 1.7,
+        "market_readiness_fit_score": 0.0,
+        "strategic_value": "Insufficient Information",
+        "evidence_confidence": "Low",
+        "evidence_confidence_breakdown": {
+          "strength_distribution": {
+            "high_count": 0,
+            "moderate_count": 0,
+            "low_count": 0
+          },
+          "source_authority": {
+            "candidate_reported_count": 0,
+            "author_architect_count": 0,
+            "artifact_count": 0
+          },
+          "dimension_coverage": {
+            "d2_active": false,
+            "d3_active": false,
+            "d4_active": false
+          },
+          "confidence_score": 0.0,
+          "confidence_level": "Low"
+        },
+        "industry_match_status": "unresolved",
+        "dimension_scores": {
+          "D2_direct_resume": 0.0,
+          "D3_transferable_exp": 0.0,
+          "D4_project_relevance": 0.0,
+          "D5_static_career_keyword_alignment": 0.1,
+          "D6_title_closeness": 0.0,
+          "D7_industry_closeness": 0.0,
+          "D8_career_direction_alignment": 0.0
+        },
+        "evidence_citations": []
+      }
+    },
+    {
+      "case_id": "holdout-04",
+      "title": "Healthcare Quality Auditor",
+      "status": "PASSED",
+      "assertions": [
+        {
+          "test": "lane_resolution",
+          "expected": "Unresolved",
+          "actual": "Unresolved",
+          "passed": true
+        },
+        {
+          "test": "eligibility_disposition",
+          "expected": false,
+          "actual": false,
+          "passed": true
+        },
+        {
+          "test": "fit_recommendation",
+          "expected": "Do Not Apply \u2014 Ineligible",
+          "actual": "Do Not Apply \u2014 Ineligible",
+          "passed": true
+        },
+        {
+          "test": "strategic_value",
+          "expected": "Not Evaluated \u2014 Ineligible",
+          "actual": "Not Evaluated \u2014 Ineligible",
+          "passed": true
+        }
+      ],
+      "execution_output": {
+        "job_id": null,
+        "title": "Healthcare Quality Auditor",
+        "company": null,
+        "location": "Remote",
+        "score_status": "complete",
+        "eligibility_disposition": false,
+        "eligible": false,
+        "fit_recommendation": "Do Not Apply \u2014 Ineligible",
+        "recommendation_status": "Do Not Apply \u2014 Ineligible",
+        "recommendation_policy_trace": {
+          "pbs_threshold_pass": false,
+          "eligibility_pass": false,
+          "lane_resolution": "Unresolved",
+          "title_alignment": 0.0,
+          "career_direction": 0.0,
+          "evidence_confidence": "Low",
+          "supported_dimensions": [],
+          "unresolved_requirements": [],
+          "decisive_rules": [
+            "Candidate failed mandatory hard requirement gate"
+          ]
+        },
+        "professional_lane": "Unresolved",
+        "professional_lane_name": "Unresolved",
+        "target_role_horizon": "Unresolved",
+        "hard_requirement_failures": [
+          "Requires Licensed Pharmacist (PharmD)"
+        ],
+        "requirement_details": [
+          {
+            "requirement_type": "Geographic / Commute",
+            "requirement_text": "Work Location / Remote Status",
+            "requirement_level": "required",
+            "state": "not_applicable",
+            "candidate_evidence_ids": [
+              "EV-RES-001"
+            ],
+            "reason": "Position confirmed remote; local commute radius not applicable",
+            "confidence": 1.0
+          },
+          {
+            "requirement_type": "Professional License",
+            "requirement_text": "PharmD / Active Pharmacist License",
+            "requirement_level": "required",
+            "state": "failed",
+            "candidate_evidence_ids": [],
+            "reason": "Active PharmD license mandatory for role",
+            "confidence": 1.0
+          }
+        ],
+        "pbs_job_fit_score_pre_calibration": 0.0,
+        "diagnostic_fit_score": 0.0,
+        "capability_fit_score": 0.0,
+        "market_readiness_fit_score": 0.0,
+        "strategic_value": "Not Evaluated \u2014 Ineligible",
+        "evidence_confidence": "Low",
+        "evidence_confidence_breakdown": {
+          "strength_distribution": {
+            "high_count": 0,
+            "moderate_count": 0,
+            "low_count": 0
+          },
+          "source_authority": {
+            "candidate_reported_count": 0,
+            "author_architect_count": 0,
+            "artifact_count": 0
+          },
+          "dimension_coverage": {
+            "d2_active": false,
+            "d3_active": false,
+            "d4_active": false
+          },
+          "confidence_score": 0.0,
+          "confidence_level": "Low"
+        },
+        "industry_match_status": "unresolved",
+        "dimension_scores": {
+          "D2_direct_resume": 0.0,
+          "D3_transferable_exp": 0.0,
+          "D4_project_relevance": 0.0,
+          "D5_static_career_keyword_alignment": 0.0,
+          "D6_title_closeness": 0.0,
+          "D7_industry_closeness": 0.0,
+          "D8_career_direction_alignment": 0.0
+        },
+        "evidence_citations": []
+      }
+    }
+  ]
+}

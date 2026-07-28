@@ -1,0 +1,231 @@
+{
+  "schema_version": "1.0",
+  "project": "JobSpy PBS Scorer Assurance",
+  "revision": "4.3",
+  "current_gate": "independent_review",
+  "human_authorizations": {
+    "controlled_trial": false,
+    "production": false
+  },
+  "prohibited_actions": [
+    "live_job_search",
+    "controlled_trial",
+    "production_deployment"
+  ],
+  "protected_files": [
+    {
+      "path": "recommendation_policy.md",
+      "sha256": "6c14f01f327810bbce8e2fe6332906c52cb99d9ac7605720cbcf9d26671024ee"
+    },
+    {
+      "path": "professional_identity_model.json",
+      "sha256": "3b146c72fa0609d537767cb45cbb959238989bd76e7923f03e956cc98e0edb60"
+    },
+    {
+      "path": "pbs_fit_scorer.py",
+      "sha256": "03547419afddb5b0e0fb8856aafca47a13648d2ecaaba65ba333cc3dd349978a"
+    },
+    {
+      "path": "calibration_relevance_labels.json",
+      "sha256": "35555678d3753031564af1b105ee7cf52e0ec2413bd1a4c79901dd8995b7e688"
+    }
+  ],
+  "requirements": [
+    "builder evidence must remain distinct from independent evidence",
+    "calibration and untouched holdout sets must remain separate",
+    "policy boundaries 49.99, 50.00, 64.99, and 65.00 must be tested",
+    "eligibility_disposition None must never produce an affirmative recommendation",
+    "protected hashes and independent package checksums must be verified",
+    "human approval is required before controlled-trial progression"
+  ],
+  "unresolved_items": [
+    "Six calibration expectation assertions conflict with protected recommendation gates",
+    "Repository-wide ESLint has pre-existing CRLF/style failures",
+    "No live search or 30-job trial is authorized"
+  ],
+  "latest_verification": {
+    "timestamp": "2026-07-28T10:48:07.4845767Z",
+    "unit_tests_passed": true,
+    "integration_tests_passed": true,
+    "policy_boundaries_passed": true,
+    "eligibility_none_safety_passed": true,
+    "adversarial_tests_passed": true,
+    "report_integrity_passed": true,
+    "protected_hashes_passed": true,
+    "independent_checksums_passed": true,
+    "determinism_passed": true,
+    "branch_coverage_pct": null,
+    "mutation_score_pct": null,
+    "critical_defects_open": 1
+  },
+  "independent_review": {
+    "status": "pending",
+    "reviewer": null,
+    "timestamp": null,
+    "artifact_digest": null
+  },
+  "bayesian_ledger": {
+    "prior_alpha": 1.0,
+    "prior_beta": 1.0,
+    "evidence": [
+      {
+        "name": "independent_local_assurance_suite",
+        "successes": 12,
+        "failures": 0,
+        "weight": 1.0,
+        "independence": "independent"
+      },
+      {
+        "name": "builder_calibration_artifacts",
+        "successes": 34,
+        "failures": 12,
+        "weight": 1.0,
+        "independence": "builder_generated"
+      }
+    ]
+  },
+  "baseline": {
+    "artifact_digest": null,
+    "metrics": {
+      "evaluative_assertions": "34/46",
+      "untouched_holdout_cases": "3/4"
+    }
+  },
+  "human_adjudication": {
+    "decision": "Choice C — keep unresolved",
+    "authority": "human instruction recorded by Codex; no label or policy authorization",
+    "cases": {
+      "calib-01": "Choice C — keep unresolved",
+      "calib-02": "Choice C — keep unresolved",
+      "calib-03": "Choice C — keep unresolved",
+      "calib-04": "Choice C — keep unresolved",
+      "calib-05": "Choice C — keep unresolved",
+      "holdout-01": "Choice C — keep unresolved"
+    }
+  },
+  "provenance_audit": {
+    "scope": "Ten evidence IDs cited by calibration labels; untouched holdout materials excluded",
+    "external_searches": false,
+    "live_job_search": false,
+    "thirty_job_trial": false,
+    "all_ids_exist_in_registry": true,
+    "findings": [
+      {
+        "evidence_id": "EV-RES-002",
+        "source_exists": true,
+        "classification": "authentic candidate evidence; related resume evidence group",
+        "dimension": "D2_direct_resume",
+        "available_to_original_fixture": true,
+        "retrieval": "D2 adjusted match .321 in calib-01, below .35; grouped with EV-RES-001",
+        "restoration": "Authentic source exists, but manual citation restoration would retrofit the expected label; retain unresolved"
+      },
+      {
+        "evidence_id": "EV-RES-003",
+        "source_exists": true,
+        "classification": "authentic candidate evidence; related resume evidence group",
+        "dimension": "D2_direct_resume",
+        "available_to_original_fixture": true,
+        "retrieval": "D2 adjusted match .312 in calib-01, below .35; grouped with EV-RES-001",
+        "restoration": "Authentic source exists, but manual citation restoration would retrofit the expected label; retain unresolved"
+      },
+      {
+        "evidence_id": "EV-LNK-001",
+        "source_exists": false,
+        "classification": "unsupported external reference; no preserved profile capture",
+        "dimension": "D2_direct_resume",
+        "available_to_original_fixture": true,
+        "retrieval": "D2 adjusted match .224 in calib-01, below .35; URL is not a local frozen artifact",
+        "restoration": "Cannot legitimately restore without an authorized preserved capture; do not retrofit"
+      },
+      {
+        "evidence_id": "EV-WDS-001",
+        "source_exists": true,
+        "classification": "authentic candidate-origin framework artifact; AI-assisted provenance",
+        "dimension": "D2_direct_resume by registry metadata",
+        "available_to_original_fixture": true,
+        "retrieval": "D2 adjusted matches .148 in calib-02 and .307 in calib-03, both below .35",
+        "restoration": "Source exists, but re-routing or manual citation would alter evidence interpretation; retain unresolved"
+      },
+      {
+        "evidence_id": "EV-GTK-001",
+        "source_exists": true,
+        "classification": "authentic candidate-origin executable artifact; AI-assisted provenance",
+        "dimension": "D4_project_relevance",
+        "available_to_original_fixture": true,
+        "retrieval": "Retrieved in calib-03 at D4=.354; not retrieved in calib-02 at D4=.071 below .25",
+        "restoration": "Legitimate for calib-03; manually restoring it to calib-02 would retrofit the expected label"
+      },
+      {
+        "evidence_id": "EV-CAS-001",
+        "source_exists": true,
+        "classification": "authentic candidate-origin case study; AI-assisted provenance",
+        "dimension": "D2_direct_resume by registry metadata",
+        "available_to_original_fixture": true,
+        "retrieval": "D2 adjusted matches .113 in calib-02 and .153 in calib-03, below .35",
+        "restoration": "Case artifact exists, but manual inclusion or metadata reclassification would retrofit the label"
+      },
+      {
+        "evidence_id": "EV-MCP-001",
+        "source_exists": true,
+        "classification": "authentic candidate-origin executable artifact; related duplicate group with EV-DEV-001",
+        "dimension": "D4_project_relevance",
+        "available_to_original_fixture": true,
+        "retrieval": "D4 adjusted .409 in calib-04 and .367 in calib-05; deduplicated with higher-scoring EV-DEV-001",
+        "restoration": "Already represented by the related evidence group; separate restoration would double-count evidence"
+      },
+      {
+        "evidence_id": "EV-PIPE-001",
+        "source_exists": true,
+        "classification": "authentic candidate-origin system specification; AI-assisted provenance",
+        "dimension": "D3_transferable_exp",
+        "available_to_original_fixture": true,
+        "retrieval": "D3 adjusted .189 in calib-04 and .194 in calib-05, below .30",
+        "restoration": "Source exists, but manual inclusion would retrofit the expected priority label"
+      },
+      {
+        "evidence_id": "EV-SOUL-001",
+        "source_exists": true,
+        "classification": "authentic candidate-origin agent specification; AI-assisted provenance",
+        "dimension": "D3_transferable_exp",
+        "available_to_original_fixture": true,
+        "retrieval": "D3 adjusted .213 in calib-04 and .265 in calib-05, below .30",
+        "restoration": "Source exists, but manual inclusion would retrofit the expected priority label"
+      },
+      {
+        "evidence_id": "EV-DEV-001",
+        "source_exists": true,
+        "classification": "authentic candidate-origin executable artifact; related duplicate group with EV-MCP-001",
+        "dimension": "D4_project_relevance",
+        "available_to_original_fixture": true,
+        "retrieval": "Retrieved in calib-04 at D4=.416 and calib-05 at D4=.372; highest member of its related group",
+        "restoration": "Already legitimately supplied; it does not support the expected priority label by itself"
+      }
+    ]
+  },
+  "retrieval_diagnostic": {
+    "scope": "calib-01 through calib-05 only; holdout-01 not inspected, replayed, altered, or supplemented",
+    "recorded_at": "2026-07-28",
+    "production_logic_changed": false,
+    "labels_or_policy_changed": false,
+    "external_searches": false,
+    "live_job_search": false,
+    "thirty_job_trial": false,
+    "builder_evidence_only": true,
+    "common_production_defect": "not demonstrated",
+    "case_recommendations": {
+      "calib-01": "Choice C — keep unresolved; authentic resume evidence is below D2 cutoff and LinkedIn reference is unsupported",
+      "calib-02": "Choice C — keep unresolved; expected artifacts are below route cutoffs and candidate-created",
+      "calib-03": "Choice C — keep unresolved; GTK retrieves, while WDS/CAS remain unsupported; WDS metadata merits later human review",
+      "calib-04": "Choice C — keep unresolved; related MCP/DEV artifacts are intentionally deduplicated and other expected artifacts are below D3 cutoff",
+      "calib-05": "Choice C — keep unresolved; related MCP/DEV artifacts are intentionally deduplicated and other expected artifacts are below D3 cutoff"
+    },
+    "counterfactual_summary": {
+      "threshold_lowering": "Would retrieve all expected IDs at D2=.224 for calib-01, D2=.113/D4=.071 for calib-02, D2=.153/D4=.354 for calib-03, D3=.189/D4=.409 for calib-04, and D3=.194/D4=.367 for calib-05; false-positive counts were 1, 14, 3, 0, and 0 respectively",
+      "routing_override": "Framework-specification to D4 and case-study to D3 was ineffective for calib-01 and calib-02, partially effective for calib-03 through calib-05, and introduced 0, 1, 1, 1, and 3 false positives respectively",
+      "label_seeded_query_expansion": "Not a valid production correction; retrieved expected IDs incompletely in calib-01/calib-02, fully in calib-03/calib-04/calib-05, with false-positive counts 0, 1, 0, 0, and 1",
+      "deduplication": "No label false positives were caused by deduplication; MCP-001 is suppressed only as a correlated member of the higher-scoring DEV-001 group in calib-04 and calib-05"
+    },
+    "demonstrated_assurance_finding": "EV-WDS-001 has a potentially inconsistent framework-specification source type and direct-D2 classification; no reclassification is authorized"
+  },
+  "next_authorized_action": "Perform read-only independent review of the six unsupported calibration expectations; do not run searches or trials."
+}

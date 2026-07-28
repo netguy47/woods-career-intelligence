@@ -1,0 +1,27 @@
+{
+  "model": "PBS Job Fit Scorer Engine \u2014 Revision 3.0",
+  "positive_weight_sum": 1.0,
+  "is_valid_sum": true,
+  "weights": {
+    "D2_direct_resume": 0.2,
+    "D3_transferable_exp": 0.15,
+    "D4_project_relevance": 0.15,
+    "D5_ats_alignment": 0.1,
+    "D6_title_closeness": 0.1,
+    "D7_industry_closeness": 0.1,
+    "D8_career_direction_alignment": 0.2
+  },
+  "evidence_strength_multipliers": {
+    "candidate_evidence_scope": [
+      "D2_direct_resume",
+      "D3_transferable_exp",
+      "D4_project_relevance"
+    ],
+    "multipliers": {
+      "high": 1.0,
+      "moderate": 0.7,
+      "low": 0.35,
+      "provenance_unverified": 0.0
+    }
+  }
+}

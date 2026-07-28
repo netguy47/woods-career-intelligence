@@ -1,0 +1,40 @@
+{
+  "total_raw_records": 153,
+  "total_unique_jobs": 136,
+  "jobs_per_role_family": {
+    "Operational Excellence Manager": 24,
+    "Continuous Improvement Manager": 16,
+    "Business Operations Manager": 19,
+    "Process Improvement Manager": 13,
+    "Leadership Development Manager": 14,
+    "AI Enablement Manager": 12,
+    "Implementation Manager": 12,
+    "District Operations Manager": 20,
+    "General Operations": 6
+  },
+  "local_vs_remote": {
+    "local": 119,
+    "remote": 17
+  },
+  "salary_availability_rate": "69/136 (50.7%)",
+  "description_completeness_rate": "136/136 (100.0%)",
+  "posting_date_status_distribution": {
+    "valid": 133,
+    "unknown": 3
+  },
+  "location_status_distribution": {
+    "distance_verified": 104,
+    "municipality_not_found": 14,
+    "remote_exempt": 17,
+    "location_incomplete": 1
+  },
+  "source_distribution": {
+    "indeed": 80,
+    "linkedin": 56
+  },
+  "exclusions_and_flags": {
+    "excluded_duplicates": 17,
+    "flagged_older_than_7_days": 12,
+    "flagged_distance_out_of_range": 0
+  }
+}
