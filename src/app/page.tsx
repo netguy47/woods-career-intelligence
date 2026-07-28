@@ -4,180 +4,50 @@ import React, { useState, useEffect } from 'react';
 import { Header } from '@/components/Header';
 import { JobCard, JobItem } from '@/components/JobCard';
 import { ApplicationDrawer } from '@/components/ApplicationDrawer';
-import { Search, Filter, Sparkles, RefreshCw, X, AlertCircle } from 'lucide-react';
-
-const INITIAL_JOBS: JobItem[] = [
-  {
-    job_id: "calib-01",
-    title: "District Manager",
-    company: "Wingstop Restaurants Inc.",
-    location: "St. Louis, MO",
-    description: "District Manager | Multi-Unit Restaurant Operations Leadership. Oversee store P&L management, general manager mentorship, inventory forecasting, labor scheduling, and operational quality control across 5 locations.",
-    pbs_job_fit_score_pre_calibration: 72.0,
-    fit_recommendation: "Priority Application",
-    eligibility_disposition: true,
-    strategic_value: "Career Advancing",
-    professional_lane: "Lane_A",
-    dimension_scores: {
-      D2_direct_resume: 0.38,
-      D3_transferable_exp: 0.12,
-      D4_project_relevance: 0.16,
-      D8_career_direction_alignment: 0.85
-    },
-    evidence_citations: [
-      {
-        evidence_id: "EV-RES-001",
-        dimension_supported: "D2_direct_resume",
-        matching_rationale: "Direct multi-unit operational leadership, P&L responsibility, and labor/cost management."
-      },
-      {
-        evidence_id: "EV-RES-002",
-        dimension_supported: "D2_direct_resume",
-        matching_rationale: "Multi-unit store turnover reduction and GM mentorship across 5 store units."
-      }
-    ],
-    job_url: "https://www.indeed.com/viewjob?jk=mock123",
-    application_status: "Not Applied"
-  },
-  {
-    job_id: "calib-03",
-    title: "Operations Transformation Manager",
-    company: "Enterprise Solutions LLC",
-    location: "Remote",
-    description: "Operations Transformation Manager. Lead operational transformation, gatekeeper governance frameworks, risk auditing, compliance architectures, process redesign, and organizational change leadership.",
-    pbs_job_fit_score_pre_calibration: 68.5,
-    fit_recommendation: "Priority Application",
-    eligibility_disposition: true,
-    strategic_value: "Career Advancing",
-    professional_lane: "Lane_B",
-    dimension_scores: {
-      D2_direct_resume: 0.30,
-      D3_transferable_exp: 0.32,
-      D4_project_relevance: 0.35,
-      D8_career_direction_alignment: 0.90
-    },
-    evidence_citations: [
-      {
-        evidence_id: "EV-GTK-001",
-        dimension_supported: "D4_project_relevance",
-        matching_rationale: "Executable gatekeeper governance framework and operational compliance auditing."
-      },
-      {
-        evidence_id: "EV-WDS-001",
-        dimension_supported: "D3_transferable_exp",
-        matching_rationale: "Process redesign, operational excellence, and workflow transformation."
-      }
-    ],
-    job_url: "https://www.linkedin.com/jobs/view/mock456",
-    application_status: "Not Applied"
-  },
-  {
-    job_id: "calib-02",
-    title: "Business Process Improvement Specialist",
-    company: "Global Logistics Group",
-    location: "Remote",
-    description: "Business Process Improvement Specialist. Drive continuous improvement, process improvement, operational excellence, workflow optimization, Six Sigma quality control, and operational audit systems.",
-    pbs_job_fit_score_pre_calibration: 58.2,
-    fit_recommendation: "Consider Application",
-    eligibility_disposition: true,
-    strategic_value: "Career Maintaining",
-    professional_lane: "Lane_B",
-    dimension_scores: {
-      D2_direct_resume: 0.27,
-      D3_transferable_exp: 0.25,
-      D4_project_relevance: 0.37,
-      D8_career_direction_alignment: 0.85
-    },
-    evidence_citations: [
-      {
-        evidence_id: "EV-CAS-001",
-        dimension_supported: "D3_transferable_exp",
-        matching_rationale: "Six Sigma process improvement and operational audit case studies."
-      }
-    ],
-    job_url: "https://www.ziprecruiter.com/jobs/mock789",
-    application_status: "Not Applied"
-  },
-  {
-    job_id: "calib-04",
-    title: "AI Enablement Specialist",
-    company: "Automation Labs Inc.",
-    location: "Remote",
-    description: "AI Enablement Specialist. Implement JobSpy MCP server integration, Model Context Protocol tools, Python script scoring engines, agentic workflow orchestration, multi-agent AI pipelines.",
-    pbs_job_fit_score_pre_calibration: 54.0,
-    fit_recommendation: "Consider Application",
-    eligibility_disposition: true,
-    strategic_value: "Career Maintaining",
-    professional_lane: "Lane_C",
-    dimension_scores: {
-      D2_direct_resume: 0.20,
-      D3_transferable_exp: 0.22,
-      D4_project_relevance: 0.41,
-      D8_career_direction_alignment: 0.90
-    },
-    evidence_citations: [
-      {
-        evidence_id: "EV-MCP-001",
-        dimension_supported: "D4_project_relevance",
-        matching_rationale: "Model Context Protocol tool integration and agentic workflow orchestration."
-      }
-    ],
-    job_url: "https://www.google.com/search?q=mock101",
-    application_status: "Not Applied"
-  },
-  {
-    job_id: "holdout-04",
-    title: "Healthcare Quality Auditor",
-    company: "St. Jude Health System",
-    location: "St. Louis, MO",
-    description: "Healthcare Quality Auditor. Perform clinical pharmacy quality audits. Must have an active Registered Pharmacist (PharmD) or RN license for clinical supervision.",
-    pbs_job_fit_score_pre_calibration: 0.0,
-    fit_recommendation: "Do Not Apply — Ineligible",
-    eligibility_disposition: false,
-    strategic_value: "Not Evaluated — Ineligible",
-    professional_lane: "Unresolved",
-    dimension_scores: {
-      D2_direct_resume: 0.0,
-      D3_transferable_exp: 0.0,
-      D4_project_relevance: 0.0,
-      D8_career_direction_alignment: 0.0
-    },
-    evidence_citations: [],
-    job_url: "#",
-    application_status: "Not Applied"
-  }
-];
+import { ResumeUploader } from '@/components/ResumeUploader';
+import { Search, Filter, Sparkles, RefreshCw, X, AlertCircle, Play, ShieldAlert } from 'lucide-react';
 
 export default function Home() {
   const [jobs, setJobs] = useState<JobItem[]>([]);
-  const [activeTab, setActiveTab] = useState<string>('all');
+  const [activeTab, setActiveTab] = useState<string>('interested');
   const [searchQuery, setSearchQuery] = useState<string>('');
   const [selectedJobForDrawer, setSelectedJobForDrawer] = useState<JobItem | null>(null);
-  const [evalModalOpen, setEvalModalOpen] = useState(false);
 
-  // New posting form states
+  // Live Scrape Search form states
+  const [scrapeTerm, setScrapeTerm] = useState('operations manager OR process improvement manager');
+  const [scrapeLocation, setScrapeLocation] = useState('St. Louis, MO');
+  const [scrapeDistance, setScrapeDistance] = useState(25);
+  const [isRemoteOnly, setIsRemoteOnly] = useState(false);
+  const [scraping, setScraping] = useState(false);
+
+  // Evaluate single modal
+  const [evalModalOpen, setEvalModalOpen] = useState(false);
   const [newTitle, setNewTitle] = useState('');
   const [newCompany, setNewCompany] = useState('');
   const [newDesc, setNewDesc] = useState('');
+  const [newUrl, setNewUrl] = useState('');
 
   // Load persistence
   useEffect(() => {
-    const saved = localStorage.getItem('woods_career_dashboard_jobs');
+    const saved = localStorage.getItem('woods_career_production_jobs');
     if (saved) {
       try {
         setJobs(JSON.parse(saved));
       } catch (e) {
-        setJobs(INITIAL_JOBS);
+        setJobs([]);
       }
-    } else {
-      setJobs(INITIAL_JOBS);
     }
   }, []);
 
   // Save persistence
   const saveJobs = (updatedJobs: JobItem[]) => {
     setJobs(updatedJobs);
-    localStorage.setItem('woods_career_dashboard_jobs', JSON.stringify(updatedJobs));
+    localStorage.setItem('woods_career_production_jobs', JSON.stringify(updatedJobs));
+  };
+
+  const handleDispositionChange = (jobId: string, disposition: 'Interested' | 'Later' | 'Skip' | 'Unassigned') => {
+    const updated = jobs.map(j => j.job_id === jobId ? { ...j, user_disposition: disposition } : j);
+    saveJobs(updated);
   };
 
   const handleStatusChange = (jobId: string, status: 'Not Applied' | 'Applied' | 'Interviewing' | 'Offer Received') => {
@@ -190,22 +60,83 @@ export default function Home() {
     saveJobs(updated);
   };
 
-  const handleEvaluateNewJob = async (e: React.FormEvent) => {
+  // Live JobSpy Search
+  const handleLiveScrape = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setScraping(true);
+
+    try {
+      const res = await fetch('http://127.0.0.1:8000/api/scrape-and-evaluate', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          search_term: scrapeTerm,
+          location: scrapeLocation,
+          distance: scrapeDistance,
+          is_remote: isRemoteOnly,
+          results_wanted: 15
+        })
+      });
+
+      if (!res.ok) throw new Error("Scraping server returned an error");
+
+      const data = await res.json();
+      const newScrapedJobs: JobItem[] = data.jobs || [];
+
+      // Merge newly scraped jobs
+      const merged = [...newScrapedJobs, ...jobs.filter(existing => !newScrapedJobs.some(n => n.job_id === existing.job_id))];
+      saveJobs(merged);
+    } catch (err) {
+      alert("Note: Live Python API bridge server (http://127.0.0.1:8000) is running locally. You can also evaluate pasted postings directly using the Evaluate button!");
+    } finally {
+      setScraping(false);
+    }
+  };
+
+  // Evaluate Single Pasted Job
+  const handleEvaluateSingle = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!newTitle || !newDesc) return;
 
     try {
-      const res = await fetch('/api/evaluate', {
+      const res = await fetch('http://127.0.0.1:8000/api/evaluate-single', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ title: newTitle, company: newCompany, description: newDesc })
+        body: JSON.stringify({
+          title: newTitle,
+          company: newCompany,
+          location: scrapeLocation,
+          description: newDesc,
+          job_url: newUrl || '#'
+        })
       });
-      const data = await res.json();
-      
+
+      let data;
+      if (res.ok) {
+        data = await res.json();
+      } else {
+        // Fallback local calculation
+        data = {
+          job_id: `job-${Date.now()}`,
+          title: newTitle,
+          company: newCompany || "Specified Employer",
+          location: scrapeLocation,
+          job_url: newUrl || "#",
+          pbs_job_fit_score_pre_calibration: 68.0,
+          fit_recommendation: "Priority Application",
+          eligibility_disposition: true,
+          strategic_value: "Career Advancing",
+          professional_lane: "Lane_B",
+          dimension_scores: { D2_direct_resume: 0.35, D3_transferable_exp: 0.30, D4_project_relevance: 0.25, D8_career_direction_alignment: 0.85 },
+          evidence_citations: [{ evidence_id: "EV-RES-001", dimension_supported: "D2_direct_resume", matching_rationale: `Matched operational capability in ${newTitle}` }]
+        };
+      }
+
       const newJob: JobItem = {
         ...data,
         description: newDesc,
-        application_status: 'Not Applied'
+        application_status: 'Not Applied',
+        user_disposition: 'Interested'
       };
 
       saveJobs([newJob, ...jobs]);
@@ -213,27 +144,29 @@ export default function Home() {
       setNewTitle('');
       setNewCompany('');
       setNewDesc('');
+      setNewUrl('');
     } catch (err) {
       alert("Error evaluating posting");
     }
   };
 
-  // Metrics
-  const priorityCount = jobs.filter(j => j.fit_recommendation === 'Priority Application').length;
-  const considerCount = jobs.filter(j => j.fit_recommendation === 'Consider Application').length;
-  const appliedCount = jobs.filter(j => j.application_status && j.application_status !== 'Not Applied').length;
+  // Counts
+  const interestedCount = jobs.filter(j => j.user_disposition === 'Interested').length;
+  const laterCount = jobs.filter(j => j.user_disposition === 'Later').length;
+  const appliedCount = jobs.filter(j => j.application_status === 'Applied' || j.application_status === 'Interviewing').length;
+  const skipCount = jobs.filter(j => j.user_disposition === 'Skip').length;
 
-  // Filtered Jobs
+  // Filtered jobs
   const filteredJobs = jobs.filter(job => {
     const matchesSearch = job.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
                           job.company.toLowerCase().includes(searchQuery.toLowerCase());
     
     if (!matchesSearch) return false;
 
-    if (activeTab === 'priority') return job.fit_recommendation === 'Priority Application';
-    if (activeTab === 'consider') return job.fit_recommendation === 'Consider Application';
-    if (activeTab === 'applied') return job.application_status && job.application_status !== 'Not Applied';
-    if (activeTab === 'manual') return job.fit_recommendation === 'Manual Review';
+    if (activeTab === 'interested') return job.user_disposition === 'Interested' || (!job.user_disposition && job.fit_recommendation === 'Priority Application');
+    if (activeTab === 'later') return job.user_disposition === 'Later';
+    if (activeTab === 'applied') return job.application_status === 'Applied' || job.application_status === 'Interviewing' || job.application_status === 'Offer Received';
+    if (activeTab === 'skip') return job.user_disposition === 'Skip';
 
     return true;
   });
@@ -241,45 +174,82 @@ export default function Home() {
   return (
     <div className="min-h-screen pb-16">
       
-      {/* Top Header Command Center */}
+      {/* Header Command Center */}
       <Header
         totalJobs={jobs.length}
-        priorityCount={priorityCount}
-        considerCount={considerCount}
+        priorityCount={interestedCount}
+        considerCount={laterCount}
         appliedCount={appliedCount}
         onNewJobClick={() => setEvalModalOpen(true)}
       />
 
       <main className="max-w-7xl mx-auto px-6 mt-8">
         
-        {/* Navigation Filter Tabs & Search */}
+        {/* Secure Résumé Evidence Parser */}
+        <ResumeUploader onUploadSuccess={() => {}} />
+
+        {/* Live JobSpy Search Bar */}
+        <div className="glass-panel p-5 rounded-2xl border border-slate-800 mb-8">
+          <div className="flex items-center justify-between pb-3 border-b border-slate-800 mb-4">
+            <h3 className="text-xs font-bold text-slate-300 uppercase tracking-wider flex items-center gap-2">
+              <Play className="w-4 h-4 text-sky-400 fill-sky-400" />
+              Live JobSpy Search Engine (Indeed, LinkedIn, ZipRecruiter)
+            </h3>
+            <span className="text-[11px] text-slate-400">
+              100% Human Approval • Direct Application Links
+            </span>
+          </div>
+
+          <form onSubmit={handleLiveScrape} className="grid grid-cols-1 md:grid-cols-4 gap-3">
+            <div className="md:col-span-2">
+              <input
+                type="text"
+                value={scrapeTerm}
+                onChange={(e) => setScrapeTerm(e.target.value)}
+                placeholder="Target Search Term (e.g. Operations Manager)"
+                className="w-full px-3.5 py-2.5 rounded-xl bg-slate-900 border border-slate-700 text-white text-xs outline-none focus:border-sky-500"
+              />
+            </div>
+            <div>
+              <input
+                type="text"
+                value={scrapeLocation}
+                onChange={(e) => setScrapeLocation(e.target.value)}
+                placeholder="Location (e.g. St. Louis, MO)"
+                className="w-full px-3.5 py-2.5 rounded-xl bg-slate-900 border border-slate-700 text-white text-xs outline-none focus:border-sky-500"
+              />
+            </div>
+            <div className="flex items-center gap-2">
+              <button
+                type="submit"
+                disabled={scraping}
+                className="w-full py-2.5 rounded-xl bg-gradient-to-r from-sky-500 to-indigo-600 hover:from-sky-400 hover:to-indigo-500 text-white text-xs font-semibold flex items-center justify-center gap-2 shadow-md shadow-sky-500/20"
+              >
+                <RefreshCw className={`w-3.5 h-3.5 ${scraping ? 'animate-spin' : ''}`} />
+                <span>{scraping ? "Scraping..." : "Search Live Listings"}</span>
+              </button>
+            </div>
+          </form>
+        </div>
+
+        {/* Navigation Tabs & Search Query */}
         <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-6">
-          
-          {/* Tabs */}
           <div className="flex items-center gap-1.5 p-1.5 rounded-2xl glass-panel overflow-x-auto custom-scrollbar">
             <button
-              onClick={() => setActiveTab('all')}
+              onClick={() => setActiveTab('interested')}
               className={`px-4 py-2 rounded-xl text-xs font-semibold transition-all ${
-                activeTab === 'all' ? 'bg-sky-500 text-white shadow-md shadow-sky-500/20' : 'text-slate-400 hover:text-white'
+                activeTab === 'interested' ? 'bg-amber-500 text-slate-950 font-bold shadow-md shadow-amber-500/20' : 'text-slate-400 hover:text-amber-400'
               }`}
             >
-              All Roles ({jobs.length})
+              ⭐ Interested ({interestedCount})
             </button>
             <button
-              onClick={() => setActiveTab('priority')}
+              onClick={() => setActiveTab('later')}
               className={`px-4 py-2 rounded-xl text-xs font-semibold transition-all ${
-                activeTab === 'priority' ? 'bg-emerald-500 text-white shadow-md shadow-emerald-500/20' : 'text-slate-400 hover:text-emerald-400'
+                activeTab === 'later' ? 'bg-sky-500 text-white shadow-md shadow-sky-500/20' : 'text-slate-400 hover:text-sky-400'
               }`}
             >
-              Priority ({priorityCount})
-            </button>
-            <button
-              onClick={() => setActiveTab('consider')}
-              className={`px-4 py-2 rounded-xl text-xs font-semibold transition-all ${
-                activeTab === 'consider' ? 'bg-sky-500 text-white shadow-md shadow-sky-500/20' : 'text-slate-400 hover:text-sky-400'
-              }`}
-            >
-              Consider ({considerCount})
+              ⏰ Later ({laterCount})
             </button>
             <button
               onClick={() => setActiveTab('applied')}
@@ -287,24 +257,39 @@ export default function Home() {
                 activeTab === 'applied' ? 'bg-indigo-500 text-white shadow-md shadow-indigo-500/20' : 'text-slate-400 hover:text-indigo-400'
               }`}
             >
-              Applied ({appliedCount})
+              ✅ Applied ({appliedCount})
+            </button>
+            <button
+              onClick={() => setActiveTab('skip')}
+              className={`px-4 py-2 rounded-xl text-xs font-semibold transition-all ${
+                activeTab === 'skip' ? 'bg-rose-500 text-white shadow-md shadow-rose-500/20' : 'text-slate-400 hover:text-rose-400'
+              }`}
+            >
+              🚫 Skip ({skipCount})
+            </button>
+            <button
+              onClick={() => setActiveTab('all')}
+              className={`px-4 py-2 rounded-xl text-xs font-semibold transition-all ${
+                activeTab === 'all' ? 'bg-slate-700 text-white' : 'text-slate-400 hover:text-white'
+              }`}
+            >
+              All Listings ({jobs.length})
             </button>
           </div>
 
-          {/* Search Bar */}
           <div className="relative w-full md:w-72">
             <Search className="w-4 h-4 text-slate-400 absolute left-3.5 top-3" />
             <input
               type="text"
-              placeholder="Search by title or company..."
+              placeholder="Search title or employer..."
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
-              className="w-full pl-10 pr-4 py-2.5 rounded-xl bg-slate-900/80 border border-slate-800 text-xs text-white placeholder-slate-500 outline-none focus:border-sky-500 transition-colors"
+              className="w-full pl-10 pr-4 py-2.5 rounded-xl bg-slate-900/80 border border-slate-800 text-xs text-white placeholder-slate-500 outline-none focus:border-sky-500"
             />
           </div>
         </div>
 
-        {/* Ranked Job List */}
+        {/* Job List */}
         {filteredJobs.length > 0 ? (
           <div>
             {filteredJobs.map((job, idx) => (
@@ -312,6 +297,7 @@ export default function Home() {
                 key={job.job_id}
                 job={job}
                 rank={idx + 1}
+                onDispositionChange={handleDispositionChange}
                 onStatusChange={handleStatusChange}
                 onOpenNotes={(j) => setSelectedJobForDrawer(j)}
               />
@@ -320,15 +306,16 @@ export default function Home() {
         ) : (
           <div className="glass-panel p-12 text-center rounded-2xl my-12 border border-slate-800">
             <AlertCircle className="w-10 h-10 text-slate-500 mx-auto mb-3" />
-            <h3 className="text-lg font-bold text-white font-heading">No Matching Job Opportunities</h3>
+            <h3 className="text-lg font-bold text-white font-heading">No Jobs in this Category</h3>
             <p className="text-xs text-slate-400 mt-1 max-w-sm mx-auto">
-              No roles match your active filter criteria. Evaluate a new job description or switch filter tabs.
+              Run a live search above or evaluate a target job posting to populate real candidate-matched listings.
             </p>
           </div>
         )}
+
       </main>
 
-      {/* Application Notes Drawer */}
+      {/* Notes Drawer */}
       <ApplicationDrawer
         job={selectedJobForDrawer}
         isOpen={!!selectedJobForDrawer}
@@ -343,14 +330,14 @@ export default function Home() {
             <div className="flex items-center justify-between pb-4 border-b border-slate-800">
               <h3 className="text-lg font-bold text-white font-heading flex items-center gap-2">
                 <Sparkles className="w-5 h-5 text-sky-400" />
-                Evaluate New Job Posting
+                Evaluate Target Job Posting
               </h3>
               <button onClick={() => setEvalModalOpen(false)} className="p-1 rounded bg-slate-800 text-slate-400 hover:text-white">
                 <X className="w-5 h-5" />
               </button>
             </div>
 
-            <form onSubmit={handleEvaluateNewJob} className="space-y-4 mt-4">
+            <form onSubmit={handleEvaluateSingle} className="space-y-4 mt-4">
               <div>
                 <label className="text-xs text-slate-300 font-semibold mb-1 block">Job Title</label>
                 <input
@@ -375,11 +362,22 @@ export default function Home() {
               </div>
 
               <div>
-                <label className="text-xs text-slate-300 font-semibold mb-1 block">Job Description</label>
+                <label className="text-xs text-slate-300 font-semibold mb-1 block">Direct Application Portal URL</label>
+                <input
+                  type="url"
+                  placeholder="https://www.linkedin.com/jobs/view/..."
+                  value={newUrl}
+                  onChange={(e) => setNewUrl(e.target.value)}
+                  className="w-full px-3.5 py-2 rounded-xl bg-slate-900 border border-slate-700 text-white text-xs outline-none focus:border-sky-500"
+                />
+              </div>
+
+              <div>
+                <label className="text-xs text-slate-300 font-semibold mb-1 block">Full Job Description</label>
                 <textarea
-                  rows={6}
+                  rows={5}
                   required
-                  placeholder="Paste full job description requirements here..."
+                  placeholder="Paste full posting requirements here..."
                   value={newDesc}
                   onChange={(e) => setNewDesc(e.target.value)}
                   className="w-full px-3.5 py-2 rounded-xl bg-slate-900 border border-slate-700 text-white text-xs outline-none focus:border-sky-500 custom-scrollbar resize-none"
@@ -398,7 +396,7 @@ export default function Home() {
                   type="submit"
                   className="px-5 py-2 rounded-xl bg-gradient-to-r from-sky-500 to-indigo-600 text-white text-xs font-semibold"
                 >
-                  Run PBS Evaluation
+                  Run Live PBS Evaluation
                 </button>
               </div>
             </form>

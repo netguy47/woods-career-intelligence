@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
-import { ExternalLink, ChevronDown, ChevronUp, ShieldAlert, Award, CheckCircle2, Clock, MapPin, Building2, FileText, Sparkles } from 'lucide-react';
+import { ExternalLink, ChevronDown, ChevronUp, Award, Building2, MapPin, FileText, Sparkles, Star, Clock, Ban, CheckCircle2 } from 'lucide-react';
 
 export interface Citation {
   evidence_id: string;
@@ -26,6 +26,7 @@ export interface JobItem {
   evidence_citations?: Citation[];
   job_url?: string;
   application_status?: 'Not Applied' | 'Applied' | 'Interviewing' | 'Offer Received';
+  user_disposition?: 'Interested' | 'Later' | 'Skip' | 'Unassigned';
   applied_date?: string;
   notes?: string;
 }
@@ -33,6 +34,7 @@ export interface JobItem {
 interface JobCardProps {
   job: JobItem;
   rank: number;
+  onDispositionChange: (jobId: string, disposition: 'Interested' | 'Later' | 'Skip' | 'Unassigned') => void;
   onStatusChange: (jobId: string, status: 'Not Applied' | 'Applied' | 'Interviewing' | 'Offer Received') => void;
   onOpenNotes: (job: JobItem) => void;
 }
@@ -40,6 +42,7 @@ interface JobCardProps {
 export const JobCard: React.FC<JobCardProps> = ({
   job,
   rank,
+  onDispositionChange,
   onStatusChange,
   onOpenNotes,
 }) => {
@@ -48,6 +51,7 @@ export const JobCard: React.FC<JobCardProps> = ({
   const score = job.pbs_job_fit_score_pre_calibration || 0;
   const rec = job.fit_recommendation || "Do Not Prioritize";
   const appStatus = job.application_status || "Not Applied";
+  const disposition = job.user_disposition || "Unassigned";
 
   // Recommendation Badge Styling
   const getBadgeStyle = () => {
@@ -65,38 +69,32 @@ export const JobCard: React.FC<JobCardProps> = ({
     }
   };
 
-  // Application Status Badge Styling
-  const getStatusBadgeStyle = () => {
-    switch (appStatus) {
-      case "Applied":
-        return "bg-indigo-500/20 text-indigo-300 border-indigo-500/40";
-      case "Interviewing":
-        return "bg-purple-500/20 text-purple-300 border-purple-500/40 animate-pulse";
-      case "Offer Received":
-        return "bg-emerald-500/20 text-emerald-300 border-emerald-500/40";
-      default:
-        return "bg-slate-800 text-slate-400 border-slate-700";
+  const handleApplyClick = () => {
+    onStatusChange(job.job_id, 'Applied');
+    if (job.job_url && job.job_url !== '#') {
+      window.open(job.job_url, '_blank', 'noopener,noreferrer');
     }
   };
 
   return (
-    <div className="glass-card rounded-2xl p-5 mb-4 border border-slate-800 relative overflow-hidden transition-all duration-300 hover:border-slate-700">
+    <div className={`glass-card rounded-2xl p-5 mb-4 border relative overflow-hidden transition-all duration-300 ${
+      disposition === 'Skip' ? 'opacity-40 border-slate-800' : 'border-slate-800 hover:border-slate-700'
+    }`}>
       
-      {/* Top Banner Rank & Scores */}
+      {/* Top Banner Rank & Title */}
       <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-4 border-b border-slate-800/80">
         <div className="flex items-start gap-3">
-          {/* Rank Circle */}
           <div className="w-8 h-8 rounded-full bg-slate-800 text-slate-300 font-heading font-bold text-sm flex items-center justify-center border border-slate-700">
             #{rank}
           </div>
 
           <div>
-            <h3 className="text-lg font-bold text-white tracking-wide hover:text-sky-400 transition-colors flex items-center gap-2">
+            <h3 className="text-lg font-bold text-white tracking-wide flex items-center gap-2">
               {job.title}
             </h3>
             <div className="flex flex-wrap items-center gap-3 text-xs text-slate-400 mt-1">
-              <span className="flex items-center gap-1">
-                <Building2 className="w-3.5 h-3.5 text-slate-500" />
+              <span className="flex items-center gap-1 font-semibold text-slate-300">
+                <Building2 className="w-3.5 h-3.5 text-sky-400" />
                 {job.company}
               </span>
               <span className="flex items-center gap-1">
@@ -136,22 +134,46 @@ export const JobCard: React.FC<JobCardProps> = ({
         </div>
       </div>
 
-      {/* Action Toolbar */}
+      {/* Control Actions Toolbar: Interested, Later, Skip, Applied */}
       <div className="flex flex-wrap items-center justify-between gap-3 pt-3">
         
-        {/* Application Status Selector */}
-        <div className="flex items-center gap-2">
-          <label className="text-xs text-slate-400">Status:</label>
-          <select
-            value={appStatus}
-            onChange={(e) => onStatusChange(job.job_id, e.target.value as any)}
-            className={`text-xs font-medium px-3 py-1.5 rounded-lg border outline-none cursor-pointer ${getStatusBadgeStyle()}`}
+        {/* 4 Action Buttons */}
+        <div className="flex items-center gap-2 overflow-x-auto py-1 custom-scrollbar">
+          <button
+            onClick={() => onDispositionChange(job.job_id, 'Interested')}
+            className={`text-xs px-3 py-1.5 rounded-lg flex items-center gap-1 transition-all ${
+              disposition === 'Interested'
+                ? 'bg-amber-500/20 text-amber-300 border border-amber-500/40 font-bold'
+                : 'bg-slate-800 hover:bg-slate-700 text-slate-300 border border-slate-700'
+            }`}
           >
-            <option value="Not Applied" className="bg-slate-900 text-slate-300">⚪ Not Applied</option>
-            <option value="Applied" className="bg-slate-900 text-indigo-300">🔵 Applied</option>
-            <option value="Interviewing" className="bg-slate-900 text-purple-300">🟣 Interviewing</option>
-            <option value="Offer Received" className="bg-slate-900 text-emerald-300">🟢 Offer Received</option>
-          </select>
+            <Star className={`w-3.5 h-3.5 ${disposition === 'Interested' ? 'fill-amber-400 text-amber-400' : 'text-slate-400'}`} />
+            <span>Interested</span>
+          </button>
+
+          <button
+            onClick={() => onDispositionChange(job.job_id, 'Later')}
+            className={`text-xs px-3 py-1.5 rounded-lg flex items-center gap-1 transition-all ${
+              disposition === 'Later'
+                ? 'bg-sky-500/20 text-sky-300 border border-sky-500/40 font-bold'
+                : 'bg-slate-800 hover:bg-slate-700 text-slate-300 border border-slate-700'
+            }`}
+          >
+            <Clock className="w-3.5 h-3.5 text-sky-400" />
+            <span>Later</span>
+          </button>
+
+          <button
+            onClick={() => onDispositionChange(job.job_id, 'Skip')}
+            className={`text-xs px-3 py-1.5 rounded-lg flex items-center gap-1 transition-all ${
+              disposition === 'Skip'
+                ? 'bg-rose-500/20 text-rose-300 border border-rose-500/40 font-bold'
+                : 'bg-slate-800 hover:bg-slate-700 text-slate-400 border border-slate-700'
+            }`}
+          >
+            <Ban className="w-3.5 h-3.5 text-rose-400" />
+            <span>Skip</span>
+          </button>
 
           <button
             onClick={() => onOpenNotes(job)}
@@ -162,7 +184,7 @@ export const JobCard: React.FC<JobCardProps> = ({
           </button>
         </div>
 
-        {/* Buttons: Expand Breakdown & 1-Click Apply */}
+        {/* Breakdown & Direct Human-Approved Application Button */}
         <div className="flex items-center gap-2">
           <button
             onClick={() => setExpanded(!expanded)}
@@ -172,15 +194,14 @@ export const JobCard: React.FC<JobCardProps> = ({
             {expanded ? <ChevronUp className="w-3.5 h-3.5" /> : <ChevronDown className="w-3.5 h-3.5" />}
           </button>
 
-          <a
-            href={job.job_url || "#"}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-xs font-semibold px-4 py-1.5 rounded-lg bg-gradient-to-r from-sky-500 to-indigo-600 hover:from-sky-400 hover:to-indigo-500 text-white flex items-center gap-1.5 shadow-md shadow-sky-500/15 transition-all hover:scale-105 active:scale-95"
+          <button
+            onClick={handleApplyClick}
+            className="text-xs font-semibold px-4 py-1.5 rounded-lg bg-gradient-to-r from-emerald-500 to-teal-600 hover:from-emerald-400 hover:to-teal-500 text-white flex items-center gap-1.5 shadow-md shadow-emerald-500/15 transition-all hover:scale-105 active:scale-95"
           >
-            <span>Apply Direct</span>
-            <ExternalLink className="w-3.5 h-3.5" />
-          </a>
+            <CheckCircle2 className="w-3.5 h-3.5" />
+            <span>Review & Apply</span>
+            <ExternalLink className="w-3 h-3 ml-0.5 opacity-80" />
+          </button>
         </div>
       </div>
 
@@ -188,7 +209,7 @@ export const JobCard: React.FC<JobCardProps> = ({
       {expanded && (
         <div className="mt-4 pt-4 border-t border-slate-800/80 bg-slate-900/60 rounded-xl p-4 space-y-4 animate-fadeIn">
           
-          {/* Dimension Scores Bar Graph */}
+          {/* Dimension Scores */}
           <div>
             <h4 className="text-xs font-bold text-slate-300 uppercase tracking-wider mb-2 flex items-center gap-1.5">
               <Sparkles className="w-3.5 h-3.5 text-sky-400" />
@@ -222,7 +243,7 @@ export const JobCard: React.FC<JobCardProps> = ({
             </div>
           </div>
 
-          {/* Evidence Citations */}
+          {/* Grounding Evidence Citations */}
           {job.evidence_citations && job.evidence_citations.length > 0 && (
             <div>
               <h4 className="text-xs font-bold text-slate-300 uppercase tracking-wider mb-2">
@@ -241,13 +262,13 @@ export const JobCard: React.FC<JobCardProps> = ({
             </div>
           )}
 
-          {/* Full Description Snippet */}
+          {/* Full Posting Excerpt */}
           {job.description && (
             <div>
               <h4 className="text-xs font-bold text-slate-300 uppercase tracking-wider mb-1">
-                Posting Excerpt
+                Posting Requirements Excerpt
               </h4>
-              <p className="text-xs text-slate-400 line-clamp-3 leading-relaxed">
+              <p className="text-xs text-slate-400 line-clamp-4 leading-relaxed">
                 {job.description}
               </p>
             </div>
