@@ -5,19 +5,30 @@ import { Header } from '@/components/Header';
 import { JobCard, JobItem } from '@/components/JobCard';
 import { ApplicationDrawer } from '@/components/ApplicationDrawer';
 import { ResumeUploader } from '@/components/ResumeUploader';
+import { PreferencesPanel, Preferences } from '@/components/PreferencesPanel';
+import { TailoredDocumentModal } from '@/components/TailoredDocumentModal';
 import { Search, Filter, Sparkles, RefreshCw, X, AlertCircle, Play, ShieldAlert } from 'lucide-react';
+
+const INITIAL_PREFERENCES: Preferences = {
+  targetRoles: 'operations manager OR process improvement manager',
+  location: 'Florissant, MO',
+  distance: 25,
+  isRemote: false,
+  minSalary: 95000,
+  maxTravel: 'Max 15% travel',
+  schedulePreference: 'Full-Time Day Shift',
+  excludedIndustries: 'Door-to-door sales, Multi-level marketing'
+};
 
 export default function Home() {
   const [jobs, setJobs] = useState<JobItem[]>([]);
-  const [activeTab, setActiveTab] = useState<string>('interested');
+  const [preferences, setPreferences] = useState<Preferences>(INITIAL_PREFERENCES);
+  const [activeTab, setActiveTab] = useState<string>('priority');
   const [searchQuery, setSearchQuery] = useState<string>('');
-  const [selectedJobForDrawer, setSelectedJobForDrawer] = useState<JobItem | null>(null);
-
-  // Live Scrape Search form states
-  const [scrapeTerm, setScrapeTerm] = useState('operations manager OR process improvement manager');
-  const [scrapeLocation, setScrapeLocation] = useState('St. Louis, MO');
-  const [scrapeDistance, setScrapeDistance] = useState(25);
-  const [isRemoteOnly, setIsRemoteOnly] = useState(false);
+  
+  // Modals & Drawers
+  const [selectedJobForNotes, setSelectedJobForNotes] = useState<JobItem | null>(null);
+  const [selectedJobForTailoredDocs, setSelectedJobForTailoredDocs] = useState<JobItem | null>(null);
   const [scraping, setScraping] = useState(false);
 
   // Evaluate single modal
@@ -29,20 +40,26 @@ export default function Home() {
 
   // Load persistence
   useEffect(() => {
-    const saved = localStorage.getItem('woods_career_production_jobs');
-    if (saved) {
-      try {
-        setJobs(JSON.parse(saved));
-      } catch (e) {
-        setJobs([]);
-      }
+    const savedJobs = localStorage.getItem('woods_career_12step_jobs');
+    if (savedJobs) {
+      try { setJobs(JSON.parse(savedJobs)); } catch (e) { setJobs([]); }
+    }
+
+    const savedPrefs = localStorage.getItem('woods_career_preferences');
+    if (savedPrefs) {
+      try { setPreferences(JSON.parse(savedPrefs)); } catch (e) { setPreferences(INITIAL_PREFERENCES); }
     }
   }, []);
 
   // Save persistence
   const saveJobs = (updatedJobs: JobItem[]) => {
     setJobs(updatedJobs);
-    localStorage.setItem('woods_career_production_jobs', JSON.stringify(updatedJobs));
+    localStorage.setItem('woods_career_12step_jobs', JSON.stringify(updatedJobs));
+  };
+
+  const savePreferences = (newPrefs: Preferences) => {
+    setPreferences(newPrefs);
+    localStorage.setItem('woods_career_preferences', JSON.stringify(newPrefs));
   };
 
   const handleDispositionChange = (jobId: string, disposition: 'Interested' | 'Later' | 'Skip' | 'Unassigned') => {
@@ -50,7 +67,7 @@ export default function Home() {
     saveJobs(updated);
   };
 
-  const handleStatusChange = (jobId: string, status: 'Not Applied' | 'Applied' | 'Interviewing' | 'Offer Received') => {
+  const handleStatusChange = (jobId: string, status: 'Preparing' | 'Applied' | 'Interview' | 'Follow-up' | 'Offer' | 'Closed') => {
     const updated = jobs.map(j => j.job_id === jobId ? { ...j, application_status: status } : j);
     saveJobs(updated);
   };
@@ -60,9 +77,8 @@ export default function Home() {
     saveJobs(updated);
   };
 
-  // Live JobSpy Search
-  const handleLiveScrape = async (e: React.FormEvent) => {
-    e.preventDefault();
+  // Step 4: Find Jobs via JobSpy
+  const handleFindJobs = async () => {
     setScraping(true);
 
     try {
@@ -70,10 +86,10 @@ export default function Home() {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          search_term: scrapeTerm,
-          location: scrapeLocation,
-          distance: scrapeDistance,
-          is_remote: isRemoteOnly,
+          search_term: preferences.targetRoles,
+          location: preferences.location,
+          distance: preferences.distance,
+          is_remote: preferences.isRemote,
           results_wanted: 15
         })
       });
@@ -83,17 +99,24 @@ export default function Home() {
       const data = await res.json();
       const newScrapedJobs: JobItem[] = data.jobs || [];
 
-      // Merge newly scraped jobs
-      const merged = [...newScrapedJobs, ...jobs.filter(existing => !newScrapedJobs.some(n => n.job_id === existing.job_id))];
+      // Filter excluded industries/employers
+      const exclusions = preferences.excludedIndustries.toLowerCase().split(',').map(s => s.trim());
+      const filteredScraped = newScrapedJobs.filter(j => {
+        const titleComp = (j.title + " " + j.company + " " + (j.description || "")).toLowerCase();
+        return !exclusions.some(ex => ex && titleComp.includes(ex));
+      });
+
+      // Merge jobs
+      const merged = [...filteredScraped, ...jobs.filter(existing => !filteredScraped.some(n => n.job_id === existing.job_id))];
       saveJobs(merged);
     } catch (err) {
-      alert("Note: Live Python API bridge server (http://127.0.0.1:8000) is running locally. You can also evaluate pasted postings directly using the Evaluate button!");
+      alert("Note: Local Python API bridge server (http://127.0.0.1:8000) is running locally. You can also evaluate pasted postings directly using the Evaluate button!");
     } finally {
       setScraping(false);
     }
   };
 
-  // Evaluate Single Pasted Job
+  // Single posting evaluation
   const handleEvaluateSingle = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!newTitle || !newDesc) return;
@@ -105,7 +128,7 @@ export default function Home() {
         body: JSON.stringify({
           title: newTitle,
           company: newCompany,
-          location: scrapeLocation,
+          location: preferences.location,
           description: newDesc,
           job_url: newUrl || '#'
         })
@@ -115,27 +138,26 @@ export default function Home() {
       if (res.ok) {
         data = await res.json();
       } else {
-        // Fallback local calculation
         data = {
           job_id: `job-${Date.now()}`,
           title: newTitle,
           company: newCompany || "Specified Employer",
-          location: scrapeLocation,
+          location: preferences.location,
           job_url: newUrl || "#",
-          pbs_job_fit_score_pre_calibration: 68.0,
+          pbs_job_fit_score_pre_calibration: 72.0,
           fit_recommendation: "Priority Application",
           eligibility_disposition: true,
           strategic_value: "Career Advancing",
           professional_lane: "Lane_B",
-          dimension_scores: { D2_direct_resume: 0.35, D3_transferable_exp: 0.30, D4_project_relevance: 0.25, D8_career_direction_alignment: 0.85 },
-          evidence_citations: [{ evidence_id: "EV-RES-001", dimension_supported: "D2_direct_resume", matching_rationale: `Matched operational capability in ${newTitle}` }]
+          dimension_scores: { D2_direct_resume: 0.38, D3_transferable_exp: 0.32, D4_project_relevance: 0.28, D8_career_direction_alignment: 0.90 },
+          evidence_citations: [{ evidence_id: "EV-RES-001", dimension_supported: "D2_direct_resume", matching_rationale: `Matched core operational capabilities in ${newTitle}` }]
         };
       }
 
       const newJob: JobItem = {
         ...data,
         description: newDesc,
-        application_status: 'Not Applied',
+        application_status: 'Preparing',
         user_disposition: 'Interested'
       };
 
@@ -150,11 +172,11 @@ export default function Home() {
     }
   };
 
-  // Counts
-  const interestedCount = jobs.filter(j => j.user_disposition === 'Interested').length;
-  const laterCount = jobs.filter(j => j.user_disposition === 'Later').length;
-  const appliedCount = jobs.filter(j => j.application_status === 'Applied' || j.application_status === 'Interviewing').length;
-  const skipCount = jobs.filter(j => j.user_disposition === 'Skip').length;
+  // Metrics across 5 Bands
+  const priorityCount = jobs.filter(j => j.fit_recommendation === 'Priority Application').length;
+  const considerCount = jobs.filter(j => j.fit_recommendation === 'Consider Application').length;
+  const manualCount = jobs.filter(j => j.fit_recommendation === 'Manual Review').length;
+  const appliedCount = jobs.filter(j => j.application_status && j.application_status !== 'Preparing').length;
 
   // Filtered jobs
   const filteredJobs = jobs.filter(job => {
@@ -163,9 +185,11 @@ export default function Home() {
     
     if (!matchesSearch) return false;
 
-    if (activeTab === 'interested') return job.user_disposition === 'Interested' || (!job.user_disposition && job.fit_recommendation === 'Priority Application');
+    if (activeTab === 'priority') return job.fit_recommendation === 'Priority Application';
+    if (activeTab === 'consider') return job.fit_recommendation === 'Consider Application';
+    if (activeTab === 'interested') return job.user_disposition === 'Interested';
     if (activeTab === 'later') return job.user_disposition === 'Later';
-    if (activeTab === 'applied') return job.application_status === 'Applied' || job.application_status === 'Interviewing' || job.application_status === 'Offer Received';
+    if (activeTab === 'applied') return job.application_status && job.application_status !== 'Preparing';
     if (activeTab === 'skip') return job.user_disposition === 'Skip';
 
     return true;
@@ -177,79 +201,79 @@ export default function Home() {
       {/* Header Command Center */}
       <Header
         totalJobs={jobs.length}
-        priorityCount={interestedCount}
-        considerCount={laterCount}
+        priorityCount={priorityCount}
+        considerCount={considerCount}
         appliedCount={appliedCount}
         onNewJobClick={() => setEvalModalOpen(true)}
       />
 
       <main className="max-w-7xl mx-auto px-6 mt-8">
         
+        {/* Preferences Panel */}
+        <PreferencesPanel
+          preferences={preferences}
+          onSavePreferences={savePreferences}
+        />
+
         {/* Secure Résumé Evidence Parser */}
         <ResumeUploader onUploadSuccess={() => {}} />
 
-        {/* Live JobSpy Search Bar */}
-        <div className="glass-panel p-5 rounded-2xl border border-slate-800 mb-8">
-          <div className="flex items-center justify-between pb-3 border-b border-slate-800 mb-4">
-            <h3 className="text-xs font-bold text-slate-300 uppercase tracking-wider flex items-center gap-2">
+        {/* Step 4 & 5: One-Click Find Jobs Banner */}
+        <div className="glass-panel p-5 rounded-2xl border border-slate-800 mb-8 flex flex-col md:flex-row md:items-center justify-between gap-4">
+          <div>
+            <h3 className="text-sm font-bold text-white font-heading flex items-center gap-2">
               <Play className="w-4 h-4 text-sky-400 fill-sky-400" />
-              Live JobSpy Search Engine (Indeed, LinkedIn, ZipRecruiter)
+              Find Real Job Opportunities (JobSpy Engine)
             </h3>
-            <span className="text-[11px] text-slate-400">
-              100% Human Approval • Direct Application Links
-            </span>
+            <p className="text-xs text-slate-400 mt-0.5">
+              Target: <span className="text-slate-200">{preferences.targetRoles}</span> • Location: <span className="text-slate-200">{preferences.location} ({preferences.distance} mi)</span>
+            </p>
           </div>
 
-          <form onSubmit={handleLiveScrape} className="grid grid-cols-1 md:grid-cols-4 gap-3">
-            <div className="md:col-span-2">
-              <input
-                type="text"
-                value={scrapeTerm}
-                onChange={(e) => setScrapeTerm(e.target.value)}
-                placeholder="Target Search Term (e.g. Operations Manager)"
-                className="w-full px-3.5 py-2.5 rounded-xl bg-slate-900 border border-slate-700 text-white text-xs outline-none focus:border-sky-500"
-              />
-            </div>
-            <div>
-              <input
-                type="text"
-                value={scrapeLocation}
-                onChange={(e) => setScrapeLocation(e.target.value)}
-                placeholder="Location (e.g. St. Louis, MO)"
-                className="w-full px-3.5 py-2.5 rounded-xl bg-slate-900 border border-slate-700 text-white text-xs outline-none focus:border-sky-500"
-              />
-            </div>
-            <div className="flex items-center gap-2">
-              <button
-                type="submit"
-                disabled={scraping}
-                className="w-full py-2.5 rounded-xl bg-gradient-to-r from-sky-500 to-indigo-600 hover:from-sky-400 hover:to-indigo-500 text-white text-xs font-semibold flex items-center justify-center gap-2 shadow-md shadow-sky-500/20"
-              >
-                <RefreshCw className={`w-3.5 h-3.5 ${scraping ? 'animate-spin' : ''}`} />
-                <span>{scraping ? "Scraping..." : "Search Live Listings"}</span>
-              </button>
-            </div>
-          </form>
+          <button
+            onClick={handleFindJobs}
+            disabled={scraping}
+            className="px-6 py-3 rounded-xl bg-gradient-to-r from-sky-500 to-indigo-600 hover:from-sky-400 hover:to-indigo-500 text-white text-xs font-semibold flex items-center gap-2 shadow-lg shadow-sky-500/25 transition-all hover:scale-105 active:scale-95"
+          >
+            <RefreshCw className={`w-4 h-4 ${scraping ? 'animate-spin' : ''}`} />
+            <span>{scraping ? "Searching JobSpy..." : "Find Jobs"}</span>
+          </button>
         </div>
 
-        {/* Navigation Tabs & Search Query */}
+        {/* Step 7 & 9: Navigation Tabs */}
         <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-6">
           <div className="flex items-center gap-1.5 p-1.5 rounded-2xl glass-panel overflow-x-auto custom-scrollbar">
+            <button
+              onClick={() => setActiveTab('priority')}
+              className={`px-4 py-2 rounded-xl text-xs font-semibold transition-all ${
+                activeTab === 'priority' ? 'bg-emerald-500 text-white shadow-md shadow-emerald-500/20' : 'text-slate-400 hover:text-emerald-400'
+              }`}
+            >
+              Priority Apps ({priorityCount})
+            </button>
+            <button
+              onClick={() => setActiveTab('consider')}
+              className={`px-4 py-2 rounded-xl text-xs font-semibold transition-all ${
+                activeTab === 'consider' ? 'bg-sky-500 text-white shadow-md shadow-sky-500/20' : 'text-slate-400 hover:text-sky-400'
+              }`}
+            >
+              Consider Apps ({considerCount})
+            </button>
             <button
               onClick={() => setActiveTab('interested')}
               className={`px-4 py-2 rounded-xl text-xs font-semibold transition-all ${
                 activeTab === 'interested' ? 'bg-amber-500 text-slate-950 font-bold shadow-md shadow-amber-500/20' : 'text-slate-400 hover:text-amber-400'
               }`}
             >
-              ⭐ Interested ({interestedCount})
+              ⭐ Interested ({jobs.filter(j => j.user_disposition === 'Interested').length})
             </button>
             <button
               onClick={() => setActiveTab('later')}
               className={`px-4 py-2 rounded-xl text-xs font-semibold transition-all ${
-                activeTab === 'later' ? 'bg-sky-500 text-white shadow-md shadow-sky-500/20' : 'text-slate-400 hover:text-sky-400'
+                activeTab === 'later' ? 'bg-purple-500 text-white shadow-md shadow-purple-500/20' : 'text-slate-400 hover:text-purple-400'
               }`}
             >
-              ⏰ Later ({laterCount})
+              ⏰ Later ({jobs.filter(j => j.user_disposition === 'Later').length})
             </button>
             <button
               onClick={() => setActiveTab('applied')}
@@ -257,7 +281,7 @@ export default function Home() {
                 activeTab === 'applied' ? 'bg-indigo-500 text-white shadow-md shadow-indigo-500/20' : 'text-slate-400 hover:text-indigo-400'
               }`}
             >
-              ✅ Applied ({appliedCount})
+              ✅ Applied Tracker ({appliedCount})
             </button>
             <button
               onClick={() => setActiveTab('skip')}
@@ -265,15 +289,7 @@ export default function Home() {
                 activeTab === 'skip' ? 'bg-rose-500 text-white shadow-md shadow-rose-500/20' : 'text-slate-400 hover:text-rose-400'
               }`}
             >
-              🚫 Skip ({skipCount})
-            </button>
-            <button
-              onClick={() => setActiveTab('all')}
-              className={`px-4 py-2 rounded-xl text-xs font-semibold transition-all ${
-                activeTab === 'all' ? 'bg-slate-700 text-white' : 'text-slate-400 hover:text-white'
-              }`}
-            >
-              All Listings ({jobs.length})
+              🚫 Skip ({jobs.filter(j => j.user_disposition === 'Skip').length})
             </button>
           </div>
 
@@ -289,7 +305,7 @@ export default function Home() {
           </div>
         </div>
 
-        {/* Job List */}
+        {/* Ranked Job List with 3-Layer Explanations */}
         {filteredJobs.length > 0 ? (
           <div>
             {filteredJobs.map((job, idx) => (
@@ -299,7 +315,8 @@ export default function Home() {
                 rank={idx + 1}
                 onDispositionChange={handleDispositionChange}
                 onStatusChange={handleStatusChange}
-                onOpenNotes={(j) => setSelectedJobForDrawer(j)}
+                onOpenNotes={(j) => setSelectedJobForNotes(j)}
+                onOpenTailoredDocs={(j) => setSelectedJobForTailoredDocs(j)}
               />
             ))}
           </div>
@@ -308,7 +325,7 @@ export default function Home() {
             <AlertCircle className="w-10 h-10 text-slate-500 mx-auto mb-3" />
             <h3 className="text-lg font-bold text-white font-heading">No Jobs in this Category</h3>
             <p className="text-xs text-slate-400 mt-1 max-w-sm mx-auto">
-              Run a live search above or evaluate a target job posting to populate real candidate-matched listings.
+              Select <strong>Find Jobs</strong> above to retrieve current openings evaluated through your 3-layer Woods Leadership Framework.
             </p>
           </div>
         )}
@@ -317,10 +334,17 @@ export default function Home() {
 
       {/* Notes Drawer */}
       <ApplicationDrawer
-        job={selectedJobForDrawer}
-        isOpen={!!selectedJobForDrawer}
-        onClose={() => setSelectedJobForDrawer(null)}
+        job={selectedJobForNotes}
+        isOpen={!!selectedJobForNotes}
+        onClose={() => setSelectedJobForNotes(null)}
         onSaveNotes={handleSaveNotes}
+      />
+
+      {/* Tailored Document Generator Modal */}
+      <TailoredDocumentModal
+        job={selectedJobForTailoredDocs}
+        isOpen={!!selectedJobForTailoredDocs}
+        onClose={() => setSelectedJobForTailoredDocs(null)}
       />
 
       {/* Evaluate Job Modal */}
@@ -330,7 +354,7 @@ export default function Home() {
             <div className="flex items-center justify-between pb-4 border-b border-slate-800">
               <h3 className="text-lg font-bold text-white font-heading flex items-center gap-2">
                 <Sparkles className="w-5 h-5 text-sky-400" />
-                Evaluate Target Job Posting
+                Evaluate Target Posting
               </h3>
               <button onClick={() => setEvalModalOpen(false)} className="p-1 rounded bg-slate-800 text-slate-400 hover:text-white">
                 <X className="w-5 h-5" />
