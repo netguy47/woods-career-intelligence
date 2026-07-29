@@ -23,12 +23,13 @@ Candidate: Donald Woods | Florissant, MO 63033 | 314-917-3503 | donaldwoods@live
 === EXECUTIVE OVERVIEW & VALUE PROPOSITION ===
 Donald Woods is an Executive Operations Leader with 25+ years of multi-unit leadership, P&L stewardship, and continuous process improvement across high-volume food service, retail, and field logistics environments. Holding an Associate of Arts & Sciences (A.A.S.) in Computer Programming alongside advanced Six Sigma process control training, Donald bridges traditional multi-unit district management with modern data analytics, custom inventory forecasting algorithms, and automated operational audit systems.
 
-=== VERIFIED KEY PERFORMANCE ACCOMPLISHMENTS ===
-• Multi-Unit Scale & Revenue: Sustained 25% Sales Growth across 5 store locations (Wingstop). Mentored GMs and executed high-volume guest satisfaction initiatives.
-• Inventory & Cost Control: Exceeded Cost of Sales targets for 24 Consecutive Periods (Pizza Hut), sustaining multi-year gross margin expansion across 8 locations.
-• Turnover & Retention: Achieved a 28% Increase in employee retention (Church's Chicken), cutting manager turnover by 15-28% through structured onboarding.
-• Custom Logistics Engineering: Designed and deployed a custom 'Build-to-Inventory' 1, 2, and 3-stop delivery scheduling algorithm, reducing food cost variance and waste.
-• Labor Optimization: Streamlined scheduling workflows to achieve a 10% Reduction in labor expenses while raising customer satisfaction by 25%.
+=== VERIFIED KEY PERFORMANCE ACCOMPLISHMENTS (GROUNDED EVIDENCE) ===
+• Multi-Unit Scale & Revenue: Sustained 25% Sales Growth across 5 store locations (Wingstop, Nov 2023 – Nov 2024). Mentored GMs and executed targeted CSAT strategies.
+• Inventory & Cost Control: Exceeded Cost of Sales targets for 24 Consecutive Periods (Pizza Hut, Nov 2017 – Aug 2022), sustaining multi-year gross margin expansion across 8 locations.
+• Turnover & Retention: Achieved a 28% Increase in employee retention (Church's Chicken, Jun 2014 – Aug 2016), cutting onboarding duration by 15%.
+• Custom Logistics Engineering: Designed and deployed a custom 'Build-to-Inventory' 1, 2, and 3-stop delivery scheduling algorithm (Wingstop, Nov 2023 – Nov 2024).
+• Labor Expense Optimization: Streamlined scheduling processes to achieve a 10% Reduction in labor expenses (Wingstop, Nov 2023 – Nov 2024).
+• Customer Satisfaction Boost: Elevated customer satisfaction ratings by 25% through streamlined operational workflows (Krispy Kreme, Aug 2016 – Nov 2017).
 
 === PROPRIETARY 3-LAYER OPERATIONAL INTELLIGENCE FRAMEWORK ===
 Layer 1 — Verified Unit Baseline Audit:
