@@ -1,0 +1,376 @@
+[
+  {
+    "job_id": null,
+    "title": "District Manager",
+    "company": "Securitas USA",
+    "location": "St. Louis, MO",
+    "score_status": "complete",
+    "eligibility_disposition": null,
+    "eligible": null,
+    "fit_recommendation": "Manual Review",
+    "recommendation_status": "Manual Review",
+    "recommendation_policy_trace": {
+      "pbs_threshold_pass": false,
+      "eligibility_pass": null,
+      "lane_resolution": "Lane_A",
+      "title_alignment": 0.8,
+      "career_direction": 0.85,
+      "evidence_confidence": "Moderate",
+      "supported_dimensions": [
+        "d2_active"
+      ],
+      "unresolved_requirements": [
+        "Geographic / Commute"
+      ],
+      "decisive_rules": [
+        "Unresolved material requirements: Geographic / Commute"
+      ]
+    },
+    "professional_lane": "Lane_A",
+    "professional_lane_name": "Direct Operations Leadership",
+    "target_role_horizon": "immediate_market_targets",
+    "hard_requirement_failures": [
+      "Job location or requirement status unresolved"
+    ],
+    "requirement_details": [
+      {
+        "requirement_type": "Geographic / Commute",
+        "requirement_text": "Location Status Verification",
+        "requirement_level": "required",
+        "state": "unresolved",
+        "candidate_evidence_ids": [],
+        "reason": "Location status unverified; requires validation evidence",
+        "confidence": 0.5
+      }
+    ],
+    "pbs_job_fit_score_pre_calibration": 36.2,
+    "diagnostic_fit_score": 36.2,
+    "capability_fit_score": 18.6,
+    "market_readiness_fit_score": 40.0,
+    "strategic_value": "Income Stabilizing",
+    "evidence_confidence": "Moderate",
+    "evidence_confidence_breakdown": {
+      "strength_distribution": {
+        "high_count": 0,
+        "moderate_count": 1,
+        "low_count": 0
+      },
+      "source_authority": {
+        "candidate_reported_count": 1,
+        "author_architect_count": 0,
+        "artifact_count": 0
+      },
+      "dimension_coverage": {
+        "d2_active": true,
+        "d3_active": false,
+        "d4_active": false
+      },
+      "confidence_score": 0.52,
+      "confidence_level": "Moderate"
+    },
+    "industry_match_status": "unresolved",
+    "dimension_scores": {
+      "D2_direct_resume": 0.35,
+      "D3_transferable_exp": 0.0,
+      "D4_project_relevance": 0.0,
+      "D5_static_career_keyword_alignment": 0.41,
+      "D6_title_closeness": 0.8,
+      "D7_industry_closeness": 0.0,
+      "D8_career_direction_alignment": 0.85
+    },
+    "evidence_citations": [
+      {
+        "evidence_id": "EV-RES-001",
+        "dimension_supported": "D2_direct_resume",
+        "evidence_strength": "moderate",
+        "classification": "direct",
+        "evidence_relationship": "reported_by_candidate",
+        "routing_basis": "metadata_authoritative",
+        "routing_confidence": 1.0,
+        "matching_rationale": "Matched terms (district manager, and, across) in Multi-Unit Operations Leadership & Strategic District Management [Routed by direct employment/resume metadata]",
+        "limitation": "Specific to food service retail; principles transfer directly to multi-site retail, field service, and logistics operations.",
+        "source_path": "C:\\Users\\Donal\\OneDrive\\Documents\\resume.dw.txt",
+        "distinct_evidence_group": "EV-RES-001",
+        "raw_match_score": 0.5,
+        "adjusted_match_score": 0.35
+      }
+    ],
+    "job_url": "https://www.ziprecruiter.com/c/Securitas-USA/Job/District-Manager/-in-St.-Louis,MO"
+  },
+  {
+    "job_id": null,
+    "title": "District Manager",
+    "company": "4M Building Solutions LLC",
+    "location": "St. Louis, MO",
+    "score_status": "complete",
+    "eligibility_disposition": null,
+    "eligible": null,
+    "fit_recommendation": "Manual Review",
+    "recommendation_status": "Manual Review",
+    "recommendation_policy_trace": {
+      "pbs_threshold_pass": false,
+      "eligibility_pass": null,
+      "lane_resolution": "Lane_A",
+      "title_alignment": 0.8,
+      "career_direction": 0.85,
+      "evidence_confidence": "Low",
+      "supported_dimensions": [],
+      "unresolved_requirements": [
+        "Geographic / Commute"
+      ],
+      "decisive_rules": [
+        "Unresolved material requirements: Geographic / Commute"
+      ]
+    },
+    "professional_lane": "Lane_A",
+    "professional_lane_name": "Direct Operations Leadership",
+    "target_role_horizon": "immediate_market_targets",
+    "hard_requirement_failures": [
+      "Job location or requirement status unresolved"
+    ],
+    "requirement_details": [
+      {
+        "requirement_type": "Geographic / Commute",
+        "requirement_text": "Location Status Verification",
+        "requirement_level": "required",
+        "state": "unresolved",
+        "candidate_evidence_ids": [],
+        "reason": "Location status unverified; requires validation evidence",
+        "confidence": 0.5
+      }
+    ],
+    "pbs_job_fit_score_pre_calibration": 27.6,
+    "diagnostic_fit_score": 27.6,
+    "capability_fit_score": 4.3,
+    "market_readiness_fit_score": 40.0,
+    "strategic_value": "Income Stabilizing",
+    "evidence_confidence": "Low",
+    "evidence_confidence_breakdown": {
+      "strength_distribution": {
+        "high_count": 0,
+        "moderate_count": 0,
+        "low_count": 0
+      },
+      "source_authority": {
+        "candidate_reported_count": 0,
+        "author_architect_count": 0,
+        "artifact_count": 0
+      },
+      "dimension_coverage": {
+        "d2_active": false,
+        "d3_active": false,
+        "d4_active": false
+      },
+      "confidence_score": 0.0,
+      "confidence_level": "Low"
+    },
+    "industry_match_status": "unresolved",
+    "dimension_scores": {
+      "D2_direct_resume": 0.0,
+      "D3_transferable_exp": 0.0,
+      "D4_project_relevance": 0.0,
+      "D5_static_career_keyword_alignment": 0.26,
+      "D6_title_closeness": 0.8,
+      "D7_industry_closeness": 0.0,
+      "D8_career_direction_alignment": 0.85
+    },
+    "evidence_citations": [],
+    "job_url": "https://www.ziprecruiter.com/c/4M-Building-Solutions-LLC/Job/District-Manager/-in-St.-Louis,MO"
+  },
+  {
+    "job_id": null,
+    "title": "Community & Facilities Operations Manager",
+    "company": "CIC (Cambridge Innovation Center)",
+    "location": "St. Louis, MO",
+    "score_status": "complete",
+    "eligibility_disposition": null,
+    "eligible": null,
+    "fit_recommendation": "Manual Review",
+    "recommendation_status": "Manual Review",
+    "recommendation_policy_trace": {
+      "pbs_threshold_pass": false,
+      "eligibility_pass": null,
+      "lane_resolution": "Unresolved",
+      "title_alignment": 0.0,
+      "career_direction": 0.0,
+      "evidence_confidence": "Moderate",
+      "supported_dimensions": [
+        "d4_active"
+      ],
+      "unresolved_requirements": [
+        "Geographic / Commute"
+      ],
+      "decisive_rules": [
+        "Unresolved material requirements: Geographic / Commute"
+      ]
+    },
+    "professional_lane": "Unresolved",
+    "professional_lane_name": "Unresolved",
+    "target_role_horizon": "Unresolved",
+    "hard_requirement_failures": [
+      "Job location or requirement status unresolved"
+    ],
+    "requirement_details": [
+      {
+        "requirement_type": "Geographic / Commute",
+        "requirement_text": "Location Status Verification",
+        "requirement_level": "required",
+        "state": "unresolved",
+        "candidate_evidence_ids": [],
+        "reason": "Location status unverified; requires validation evidence",
+        "confidence": 0.5
+      }
+    ],
+    "pbs_job_fit_score_pre_calibration": 11.9,
+    "diagnostic_fit_score": 11.9,
+    "capability_fit_score": 9.0,
+    "market_readiness_fit_score": 32.5,
+    "strategic_value": "Insufficient Information",
+    "evidence_confidence": "Moderate",
+    "evidence_confidence_breakdown": {
+      "strength_distribution": {
+        "high_count": 0,
+        "moderate_count": 1,
+        "low_count": 0
+      },
+      "source_authority": {
+        "candidate_reported_count": 0,
+        "author_architect_count": 0,
+        "artifact_count": 0
+      },
+      "dimension_coverage": {
+        "d2_active": false,
+        "d3_active": false,
+        "d4_active": true
+      },
+      "confidence_score": 0.52,
+      "confidence_level": "Moderate"
+    },
+    "industry_match_status": "transferable",
+    "dimension_scores": {
+      "D2_direct_resume": 0.0,
+      "D3_transferable_exp": 0.0,
+      "D4_project_relevance": 0.26,
+      "D5_static_career_keyword_alignment": 0.15,
+      "D6_title_closeness": 0.0,
+      "D7_industry_closeness": 0.65,
+      "D8_career_direction_alignment": 0.0
+    },
+    "evidence_citations": [
+      {
+        "evidence_id": "EV-EDU-001",
+        "dimension_supported": "D4_project_relevance",
+        "evidence_strength": "moderate",
+        "classification": "supporting",
+        "evidence_relationship": "credential_held_by_candidate",
+        "routing_basis": "metadata_authoritative",
+        "routing_confidence": 1.0,
+        "matching_rationale": "Matched terms (process improvement, and, louis) in A.A.S. Degree in Computer Programming & Ongoing Technical Education [Routed by explicit artifact/project metadata]",
+        "limitation": "Academic foundation.",
+        "source_path": "C:\\Users\\Donal\\OneDrive\\Documents\\resume.dw.txt",
+        "distinct_evidence_group": "EV-DEV-001",
+        "raw_match_score": 0.37,
+        "adjusted_match_score": 0.26
+      }
+    ],
+    "job_url": "https://www.ziprecruiter.com/c/CIC/Job/Community-Facilities-Operations-Manager/-in-St.-Louis,MO"
+  },
+  {
+    "job_id": null,
+    "title": "District Sales and Operations Manager",
+    "company": "Specified Employer",
+    "location": "St. Louis, MO",
+    "score_status": "complete",
+    "eligibility_disposition": null,
+    "eligible": null,
+    "fit_recommendation": "Manual Review",
+    "recommendation_status": "Manual Review",
+    "recommendation_policy_trace": {
+      "pbs_threshold_pass": false,
+      "eligibility_pass": null,
+      "lane_resolution": "Unresolved",
+      "title_alignment": 0.0,
+      "career_direction": 0.0,
+      "evidence_confidence": "Moderate",
+      "supported_dimensions": [
+        "d4_active"
+      ],
+      "unresolved_requirements": [
+        "Geographic / Commute"
+      ],
+      "decisive_rules": [
+        "Unresolved material requirements: Geographic / Commute"
+      ]
+    },
+    "professional_lane": "Unresolved",
+    "professional_lane_name": "Unresolved",
+    "target_role_horizon": "Unresolved",
+    "hard_requirement_failures": [
+      "Job location or requirement status unresolved"
+    ],
+    "requirement_details": [
+      {
+        "requirement_type": "Geographic / Commute",
+        "requirement_text": "Location Status Verification",
+        "requirement_level": "required",
+        "state": "unresolved",
+        "candidate_evidence_ids": [],
+        "reason": "Location status unverified; requires validation evidence",
+        "confidence": 0.5
+      }
+    ],
+    "pbs_job_fit_score_pre_calibration": 8.0,
+    "diagnostic_fit_score": 8.0,
+    "capability_fit_score": 13.4,
+    "market_readiness_fit_score": 0.0,
+    "strategic_value": "Insufficient Information",
+    "evidence_confidence": "Moderate",
+    "evidence_confidence_breakdown": {
+      "strength_distribution": {
+        "high_count": 0,
+        "moderate_count": 1,
+        "low_count": 0
+      },
+      "source_authority": {
+        "candidate_reported_count": 0,
+        "author_architect_count": 0,
+        "artifact_count": 0
+      },
+      "dimension_coverage": {
+        "d2_active": false,
+        "d3_active": false,
+        "d4_active": true
+      },
+      "confidence_score": 0.52,
+      "confidence_level": "Moderate"
+    },
+    "industry_match_status": "unresolved",
+    "dimension_scores": {
+      "D2_direct_resume": 0.0,
+      "D3_transferable_exp": 0.0,
+      "D4_project_relevance": 0.26,
+      "D5_static_career_keyword_alignment": 0.41,
+      "D6_title_closeness": 0.0,
+      "D7_industry_closeness": 0.0,
+      "D8_career_direction_alignment": 0.0
+    },
+    "evidence_citations": [
+      {
+        "evidence_id": "EV-MKT-003",
+        "dimension_supported": "D4_project_relevance",
+        "evidence_strength": "moderate",
+        "classification": "transferable",
+        "evidence_relationship": "directed_by_candidate",
+        "routing_basis": "metadata_authoritative",
+        "routing_confidence": 1.0,
+        "matching_rationale": "Matched terms (sales, metrics, lead) in Prospect Database Schema Initializer (`init_prospect_db.py`) [Routed by explicit artifact/project metadata]",
+        "limitation": "Local SQLite database.",
+        "source_path": "D:\\blogger\\init_prospect_db.py",
+        "distinct_evidence_group": "EV-MKT-001",
+        "raw_match_score": 0.37,
+        "adjusted_match_score": 0.26
+      }
+    ],
+    "job_url": "https://www.ziprecruiter.com/c/District-Sales-and-Operations-Manager/-in-St.-Louis,MO"
+  }
+]

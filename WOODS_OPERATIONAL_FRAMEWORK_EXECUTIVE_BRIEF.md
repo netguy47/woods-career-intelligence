@@ -8,9 +8,9 @@
 
 ### Executive Overview & Verified Value Proposition
 
-Donald Woods is an Executive Operations Leader with **25+ years of multi-unit leadership, P&L stewardship, and continuous process improvement** across high-volume food service, retail, and field logistics environments.
+Donald Woods is an Executive Operations Leader with **20+ years of multi-unit leadership, P&L stewardship, and continuous process improvement** across high-volume food service, retail, and field logistics environments. 
 
-Holding an **Associate of Arts & Sciences (A.A.S.) in Computer Programming** alongside advanced Six Sigma process control training, Donald bridges traditional multi-unit district management with modern data analytics, custom inventory forecasting algorithms, and automated operational audit systems.
+Holding an **Associate of Arts & Sciences (A.A.S.) in Computer Programming** alongside advanced Six Sigma process control training, Donald bridges traditional multi-unit district management with modern data analytics, automated inventory audit systems, and operational controls.
 
 ---
 
@@ -18,12 +18,12 @@ Holding an **Associate of Arts & Sciences (A.A.S.) in Computer Programming** alo
 
 | Operational Domain | Verified Metric & Outcome | Impact & Source Tenure |
 | :--- | :--- | :--- |
-| **Multi-Unit Scale & Revenue** | **25% Sales Growth** across 5 store locations | Scaled district operations, mentored General Managers, and executed targeted CSAT strategies *(Wingstop, Nov 2023 – Nov 2024)*. |
+| **Multi-Unit Area Leadership** | **4.1% Annual Sales Growth** across 8 store locations | Directed multi-unit operations, progressing from General Manager to Area Coach based on performance *(Pizza Hut, Nov 2017 – Aug 2022)*. |
 | **Inventory & Cost Control** | **24 Consecutive Periods** beating Cost of Sales targets | Designed cost-saving audit systems across 8 locations, sustaining multi-year margin expansion *(Pizza Hut, Nov 2017 – Aug 2022)*. |
+| **Leadership & Mentorship** | **20+ Managers Developed** with 25% productivity boost | Mentored General Managers and shift leaders, cultivating a culture of high performance and accountability *(Pizza Hut, Nov 2017 – Aug 2022)*. |
 | **Turnover & Retention** | **28% Increase** in employee retention | Engineered structured manager onboarding and mentorship programs, cutting onboarding duration by 15% *(Church's Chicken, Jun 2014 – Aug 2016)*. |
-| **Custom Logistics Engineering** | **Build-to-Inventory** 1, 2, and 3-Stop Delivery Algorithm | Aligned multi-unit delivery schedules, significantly reducing food cost variance and waste *(Wingstop, Nov 2023 – Nov 2024)*. |
-| **Labor Expense Optimization** | **10% Reduction** in labor expenses | Streamlined scheduling processes while maintaining peak productivity and service quality *(Wingstop, Nov 2023 – Nov 2024)*. |
-| **Customer Satisfaction Boost** | **25% Elevation** in customer satisfaction ratings | Streamlined operational workflows and elevated service quality standards *(Krispy Kreme, Aug 2016 – Nov 2017)*. |
+| **Revenue & Sales Expansion** | **40% Sales Growth** & 25% CSAT Increase | Championed staffing optimization and operational workflow redesign *(Krispy Kreme, Aug 2016 – Nov 2017)*. |
+| **P&L & Revenue Target Mastery** | **17% Revenue Increase** & EBITDA Target Exceeded | Drove operational excellence and team development, consistently exceeding revenue and performance targets *(Flynn Restaurant Group & Church's)*. |
 
 ---
 
@@ -43,8 +43,8 @@ flowchart TD
     end
     
     subgraph Layer2
-        B1["Deploy Build-to-Inventory Model"]
-        B2["Implement 10% Labor Reduction Scheduling"]
+        B1["Deploy Cost-Saving Audit Systems"]
+        B2["Implement Labor Optimization Workflows"]
         B3["Establish GM Mentorship Playbook"]
     end
     
@@ -58,7 +58,7 @@ flowchart TD
 1. **Layer 1 — Verified Unit Baseline Audit**:
    - Conducts granular P&L, food cost, labor variance, and QSC safety compliance audits across all assigned units within 30 days.
 2. **Layer 2 — Leadership & Process Engineering**:
-   - Deploys custom *Build-to-Inventory* delivery algorithms, streamlines labor scheduling, and institutes structured General Manager mentorship to eliminate manager burnout and turnover.
+   - Deploys cost-saving inventory systems, streamlines labor scheduling, and institutes structured General Manager mentorship to eliminate manager burnout and turnover.
 3. **Layer 3 — Automated Governance & Margin Control**:
    - Establishes continuous audit frameworks and automated reporting controls to sustain long-term gross margin and EBITDA growth.
 
@@ -74,7 +74,7 @@ When joining your organization, Donald executes a structured 90-day scaling plan
   - Identify immediate low-hanging waste reduction opportunities.
 
 - **Days 31–60 (Process Alignment & GM Mentorship)**:
-  - Roll out the *Build-to-Inventory* delivery scheduling model and labor optimization workflows.
+  - Roll out cost-saving inventory control systems and labor optimization workflows.
   - Implement structured GM coaching and retention initiatives to stabilize staffing.
   - Align unit operations with corporate EBITDA and customer satisfaction targets.
 

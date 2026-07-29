@@ -2,44 +2,8 @@
   "version": "2.0.1",
   "generated_at": "2026-07-27T15:45:00Z",
   "candidate": "Donald Woods",
-  "total_evidence_records": 42,
+  "total_evidence_records": 40,
   "evidence_records": [
-    {
-      "evidence_id": "EV-RES-001",
-      "capability_domain": "Multi-Unit and Field Operations",
-      "specific_capability": "Multi-Unit Operations Leadership & Strategic District Management",
-      "source_type": "Verified r\u00e9sum\u00e9 record",
-      "source_path": "C:\\Users\\Donal\\OneDrive\\Documents\\resume.dw.txt",
-      "source_lines_or_section": "resume.dw.txt:L23-L30",
-      "exact_source_excerpt": "District Manager | Wingstop Restaurants Inc. | St. Louis, MO (Nov 2023 \u2013 Nov 2024): Strategically led multi-unit operations across 5 locations, mentoring and empowering General Managers to build strong leadership capabilities and achieve operational excellence.",
-      "work_performed": "Directed 5 high-volume QSR store locations across St. Louis metro, mentoring GMs, running operational audits, and establishing unit accountability.",
-      "donalds_role": "District Manager / Multi-Unit Leader",
-      "authorship_status": "not_applicable",
-      "ai_assisted_breakdown": null,
-      "artifact_produced": "Multi-Unit District Leadership & GM Mentorship Framework",
-      "verified_outcome": "Sustained a 25% growth in sales and customer satisfaction metrics; reduced turnover by 15%; optimized labor scheduling achieving 10% expense reduction.",
-      "artifact_evidence": "The r\u00e9sum\u00e9 contains the stated claim.",
-      "implementation_evidence": "The r\u00e9sum\u00e9 describes the role, action, or implementation.",
-      "outcome_evidence": "Self-reported professional outcome requiring employer records, references, performance reports, or other corroboration for independent verification.",
-      "business_or_operational_relevance": "Direct multi-unit operational leadership, P&L responsibility, and labor/cost management.",
-      "technical_tools": [
-        "Microsoft Excel",
-        "Office 365",
-        "P&L Reporting",
-        "Labor Scheduling Software"
-      ],
-      "leadership_relevance": "Executive field leadership, GM mentoring, talent retention, and cross-functional team alignment.",
-      "classification": "direct",
-      "evidence_strength": "moderate",
-      "confidence_basis": "Verified employment history on primary resume.",
-      "limitations": "Specific to food service retail; principles transfer directly to multi-site retail, field service, and logistics operations.",
-      "date_or_period": "November 2023 \u2013 November 2024",
-      "related_evidence_ids": [
-        "EV-RES-002",
-        "EV-RES-003"
-      ],
-      "evidence_relationship": "reported_by_candidate"
-    },
     {
       "evidence_id": "EV-RES-002",
       "capability_domain": "Inventory, Labor, Forecasting, and Cost Control",
@@ -1438,38 +1402,6 @@
         "EV-MKT-001"
       ],
       "evidence_relationship": "directed_by_candidate"
-    },
-    {
-      "evidence_id": "EV-LNK-001",
-      "capability_domain": "Multi-Unit and Field Operations",
-      "specific_capability": "LinkedIn Public Executive Profile & Verified Employment Record",
-      "source_type": "Public Profile Record",
-      "source_path": "https://www.linkedin.com/in/woodsdon40",
-      "source_lines_or_section": "woodsdon40 public profile",
-      "exact_source_excerpt": "District Manager at Wingstop Restaurants Inc. | 25+ years multi-unit leadership experience.",
-      "work_performed": "Maintains public professional profile communicating multi-unit operations leadership history.",
-      "donalds_role": "Profile owner",
-      "authorship_status": "not_applicable",
-      "ai_assisted_breakdown": null,
-      "artifact_produced": "Public LinkedIn Profile (woodsdon40)",
-      "verified_outcome": "Verified \u2014 Public profile reflects employment history as District Manager and Area Coach.",
-      "artifact_evidence": "Records the LinkedIn profile URL and profile content reported during authorized access.",
-      "implementation_evidence": "Proves active professional networking presence.",
-      "outcome_evidence": "Profile-history consistency was reported but is not independently verifiable from the frozen snapshot because no profile capture was preserved.",
-      "business_or_operational_relevance": "Public career representation.",
-      "technical_tools": [
-        "LinkedIn Platform"
-      ],
-      "leadership_relevance": "Professional executive presence.",
-      "classification": "direct",
-      "evidence_strength": "moderate",
-      "confidence_basis": "Authorized public profile URL.",
-      "limitations": "Supplemental public record.",
-      "date_or_period": "Current",
-      "related_evidence_ids": [
-        "EV-RES-001"
-      ],
-      "evidence_relationship": "public_profile_owned_by_candidate"
     },
     {
       "evidence_id": "EV-EDU-001",
