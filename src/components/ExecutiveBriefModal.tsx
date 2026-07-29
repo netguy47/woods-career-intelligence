@@ -76,20 +76,41 @@ Layer 3 — Automated Governance & Margin Control:
         </div>
 
         {/* Value Proposition Badge */}
-        <div className="my-4 p-3.5 rounded-xl bg-sky-500/10 border border-sky-500/20 text-xs text-sky-300 flex items-center justify-between">
+        <div className="my-4 p-3.5 rounded-xl bg-sky-500/10 border border-sky-500/20 text-xs text-sky-300 flex items-center justify-between gap-3">
           <div className="flex items-center gap-2">
             <ShieldCheck className="w-4 h-4 text-sky-400 flex-shrink-0" />
             <span>
               <strong>Ready for Executive Presentation</strong>: Attach this brief to job applications or present it in interviews as your proprietary operational scaling framework.
             </span>
           </div>
-          <button
-            onClick={copyToClipboard}
-            className="px-3 py-1.5 rounded-lg bg-sky-500 hover:bg-sky-400 text-white text-xs font-semibold flex items-center gap-1.5 flex-shrink-0 ml-3"
-          >
-            {copied ? <CheckCircle2 className="w-3.5 h-3.5" /> : <Copy className="w-3.5 h-3.5" />}
-            <span>{copied ? "Copied Brief!" : "Copy Full Brief"}</span>
-          </button>
+
+          <div className="flex items-center gap-2 flex-shrink-0">
+            <a
+              href="/Donald_Woods_Executive_Resume.pdf"
+              download="Donald_Woods_Executive_Resume.pdf"
+              className="px-3 py-1.5 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-semibold flex items-center gap-1.5"
+            >
+              <Download className="w-3.5 h-3.5" />
+              <span>PDF Résumé</span>
+            </a>
+
+            <a
+              href="/WOODS_OPERATIONAL_FRAMEWORK_EXECUTIVE_BRIEF.md"
+              download="WOODS_OPERATIONAL_FRAMEWORK_EXECUTIVE_BRIEF.md"
+              className="px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 text-xs font-semibold flex items-center gap-1.5"
+            >
+              <Download className="w-3.5 h-3.5" />
+              <span>Brief (.md)</span>
+            </a>
+
+            <button
+              onClick={copyToClipboard}
+              className="px-3 py-1.5 rounded-lg bg-sky-500 hover:bg-sky-400 text-white text-xs font-semibold flex items-center gap-1.5"
+            >
+              {copied ? <CheckCircle2 className="w-3.5 h-3.5" /> : <Copy className="w-3.5 h-3.5" />}
+              <span>{copied ? "Copied!" : "Copy"}</span>
+            </button>
+          </div>
         </div>
 
         {/* Text Area */}

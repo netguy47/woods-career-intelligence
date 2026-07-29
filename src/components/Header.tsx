@@ -1,7 +1,7 @@
 'use client';
 
 import React from 'react';
-import { Award, Briefcase, CheckCircle, Clock, Filter, Plus, ShieldCheck, Sparkles, FileText } from 'lucide-react';
+import { Award, Briefcase, Download, FileText, Plus, ShieldCheck, Sparkles } from 'lucide-react';
 
 interface HeaderProps {
   totalJobs: number;
@@ -68,14 +68,27 @@ export const Header: React.FC<HeaderProps> = ({
             </div>
           </div>
 
+          {/* Download PDF Résumé */}
+          <a
+            href="/Donald_Woods_Executive_Resume.pdf"
+            download="Donald_Woods_Executive_Resume.pdf"
+            className="flex items-center gap-1.5 px-3 py-2.5 rounded-xl bg-emerald-500/20 hover:bg-emerald-500/30 text-emerald-300 border border-emerald-500/40 text-xs font-semibold transition-all hover:scale-105"
+            title="Download PDF Master Résumé"
+          >
+            <Download className="w-4 h-4 text-emerald-400" />
+            <span>PDF Résumé</span>
+          </a>
+
+          {/* Executive Brief Modal */}
           <button
             onClick={onOpenBriefClick}
-            className="flex items-center gap-1.5 px-3.5 py-2.5 rounded-xl bg-amber-500/20 hover:bg-amber-500/30 text-amber-300 border border-amber-500/40 text-xs font-semibold transition-all hover:scale-105"
+            className="flex items-center gap-1.5 px-3 py-2.5 rounded-xl bg-amber-500/20 hover:bg-amber-500/30 text-amber-300 border border-amber-500/40 text-xs font-semibold transition-all hover:scale-105"
           >
             <FileText className="w-4 h-4 text-amber-400" />
             <span>Executive Brief</span>
           </button>
 
+          {/* Evaluate Posting */}
           <button
             onClick={onNewJobClick}
             className="flex items-center gap-2 px-4 py-2.5 rounded-xl bg-gradient-to-r from-sky-500 to-blue-600 hover:from-sky-400 hover:to-blue-500 text-white font-medium text-xs shadow-md shadow-sky-500/20 transition-all hover:scale-105 active:scale-95"
