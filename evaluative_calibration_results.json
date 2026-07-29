@@ -1,10 +1,10 @@
 {
   "provenance": {
     "runner_version": "4.3.0",
-    "execution_timestamp": "2026-07-28T10:32:39.589988+00:00",
+    "execution_timestamp": "2026-07-29T15:56:31.165103+00:00",
     "python_version": "3.14.3 (tags/v3.14.3:323c59a, Feb  3 2026, 16:04:56) [MSC v.1944 64 bit (AMD64)]",
-    "scorer_sha256": "03547419afddb5b0e0fb8856aafca47a13648d2ecaaba65ba333cc3dd349978a",
-    "registry_sha256": "20c18c1405708cb15eae924aa73d1d5515a55de904c1cd28454eed2265fbc488",
+    "scorer_sha256": "840e22dc2f65bad83dd166e073b15e5c59eb140dc3f51933e270a213c3dab818",
+    "registry_sha256": "0f7d7d4e670a8d7bac84429c22474a0646ccf881e15fd9ecab12b79489eb69a9",
     "identity_model_sha256": "3b146c72fa0609d537767cb45cbb959238989bd76e7923f03e956cc98e0edb60",
     "thresholds_in_use": {
       "D2_direct_resume": 0.35,
@@ -95,7 +95,7 @@
         ],
         "pbs_job_fit_score_pre_calibration": 46.3,
         "diagnostic_fit_score": 46.3,
-        "capability_fit_score": 21.3,
+        "capability_fit_score": 21.4,
         "market_readiness_fit_score": 82.5,
         "strategic_value": "Income Stabilizing",
         "evidence_confidence": "Moderate",
@@ -137,7 +137,7 @@
             "evidence_relationship": "reported_by_candidate",
             "routing_basis": "metadata_authoritative",
             "routing_confidence": 1.0,
-            "matching_rationale": "Matched terms (district manager, general, labor) in Multi-Unit Operations Leadership & Strategic District Management [Routed by direct employment/resume metadata]",
+            "matching_rationale": "Matched terms (locations, district, across) in Multi-Unit Operations Leadership & Strategic District Management [Routed by direct employment/resume metadata]",
             "limitation": "Specific to food service retail; principles transfer directly to multi-site retail, field service, and logistics operations.",
             "source_path": "C:\\Users\\Donal\\OneDrive\\Documents\\resume.dw.txt",
             "distinct_evidence_group": "EV-RES-001",
@@ -283,7 +283,7 @@
             "evidence_relationship": "credential_held_by_candidate",
             "routing_basis": "metadata_authoritative",
             "routing_confidence": 1.0,
-            "matching_rationale": "Matched terms (process improvement, certification, six) in A.A.S. Degree in Computer Programming & Ongoing Technical Education [Routed by explicit artifact/project metadata]",
+            "matching_rationale": "Matched terms (sigma, process improvement, six) in A.A.S. Degree in Computer Programming & Ongoing Technical Education [Routed by explicit artifact/project metadata]",
             "limitation": "Academic foundation.",
             "source_path": "C:\\Users\\Donal\\OneDrive\\Documents\\resume.dw.txt",
             "distinct_evidence_group": "EV-DEV-001",
@@ -417,7 +417,7 @@
             "evidence_relationship": "directed_by_candidate",
             "routing_basis": "metadata_authoritative",
             "routing_confidence": 1.0,
-            "matching_rationale": "Matched terms (gatekeeper, governance, and) in Development of Python Promotion Gatekeeper Engine (woods_gatekeeper.py) [Routed by explicit artifact/project metadata]",
+            "matching_rationale": "Matched terms (governance, compliance, gatekeeper) in Development of Python Promotion Gatekeeper Engine (woods_gatekeeper.py) [Routed by explicit artifact/project metadata]",
             "limitation": "Designed specifically for Woods Framework JSON promotion packages.",
             "source_path": "D:\\blogger\\.agents\\woods-framework\\woods_gatekeeper.py",
             "distinct_evidence_group": "EV-FID-001",
@@ -460,8 +460,8 @@
           "test": "prohibited_evidence_rejection",
           "prohibited": [],
           "retrieved": [
-            "EV-DEV-001",
-            "EV-MKT-002"
+            "EV-MKT-002",
+            "EV-DEV-001"
           ],
           "passed": true
         }
@@ -552,7 +552,7 @@
             "evidence_relationship": "directed_by_candidate",
             "routing_basis": "metadata_authoritative",
             "routing_confidence": 1.0,
-            "matching_rationale": "Matched terms (mcp, model, context) in Double-Edge AI Pipeline Express & MCP Backend Server (`server.ts`) [Routed by explicit artifact/project metadata]",
+            "matching_rationale": "Matched terms (mcp, protocol, context) in Double-Edge AI Pipeline Express & MCP Backend Server (`server.ts`) [Routed by explicit artifact/project metadata]",
             "limitation": "Development server configuration.",
             "source_path": "D:\\blogger\\Double-Edge-Insight-AI-Pipeline\\server.ts",
             "distinct_evidence_group": "EV-DEV-001",
@@ -567,7 +567,7 @@
             "evidence_relationship": "directed_by_candidate",
             "routing_basis": "metadata_authoritative",
             "routing_confidence": 1.0,
-            "matching_rationale": "Matched terms (script, and, data) in Automated Founders Brief Generator (`founders_brief_generator.py`) [Routed by explicit artifact/project metadata]",
+            "matching_rationale": "Matched terms (python, and, script) in Automated Founders Brief Generator (`founders_brief_generator.py`) [Routed by explicit artifact/project metadata]",
             "limitation": "Internal briefing tool.",
             "source_path": "D:\\blogger\\founders_brief_generator.py",
             "distinct_evidence_group": "EV-MKT-001",
@@ -610,10 +610,10 @@
           "test": "prohibited_evidence_rejection",
           "prohibited": [],
           "retrieved": [
-            "EV-DEV-001",
+            "EV-GRW-001",
             "EV-MKT-002",
-            "EV-WDS-003",
-            "EV-GRW-001"
+            "EV-DEV-001",
+            "EV-WDS-003"
           ],
           "passed": true
         }
@@ -705,7 +705,7 @@
             "evidence_relationship": "designed_by_candidate",
             "routing_basis": "metadata_authoritative",
             "routing_confidence": 1.0,
-            "matching_rationale": "Matched terms (workflow, workflow automation, design) in Design of Standard Enforcement Loop (SEL), Routine Preservation Loop (RPL), and Visibility Accountability Loop (VAL) [Routed by direct employment/resume metadata]",
+            "matching_rationale": "Matched terms (operational, workflow, design) in Design of Standard Enforcement Loop (SEL), Routine Preservation Loop (RPL), and Visibility Accountability Loop (VAL) [Routed by direct employment/resume metadata]",
             "limitation": "Requires operational telemetry integration for automated trigger execution.",
             "source_path": "D:\\blogger\\.agents\\woods-framework\\principles.json",
             "distinct_evidence_group": "EV-FID-002",
@@ -720,7 +720,7 @@
             "evidence_relationship": "directed_by_candidate",
             "routing_basis": "metadata_authoritative",
             "routing_confidence": 1.0,
-            "matching_rationale": "Matched terms (automated, mcp, and) in Double-Edge AI Pipeline Express & MCP Backend Server (`server.ts`) [Routed by explicit artifact/project metadata]",
+            "matching_rationale": "Matched terms (mcp, and, server) in Double-Edge AI Pipeline Express & MCP Backend Server (`server.ts`) [Routed by explicit artifact/project metadata]",
             "limitation": "Development server configuration.",
             "source_path": "D:\\blogger\\Double-Edge-Insight-AI-Pipeline\\server.ts",
             "distinct_evidence_group": "EV-DEV-001",
@@ -735,7 +735,7 @@
             "evidence_relationship": "directed_by_candidate",
             "routing_basis": "metadata_authoritative",
             "routing_confidence": 1.0,
-            "matching_rationale": "Matched terms (automated, and, automation) in Growth Intelligence Agent Architecture (`growth\\agent.py`) [Routed by explicit artifact/project metadata]",
+            "matching_rationale": "Matched terms (telemetry, and, automated) in Growth Intelligence Agent Architecture (`growth\\agent.py`) [Routed by explicit artifact/project metadata]",
             "limitation": "Growth script.",
             "source_path": "D:\\blogger\\growth\\agent.py",
             "distinct_evidence_group": "EV-GRW-001",
@@ -750,7 +750,7 @@
             "evidence_relationship": "directed_by_candidate",
             "routing_basis": "metadata_authoritative",
             "routing_confidence": 1.0,
-            "matching_rationale": "Matched terms (automated, and, automation) in Automated Founders Brief Generator (`founders_brief_generator.py`) [Routed by explicit artifact/project metadata]",
+            "matching_rationale": "Matched terms (operational, and, automated) in Automated Founders Brief Generator (`founders_brief_generator.py`) [Routed by explicit artifact/project metadata]",
             "limitation": "Internal briefing tool.",
             "source_path": "D:\\blogger\\founders_brief_generator.py",
             "distinct_evidence_group": "EV-MKT-001",
@@ -793,8 +793,8 @@
           "test": "prohibited_evidence_rejection",
           "prohibited": [
             "EV-WDS-001",
-            "EV-RES-001",
-            "EV-MCP-001"
+            "EV-MCP-001",
+            "EV-RES-001"
           ],
           "retrieved": [],
           "passed": true

@@ -1,0 +1,1217 @@
+[
+  {
+    "job_id": null,
+    "title": "Brite WorX - Site Manager",
+    "company": "Wallis Companies",
+    "location": "Rock Hill, MO, US",
+    "score_status": "complete",
+    "eligibility_disposition": null,
+    "eligible": null,
+    "fit_recommendation": "Manual Review",
+    "recommendation_status": "Manual Review",
+    "recommendation_policy_trace": {
+      "pbs_threshold_pass": false,
+      "eligibility_pass": null,
+      "lane_resolution": "Unresolved",
+      "title_alignment": 0.0,
+      "career_direction": 0.0,
+      "evidence_confidence": "Low",
+      "supported_dimensions": [],
+      "unresolved_requirements": [
+        "Geographic / Commute"
+      ],
+      "decisive_rules": [
+        "Unresolved material requirements: Geographic / Commute"
+      ]
+    },
+    "professional_lane": "Unresolved",
+    "professional_lane_name": "Unresolved",
+    "target_role_horizon": "Unresolved",
+    "hard_requirement_failures": [
+      "Job location or requirement status unresolved"
+    ],
+    "requirement_details": [
+      {
+        "requirement_type": "Geographic / Commute",
+        "requirement_text": "Location Status Verification",
+        "requirement_level": "required",
+        "state": "unresolved",
+        "candidate_evidence_ids": [],
+        "reason": "Location status unverified; requires validation evidence",
+        "confidence": 0.5
+      }
+    ],
+    "pbs_job_fit_score_pre_calibration": 4.1,
+    "diagnostic_fit_score": 4.1,
+    "capability_fit_score": 6.9,
+    "market_readiness_fit_score": 0.0,
+    "strategic_value": "Insufficient Information",
+    "evidence_confidence": "Low",
+    "evidence_confidence_breakdown": {
+      "strength_distribution": {
+        "high_count": 0,
+        "moderate_count": 0,
+        "low_count": 0
+      },
+      "source_authority": {
+        "candidate_reported_count": 0,
+        "author_architect_count": 0,
+        "artifact_count": 0
+      },
+      "dimension_coverage": {
+        "d2_active": false,
+        "d3_active": false,
+        "d4_active": false
+      },
+      "confidence_score": 0.0,
+      "confidence_level": "Low"
+    },
+    "industry_match_status": "unresolved",
+    "dimension_scores": {
+      "D2_direct_resume": 0.0,
+      "D3_transferable_exp": 0.0,
+      "D4_project_relevance": 0.0,
+      "D5_static_career_keyword_alignment": 0.41,
+      "D6_title_closeness": 0.0,
+      "D7_industry_closeness": 0.0,
+      "D8_career_direction_alignment": 0.0
+    },
+    "evidence_citations": [],
+    "job_url": "https://www.indeed.com/viewjob?jk=7cb2d0ab39a062d2",
+    "description": "**SUMMARY**\n\nThe BriteWorX Manager is responsible for efficient and profitable car wash operations. Manager is responsible for cleanliness and maintaining a superior image at the facility, promoting cash wash sales and providing customers with an exceptional buying experience. The position has responsibility for addressing customer concerns and security of company assets by implementing and ensuring compliance with appropriate cash/asset handling processes. This position will operate the wash alongside BriteWorX Associates and will spend much of their work time outside.\n\n  \n\n**Get Paid Weekly \u2013 Your Hard Work, Rewarded Faster!**\n\n  \n\n**RESPONSIBILITIES BY COMPETENCY:** *(\\*denotes an essential function of the position)*\n\n  \n\n**Business Results Orientation**\n\n* Operate car wash efficiently to achieve sales, expense, and profit goals\n\n* Monitor equipment and facility to ensure cleanliness, safety, image, and wash quality meet expectations\n\n* Maintain and ensure accuracy of the car wash membership database and ensure billing is updated as required\n\n* Understand how to perform financial analysis and attain expected store sales, profits and margins\n\n* Protect company assets at all times by: ensuring bank deposit is completed in timely manner on a daily basis; completing daily paperwork requirements; performing petty cash audits and reporting irregularities to management in a timely manner\n\n* Develop staffing schedule and maintain regular attendance designed to meet customer service needs and manage labor cost, approving timesheets as required\n\n* Work an irregular schedule, including 40+ hours per week and some evenings and weekends\n\n* Maintain regular attendance and follow designated safety practices\n\n* Maintain and track all necessary on-site inventories and provide related reports to BSC team\n\nPerform diagnosis as requested and conduct repairs within scope of capabilities and time constraints\n\nAsk questions to understand Balanced Scorecard (BSC) and understand his/her contribution to the BSC\n\nBring forward operational efficiency ideas to the supervisor and/or the BSC team\n\nAssist in development of marketing and promotions designed to drive sales\n\nExamine the marketplace for changes that may affect the business\n\nDevelop promotions to increase sales and profits while providing customer satisfaction\n\nPerform other duties not listed as required\n\n  \n\n**Communication**\n\n* Communicate effectively and professionally with customers, employees, internal support staff, external vendors, members of management\n\n* Excellent verbal and written communication skills\n\n* Manage customer complaints, damage claims, review videos of incidents, etc\u2026 and report to management/appropriate support personnel\n\n* Ensure customers are aware of current wash promotions and offerings\n\n* Report any customer injuries, any customer property or facility damage, or safety issues to supervisor and appropriate support personnel immediately\n\n* Update employees on goals, business results, safety issues, and other important company information regularly; celebrate success\n\nRespond timely to requests from management, customers, support staff, etc\u2026\n\n  \n\n**Customer Service Orientation**\n\n* Promote customer awareness and a customer-focused mindset among all employees; lead by example\n\nSuggest wash products, promotions and services to customers that may fit their needs\n\n* Ensure all staff comply with company appearance and uniform standards at all times\n\n* Respond timely to customer inquiries, suggestions, complaints, and damage reports\n\n* Handle customer meetings in an ethical, professional and efficient manner\n\nSuggest company or facility improvements that will enhance customer service\n\nFollow through with customer recovery as needed when service does not meet expectations\n\n  \n\n**Developing Talent**\n\n* Maintain a competent and professional work force trained on all car wash operations and customer service\n\n* Evaluate and coach employees regularly as required and as needed\n\n* Provide employees with required safety and operational training\n\n* Attend training to further professional development according to company guidelines\n\n* Stay abreast of current trends in the car wash industry and cross train others as needed\n\nPromote team development, enthusiasm, and pride\n\nProvide encouragement and development for employees as needed for further growth\n\nContact Human Resources for advice or assistance in hiring, counseling, appraising or terminating as necessary\n\n**Technical Expertise**\n\n* Maintain knowledge of car wash operations, equipment and chemicals\n\n* Monitor completion of duties each shift as required to maintain the facility and wash\n\n* Troubleshoot, diagnose, and make needed repairs of equipment/facility, utilizing maintenance staff when needed with focus on safety\n\n* Understand and utilize all electronic and computer systems used in daily operations\n\n* Understand chemicals (performance, ordering, loading, maintenance, safety, etc.) as well as cleaning and changing of water systems filters\n\n* Understanding the air compressor operations and maintenance, in case of some air pressure loss.\n\n* Understanding equipment brush system (how to remove and cleaning processes if contaminated)\n\n* Develop and maintain knowledge of car wash equipment and basic carwash operating systems\n\n* Perform diagnostic and service maintenance as needed for customers\u2019 car washes\n\n* Perform chemical filtration and testing on water samples from car washes\n\n* Diagnose problems with equipment and make repairs as directed or make recommendations for repairs\n\n* Repair or replace defective parts\n\nAdjust functional parts of devices and control instruments\n\n* Observe mechanical devices in operation and listen to sounds to locate causes of trouble\n\n* Knowledge of general maintenance protocol, including electrical, plumbing, and car wash equipment\n\n**Safety**\n\n* Attend and participate in safety meetings\n\n* Conduct responsibilities with focus on safety first\n\n* Ensure all protocols are followed in the event of an accident\n\n* Work diligently to correct safety deficiencies in a timely manner\n\n* Complete required safety training\n\n* Take responsibility for correction of unsafe conditions\n* Report all work-related injuries and/or property damage accidents immediately\n\n* Inform supervisor of unsafe conditions and behaviors, and recommend solutions to correct or eliminate them\n\n  \n\n**SUPERVISORY RESPONSIBILITIES**\n\nDirect: Brite WorX Associates (9-10)\n\nIndirect: None\n\n  \n\nResponsible for the overall direction, coordination and evaluation of each position. The position carries out supervisory responsibilities in accordance with the organization\u2019s policies, applicable laws, Wallis culture, expectations and behaviors. Responsibilities include planning, assigning and directing work; managing development, training, and certifications; appraising and managing performance, rewarding and disciplining employees up to and including termination with supervisor\u2019s approval; addressing complaints; resolving problems; and promoting health and safety of the workforce.\n\n  \n\n**QUALIFICATIONS**\n\nTo perform this job successfully, an individual must be able to perform each essential duty satisfactorily. The requirements listed below are representative of the knowledge, skill and/or ability required. Reasonable accommodations may be made to enable individuals with disabilities to perform the essential functions. *(\\*denotes an essential qualification of the position)*\n\n  \n\n**Education:** \\*Required: Equivalent to high school diploma\n\n  \n\n**Experience:** \\*At least 2 years of experience in retail, car wash, customer service, or related field\n\n  \n\n**Language Skills:** \\*Ability to read, write, speak, and understand English in a manner that is sufficient for effective communication with groups of managers, clients, customers and the general public.\n\n  \n\n**Skills and Abilities:** **(May be representative but not all-inclusive of****those commonly****associated with the position)**  \nMechanical/technical skills necessary to complete basic troubleshooting and maintenance of equipment\n\nAbility to use own judgment in the analysis of facts and circumstances surrounding individual problems and transactions and taking the initiative to determine actions to be taken within the limits of standard or accepted practice\n\nWillingness to work an irregular schedule, including evenings and weekends and be \u201con call\u201d\n\nWillingness to work outside in all weather conditions\n\nStrong organization skills, paired with ability to multi-task and handle multiple priorities in a fast-paced environment\n\nWell-developed interpersonal skills\n\nExtraordinary attention to details\n\n  \n\n**Technology, Tools,**\n\n**And Equipment:** \\*Required: Computer, Microsoft Windows, Telephone, Excel, Email, Internet\n\n  \n\nPreferred: Copy/print/fax machine, Power washer, Various hand tools, both power and manual\n\n  \n\n(Proficiency with preferred items is not required to meet minimum qualifications, but proficiency must be established to complete essential job functions)\n\n  \n\n**Certificates, Licenses** None required\n\n**and/or Registrations:**\n\n**PHYSICAL DEMANDS**\n\nThe physical demands described below are representative of those that must be met by an employee to successfully perform the essential functions of this job. Reasonable accommodations may be made to enable individuals with disabilities to perform the essential functions.\n\n  \n\n**Amount of Time**\n\n**None**\n\n**Under 1/3**\n\n**1/3 To 2/3**\n\n**Over 2/3**\n\n**Amount of Time**\n\n**None**\n\n**Under 1/3**\n\n**1/3 To 2/3**\n\n**Over 2/3**\n\nSee:\n\nMust be able clean equipment and facility plus conduct minor troubleshooting and repairs\n\nX\n\nLifting:\n\nStand/Walk:\n\nMust be able to move around car wash\n\nX\n\nUp to 10 pounds\n\nX\n\nSit:\n\nX\n\nUp to 25 pounds\n\nX\n\nTouch/Grasp/Feel:\n\nMust be able to handle cleaning equipment and supplies\n\nX\n\nUp to 50 pounds\n\nX\n\nClimb or Balance:\n\nX\n\nUp to 100 pounds\n\nX\n\nStoop, Kneel or Crawl:\n\nX\n\nOver 100 pounds\n\nX\n\nTalk or Hear:\n\nMust be able to communicate in person and on telephone system\n\nX\n\nWorking Conditions:\n\nOutside facility maintenance\n\nCar wash\n\nX\n\n*Disclaimer:*\n\nThis job description in no way states or implies that these are the only duties to be performed by the employee occupying this position. Employees may be required to follow other job-related instructions and to perform other job-related duties as requested, subject to all applicable state and federal laws. Wallis Companies reserves the right to make changes to job descriptions as needed with or without notice to affected employees. Certain job functions described herein may be subject to possible modification in accordance with applicable state and federal laws. This job description does not establish a contract for employment."
+  },
+  {
+    "job_id": null,
+    "title": "Brite WorX - Site Manager",
+    "company": "Wallis Companies",
+    "location": "Swansea, IL, US",
+    "score_status": "complete",
+    "eligibility_disposition": null,
+    "eligible": null,
+    "fit_recommendation": "Manual Review",
+    "recommendation_status": "Manual Review",
+    "recommendation_policy_trace": {
+      "pbs_threshold_pass": false,
+      "eligibility_pass": null,
+      "lane_resolution": "Unresolved",
+      "title_alignment": 0.0,
+      "career_direction": 0.0,
+      "evidence_confidence": "Low",
+      "supported_dimensions": [],
+      "unresolved_requirements": [
+        "Geographic / Commute"
+      ],
+      "decisive_rules": [
+        "Unresolved material requirements: Geographic / Commute"
+      ]
+    },
+    "professional_lane": "Unresolved",
+    "professional_lane_name": "Unresolved",
+    "target_role_horizon": "Unresolved",
+    "hard_requirement_failures": [
+      "Job location or requirement status unresolved"
+    ],
+    "requirement_details": [
+      {
+        "requirement_type": "Geographic / Commute",
+        "requirement_text": "Location Status Verification",
+        "requirement_level": "required",
+        "state": "unresolved",
+        "candidate_evidence_ids": [],
+        "reason": "Location status unverified; requires validation evidence",
+        "confidence": 0.5
+      }
+    ],
+    "pbs_job_fit_score_pre_calibration": 4.1,
+    "diagnostic_fit_score": 4.1,
+    "capability_fit_score": 6.9,
+    "market_readiness_fit_score": 0.0,
+    "strategic_value": "Insufficient Information",
+    "evidence_confidence": "Low",
+    "evidence_confidence_breakdown": {
+      "strength_distribution": {
+        "high_count": 0,
+        "moderate_count": 0,
+        "low_count": 0
+      },
+      "source_authority": {
+        "candidate_reported_count": 0,
+        "author_architect_count": 0,
+        "artifact_count": 0
+      },
+      "dimension_coverage": {
+        "d2_active": false,
+        "d3_active": false,
+        "d4_active": false
+      },
+      "confidence_score": 0.0,
+      "confidence_level": "Low"
+    },
+    "industry_match_status": "unresolved",
+    "dimension_scores": {
+      "D2_direct_resume": 0.0,
+      "D3_transferable_exp": 0.0,
+      "D4_project_relevance": 0.0,
+      "D5_static_career_keyword_alignment": 0.41,
+      "D6_title_closeness": 0.0,
+      "D7_industry_closeness": 0.0,
+      "D8_career_direction_alignment": 0.0
+    },
+    "evidence_citations": [],
+    "job_url": "https://www.indeed.com/viewjob?jk=70aa8b0182a723e9",
+    "description": "**SUMMARY**\n\nThe BriteWorX Manager is responsible for efficient and profitable car wash operations. Manager is responsible for cleanliness and maintaining a superior image at the facility, promoting cash wash sales and providing customers with an exceptional buying experience. The position has responsibility for addressing customer concerns and security of company assets by implementing and ensuring compliance with appropriate cash/asset handling processes. This position will operate the wash alongside BriteWorX Associates and will spend much of their work time outside.\n\n  \n\n**Get Paid Weekly \u2013 Your Hard Work, Rewarded Faster!**\n\n  \n\n**RESPONSIBILITIES BY COMPETENCY:** *(\\*denotes an essential function of the position)*\n\n  \n\n**Business Results Orientation**\n\n* Operate car wash efficiently to achieve sales, expense, and profit goals\n\n* Monitor equipment and facility to ensure cleanliness, safety, image, and wash quality meet expectations\n\n* Maintain and ensure accuracy of the car wash membership database and ensure billing is updated as required\n\n* Understand how to perform financial analysis and attain expected store sales, profits and margins\n\n* Protect company assets at all times by: ensuring bank deposit is completed in timely manner on a daily basis; completing daily paperwork requirements; performing petty cash audits and reporting irregularities to management in a timely manner\n\n* Develop staffing schedule and maintain regular attendance designed to meet customer service needs and manage labor cost, approving timesheets as required\n\n* Work an irregular schedule, including 40+ hours per week and some evenings and weekends\n\n* Maintain regular attendance and follow designated safety practices\n\n* Maintain and track all necessary on-site inventories and provide related reports to BSC team\n\nPerform diagnosis as requested and conduct repairs within scope of capabilities and time constraints\n\nAsk questions to understand Balanced Scorecard (BSC) and understand his/her contribution to the BSC\n\nBring forward operational efficiency ideas to the supervisor and/or the BSC team\n\nAssist in development of marketing and promotions designed to drive sales\n\nExamine the marketplace for changes that may affect the business\n\nDevelop promotions to increase sales and profits while providing customer satisfaction\n\nPerform other duties not listed as required\n\n  \n\n**Communication**\n\n* Communicate effectively and professionally with customers, employees, internal support staff, external vendors, members of management\n\n* Excellent verbal and written communication skills\n\n* Manage customer complaints, damage claims, review videos of incidents, etc\u2026 and report to management/appropriate support personnel\n\n* Ensure customers are aware of current wash promotions and offerings\n\n* Report any customer injuries, any customer property or facility damage, or safety issues to supervisor and appropriate support personnel immediately\n\n* Update employees on goals, business results, safety issues, and other important company information regularly; celebrate success\n\nRespond timely to requests from management, customers, support staff, etc\u2026\n\n  \n\n**Customer Service Orientation**\n\n* Promote customer awareness and a customer-focused mindset among all employees; lead by example\n\nSuggest wash products, promotions and services to customers that may fit their needs\n\n* Ensure all staff comply with company appearance and uniform standards at all times\n\n* Respond timely to customer inquiries, suggestions, complaints, and damage reports\n\n* Handle customer meetings in an ethical, professional and efficient manner\n\nSuggest company or facility improvements that will enhance customer service\n\nFollow through with customer recovery as needed when service does not meet expectations\n\n  \n\n**Developing Talent**\n\n* Maintain a competent and professional work force trained on all car wash operations and customer service\n\n* Evaluate and coach employees regularly as required and as needed\n\n* Provide employees with required safety and operational training\n\n* Attend training to further professional development according to company guidelines\n\n* Stay abreast of current trends in the car wash industry and cross train others as needed\n\nPromote team development, enthusiasm, and pride\n\nProvide encouragement and development for employees as needed for further growth\n\nContact Human Resources for advice or assistance in hiring, counseling, appraising or terminating as necessary\n\n**Technical Expertise**\n\n* Maintain knowledge of car wash operations, equipment and chemicals\n\n* Monitor completion of duties each shift as required to maintain the facility and wash\n\n* Troubleshoot, diagnose, and make needed repairs of equipment/facility, utilizing maintenance staff when needed with focus on safety\n\n* Understand and utilize all electronic and computer systems used in daily operations\n\n* Understand chemicals (performance, ordering, loading, maintenance, safety, etc.) as well as cleaning and changing of water systems filters\n\n* Understanding the air compressor operations and maintenance, in case of some air pressure loss.\n\n* Understanding equipment brush system (how to remove and cleaning processes if contaminated)\n\n* Develop and maintain knowledge of car wash equipment and basic carwash operating systems\n\n* Perform diagnostic and service maintenance as needed for customers\u2019 car washes\n\n* Perform chemical filtration and testing on water samples from car washes\n\n* Diagnose problems with equipment and make repairs as directed or make recommendations for repairs\n\n* Repair or replace defective parts\n\nAdjust functional parts of devices and control instruments\n\n* Observe mechanical devices in operation and listen to sounds to locate causes of trouble\n\n* Knowledge of general maintenance protocol, including electrical, plumbing, and car wash equipment\n\n**Safety**\n\n* Attend and participate in safety meetings\n\n* Conduct responsibilities with focus on safety first\n\n* Ensure all protocols are followed in the event of an accident\n\n* Work diligently to correct safety deficiencies in a timely manner\n\n* Complete required safety training\n\n* Take responsibility for correction of unsafe conditions\n* Report all work-related injuries and/or property damage accidents immediately\n\n* Inform supervisor of unsafe conditions and behaviors, and recommend solutions to correct or eliminate them\n\n  \n\n**SUPERVISORY RESPONSIBILITIES**\n\nDirect: Brite WorX Associates (9-10)\n\nIndirect: None\n\n  \n\nResponsible for the overall direction, coordination and evaluation of each position. The position carries out supervisory responsibilities in accordance with the organization\u2019s policies, applicable laws, Wallis culture, expectations and behaviors. Responsibilities include planning, assigning and directing work; managing development, training, and certifications; appraising and managing performance, rewarding and disciplining employees up to and including termination with supervisor\u2019s approval; addressing complaints; resolving problems; and promoting health and safety of the workforce.\n\n  \n\n**QUALIFICATIONS**\n\nTo perform this job successfully, an individual must be able to perform each essential duty satisfactorily. The requirements listed below are representative of the knowledge, skill and/or ability required. Reasonable accommodations may be made to enable individuals with disabilities to perform the essential functions. *(\\*denotes an essential qualification of the position)*\n\n  \n\n**Education:** \\*Required: Equivalent to high school diploma\n\n  \n\n**Experience:** \\*At least 2 years of experience in retail, car wash, customer service, or related field\n\n  \n\n**Language Skills:** \\*Ability to read, write, speak, and understand English in a manner that is sufficient for effective communication with groups of managers, clients, customers and the general public.\n\n  \n\n**Skills and Abilities:** **(May be representative but not all-inclusive of****those commonly****associated with the position)**  \nMechanical/technical skills necessary to complete basic troubleshooting and maintenance of equipment\n\nAbility to use own judgment in the analysis of facts and circumstances surrounding individual problems and transactions and taking the initiative to determine actions to be taken within the limits of standard or accepted practice\n\nWillingness to work an irregular schedule, including evenings and weekends and be \u201con call\u201d\n\nWillingness to work outside in all weather conditions\n\nStrong organization skills, paired with ability to multi-task and handle multiple priorities in a fast-paced environment\n\nWell-developed interpersonal skills\n\nExtraordinary attention to details\n\n  \n\n**Technology, Tools,**\n\n**And Equipment:** \\*Required: Computer, Microsoft Windows, Telephone, Excel, Email, Internet\n\n  \n\nPreferred: Copy/print/fax machine, Power washer, Various hand tools, both power and manual\n\n  \n\n(Proficiency with preferred items is not required to meet minimum qualifications, but proficiency must be established to complete essential job functions)\n\n  \n\n**Certificates, Licenses** None required\n\n**and/or Registrations:**\n\n**PHYSICAL DEMANDS**\n\nThe physical demands described below are representative of those that must be met by an employee to successfully perform the essential functions of this job. Reasonable accommodations may be made to enable individuals with disabilities to perform the essential functions.\n\n  \n\n**Amount of Time**\n\n**None**\n\n**Under 1/3**\n\n**1/3 To 2/3**\n\n**Over 2/3**\n\n**Amount of Time**\n\n**None**\n\n**Under 1/3**\n\n**1/3 To 2/3**\n\n**Over 2/3**\n\nSee:\n\nMust be able clean equipment and facility plus conduct minor troubleshooting and repairs\n\nX\n\nLifting:\n\nStand/Walk:\n\nMust be able to move around car wash\n\nX\n\nUp to 10 pounds\n\nX\n\nSit:\n\nX\n\nUp to 25 pounds\n\nX\n\nTouch/Grasp/Feel:\n\nMust be able to handle cleaning equipment and supplies\n\nX\n\nUp to 50 pounds\n\nX\n\nClimb or Balance:\n\nX\n\nUp to 100 pounds\n\nX\n\nStoop, Kneel or Crawl:\n\nX\n\nOver 100 pounds\n\nX\n\nTalk or Hear:\n\nMust be able to communicate in person and on telephone system\n\nX\n\nWorking Conditions:\n\nOutside facility maintenance\n\nCar wash\n\nX\n\n*Disclaimer:*\n\nThis job description in no way states or implies that these are the only duties to be performed by the employee occupying this position. Employees may be required to follow other job-related instructions and to perform other job-related duties as requested, subject to all applicable state and federal laws. Wallis Companies reserves the right to make changes to job descriptions as needed with or without notice to affected employees. Certain job functions described herein may be subject to possible modification in accordance with applicable state and federal laws. This job description does not establish a contract for employment.\n\n  \n\nINDBWXSM"
+  },
+  {
+    "job_id": null,
+    "title": "Brite WorX - Site Manager",
+    "company": "Wallis Companies",
+    "location": "Florissant, MO, US",
+    "score_status": "complete",
+    "eligibility_disposition": null,
+    "eligible": null,
+    "fit_recommendation": "Manual Review",
+    "recommendation_status": "Manual Review",
+    "recommendation_policy_trace": {
+      "pbs_threshold_pass": false,
+      "eligibility_pass": null,
+      "lane_resolution": "Unresolved",
+      "title_alignment": 0.0,
+      "career_direction": 0.0,
+      "evidence_confidence": "Low",
+      "supported_dimensions": [],
+      "unresolved_requirements": [
+        "Geographic / Commute"
+      ],
+      "decisive_rules": [
+        "Unresolved material requirements: Geographic / Commute"
+      ]
+    },
+    "professional_lane": "Unresolved",
+    "professional_lane_name": "Unresolved",
+    "target_role_horizon": "Unresolved",
+    "hard_requirement_failures": [
+      "Job location or requirement status unresolved"
+    ],
+    "requirement_details": [
+      {
+        "requirement_type": "Geographic / Commute",
+        "requirement_text": "Location Status Verification",
+        "requirement_level": "required",
+        "state": "unresolved",
+        "candidate_evidence_ids": [],
+        "reason": "Location status unverified; requires validation evidence",
+        "confidence": 0.5
+      }
+    ],
+    "pbs_job_fit_score_pre_calibration": 4.1,
+    "diagnostic_fit_score": 4.1,
+    "capability_fit_score": 6.9,
+    "market_readiness_fit_score": 0.0,
+    "strategic_value": "Insufficient Information",
+    "evidence_confidence": "Low",
+    "evidence_confidence_breakdown": {
+      "strength_distribution": {
+        "high_count": 0,
+        "moderate_count": 0,
+        "low_count": 0
+      },
+      "source_authority": {
+        "candidate_reported_count": 0,
+        "author_architect_count": 0,
+        "artifact_count": 0
+      },
+      "dimension_coverage": {
+        "d2_active": false,
+        "d3_active": false,
+        "d4_active": false
+      },
+      "confidence_score": 0.0,
+      "confidence_level": "Low"
+    },
+    "industry_match_status": "unresolved",
+    "dimension_scores": {
+      "D2_direct_resume": 0.0,
+      "D3_transferable_exp": 0.0,
+      "D4_project_relevance": 0.0,
+      "D5_static_career_keyword_alignment": 0.41,
+      "D6_title_closeness": 0.0,
+      "D7_industry_closeness": 0.0,
+      "D8_career_direction_alignment": 0.0
+    },
+    "evidence_citations": [],
+    "job_url": "https://www.indeed.com/viewjob?jk=c80f0cfaa0e53daa",
+    "description": "**SUMMARY**\n\nThe BriteWorX Manager is responsible for efficient and profitable car wash operations. Manager is responsible for cleanliness and maintaining a superior image at the facility, promoting cash wash sales and providing customers with an exceptional buying experience. The position has responsibility for addressing customer concerns and security of company assets by implementing and ensuring compliance with appropriate cash/asset handling processes. This position will operate the wash alongside BriteWorX Associates and will spend much of their work time outside.\n\n  \n\n**Get Paid Weekly \u2013 Your Hard Work, Rewarded Faster!**\n\n  \n\n**RESPONSIBILITIES BY COMPETENCY:** *(\\*denotes an essential function of the position)*\n\n  \n\n**Business Results Orientation**\n\n* Operate car wash efficiently to achieve sales, expense, and profit goals\n\n* Monitor equipment and facility to ensure cleanliness, safety, image, and wash quality meet expectations\n\n* Maintain and ensure accuracy of the car wash membership database and ensure billing is updated as required\n\n* Understand how to perform financial analysis and attain expected store sales, profits and margins\n\n* Protect company assets at all times by: ensuring bank deposit is completed in timely manner on a daily basis; completing daily paperwork requirements; performing petty cash audits and reporting irregularities to management in a timely manner\n\n* Develop staffing schedule and maintain regular attendance designed to meet customer service needs and manage labor cost, approving timesheets as required\n\n* Work an irregular schedule, including 40+ hours per week and some evenings and weekends\n\n* Maintain regular attendance and follow designated safety practices\n\n* Maintain and track all necessary on-site inventories and provide related reports to BSC team\n\nPerform diagnosis as requested and conduct repairs within scope of capabilities and time constraints\n\nAsk questions to understand Balanced Scorecard (BSC) and understand his/her contribution to the BSC\n\nBring forward operational efficiency ideas to the supervisor and/or the BSC team\n\nAssist in development of marketing and promotions designed to drive sales\n\nExamine the marketplace for changes that may affect the business\n\nDevelop promotions to increase sales and profits while providing customer satisfaction\n\nPerform other duties not listed as required\n\n  \n\n**Communication**\n\n* Communicate effectively and professionally with customers, employees, internal support staff, external vendors, members of management\n\n* Excellent verbal and written communication skills\n\n* Manage customer complaints, damage claims, review videos of incidents, etc\u2026 and report to management/appropriate support personnel\n\n* Ensure customers are aware of current wash promotions and offerings\n\n* Report any customer injuries, any customer property or facility damage, or safety issues to supervisor and appropriate support personnel immediately\n\n* Update employees on goals, business results, safety issues, and other important company information regularly; celebrate success\n\nRespond timely to requests from management, customers, support staff, etc\u2026\n\n  \n\n**Customer Service Orientation**\n\n* Promote customer awareness and a customer-focused mindset among all employees; lead by example\n\nSuggest wash products, promotions and services to customers that may fit their needs\n\n* Ensure all staff comply with company appearance and uniform standards at all times\n\n* Respond timely to customer inquiries, suggestions, complaints, and damage reports\n\n* Handle customer meetings in an ethical, professional and efficient manner\n\nSuggest company or facility improvements that will enhance customer service\n\nFollow through with customer recovery as needed when service does not meet expectations\n\n  \n\n**Developing Talent**\n\n* Maintain a competent and professional work force trained on all car wash operations and customer service\n\n* Evaluate and coach employees regularly as required and as needed\n\n* Provide employees with required safety and operational training\n\n* Attend training to further professional development according to company guidelines\n\n* Stay abreast of current trends in the car wash industry and cross train others as needed\n\nPromote team development, enthusiasm, and pride\n\nProvide encouragement and development for employees as needed for further growth\n\nContact Human Resources for advice or assistance in hiring, counseling, appraising or terminating as necessary\n\n**Technical Expertise**\n\n* Maintain knowledge of car wash operations, equipment and chemicals\n\n* Monitor completion of duties each shift as required to maintain the facility and wash\n\n* Troubleshoot, diagnose, and make needed repairs of equipment/facility, utilizing maintenance staff when needed with focus on safety\n\n* Understand and utilize all electronic and computer systems used in daily operations\n\n* Understand chemicals (performance, ordering, loading, maintenance, safety, etc.) as well as cleaning and changing of water systems filters\n\n* Understanding the air compressor operations and maintenance, in case of some air pressure loss.\n\n* Understanding equipment brush system (how to remove and cleaning processes if contaminated)\n\n* Develop and maintain knowledge of car wash equipment and basic carwash operating systems\n\n* Perform diagnostic and service maintenance as needed for customers\u2019 car washes\n\n* Perform chemical filtration and testing on water samples from car washes\n\n* Diagnose problems with equipment and make repairs as directed or make recommendations for repairs\n\n* Repair or replace defective parts\n\nAdjust functional parts of devices and control instruments\n\n* Observe mechanical devices in operation and listen to sounds to locate causes of trouble\n\n* Knowledge of general maintenance protocol, including electrical, plumbing, and car wash equipment\n\n**Safety**\n\n* Attend and participate in safety meetings\n\n* Conduct responsibilities with focus on safety first\n\n* Ensure all protocols are followed in the event of an accident\n\n* Work diligently to correct safety deficiencies in a timely manner\n\n* Complete required safety training\n\n* Take responsibility for correction of unsafe conditions\n* Report all work-related injuries and/or property damage accidents immediately\n\n* Inform supervisor of unsafe conditions and behaviors, and recommend solutions to correct or eliminate them\n\n  \n\n**SUPERVISORY RESPONSIBILITIES**\n\nDirect: Brite WorX Associates (9-10)\n\nIndirect: None\n\n  \n\nResponsible for the overall direction, coordination and evaluation of each position. The position carries out supervisory responsibilities in accordance with the organization\u2019s policies, applicable laws, Wallis culture, expectations and behaviors. Responsibilities include planning, assigning and directing work; managing development, training, and certifications; appraising and managing performance, rewarding and disciplining employees up to and including termination with supervisor\u2019s approval; addressing complaints; resolving problems; and promoting health and safety of the workforce.\n\n  \n\n**QUALIFICATIONS**\n\nTo perform this job successfully, an individual must be able to perform each essential duty satisfactorily. The requirements listed below are representative of the knowledge, skill and/or ability required. Reasonable accommodations may be made to enable individuals with disabilities to perform the essential functions. *(\\*denotes an essential qualification of the position)*\n\n  \n\n**Education:** \\*Required: Equivalent to high school diploma\n\n  \n\n**Experience:** \\*At least 2 years of experience in retail, car wash, customer service, or related field\n\n  \n\n**Language Skills:** \\*Ability to read, write, speak, and understand English in a manner that is sufficient for effective communication with groups of managers, clients, customers and the general public.\n\n  \n\n**Skills and Abilities:** **(May be representative but not all-inclusive of****those commonly****associated with the position)**  \nMechanical/technical skills necessary to complete basic troubleshooting and maintenance of equipment\n\nAbility to use own judgment in the analysis of facts and circumstances surrounding individual problems and transactions and taking the initiative to determine actions to be taken within the limits of standard or accepted practice\n\nWillingness to work an irregular schedule, including evenings and weekends and be \u201con call\u201d\n\nWillingness to work outside in all weather conditions\n\nStrong organization skills, paired with ability to multi-task and handle multiple priorities in a fast-paced environment\n\nWell-developed interpersonal skills\n\nExtraordinary attention to details\n\n  \n\n**Technology, Tools,**\n\n**And Equipment:** \\*Required: Computer, Microsoft Windows, Telephone, Excel, Email, Internet\n\n  \n\nPreferred: Copy/print/fax machine, Power washer, Various hand tools, both power and manual\n\n  \n\n(Proficiency with preferred items is not required to meet minimum qualifications, but proficiency must be established to complete essential job functions)\n\n  \n\n**Certificates, Licenses** None required\n\n**and/or Registrations:**\n\n**PHYSICAL DEMANDS**\n\nThe physical demands described below are representative of those that must be met by an employee to successfully perform the essential functions of this job. Reasonable accommodations may be made to enable individuals with disabilities to perform the essential functions.\n\n  \n\n**Amount of Time**\n\n**None**\n\n**Under 1/3**\n\n**1/3 To 2/3**\n\n**Over 2/3**\n\n**Amount of Time**\n\n**None**\n\n**Under 1/3**\n\n**1/3 To 2/3**\n\n**Over 2/3**\n\nSee:\n\nMust be able clean equipment and facility plus conduct minor troubleshooting and repairs\n\nX\n\nLifting:\n\nStand/Walk:\n\nMust be able to move around car wash\n\nX\n\nUp to 10 pounds\n\nX\n\nSit:\n\nX\n\nUp to 25 pounds\n\nX\n\nTouch/Grasp/Feel:\n\nMust be able to handle cleaning equipment and supplies\n\nX\n\nUp to 50 pounds\n\nX\n\nClimb or Balance:\n\nX\n\nUp to 100 pounds\n\nX\n\nStoop, Kneel or Crawl:\n\nX\n\nOver 100 pounds\n\nX\n\nTalk or Hear:\n\nMust be able to communicate in person and on telephone system\n\nX\n\nWorking Conditions:\n\nOutside facility maintenance\n\nCar wash\n\nX\n\n*Disclaimer:*\n\nThis job description in no way states or implies that these are the only duties to be performed by the employee occupying this position. Employees may be required to follow other job-related instructions and to perform other job-related duties as requested, subject to all applicable state and federal laws. Wallis Companies reserves the right to make changes to job descriptions as needed with or without notice to affected employees. Certain job functions described herein may be subject to possible modification in accordance with applicable state and federal laws. This job description does not establish a contract for employment."
+  },
+  {
+    "job_id": null,
+    "title": "Brite WorX - Site Manager",
+    "company": "Wallis Companies",
+    "location": "Crestwood, MO, US",
+    "score_status": "complete",
+    "eligibility_disposition": null,
+    "eligible": null,
+    "fit_recommendation": "Manual Review",
+    "recommendation_status": "Manual Review",
+    "recommendation_policy_trace": {
+      "pbs_threshold_pass": false,
+      "eligibility_pass": null,
+      "lane_resolution": "Unresolved",
+      "title_alignment": 0.0,
+      "career_direction": 0.0,
+      "evidence_confidence": "Low",
+      "supported_dimensions": [],
+      "unresolved_requirements": [
+        "Geographic / Commute"
+      ],
+      "decisive_rules": [
+        "Unresolved material requirements: Geographic / Commute"
+      ]
+    },
+    "professional_lane": "Unresolved",
+    "professional_lane_name": "Unresolved",
+    "target_role_horizon": "Unresolved",
+    "hard_requirement_failures": [
+      "Job location or requirement status unresolved"
+    ],
+    "requirement_details": [
+      {
+        "requirement_type": "Geographic / Commute",
+        "requirement_text": "Location Status Verification",
+        "requirement_level": "required",
+        "state": "unresolved",
+        "candidate_evidence_ids": [],
+        "reason": "Location status unverified; requires validation evidence",
+        "confidence": 0.5
+      }
+    ],
+    "pbs_job_fit_score_pre_calibration": 4.1,
+    "diagnostic_fit_score": 4.1,
+    "capability_fit_score": 6.9,
+    "market_readiness_fit_score": 0.0,
+    "strategic_value": "Insufficient Information",
+    "evidence_confidence": "Low",
+    "evidence_confidence_breakdown": {
+      "strength_distribution": {
+        "high_count": 0,
+        "moderate_count": 0,
+        "low_count": 0
+      },
+      "source_authority": {
+        "candidate_reported_count": 0,
+        "author_architect_count": 0,
+        "artifact_count": 0
+      },
+      "dimension_coverage": {
+        "d2_active": false,
+        "d3_active": false,
+        "d4_active": false
+      },
+      "confidence_score": 0.0,
+      "confidence_level": "Low"
+    },
+    "industry_match_status": "unresolved",
+    "dimension_scores": {
+      "D2_direct_resume": 0.0,
+      "D3_transferable_exp": 0.0,
+      "D4_project_relevance": 0.0,
+      "D5_static_career_keyword_alignment": 0.41,
+      "D6_title_closeness": 0.0,
+      "D7_industry_closeness": 0.0,
+      "D8_career_direction_alignment": 0.0
+    },
+    "evidence_citations": [],
+    "job_url": "https://www.indeed.com/viewjob?jk=1c5affd74d416a87",
+    "description": "**SUMMARY**\n\nThe BriteWorX Manager is responsible for efficient and profitable car wash operations. Manager is responsible for cleanliness and maintaining a superior image at the facility, promoting cash wash sales and providing customers with an exceptional buying experience. The position has responsibility for addressing customer concerns and security of company assets by implementing and ensuring compliance with appropriate cash/asset handling processes. This position will operate the wash alongside BriteWorX Associates and will spend much of their work time outside.\n\n  \n\n**Get Paid Weekly \u2013 Your Hard Work, Rewarded Faster!**\n\n  \n\n**RESPONSIBILITIES BY COMPETENCY:** *(\\*denotes an essential function of the position)*\n\n  \n\n**Business Results Orientation**\n\n* Operate car wash efficiently to achieve sales, expense, and profit goals\n\n* Monitor equipment and facility to ensure cleanliness, safety, image, and wash quality meet expectations\n\n* Maintain and ensure accuracy of the car wash membership database and ensure billing is updated as required\n\n* Understand how to perform financial analysis and attain expected store sales, profits and margins\n\n* Protect company assets at all times by: ensuring bank deposit is completed in timely manner on a daily basis; completing daily paperwork requirements; performing petty cash audits and reporting irregularities to management in a timely manner\n\n* Develop staffing schedule and maintain regular attendance designed to meet customer service needs and manage labor cost, approving timesheets as required\n\n* Work an irregular schedule, including 40+ hours per week and some evenings and weekends\n\n* Maintain regular attendance and follow designated safety practices\n\n* Maintain and track all necessary on-site inventories and provide related reports to BSC team\n\nPerform diagnosis as requested and conduct repairs within scope of capabilities and time constraints\n\nAsk questions to understand Balanced Scorecard (BSC) and understand his/her contribution to the BSC\n\nBring forward operational efficiency ideas to the supervisor and/or the BSC team\n\nAssist in development of marketing and promotions designed to drive sales\n\nExamine the marketplace for changes that may affect the business\n\nDevelop promotions to increase sales and profits while providing customer satisfaction\n\nPerform other duties not listed as required\n\n  \n\n**Communication**\n\n* Communicate effectively and professionally with customers, employees, internal support staff, external vendors, members of management\n\n* Excellent verbal and written communication skills\n\n* Manage customer complaints, damage claims, review videos of incidents, etc\u2026 and report to management/appropriate support personnel\n\n* Ensure customers are aware of current wash promotions and offerings\n\n* Report any customer injuries, any customer property or facility damage, or safety issues to supervisor and appropriate support personnel immediately\n\n* Update employees on goals, business results, safety issues, and other important company information regularly; celebrate success\n\nRespond timely to requests from management, customers, support staff, etc\u2026\n\n  \n\n**Customer Service Orientation**\n\n* Promote customer awareness and a customer-focused mindset among all employees; lead by example\n\nSuggest wash products, promotions and services to customers that may fit their needs\n\n* Ensure all staff comply with company appearance and uniform standards at all times\n\n* Respond timely to customer inquiries, suggestions, complaints, and damage reports\n\n* Handle customer meetings in an ethical, professional and efficient manner\n\nSuggest company or facility improvements that will enhance customer service\n\nFollow through with customer recovery as needed when service does not meet expectations\n\n  \n\n**Developing Talent**\n\n* Maintain a competent and professional work force trained on all car wash operations and customer service\n\n* Evaluate and coach employees regularly as required and as needed\n\n* Provide employees with required safety and operational training\n\n* Attend training to further professional development according to company guidelines\n\n* Stay abreast of current trends in the car wash industry and cross train others as needed\n\nPromote team development, enthusiasm, and pride\n\nProvide encouragement and development for employees as needed for further growth\n\nContact Human Resources for advice or assistance in hiring, counseling, appraising or terminating as necessary\n\n**Technical Expertise**\n\n* Maintain knowledge of car wash operations, equipment and chemicals\n\n* Monitor completion of duties each shift as required to maintain the facility and wash\n\n* Troubleshoot, diagnose, and make needed repairs of equipment/facility, utilizing maintenance staff when needed with focus on safety\n\n* Understand and utilize all electronic and computer systems used in daily operations\n\n* Understand chemicals (performance, ordering, loading, maintenance, safety, etc.) as well as cleaning and changing of water systems filters\n\n* Understanding the air compressor operations and maintenance, in case of some air pressure loss.\n\n* Understanding equipment brush system (how to remove and cleaning processes if contaminated)\n\n* Develop and maintain knowledge of car wash equipment and basic carwash operating systems\n\n* Perform diagnostic and service maintenance as needed for customers\u2019 car washes\n\n* Perform chemical filtration and testing on water samples from car washes\n\n* Diagnose problems with equipment and make repairs as directed or make recommendations for repairs\n\n* Repair or replace defective parts\n\nAdjust functional parts of devices and control instruments\n\n* Observe mechanical devices in operation and listen to sounds to locate causes of trouble\n\n* Knowledge of general maintenance protocol, including electrical, plumbing, and car wash equipment\n\n**Safety**\n\n* Attend and participate in safety meetings\n\n* Conduct responsibilities with focus on safety first\n\n* Ensure all protocols are followed in the event of an accident\n\n* Work diligently to correct safety deficiencies in a timely manner\n\n* Complete required safety training\n\n* Take responsibility for correction of unsafe conditions\n* Report all work-related injuries and/or property damage accidents immediately\n\n* Inform supervisor of unsafe conditions and behaviors, and recommend solutions to correct or eliminate them\n\n  \n\n**SUPERVISORY RESPONSIBILITIES**\n\nDirect: Brite WorX Associates (9-10)\n\nIndirect: None\n\n  \n\nResponsible for the overall direction, coordination and evaluation of each position. The position carries out supervisory responsibilities in accordance with the organization\u2019s policies, applicable laws, Wallis culture, expectations and behaviors. Responsibilities include planning, assigning and directing work; managing development, training, and certifications; appraising and managing performance, rewarding and disciplining employees up to and including termination with supervisor\u2019s approval; addressing complaints; resolving problems; and promoting health and safety of the workforce.\n\n  \n\n**QUALIFICATIONS**\n\nTo perform this job successfully, an individual must be able to perform each essential duty satisfactorily. The requirements listed below are representative of the knowledge, skill and/or ability required. Reasonable accommodations may be made to enable individuals with disabilities to perform the essential functions. *(\\*denotes an essential qualification of the position)*\n\n  \n\n**Education:** \\*Required: Equivalent to high school diploma\n\n  \n\n**Experience:** \\*At least 2 years of experience in retail, car wash, customer service, or related field\n\n  \n\n**Language Skills:** \\*Ability to read, write, speak, and understand English in a manner that is sufficient for effective communication with groups of managers, clients, customers and the general public.\n\n  \n\n**Skills and Abilities:** **(May be representative but not all-inclusive of****those commonly****associated with the position)**  \nMechanical/technical skills necessary to complete basic troubleshooting and maintenance of equipment\n\nAbility to use own judgment in the analysis of facts and circumstances surrounding individual problems and transactions and taking the initiative to determine actions to be taken within the limits of standard or accepted practice\n\nWillingness to work an irregular schedule, including evenings and weekends and be \u201con call\u201d\n\nWillingness to work outside in all weather conditions\n\nStrong organization skills, paired with ability to multi-task and handle multiple priorities in a fast-paced environment\n\nWell-developed interpersonal skills\n\nExtraordinary attention to details\n\n  \n\n**Technology, Tools,**\n\n**And Equipment:** \\*Required: Computer, Microsoft Windows, Telephone, Excel, Email, Internet\n\n  \n\nPreferred: Copy/print/fax machine, Power washer, Various hand tools, both power and manual\n\n  \n\n(Proficiency with preferred items is not required to meet minimum qualifications, but proficiency must be established to complete essential job functions)\n\n  \n\n**Certificates, Licenses** None required\n\n**and/or Registrations:**\n\n**PHYSICAL DEMANDS**\n\nThe physical demands described below are representative of those that must be met by an employee to successfully perform the essential functions of this job. Reasonable accommodations may be made to enable individuals with disabilities to perform the essential functions.\n\n  \n\n**Amount of Time**\n\n**None**\n\n**Under 1/3**\n\n**1/3 To 2/3**\n\n**Over 2/3**\n\n**Amount of Time**\n\n**None**\n\n**Under 1/3**\n\n**1/3 To 2/3**\n\n**Over 2/3**\n\nSee:\n\nMust be able clean equipment and facility plus conduct minor troubleshooting and repairs\n\nX\n\nLifting:\n\nStand/Walk:\n\nMust be able to move around car wash\n\nX\n\nUp to 10 pounds\n\nX\n\nSit:\n\nX\n\nUp to 25 pounds\n\nX\n\nTouch/Grasp/Feel:\n\nMust be able to handle cleaning equipment and supplies\n\nX\n\nUp to 50 pounds\n\nX\n\nClimb or Balance:\n\nX\n\nUp to 100 pounds\n\nX\n\nStoop, Kneel or Crawl:\n\nX\n\nOver 100 pounds\n\nX\n\nTalk or Hear:\n\nMust be able to communicate in person and on telephone system\n\nX\n\nWorking Conditions:\n\nOutside facility maintenance\n\nCar wash\n\nX\n\n*Disclaimer:*\n\nThis job description in no way states or implies that these are the only duties to be performed by the employee occupying this position. Employees may be required to follow other job-related instructions and to perform other job-related duties as requested, subject to all applicable state and federal laws. Wallis Companies reserves the right to make changes to job descriptions as needed with or without notice to affected employees. Certain job functions described herein may be subject to possible modification in accordance with applicable state and federal laws. This job description does not establish a contract for employment."
+  },
+  {
+    "job_id": null,
+    "title": "Brite WorX - Site Manager",
+    "company": "Wallis Companies",
+    "location": "Chesterfield, MO, US",
+    "score_status": "complete",
+    "eligibility_disposition": null,
+    "eligible": null,
+    "fit_recommendation": "Manual Review",
+    "recommendation_status": "Manual Review",
+    "recommendation_policy_trace": {
+      "pbs_threshold_pass": false,
+      "eligibility_pass": null,
+      "lane_resolution": "Unresolved",
+      "title_alignment": 0.0,
+      "career_direction": 0.0,
+      "evidence_confidence": "Low",
+      "supported_dimensions": [],
+      "unresolved_requirements": [
+        "Geographic / Commute"
+      ],
+      "decisive_rules": [
+        "Unresolved material requirements: Geographic / Commute"
+      ]
+    },
+    "professional_lane": "Unresolved",
+    "professional_lane_name": "Unresolved",
+    "target_role_horizon": "Unresolved",
+    "hard_requirement_failures": [
+      "Job location or requirement status unresolved"
+    ],
+    "requirement_details": [
+      {
+        "requirement_type": "Geographic / Commute",
+        "requirement_text": "Location Status Verification",
+        "requirement_level": "required",
+        "state": "unresolved",
+        "candidate_evidence_ids": [],
+        "reason": "Location status unverified; requires validation evidence",
+        "confidence": 0.5
+      }
+    ],
+    "pbs_job_fit_score_pre_calibration": 4.1,
+    "diagnostic_fit_score": 4.1,
+    "capability_fit_score": 6.9,
+    "market_readiness_fit_score": 0.0,
+    "strategic_value": "Insufficient Information",
+    "evidence_confidence": "Low",
+    "evidence_confidence_breakdown": {
+      "strength_distribution": {
+        "high_count": 0,
+        "moderate_count": 0,
+        "low_count": 0
+      },
+      "source_authority": {
+        "candidate_reported_count": 0,
+        "author_architect_count": 0,
+        "artifact_count": 0
+      },
+      "dimension_coverage": {
+        "d2_active": false,
+        "d3_active": false,
+        "d4_active": false
+      },
+      "confidence_score": 0.0,
+      "confidence_level": "Low"
+    },
+    "industry_match_status": "unresolved",
+    "dimension_scores": {
+      "D2_direct_resume": 0.0,
+      "D3_transferable_exp": 0.0,
+      "D4_project_relevance": 0.0,
+      "D5_static_career_keyword_alignment": 0.41,
+      "D6_title_closeness": 0.0,
+      "D7_industry_closeness": 0.0,
+      "D8_career_direction_alignment": 0.0
+    },
+    "evidence_citations": [],
+    "job_url": "https://www.indeed.com/viewjob?jk=731f424495b6c561",
+    "description": "**SUMMARY**\n\nThe BriteWorX Manager is responsible for efficient and profitable car wash operations. Manager is responsible for cleanliness and maintaining a superior image at the facility, promoting cash wash sales and providing customers with an exceptional buying experience. The position has responsibility for addressing customer concerns and security of company assets by implementing and ensuring compliance with appropriate cash/asset handling processes. This position will operate the wash alongside BriteWorX Associates and will spend much of their work time outside.\n\n  \n\n**Get Paid Weekly \u2013 Your Hard Work, Rewarded Faster!**\n\n  \n\n**RESPONSIBILITIES BY COMPETENCY:** *(\\*denotes an essential function of the position)*\n\n  \n\n**Business Results Orientation**\n\n* Operate car wash efficiently to achieve sales, expense, and profit goals\n\n* Monitor equipment and facility to ensure cleanliness, safety, image, and wash quality meet expectations\n\n* Maintain and ensure accuracy of the car wash membership database and ensure billing is updated as required\n\n* Understand how to perform financial analysis and attain expected store sales, profits and margins\n\n* Protect company assets at all times by: ensuring bank deposit is completed in timely manner on a daily basis; completing daily paperwork requirements; performing petty cash audits and reporting irregularities to management in a timely manner\n\n* Develop staffing schedule and maintain regular attendance designed to meet customer service needs and manage labor cost, approving timesheets as required\n\n* Work an irregular schedule, including 40+ hours per week and some evenings and weekends\n\n* Maintain regular attendance and follow designated safety practices\n\n* Maintain and track all necessary on-site inventories and provide related reports to BSC team\n\nPerform diagnosis as requested and conduct repairs within scope of capabilities and time constraints\n\nAsk questions to understand Balanced Scorecard (BSC) and understand his/her contribution to the BSC\n\nBring forward operational efficiency ideas to the supervisor and/or the BSC team\n\nAssist in development of marketing and promotions designed to drive sales\n\nExamine the marketplace for changes that may affect the business\n\nDevelop promotions to increase sales and profits while providing customer satisfaction\n\nPerform other duties not listed as required\n\n  \n\n**Communication**\n\n* Communicate effectively and professionally with customers, employees, internal support staff, external vendors, members of management\n\n* Excellent verbal and written communication skills\n\n* Manage customer complaints, damage claims, review videos of incidents, etc\u2026 and report to management/appropriate support personnel\n\n* Ensure customers are aware of current wash promotions and offerings\n\n* Report any customer injuries, any customer property or facility damage, or safety issues to supervisor and appropriate support personnel immediately\n\n* Update employees on goals, business results, safety issues, and other important company information regularly; celebrate success\n\nRespond timely to requests from management, customers, support staff, etc\u2026\n\n  \n\n**Customer Service Orientation**\n\n* Promote customer awareness and a customer-focused mindset among all employees; lead by example\n\nSuggest wash products, promotions and services to customers that may fit their needs\n\n* Ensure all staff comply with company appearance and uniform standards at all times\n\n* Respond timely to customer inquiries, suggestions, complaints, and damage reports\n\n* Handle customer meetings in an ethical, professional and efficient manner\n\nSuggest company or facility improvements that will enhance customer service\n\nFollow through with customer recovery as needed when service does not meet expectations\n\n  \n\n**Developing Talent**\n\n* Maintain a competent and professional work force trained on all car wash operations and customer service\n\n* Evaluate and coach employees regularly as required and as needed\n\n* Provide employees with required safety and operational training\n\n* Attend training to further professional development according to company guidelines\n\n* Stay abreast of current trends in the car wash industry and cross train others as needed\n\nPromote team development, enthusiasm, and pride\n\nProvide encouragement and development for employees as needed for further growth\n\nContact Human Resources for advice or assistance in hiring, counseling, appraising or terminating as necessary\n\n**Technical Expertise**\n\n* Maintain knowledge of car wash operations, equipment and chemicals\n\n* Monitor completion of duties each shift as required to maintain the facility and wash\n\n* Troubleshoot, diagnose, and make needed repairs of equipment/facility, utilizing maintenance staff when needed with focus on safety\n\n* Understand and utilize all electronic and computer systems used in daily operations\n\n* Understand chemicals (performance, ordering, loading, maintenance, safety, etc.) as well as cleaning and changing of water systems filters\n\n* Understanding the air compressor operations and maintenance, in case of some air pressure loss.\n\n* Understanding equipment brush system (how to remove and cleaning processes if contaminated)\n\n* Develop and maintain knowledge of car wash equipment and basic carwash operating systems\n\n* Perform diagnostic and service maintenance as needed for customers\u2019 car washes\n\n* Perform chemical filtration and testing on water samples from car washes\n\n* Diagnose problems with equipment and make repairs as directed or make recommendations for repairs\n\n* Repair or replace defective parts\n\nAdjust functional parts of devices and control instruments\n\n* Observe mechanical devices in operation and listen to sounds to locate causes of trouble\n\n* Knowledge of general maintenance protocol, including electrical, plumbing, and car wash equipment\n\n**Safety**\n\n* Attend and participate in safety meetings\n\n* Conduct responsibilities with focus on safety first\n\n* Ensure all protocols are followed in the event of an accident\n\n* Work diligently to correct safety deficiencies in a timely manner\n\n* Complete required safety training\n\n* Take responsibility for correction of unsafe conditions\n* Report all work-related injuries and/or property damage accidents immediately\n\n* Inform supervisor of unsafe conditions and behaviors, and recommend solutions to correct or eliminate them\n\n  \n\n**SUPERVISORY RESPONSIBILITIES**\n\nDirect: Brite WorX Associates (9-10)\n\nIndirect: None\n\n  \n\nResponsible for the overall direction, coordination and evaluation of each position. The position carries out supervisory responsibilities in accordance with the organization\u2019s policies, applicable laws, Wallis culture, expectations and behaviors. Responsibilities include planning, assigning and directing work; managing development, training, and certifications; appraising and managing performance, rewarding and disciplining employees up to and including termination with supervisor\u2019s approval; addressing complaints; resolving problems; and promoting health and safety of the workforce.\n\n  \n\n**QUALIFICATIONS**\n\nTo perform this job successfully, an individual must be able to perform each essential duty satisfactorily. The requirements listed below are representative of the knowledge, skill and/or ability required. Reasonable accommodations may be made to enable individuals with disabilities to perform the essential functions. *(\\*denotes an essential qualification of the position)*\n\n  \n\n**Education:** \\*Required: Equivalent to high school diploma\n\n  \n\n**Experience:** \\*At least 2 years of experience in retail, car wash, customer service, or related field\n\n  \n\n**Language Skills:** \\*Ability to read, write, speak, and understand English in a manner that is sufficient for effective communication with groups of managers, clients, customers and the general public.\n\n  \n\n**Skills and Abilities:** **(May be representative but not all-inclusive of****those commonly****associated with the position)**  \nMechanical/technical skills necessary to complete basic troubleshooting and maintenance of equipment\n\nAbility to use own judgment in the analysis of facts and circumstances surrounding individual problems and transactions and taking the initiative to determine actions to be taken within the limits of standard or accepted practice\n\nWillingness to work an irregular schedule, including evenings and weekends and be \u201con call\u201d\n\nWillingness to work outside in all weather conditions\n\nStrong organization skills, paired with ability to multi-task and handle multiple priorities in a fast-paced environment\n\nWell-developed interpersonal skills\n\nExtraordinary attention to details\n\n  \n\n**Technology, Tools,**\n\n**And Equipment:** \\*Required: Computer, Microsoft Windows, Telephone, Excel, Email, Internet\n\n  \n\nPreferred: Copy/print/fax machine, Power washer, Various hand tools, both power and manual\n\n  \n\n(Proficiency with preferred items is not required to meet minimum qualifications, but proficiency must be established to complete essential job functions)\n\n  \n\n**Certificates, Licenses** None required\n\n**and/or Registrations:**\n\n**PHYSICAL DEMANDS**\n\nThe physical demands described below are representative of those that must be met by an employee to successfully perform the essential functions of this job. Reasonable accommodations may be made to enable individuals with disabilities to perform the essential functions.\n\n  \n\n**Amount of Time**\n\n**None**\n\n**Under 1/3**\n\n**1/3 To 2/3**\n\n**Over 2/3**\n\n**Amount of Time**\n\n**None**\n\n**Under 1/3**\n\n**1/3 To 2/3**\n\n**Over 2/3**\n\nSee:\n\nMust be able clean equipment and facility plus conduct minor troubleshooting and repairs\n\nX\n\nLifting:\n\nStand/Walk:\n\nMust be able to move around car wash\n\nX\n\nUp to 10 pounds\n\nX\n\nSit:\n\nX\n\nUp to 25 pounds\n\nX\n\nTouch/Grasp/Feel:\n\nMust be able to handle cleaning equipment and supplies\n\nX\n\nUp to 50 pounds\n\nX\n\nClimb or Balance:\n\nX\n\nUp to 100 pounds\n\nX\n\nStoop, Kneel or Crawl:\n\nX\n\nOver 100 pounds\n\nX\n\nTalk or Hear:\n\nMust be able to communicate in person and on telephone system\n\nX\n\nWorking Conditions:\n\nOutside facility maintenance\n\nCar wash\n\nX\n\n*Disclaimer:*\n\nThis job description in no way states or implies that these are the only duties to be performed by the employee occupying this position. Employees may be required to follow other job-related instructions and to perform other job-related duties as requested, subject to all applicable state and federal laws. Wallis Companies reserves the right to make changes to job descriptions as needed with or without notice to affected employees. Certain job functions described herein may be subject to possible modification in accordance with applicable state and federal laws. This job description does not establish a contract for employment."
+  },
+  {
+    "job_id": null,
+    "title": "General Managr (01607) - 2256 South Grand Blvd.",
+    "company": "Domino's",
+    "location": "St. Louis, MO, US",
+    "score_status": "complete",
+    "eligibility_disposition": null,
+    "eligible": null,
+    "fit_recommendation": "Manual Review",
+    "recommendation_status": "Manual Review",
+    "recommendation_policy_trace": {
+      "pbs_threshold_pass": false,
+      "eligibility_pass": null,
+      "lane_resolution": "Unresolved",
+      "title_alignment": 0.0,
+      "career_direction": 0.0,
+      "evidence_confidence": "Low",
+      "supported_dimensions": [],
+      "unresolved_requirements": [
+        "Geographic / Commute"
+      ],
+      "decisive_rules": [
+        "Unresolved material requirements: Geographic / Commute"
+      ]
+    },
+    "professional_lane": "Unresolved",
+    "professional_lane_name": "Unresolved",
+    "target_role_horizon": "Unresolved",
+    "hard_requirement_failures": [
+      "Job location or requirement status unresolved"
+    ],
+    "requirement_details": [
+      {
+        "requirement_type": "Geographic / Commute",
+        "requirement_text": "Location Status Verification",
+        "requirement_level": "required",
+        "state": "unresolved",
+        "candidate_evidence_ids": [],
+        "reason": "Location status unverified; requires validation evidence",
+        "confidence": 0.5
+      }
+    ],
+    "pbs_job_fit_score_pre_calibration": 3.6,
+    "diagnostic_fit_score": 3.6,
+    "capability_fit_score": 6.0,
+    "market_readiness_fit_score": 0.0,
+    "strategic_value": "Insufficient Information",
+    "evidence_confidence": "Low",
+    "evidence_confidence_breakdown": {
+      "strength_distribution": {
+        "high_count": 0,
+        "moderate_count": 0,
+        "low_count": 0
+      },
+      "source_authority": {
+        "candidate_reported_count": 0,
+        "author_architect_count": 0,
+        "artifact_count": 0
+      },
+      "dimension_coverage": {
+        "d2_active": false,
+        "d3_active": false,
+        "d4_active": false
+      },
+      "confidence_score": 0.0,
+      "confidence_level": "Low"
+    },
+    "industry_match_status": "unresolved",
+    "dimension_scores": {
+      "D2_direct_resume": 0.0,
+      "D3_transferable_exp": 0.0,
+      "D4_project_relevance": 0.0,
+      "D5_static_career_keyword_alignment": 0.36,
+      "D6_title_closeness": 0.0,
+      "D7_industry_closeness": 0.0,
+      "D8_career_direction_alignment": 0.0
+    },
+    "evidence_citations": [],
+    "job_url": "https://www.indeed.com/viewjob?jk=2b8c388f961a7837",
+    "description": "**Company Description**\n\nWe are MBR Management (a locally owned Franchise of Domino's) & we strive to treat all of our team members like family. Our goal is to get to know each team member & help you accomplish your goals whether it is a career with us or just earning some extra cash!\n\n **Job Description**\n\nWe are seeking a dynamic and experienced General Manager to join our team at our location on 2256 South Grand Blvd. in St. Louis, United States. As the General Manager, you will be responsible for overseeing all aspects of our business operations, ensuring optimal performance, and driving growth in the local market.\n\n* Develop and implement strategic plans to achieve organizational goals and objectives\n* Oversee daily operations, ensuring efficiency, quality, and customer satisfaction\n* Manage financial performance, including budgeting, forecasting, and cost control\n* Lead, motivate, and develop a high-performing team of managers and staff\n* Analyze market trends and competitor activities to identify growth opportunities\n* Establish and maintain relationships with key stakeholders, including clients, vendors, and community partners\n* Ensure compliance with all relevant laws, regulations, and company policies\n* Drive continuous improvement initiatives across all departments\n* Report on performance metrics and provide insights to senior leadership\n\n  \n**Qualifications**  \n\n* Proven track record of successful leadership in a general management role\n* Strong strategic thinking and business acumen\n* Excellent financial management and analytical skills\n* Outstanding communication and interpersonal abilities\n* Demonstrated ability to motivate and develop teams\n* Proficiency in operations management and process optimization\n* Solid understanding of performance metrics and data-driven decision making\n* Familiarity with local market trends and business landscape in St. Louis (preferred)\n* Adaptability and resilience in a fast-paced, dynamic environment\n\n  \n**Additional Information**\n\n**BENEFITS**\n\n* Flexible Hours\n* Competitive wages\n* Employee discount on all food items\n* Advancement opportunities\n* Paid Training\n* Incredible Bonus Structure\n\n**FULL TIME DRIVERS BENEFITS (in addition to above benefits):**\n\n* Offered Health, Dental & Vision Insurance after 60 days of employment\n* Voluntary accident coverage/Critical illness coverage\n* Flexible Spending Accounts\n* Ability to contribute to a 401(k)"
+  },
+  {
+    "job_id": null,
+    "title": "Business Analyst - Readiness",
+    "company": "Parsons",
+    "location": "St. Louis, MO, US",
+    "score_status": "complete",
+    "eligibility_disposition": null,
+    "eligible": null,
+    "fit_recommendation": "Manual Review",
+    "recommendation_status": "Manual Review",
+    "recommendation_policy_trace": {
+      "pbs_threshold_pass": false,
+      "eligibility_pass": null,
+      "lane_resolution": "Unresolved",
+      "title_alignment": 0.0,
+      "career_direction": 0.0,
+      "evidence_confidence": "Low",
+      "supported_dimensions": [],
+      "unresolved_requirements": [
+        "Geographic / Commute"
+      ],
+      "decisive_rules": [
+        "Unresolved material requirements: Geographic / Commute"
+      ]
+    },
+    "professional_lane": "Unresolved",
+    "professional_lane_name": "Unresolved",
+    "target_role_horizon": "Unresolved",
+    "hard_requirement_failures": [
+      "Job location or requirement status unresolved"
+    ],
+    "requirement_details": [
+      {
+        "requirement_type": "Geographic / Commute",
+        "requirement_text": "Location Status Verification",
+        "requirement_level": "required",
+        "state": "unresolved",
+        "candidate_evidence_ids": [],
+        "reason": "Location status unverified; requires validation evidence",
+        "confidence": 0.5
+      }
+    ],
+    "pbs_job_fit_score_pre_calibration": 3.1,
+    "diagnostic_fit_score": 3.1,
+    "capability_fit_score": 5.2,
+    "market_readiness_fit_score": 0.0,
+    "strategic_value": "Insufficient Information",
+    "evidence_confidence": "Low",
+    "evidence_confidence_breakdown": {
+      "strength_distribution": {
+        "high_count": 0,
+        "moderate_count": 0,
+        "low_count": 0
+      },
+      "source_authority": {
+        "candidate_reported_count": 0,
+        "author_architect_count": 0,
+        "artifact_count": 0
+      },
+      "dimension_coverage": {
+        "d2_active": false,
+        "d3_active": false,
+        "d4_active": false
+      },
+      "confidence_score": 0.0,
+      "confidence_level": "Low"
+    },
+    "industry_match_status": "unresolved",
+    "dimension_scores": {
+      "D2_direct_resume": 0.0,
+      "D3_transferable_exp": 0.0,
+      "D4_project_relevance": 0.0,
+      "D5_static_career_keyword_alignment": 0.31,
+      "D6_title_closeness": 0.0,
+      "D7_industry_closeness": 0.0,
+      "D8_career_direction_alignment": 0.0
+    },
+    "evidence_citations": [],
+    "job_url": "https://www.indeed.com/viewjob?jk=97684317d50f2741",
+    "description": "In a world of possibilities, pursue one with endless opportunities. Imagine Next!  \nAt Parsons, you can imagine a career where you thrive, work with exceptional people, and be yourself. Guided by our leadership vision of valuing people, embracing agility, and fostering growth, we cultivate an innovative culture that empowers you to achieve your full potential. Unleash your talent and redefine what\u2019s possible.\n\n**Job Description:**\n\nThe Business Analyst - Readiness \u2013 is an expert responsible for leading high-impact initiatives, providing strategic guidance, and driving process modernization across the enterprise. This role requires a blend of deep subject matter expertise, program management, and leadership to solve complex organizational challenges. The analyst operates with significant autonomy, advising  \nsenior leadership, mentoring team members, and ensuring the alignment of programs with strategic objectives. This position is central to enhancing GEOINT capabilities, improving business functions, and ensuring the successful execution of critical missions through expert analysis, process re-engineering, and stakeholder collaboration.\n\nDuties Include:\n\n* Lead and mentor the team to achieve and exceed performance goals, fostering a culture of continuous improvement and professional development. Regularly assess team members' competency skills and proficiency to ensure desired skills and capabilities are maintained.\n* Develop, manage, and/or organize Customers Business Process Analysis and Business Impact Analysis (BPA/BIA) Program Portfolio to include below in bold.\n* **Manage, facilitate, and/or assist with Agency and/or Component activities for their Essential Function/Essential Support Activities development, updates, modification, and management within MA IT tools (i.e. CPT).**\n* Facilitate, manage, organize, and/or conduct agency BC Planner participants and BCP WGs.\n* Develop, manage, facilitate, and conduct agency wide BCP training.\n* Develop, manage, and execute the agency Component continuity planner liaison program including but not limited to maintaining an accurate and detailed record of all ESAs/SAs performed by each Component. **Assist in the development of agency/component business continuity plans.**\n* Participate, attend, and contribute to IC Continuity/MA Working Groups.\n* Facilitate Continuity WGs to incorporate agency readiness functionality within MAs tool suite and subsequent WGs, i.e. LIT, PI&ID, and DTRA Mission Assurance Assessment.\n* Facilitate, manage, and/or organize agency understanding of alternate space requirements, availability, and occupant capacity to perform essential functions to agency leadership.\n* Assist and participate in agency/component Emergency, Reconstitution, and Devolution Relocation Group Planning.\n* Establish and maintain an active outreach program for both the Component Business Continuity Planners and the Watch teams.\n* Identify all Customer compliance elements within National, Executive, Federal, DoW, IC, and other applicable government statutes, directives and regulations, and provide insight into government and industry \u201cbest practices\u201d / industry standards governing mission assurance, continuity of operations, business continuity, disaster recovery, and defense critical infrastructure protection planning.\n* Establish and maintain a foundational level continuity process based on federal guidance and best practices. The foundation program must include an annual auditing process that spans daily operational status, enterprise management, periodic formal plan audits, and test, training and exercises inclusive of corrective action plans. The foundation program must include support, training, and advice to Component business continuity planners (BCPs) as they develop or maintain Essential Function Plans.\n* Maintain Agency and Component process-oriented Readiness metrics, reflecting individual Component status of program strength and readiness posture.\n* Maintain and effectively employ Mission Assurance native toolsets and databases \u2013 including but not limited to, the Continuity Planning Tool (CPT), Location Information Tool (LIT), Customer Risk Management tool (NROM), and the Enhanced Master Scenario Event List (EMSEL) Management System \u2013 to support priorities and objectives Such as the bold below.\n* **Collaborative with Business Continuity Planners (BCPs), Government Managers, Function Owners, NWM developers, Information Security Officers (ISOs), Information System Security Managers (ISSMs) and other key stakeholders to ensure database accuracy, troubleshoot user issues, modify user permissions or accounts, conduct software test plans, and contribute to requirements building activities.**\n* **Develop required subject matter expertise (SME) in all required toolsets and databases sufficient to conduct training demonstrations for NGOC watch team members, agency senior leadership, or inter-agency representatives as required.**\n* **Utilize SME-level understanding of databases and tools to creatively inform continuity exercise scenario design, answer complex agency-level RFIs, generate advanced metrics or database queries, and identify enterprise resiliency issues or concerns.**\n* Develop and maintain scenario-specific MA plans as part of the Customer COOP Plan, in support of National Preparedness Policy, National Preparedness Scenarios, or NSG/Customer-specific risk assessments.\n* Develop and maintain continuity plans at the Customer agency-level, National GEOINT Operations Center (NGOC), and on behalf of other Components as required.\n* Provide assistance at Customer Alternate Site locations as needed (expected not to exceed 10% of time). Requirements include the below in bold:\n* **Opening/closing of the facility, conducting facility tours to Customer Leadership, facilitating all alternate site TT&E requirements, and ensuring all COOP requirements are met during a contingency event.**\n* Be prepared to take any onsite, no-cost training courses or professional developments as directed by government leadership to further skills, proficiency, professional competency, and overall utility in the role.\n* Be prepared to attend and represent NWM Branch interests at interagency forums and working groups, as required.\n\nRequired Skills:\n\n* Strong leadership competencies - experience leading and directing a diverse team to high performance outcomes.\n* Bachelors degree and 10+ years experience needed or 6+ years extra experience in lieu of degree.\n* Minimum of 7 years of experience in program management, with a proven ability to translate complex data into strategic recommendations for executive decision-makers.\n* Experience creating, maintaining, evaluating, and improving component level SOPs.\n* Demonstrated ability to run multiple programs or projects simultaneously in challenging environments, characterized by the bold below:\n* **o Time constraints**\n* **o Resource constraints**\n* **o Competing priorities**\n* Business Continuity Subject Matter Expertise (SME) with high level expertise.\n* High Level or expertise, leadership, crisis management skills to ensure business continuity and response to crisis.\n* Must have a current/active TS/SCI clearance or higher\n\nDesired Skills:\n\n* FEMA level 1 certified (or ability to attain within 6 months of hire)\n\n**Security Clearance Requirement:**\n\nAn active Top Secret SCI security clearance is required for this position.This position is part of our Federal Solutions team.The Federal Solutions segment delivers resources to our US government customers that ensure the success of missions around the globe. Our intelligent employees drive the state of the art as they provide services and solutions in the areas of defense, security, intelligence, infrastructure, and environmental. We promote a culture of excellence and close-knit teams that take pride in delivering, protecting, and sustaining our nation's most critical assets, from Earth to cyberspace. Throughout the company, our people are anticipating what\u2019s next to deliver the solutions our customers need now.We value our employees and want our employees to take care of their overall wellbeing, which is why we offer best-in-class benefits such as medical, dental, vision, paid time off, 401(k), life insurance, flexible work schedules, and holidays to fit your busy lifestyle!Parsons is an equal opportunity employer, and all qualified applicants will receive consideration for employment without regard to race, color, religion, sex, national origin, disability, veteran status or any other protected status.We truly invest and care about our employee\u2019s wellbeing and provide endless growth opportunities as the sky is the limit, so aim for the stars! Imagine next and join the Parsons quest\u2014APPLY TODAY!\n\nParsons is aware of fraudulent recruitment practices. To learn more about recruitment fraud and how to report it, please refer to https://www.parsons.com/fraudulent-recruitment/.\n\n  \n\nCOMPETITIVE BENEFIT OFFERINGS\n\nFinancial Wellness\n\nWe care about your financial wellbeing. Parsons offers competitive pay and retirement plans to help you build wealth for the future while giving you the flexibility to diversify your investments.\n\nWork Life Harmony\n\nBalance in life is important and time away from the office is imperative to allow you to refresh and focus your attention on the things that matter to you. Parsons supports your time away by providing paid time off and paid flexible holidays.\n\nCareer Development\n\nWe are committed to fostering the personal and professional growth of our employees. Develop and advance yourself though our comprehensive training, educational and mentorship programs.\n\nVeteran Support\n\nWe provide Industry leading benefits to support veterans and active-duty members to provide security for you and your family by offering robust leave and benefits; including paid active-duty military leave and paid time off when transitioning back to civilian life.\n\nMind & Body\n\nAt Parsons we inspire healthier habits, heathier minds, and a healthier you through our wellness program. Participate in our weekly Meditation Mondays and Wellness Wednesdays. Wellness, at Parsons, is more than just your annual checkup.\n\nHealth\n\nHealth is not a one size fits all. At Parsons, we offer a robust Employee Assistance Program as well as comprehensive medical, dental and vision plans through large, national carriers with the choice of regional PPO, HDHP, or HMO networks."
+  },
+  {
+    "job_id": null,
+    "title": "Brite WorX - Assistant Manager",
+    "company": "Wallis Companies",
+    "location": "Chesterfield, MO, US",
+    "score_status": "complete",
+    "eligibility_disposition": null,
+    "eligible": null,
+    "fit_recommendation": "Manual Review",
+    "recommendation_status": "Manual Review",
+    "recommendation_policy_trace": {
+      "pbs_threshold_pass": false,
+      "eligibility_pass": null,
+      "lane_resolution": "Unresolved",
+      "title_alignment": 0.0,
+      "career_direction": 0.0,
+      "evidence_confidence": "Low",
+      "supported_dimensions": [],
+      "unresolved_requirements": [
+        "Geographic / Commute"
+      ],
+      "decisive_rules": [
+        "Unresolved material requirements: Geographic / Commute"
+      ]
+    },
+    "professional_lane": "Unresolved",
+    "professional_lane_name": "Unresolved",
+    "target_role_horizon": "Unresolved",
+    "hard_requirement_failures": [
+      "Job location or requirement status unresolved"
+    ],
+    "requirement_details": [
+      {
+        "requirement_type": "Geographic / Commute",
+        "requirement_text": "Location Status Verification",
+        "requirement_level": "required",
+        "state": "unresolved",
+        "candidate_evidence_ids": [],
+        "reason": "Location status unverified; requires validation evidence",
+        "confidence": 0.5
+      }
+    ],
+    "pbs_job_fit_score_pre_calibration": 2.6,
+    "diagnostic_fit_score": 2.6,
+    "capability_fit_score": 4.3,
+    "market_readiness_fit_score": 0.0,
+    "strategic_value": "Insufficient Information",
+    "evidence_confidence": "Low",
+    "evidence_confidence_breakdown": {
+      "strength_distribution": {
+        "high_count": 0,
+        "moderate_count": 0,
+        "low_count": 0
+      },
+      "source_authority": {
+        "candidate_reported_count": 0,
+        "author_architect_count": 0,
+        "artifact_count": 0
+      },
+      "dimension_coverage": {
+        "d2_active": false,
+        "d3_active": false,
+        "d4_active": false
+      },
+      "confidence_score": 0.0,
+      "confidence_level": "Low"
+    },
+    "industry_match_status": "unresolved",
+    "dimension_scores": {
+      "D2_direct_resume": 0.0,
+      "D3_transferable_exp": 0.0,
+      "D4_project_relevance": 0.0,
+      "D5_static_career_keyword_alignment": 0.26,
+      "D6_title_closeness": 0.0,
+      "D7_industry_closeness": 0.0,
+      "D8_career_direction_alignment": 0.0
+    },
+    "evidence_citations": [],
+    "job_url": "https://www.indeed.com/viewjob?jk=144a93a2a3481c53",
+    "description": "**SUMMARY**\n\nThe BriteWorX Assistant Manager is responsible for assisting the BriteWorX Manager in maintaining efficient operation of the BriteWorX Car Washery and staff. The position is also responsible for maintaining cleanliness and assisting the BriteWorX Manager in creating a superior image at the facility, in addition to ensuring customers receive a quality wash from a well-maintained operation. The BriteWorX Assistant Manager will promote cash wash sales and engage customers in carwash promotions, while providing customers with an exceptional buying experience. The position has responsibility for addressing customer concerns and security of company assets during the Manager\u2019s absence. This position will operate the wash alongside BriteWorX Associates and will spend much of their work time outside.\n\n**Get Paid Weekly \u2013 Your Hard Work, Rewarded Faster!**\n\n  \n\n**RESPONSIBILITIES BY COMPENTENCY:** *(\\*denotes an essential function of the position)*\n\n  \n\n**Business Results Orientation**\n\n* Ensure proper operation of the car wash to contribute to maintaining efficiency and achieving sales, expense, and profit goals\n\n* Assist Manager in monitoring equipment and facility to ensure cleanliness, safety, image, and wash quality expectations\n\n* Complete deposit and paperwork in a timely manner\n\n* Maintain and track all necessary inventories\n\nAssist BriteWorX Manager in examining the market for changes that may affect the business\n\nExecute pre-approved business strategies required to meet budgetary and business goals\n\n* Monitor compliance with safety policies, procedures, and practices to avoid preventable accidents\n\n* Ensure maintenance of wash equipment and facility to company standards\n\n* Correct any safety issues immediately\n\n* Work an irregular schedule, including evenings and weekends\n\n* Assist in covering shifts including short notices\n\n* Maintain regular attendance and follow designated safety practices\n\nPerform other duties not listed as required\n\n  \n\n**Communication**\n\n* Communicate effectively and professionally with customers, employees, internal support staff, external vendors, and members of management\n\n* Advise management of any cash/inventory loss\n\n* Manage customer complaints, damage claims, etc\u2026 and report to management/appropriate support personnel\n\nAssist in communicating marketing and promotion programs and goals to employees\n\n* Ensure customers are aware of current wash promotions and offerings\n\n* Report any customer injuries, any customer property or facility damage, or safety issues to supervisor and appropriate support personnel immediately\n\nRespond timely to requests from management, customers, support staff, etc\u2026\n\nCommunicate goals, business results, safety issues, and other important company information regularly; celebrate success\n\nContact Manager and support staff as needed to manage employee and customer issues\n\n  \n\n**Customer Service Orientation**\n\n* Promote customer awareness and a customer-focused mindset among all employees; lead by example\n\nSuggest wash products and services to customers that may fit their needs\n\n* Ensure all staff comply with company appearance and uniform standards at all times\n\nSuggest company or facility improvements that will enhance customer service\n\nFollow through with customer recovery as needed when service doesn\u2019t meet expectations in the absence of Manager\n\n* Respond timely to customer inquiries, suggestions, complaints, and damage reports\n\n  \n\n**Developing Talent**\n\n* Attend training to further develop both technical and soft skills\n\n* Assist in maintaining a competent and professional work force trained on all car wash operations and customer service\n\nProvide encouragement and development for employees as needed for further growth\n\n* Assist in evaluating and coaching employee as required\n\nStrive continually to improve own performance and performance of the facility as a whole\n\n* Assist in providing employees with required safety and operational training\n\nChallenge oneself to further develop skills that relate to the position\n\nPromote team development, enthusiasm, and pride\n\n* Follow and enforce all policies and procedures defined by Company policy, training materials, job description, etc\u2026\n\n* Complete training as required to meet regulatory compliance and company guidelines\n\n  \n\n**Technical Expertise**\n\n* Maintain knowledge of car wash operations, equipment and chemicals\n\n* Monitor completion of duties each shift as required to maintain the facility and wash\n\n* Perform regular maintenance checks during shift to ensure proper performance of all equipment\n\n* Troubleshoot, diagnose, make needed repairs of equipment/facility during shift, utilizing maintenance staff when needed; inform Manager of issues\n\n* Secure company assets by adhering to and ensuring compliance with appropriate cash/asset handling processes\n\n* Assist Manager in investigating all sales, cash or operating discrepancies\n\n* Understand and utilize all electronic and computer systems used in daily operations\n\n  \n\n**Safety**\n\n* Make recommendations regarding correction of unsafe conditions\n\n* Adhere to all Wallis Companies safety policies and report all safety incidents to supervisor immediately\n\n  \n\n**SUPERVISORY RESPONSIBILITIES**\n\nDirect: None\n\nIndirect: None\n\nThis position has no direct reports; however, this position will be responsible for the unit in the Manager\u2019s absence.\n\n  \n\n**QUALIFICATIONS**\n\nTo perform this job successfully, an individual must be able to perform each essential duty satisfactorily. The requirements listed below are representative of the knowledge, skill and/or ability required. Reasonable accommodations may be made to enable individuals with disabilities to perform the essential functions. *(\\*denotes an essential qualification of the position)*\n\n  \n\n**Education: \\***Required: High school diploma or equivalent\n\n**Experience:** \\*Required: At least 6 months of experience in retail, car wash or related field\n\n  \n\n**Language Skills: \\***Ability to read, write, speak, and understand English in a manner that is\n\nsufficient for effective communication with groups of managers, clients,\n\ncustomers and the general public.\n\n  \n\n**Skills and Abilities:** **(May be representative but not all-inclusive of those commonly associated with the position)**\n\n* Remarkable focus on customer service and ability to instill service spirit in others\n\n* Mechanical/technical skills necessary to complete basic troubleshooting and maintenance of equipment\n\n* Ability to motivate and inspire teamwork and high performance\n\n* Extraordinary interpersonal skills and ability to manage challenging situations posed by customers and employees\n\n* Solid verbal and written communication skills\n\n* Ability to manage time effectively, handle multiple priorities, and work in a fast paced environment\n\n* Appreciation for teamwork, combined with an ability to work independently and show initiative\n\n* Focus on safety and accident prevention\n\n* Willingness to work an irregular schedule, including evenings and weekends\n\n* Willingness to work outside in all weather conditions\n\n  \n\n**Technology, Tools,**\n\n**And Equipment:** **\\***Required: Computer, Microsoft Office, telephone,\n\nPreferred: Copy/print/fax machine, Power Washer, Various hand tools, both power and manual;\n\n(Proficiency with preferred items is not required to meet minimum qualifications, but proficiency must be established to complete essential job functions)\n\n  \n\n**Certificates, Licenses**\n\n**and/or Registrations:** None required\n\n  \n\n**PHYSICAL DEMANDS**\n\nThe physical demands described below are representative of those that must be met by an employee to successfully perform the essential functions of this job. Reasonable accommodations may be made to enable individuals with disabilities to perform the essential functions.\n\n  \n\n**Amount of Time**\n\n**None**\n\n**Under 1/3**\n\n**1/3 To 2/3**\n\n**Over 2/3**\n\n**Amount of Time**\n\n**None**\n\n**Under 1/3**\n\n**1/3 To 2/3**\n\n**Over 2/3**\n\nSee:\n\nMust be able clean equipment and facility plus conduct minor troubleshooting and repairs\n\nX\n\nLifting:\n\nStand/Walk:\n\nMust be able to move around car wash\n\nX\n\nUp to 10 pounds\n\nX\n\nSit:\n\nX\n\nUp to 25 pounds\n\nX\n\nTouch/Grasp/Feel:\n\nMust be able to handle cleaning equipment and supplies\n\nX\n\nUp to 50 pounds\n\nX\n\nClimb or Balance:\n\nX\n\nUp to 100 pounds\n\nX\n\nStoop, Kneel or Crawl:\n\nX\n\nOver 100 pounds\n\nX\n\nTalk or Hear:\n\nMust be able to communicate in person and on telephone system\n\nX\n\nWorking Conditions:\n\nOutside facility maintenance\n\nCar Wash\n\nX\n\n*Disclaimer:*\n\nThis job description in no way states or implies that these are the only duties to be performed by the employee occupying this position. Employees may be required to follow other job-related instructions and to perform other job-related duties as requested, subject to all applicable state and federal laws. Wallis Companies reserves the right to make changes to job descriptions as needed with or without notice to affected employees. Certain job functions described herein may be subject to possible modification in accordance with applicable state and federal laws. This job description does not establish a contract for employment."
+  },
+  {
+    "job_id": null,
+    "title": "Brite WorX - Assistant Manager",
+    "company": "Wallis Companies",
+    "location": "Columbia, IL, US",
+    "score_status": "complete",
+    "eligibility_disposition": null,
+    "eligible": null,
+    "fit_recommendation": "Manual Review",
+    "recommendation_status": "Manual Review",
+    "recommendation_policy_trace": {
+      "pbs_threshold_pass": false,
+      "eligibility_pass": null,
+      "lane_resolution": "Unresolved",
+      "title_alignment": 0.0,
+      "career_direction": 0.0,
+      "evidence_confidence": "Low",
+      "supported_dimensions": [],
+      "unresolved_requirements": [
+        "Geographic / Commute"
+      ],
+      "decisive_rules": [
+        "Unresolved material requirements: Geographic / Commute"
+      ]
+    },
+    "professional_lane": "Unresolved",
+    "professional_lane_name": "Unresolved",
+    "target_role_horizon": "Unresolved",
+    "hard_requirement_failures": [
+      "Job location or requirement status unresolved"
+    ],
+    "requirement_details": [
+      {
+        "requirement_type": "Geographic / Commute",
+        "requirement_text": "Location Status Verification",
+        "requirement_level": "required",
+        "state": "unresolved",
+        "candidate_evidence_ids": [],
+        "reason": "Location status unverified; requires validation evidence",
+        "confidence": 0.5
+      }
+    ],
+    "pbs_job_fit_score_pre_calibration": 2.6,
+    "diagnostic_fit_score": 2.6,
+    "capability_fit_score": 4.3,
+    "market_readiness_fit_score": 0.0,
+    "strategic_value": "Insufficient Information",
+    "evidence_confidence": "Low",
+    "evidence_confidence_breakdown": {
+      "strength_distribution": {
+        "high_count": 0,
+        "moderate_count": 0,
+        "low_count": 0
+      },
+      "source_authority": {
+        "candidate_reported_count": 0,
+        "author_architect_count": 0,
+        "artifact_count": 0
+      },
+      "dimension_coverage": {
+        "d2_active": false,
+        "d3_active": false,
+        "d4_active": false
+      },
+      "confidence_score": 0.0,
+      "confidence_level": "Low"
+    },
+    "industry_match_status": "unresolved",
+    "dimension_scores": {
+      "D2_direct_resume": 0.0,
+      "D3_transferable_exp": 0.0,
+      "D4_project_relevance": 0.0,
+      "D5_static_career_keyword_alignment": 0.26,
+      "D6_title_closeness": 0.0,
+      "D7_industry_closeness": 0.0,
+      "D8_career_direction_alignment": 0.0
+    },
+    "evidence_citations": [],
+    "job_url": "https://www.indeed.com/viewjob?jk=b359245cad834dee",
+    "description": "**SUMMARY**\n\nThe BriteWorX Assistant Manager is responsible for assisting the BriteWorX Manager in maintaining efficient operation of the BriteWorX Car Washery and staff. The position is also responsible for maintaining cleanliness and assisting the BriteWorX Manager in creating a superior image at the facility, in addition to ensuring customers receive a quality wash from a well-maintained operation. The BriteWorX Assistant Manager will promote cash wash sales and engage customers in carwash promotions, while providing customers with an exceptional buying experience. The position has responsibility for addressing customer concerns and security of company assets during the Manager\u2019s absence. This position will operate the wash alongside BriteWorX Associates and will spend much of their work time outside.\n\n**Get Paid Weekly \u2013 Your Hard Work, Rewarded Faster!**\n\n  \n\n**RESPONSIBILITIES BY COMPENTENCY:** *(\\*denotes an essential function of the position)*\n\n  \n\n**Business Results Orientation**\n\n* Ensure proper operation of the car wash to contribute to maintaining efficiency and achieving sales, expense, and profit goals\n\n* Assist Manager in monitoring equipment and facility to ensure cleanliness, safety, image, and wash quality expectations\n\n* Complete deposit and paperwork in a timely manner\n\n* Maintain and track all necessary inventories\n\nAssist BriteWorX Manager in examining the market for changes that may affect the business\n\nExecute pre-approved business strategies required to meet budgetary and business goals\n\n* Monitor compliance with safety policies, procedures, and practices to avoid preventable accidents\n\n* Ensure maintenance of wash equipment and facility to company standards\n\n* Correct any safety issues immediately\n\n* Work an irregular schedule, including evenings and weekends\n\n* Assist in covering shifts including short notices\n\n* Maintain regular attendance and follow designated safety practices\n\nPerform other duties not listed as required\n\n  \n\n**Communication**\n\n* Communicate effectively and professionally with customers, employees, internal support staff, external vendors, and members of management\n\n* Advise management of any cash/inventory loss\n\n* Manage customer complaints, damage claims, etc\u2026 and report to management/appropriate support personnel\n\nAssist in communicating marketing and promotion programs and goals to employees\n\n* Ensure customers are aware of current wash promotions and offerings\n\n* Report any customer injuries, any customer property or facility damage, or safety issues to supervisor and appropriate support personnel immediately\n\nRespond timely to requests from management, customers, support staff, etc\u2026\n\nCommunicate goals, business results, safety issues, and other important company information regularly; celebrate success\n\nContact Manager and support staff as needed to manage employee and customer issues\n\n  \n\n**Customer Service Orientation**\n\n* Promote customer awareness and a customer-focused mindset among all employees; lead by example\n\nSuggest wash products and services to customers that may fit their needs\n\n* Ensure all staff comply with company appearance and uniform standards at all times\n\nSuggest company or facility improvements that will enhance customer service\n\nFollow through with customer recovery as needed when service doesn\u2019t meet expectations in the absence of Manager\n\n* Respond timely to customer inquiries, suggestions, complaints, and damage reports\n\n  \n\n**Developing Talent**\n\n* Attend training to further develop both technical and soft skills\n\n* Assist in maintaining a competent and professional work force trained on all car wash operations and customer service\n\nProvide encouragement and development for employees as needed for further growth\n\n* Assist in evaluating and coaching employee as required\n\nStrive continually to improve own performance and performance of the facility as a whole\n\n* Assist in providing employees with required safety and operational training\n\nChallenge oneself to further develop skills that relate to the position\n\nPromote team development, enthusiasm, and pride\n\n* Follow and enforce all policies and procedures defined by Company policy, training materials, job description, etc\u2026\n\n* Complete training as required to meet regulatory compliance and company guidelines\n\n  \n\n**Technical Expertise**\n\n* Maintain knowledge of car wash operations, equipment and chemicals\n\n* Monitor completion of duties each shift as required to maintain the facility and wash\n\n* Perform regular maintenance checks during shift to ensure proper performance of all equipment\n\n* Troubleshoot, diagnose, make needed repairs of equipment/facility during shift, utilizing maintenance staff when needed; inform Manager of issues\n\n* Secure company assets by adhering to and ensuring compliance with appropriate cash/asset handling processes\n\n* Assist Manager in investigating all sales, cash or operating discrepancies\n\n* Understand and utilize all electronic and computer systems used in daily operations\n\n  \n\n**Safety**\n\n* Make recommendations regarding correction of unsafe conditions\n\n* Adhere to all Wallis Companies safety policies and report all safety incidents to supervisor immediately\n\n  \n\n**SUPERVISORY RESPONSIBILITIES**\n\nDirect: None\n\nIndirect: None\n\nThis position has no direct reports; however, this position will be responsible for the unit in the Manager\u2019s absence.\n\n  \n\n**QUALIFICATIONS**\n\nTo perform this job successfully, an individual must be able to perform each essential duty satisfactorily. The requirements listed below are representative of the knowledge, skill and/or ability required. Reasonable accommodations may be made to enable individuals with disabilities to perform the essential functions. *(\\*denotes an essential qualification of the position)*\n\n  \n\n**Education: \\***Required: High school diploma or equivalent\n\n**Experience:** \\*Required: At least 6 months of experience in retail, car wash or related field\n\n  \n\n**Language Skills: \\***Ability to read, write, speak, and understand English in a manner that is\n\nsufficient for effective communication with groups of managers, clients,\n\ncustomers and the general public.\n\n  \n\n**Skills and Abilities:** **(May be representative but not all-inclusive of those commonly associated with the position)**\n\n* Remarkable focus on customer service and ability to instill service spirit in others\n\n* Mechanical/technical skills necessary to complete basic troubleshooting and maintenance of equipment\n\n* Ability to motivate and inspire teamwork and high performance\n\n* Extraordinary interpersonal skills and ability to manage challenging situations posed by customers and employees\n\n* Solid verbal and written communication skills\n\n* Ability to manage time effectively, handle multiple priorities, and work in a fast paced environment\n\n* Appreciation for teamwork, combined with an ability to work independently and show initiative\n\n* Focus on safety and accident prevention\n\n* Willingness to work an irregular schedule, including evenings and weekends\n\n* Willingness to work outside in all weather conditions\n\n  \n\n**Technology, Tools,**\n\n**And Equipment:** **\\***Required: Computer, Microsoft Office, telephone,\n\nPreferred: Copy/print/fax machine, Power Washer, Various hand tools, both power and manual;\n\n(Proficiency with preferred items is not required to meet minimum qualifications, but proficiency must be established to complete essential job functions)\n\n  \n\n**Certificates, Licenses**\n\n**and/or Registrations:** None required\n\n  \n\n**PHYSICAL DEMANDS**\n\nThe physical demands described below are representative of those that must be met by an employee to successfully perform the essential functions of this job. Reasonable accommodations may be made to enable individuals with disabilities to perform the essential functions.\n\n  \n\n**Amount of Time**\n\n**None**\n\n**Under 1/3**\n\n**1/3 To 2/3**\n\n**Over 2/3**\n\n**Amount of Time**\n\n**None**\n\n**Under 1/3**\n\n**1/3 To 2/3**\n\n**Over 2/3**\n\nSee:\n\nMust be able clean equipment and facility plus conduct minor troubleshooting and repairs\n\nX\n\nLifting:\n\nStand/Walk:\n\nMust be able to move around car wash\n\nX\n\nUp to 10 pounds\n\nX\n\nSit:\n\nX\n\nUp to 25 pounds\n\nX\n\nTouch/Grasp/Feel:\n\nMust be able to handle cleaning equipment and supplies\n\nX\n\nUp to 50 pounds\n\nX\n\nClimb or Balance:\n\nX\n\nUp to 100 pounds\n\nX\n\nStoop, Kneel or Crawl:\n\nX\n\nOver 100 pounds\n\nX\n\nTalk or Hear:\n\nMust be able to communicate in person and on telephone system\n\nX\n\nWorking Conditions:\n\nOutside facility maintenance\n\nCar Wash\n\nX\n\n*Disclaimer:*\n\nThis job description in no way states or implies that these are the only duties to be performed by the employee occupying this position. Employees may be required to follow other job-related instructions and to perform other job-related duties as requested, subject to all applicable state and federal laws. Wallis Companies reserves the right to make changes to job descriptions as needed with or without notice to affected employees. Certain job functions described herein may be subject to possible modification in accordance with applicable state and federal laws. This job description does not establish a contract for employment."
+  },
+  {
+    "job_id": null,
+    "title": "Brite WorX - Assistant Manager",
+    "company": "Wallis Companies",
+    "location": "Florissant, MO, US",
+    "score_status": "complete",
+    "eligibility_disposition": null,
+    "eligible": null,
+    "fit_recommendation": "Manual Review",
+    "recommendation_status": "Manual Review",
+    "recommendation_policy_trace": {
+      "pbs_threshold_pass": false,
+      "eligibility_pass": null,
+      "lane_resolution": "Unresolved",
+      "title_alignment": 0.0,
+      "career_direction": 0.0,
+      "evidence_confidence": "Low",
+      "supported_dimensions": [],
+      "unresolved_requirements": [
+        "Geographic / Commute"
+      ],
+      "decisive_rules": [
+        "Unresolved material requirements: Geographic / Commute"
+      ]
+    },
+    "professional_lane": "Unresolved",
+    "professional_lane_name": "Unresolved",
+    "target_role_horizon": "Unresolved",
+    "hard_requirement_failures": [
+      "Job location or requirement status unresolved"
+    ],
+    "requirement_details": [
+      {
+        "requirement_type": "Geographic / Commute",
+        "requirement_text": "Location Status Verification",
+        "requirement_level": "required",
+        "state": "unresolved",
+        "candidate_evidence_ids": [],
+        "reason": "Location status unverified; requires validation evidence",
+        "confidence": 0.5
+      }
+    ],
+    "pbs_job_fit_score_pre_calibration": 2.6,
+    "diagnostic_fit_score": 2.6,
+    "capability_fit_score": 4.3,
+    "market_readiness_fit_score": 0.0,
+    "strategic_value": "Insufficient Information",
+    "evidence_confidence": "Low",
+    "evidence_confidence_breakdown": {
+      "strength_distribution": {
+        "high_count": 0,
+        "moderate_count": 0,
+        "low_count": 0
+      },
+      "source_authority": {
+        "candidate_reported_count": 0,
+        "author_architect_count": 0,
+        "artifact_count": 0
+      },
+      "dimension_coverage": {
+        "d2_active": false,
+        "d3_active": false,
+        "d4_active": false
+      },
+      "confidence_score": 0.0,
+      "confidence_level": "Low"
+    },
+    "industry_match_status": "unresolved",
+    "dimension_scores": {
+      "D2_direct_resume": 0.0,
+      "D3_transferable_exp": 0.0,
+      "D4_project_relevance": 0.0,
+      "D5_static_career_keyword_alignment": 0.26,
+      "D6_title_closeness": 0.0,
+      "D7_industry_closeness": 0.0,
+      "D8_career_direction_alignment": 0.0
+    },
+    "evidence_citations": [],
+    "job_url": "https://www.indeed.com/viewjob?jk=b78eb5bb3063f960",
+    "description": "**SUMMARY**\n\nThe BriteWorX Assistant Manager is responsible for assisting the BriteWorX Manager in maintaining efficient operation of the BriteWorX Car Washery and staff. The position is also responsible for maintaining cleanliness and assisting the BriteWorX Manager in creating a superior image at the facility, in addition to ensuring customers receive a quality wash from a well-maintained operation. The BriteWorX Assistant Manager will promote cash wash sales and engage customers in carwash promotions, while providing customers with an exceptional buying experience. The position has responsibility for addressing customer concerns and security of company assets during the Manager\u2019s absence. This position will operate the wash alongside BriteWorX Associates and will spend much of their work time outside.\n\n**Get Paid Weekly \u2013 Your Hard Work, Rewarded Faster!**\n\n  \n\n**RESPONSIBILITIES BY COMPENTENCY:** *(\\*denotes an essential function of the position)*\n\n  \n\n**Business Results Orientation**\n\n* Ensure proper operation of the car wash to contribute to maintaining efficiency and achieving sales, expense, and profit goals\n\n* Assist Manager in monitoring equipment and facility to ensure cleanliness, safety, image, and wash quality expectations\n\n* Complete deposit and paperwork in a timely manner\n\n* Maintain and track all necessary inventories\n\nAssist BriteWorX Manager in examining the market for changes that may affect the business\n\nExecute pre-approved business strategies required to meet budgetary and business goals\n\n* Monitor compliance with safety policies, procedures, and practices to avoid preventable accidents\n\n* Ensure maintenance of wash equipment and facility to company standards\n\n* Correct any safety issues immediately\n\n* Work an irregular schedule, including evenings and weekends\n\n* Assist in covering shifts including short notices\n\n* Maintain regular attendance and follow designated safety practices\n\nPerform other duties not listed as required\n\n  \n\n**Communication**\n\n* Communicate effectively and professionally with customers, employees, internal support staff, external vendors, and members of management\n\n* Advise management of any cash/inventory loss\n\n* Manage customer complaints, damage claims, etc\u2026 and report to management/appropriate support personnel\n\nAssist in communicating marketing and promotion programs and goals to employees\n\n* Ensure customers are aware of current wash promotions and offerings\n\n* Report any customer injuries, any customer property or facility damage, or safety issues to supervisor and appropriate support personnel immediately\n\nRespond timely to requests from management, customers, support staff, etc\u2026\n\nCommunicate goals, business results, safety issues, and other important company information regularly; celebrate success\n\nContact Manager and support staff as needed to manage employee and customer issues\n\n  \n\n**Customer Service Orientation**\n\n* Promote customer awareness and a customer-focused mindset among all employees; lead by example\n\nSuggest wash products and services to customers that may fit their needs\n\n* Ensure all staff comply with company appearance and uniform standards at all times\n\nSuggest company or facility improvements that will enhance customer service\n\nFollow through with customer recovery as needed when service doesn\u2019t meet expectations in the absence of Manager\n\n* Respond timely to customer inquiries, suggestions, complaints, and damage reports\n\n  \n\n**Developing Talent**\n\n* Attend training to further develop both technical and soft skills\n\n* Assist in maintaining a competent and professional work force trained on all car wash operations and customer service\n\nProvide encouragement and development for employees as needed for further growth\n\n* Assist in evaluating and coaching employee as required\n\nStrive continually to improve own performance and performance of the facility as a whole\n\n* Assist in providing employees with required safety and operational training\n\nChallenge oneself to further develop skills that relate to the position\n\nPromote team development, enthusiasm, and pride\n\n* Follow and enforce all policies and procedures defined by Company policy, training materials, job description, etc\u2026\n\n* Complete training as required to meet regulatory compliance and company guidelines\n\n  \n\n**Technical Expertise**\n\n* Maintain knowledge of car wash operations, equipment and chemicals\n\n* Monitor completion of duties each shift as required to maintain the facility and wash\n\n* Perform regular maintenance checks during shift to ensure proper performance of all equipment\n\n* Troubleshoot, diagnose, make needed repairs of equipment/facility during shift, utilizing maintenance staff when needed; inform Manager of issues\n\n* Secure company assets by adhering to and ensuring compliance with appropriate cash/asset handling processes\n\n* Assist Manager in investigating all sales, cash or operating discrepancies\n\n* Understand and utilize all electronic and computer systems used in daily operations\n\n  \n\n**Safety**\n\n* Make recommendations regarding correction of unsafe conditions\n\n* Adhere to all Wallis Companies safety policies and report all safety incidents to supervisor immediately\n\n  \n\n**SUPERVISORY RESPONSIBILITIES**\n\nDirect: None\n\nIndirect: None\n\nThis position has no direct reports; however, this position will be responsible for the unit in the Manager\u2019s absence.\n\n  \n\n**QUALIFICATIONS**\n\nTo perform this job successfully, an individual must be able to perform each essential duty satisfactorily. The requirements listed below are representative of the knowledge, skill and/or ability required. Reasonable accommodations may be made to enable individuals with disabilities to perform the essential functions. *(\\*denotes an essential qualification of the position)*\n\n  \n\n**Education: \\***Required: High school diploma or equivalent\n\n**Experience:** \\*Required: At least 6 months of experience in retail, car wash or related field\n\n  \n\n**Language Skills: \\***Ability to read, write, speak, and understand English in a manner that is\n\nsufficient for effective communication with groups of managers, clients,\n\ncustomers and the general public.\n\n  \n\n**Skills and Abilities:** **(May be representative but not all-inclusive of those commonly associated with the position)**\n\n* Remarkable focus on customer service and ability to instill service spirit in others\n\n* Mechanical/technical skills necessary to complete basic troubleshooting and maintenance of equipment\n\n* Ability to motivate and inspire teamwork and high performance\n\n* Extraordinary interpersonal skills and ability to manage challenging situations posed by customers and employees\n\n* Solid verbal and written communication skills\n\n* Ability to manage time effectively, handle multiple priorities, and work in a fast paced environment\n\n* Appreciation for teamwork, combined with an ability to work independently and show initiative\n\n* Focus on safety and accident prevention\n\n* Willingness to work an irregular schedule, including evenings and weekends\n\n* Willingness to work outside in all weather conditions\n\n  \n\n**Technology, Tools,**\n\n**And Equipment:** **\\***Required: Computer, Microsoft Office, telephone,\n\nPreferred: Copy/print/fax machine, Power Washer, Various hand tools, both power and manual;\n\n(Proficiency with preferred items is not required to meet minimum qualifications, but proficiency must be established to complete essential job functions)\n\n  \n\n**Certificates, Licenses**\n\n**and/or Registrations:** None required\n\n  \n\n**PHYSICAL DEMANDS**\n\nThe physical demands described below are representative of those that must be met by an employee to successfully perform the essential functions of this job. Reasonable accommodations may be made to enable individuals with disabilities to perform the essential functions.\n\n  \n\n**Amount of Time**\n\n**None**\n\n**Under 1/3**\n\n**1/3 To 2/3**\n\n**Over 2/3**\n\n**Amount of Time**\n\n**None**\n\n**Under 1/3**\n\n**1/3 To 2/3**\n\n**Over 2/3**\n\nSee:\n\nMust be able clean equipment and facility plus conduct minor troubleshooting and repairs\n\nX\n\nLifting:\n\nStand/Walk:\n\nMust be able to move around car wash\n\nX\n\nUp to 10 pounds\n\nX\n\nSit:\n\nX\n\nUp to 25 pounds\n\nX\n\nTouch/Grasp/Feel:\n\nMust be able to handle cleaning equipment and supplies\n\nX\n\nUp to 50 pounds\n\nX\n\nClimb or Balance:\n\nX\n\nUp to 100 pounds\n\nX\n\nStoop, Kneel or Crawl:\n\nX\n\nOver 100 pounds\n\nX\n\nTalk or Hear:\n\nMust be able to communicate in person and on telephone system\n\nX\n\nWorking Conditions:\n\nOutside facility maintenance\n\nCar Wash\n\nX\n\n*Disclaimer:*\n\nThis job description in no way states or implies that these are the only duties to be performed by the employee occupying this position. Employees may be required to follow other job-related instructions and to perform other job-related duties as requested, subject to all applicable state and federal laws. Wallis Companies reserves the right to make changes to job descriptions as needed with or without notice to affected employees. Certain job functions described herein may be subject to possible modification in accordance with applicable state and federal laws. This job description does not establish a contract for employment."
+  },
+  {
+    "job_id": null,
+    "title": "Brite WorX - Assistant Manager",
+    "company": "Wallis Companies",
+    "location": "Creve Coeur, MO, US",
+    "score_status": "complete",
+    "eligibility_disposition": null,
+    "eligible": null,
+    "fit_recommendation": "Manual Review",
+    "recommendation_status": "Manual Review",
+    "recommendation_policy_trace": {
+      "pbs_threshold_pass": false,
+      "eligibility_pass": null,
+      "lane_resolution": "Unresolved",
+      "title_alignment": 0.0,
+      "career_direction": 0.0,
+      "evidence_confidence": "Low",
+      "supported_dimensions": [],
+      "unresolved_requirements": [
+        "Geographic / Commute"
+      ],
+      "decisive_rules": [
+        "Unresolved material requirements: Geographic / Commute"
+      ]
+    },
+    "professional_lane": "Unresolved",
+    "professional_lane_name": "Unresolved",
+    "target_role_horizon": "Unresolved",
+    "hard_requirement_failures": [
+      "Job location or requirement status unresolved"
+    ],
+    "requirement_details": [
+      {
+        "requirement_type": "Geographic / Commute",
+        "requirement_text": "Location Status Verification",
+        "requirement_level": "required",
+        "state": "unresolved",
+        "candidate_evidence_ids": [],
+        "reason": "Location status unverified; requires validation evidence",
+        "confidence": 0.5
+      }
+    ],
+    "pbs_job_fit_score_pre_calibration": 2.6,
+    "diagnostic_fit_score": 2.6,
+    "capability_fit_score": 4.3,
+    "market_readiness_fit_score": 0.0,
+    "strategic_value": "Insufficient Information",
+    "evidence_confidence": "Low",
+    "evidence_confidence_breakdown": {
+      "strength_distribution": {
+        "high_count": 0,
+        "moderate_count": 0,
+        "low_count": 0
+      },
+      "source_authority": {
+        "candidate_reported_count": 0,
+        "author_architect_count": 0,
+        "artifact_count": 0
+      },
+      "dimension_coverage": {
+        "d2_active": false,
+        "d3_active": false,
+        "d4_active": false
+      },
+      "confidence_score": 0.0,
+      "confidence_level": "Low"
+    },
+    "industry_match_status": "unresolved",
+    "dimension_scores": {
+      "D2_direct_resume": 0.0,
+      "D3_transferable_exp": 0.0,
+      "D4_project_relevance": 0.0,
+      "D5_static_career_keyword_alignment": 0.26,
+      "D6_title_closeness": 0.0,
+      "D7_industry_closeness": 0.0,
+      "D8_career_direction_alignment": 0.0
+    },
+    "evidence_citations": [],
+    "job_url": "https://www.indeed.com/viewjob?jk=aa762cfaa9211f8e",
+    "description": "**SUMMARY**\n\nThe BriteWorX Assistant Manager is responsible for assisting the BriteWorX Manager in maintaining efficient operation of the BriteWorX Car Washery and staff. The position is also responsible for maintaining cleanliness and assisting the BriteWorX Manager in creating a superior image at the facility, in addition to ensuring customers receive a quality wash from a well-maintained operation. The BriteWorX Assistant Manager will promote cash wash sales and engage customers in carwash promotions, while providing customers with an exceptional buying experience. The position has responsibility for addressing customer concerns and security of company assets during the Manager\u2019s absence. This position will operate the wash alongside BriteWorX Associates and will spend much of their work time outside.\n\n**Get Paid Weekly \u2013 Your Hard Work, Rewarded Faster!**\n\n  \n\n**RESPONSIBILITIES BY COMPENTENCY:** *(\\*denotes an essential function of the position)*\n\n  \n\n**Business Results Orientation**\n\n* Ensure proper operation of the car wash to contribute to maintaining efficiency and achieving sales, expense, and profit goals\n\n* Assist Manager in monitoring equipment and facility to ensure cleanliness, safety, image, and wash quality expectations\n\n* Complete deposit and paperwork in a timely manner\n\n* Maintain and track all necessary inventories\n\nAssist BriteWorX Manager in examining the market for changes that may affect the business\n\nExecute pre-approved business strategies required to meet budgetary and business goals\n\n* Monitor compliance with safety policies, procedures, and practices to avoid preventable accidents\n\n* Ensure maintenance of wash equipment and facility to company standards\n\n* Correct any safety issues immediately\n\n* Work an irregular schedule, including evenings and weekends\n\n* Assist in covering shifts including short notices\n\n* Maintain regular attendance and follow designated safety practices\n\nPerform other duties not listed as required\n\n  \n\n**Communication**\n\n* Communicate effectively and professionally with customers, employees, internal support staff, external vendors, and members of management\n\n* Advise management of any cash/inventory loss\n\n* Manage customer complaints, damage claims, etc\u2026 and report to management/appropriate support personnel\n\nAssist in communicating marketing and promotion programs and goals to employees\n\n* Ensure customers are aware of current wash promotions and offerings\n\n* Report any customer injuries, any customer property or facility damage, or safety issues to supervisor and appropriate support personnel immediately\n\nRespond timely to requests from management, customers, support staff, etc\u2026\n\nCommunicate goals, business results, safety issues, and other important company information regularly; celebrate success\n\nContact Manager and support staff as needed to manage employee and customer issues\n\n  \n\n**Customer Service Orientation**\n\n* Promote customer awareness and a customer-focused mindset among all employees; lead by example\n\nSuggest wash products and services to customers that may fit their needs\n\n* Ensure all staff comply with company appearance and uniform standards at all times\n\nSuggest company or facility improvements that will enhance customer service\n\nFollow through with customer recovery as needed when service doesn\u2019t meet expectations in the absence of Manager\n\n* Respond timely to customer inquiries, suggestions, complaints, and damage reports\n\n  \n\n**Developing Talent**\n\n* Attend training to further develop both technical and soft skills\n\n* Assist in maintaining a competent and professional work force trained on all car wash operations and customer service\n\nProvide encouragement and development for employees as needed for further growth\n\n* Assist in evaluating and coaching employee as required\n\nStrive continually to improve own performance and performance of the facility as a whole\n\n* Assist in providing employees with required safety and operational training\n\nChallenge oneself to further develop skills that relate to the position\n\nPromote team development, enthusiasm, and pride\n\n* Follow and enforce all policies and procedures defined by Company policy, training materials, job description, etc\u2026\n\n* Complete training as required to meet regulatory compliance and company guidelines\n\n  \n\n**Technical Expertise**\n\n* Maintain knowledge of car wash operations, equipment and chemicals\n\n* Monitor completion of duties each shift as required to maintain the facility and wash\n\n* Perform regular maintenance checks during shift to ensure proper performance of all equipment\n\n* Troubleshoot, diagnose, make needed repairs of equipment/facility during shift, utilizing maintenance staff when needed; inform Manager of issues\n\n* Secure company assets by adhering to and ensuring compliance with appropriate cash/asset handling processes\n\n* Assist Manager in investigating all sales, cash or operating discrepancies\n\n* Understand and utilize all electronic and computer systems used in daily operations\n\n  \n\n**Safety**\n\n* Make recommendations regarding correction of unsafe conditions\n\n* Adhere to all Wallis Companies safety policies and report all safety incidents to supervisor immediately\n\n  \n\n**SUPERVISORY RESPONSIBILITIES**\n\nDirect: None\n\nIndirect: None\n\nThis position has no direct reports; however, this position will be responsible for the unit in the Manager\u2019s absence.\n\n  \n\n**QUALIFICATIONS**\n\nTo perform this job successfully, an individual must be able to perform each essential duty satisfactorily. The requirements listed below are representative of the knowledge, skill and/or ability required. Reasonable accommodations may be made to enable individuals with disabilities to perform the essential functions. *(\\*denotes an essential qualification of the position)*\n\n  \n\n**Education: \\***Required: High school diploma or equivalent\n\n**Experience:** \\*Required: At least 6 months of experience in retail, car wash or related field\n\n  \n\n**Language Skills: \\***Ability to read, write, speak, and understand English in a manner that is\n\nsufficient for effective communication with groups of managers, clients,\n\ncustomers and the general public.\n\n  \n\n**Skills and Abilities:** **(May be representative but not all-inclusive of those commonly associated with the position)**\n\n* Remarkable focus on customer service and ability to instill service spirit in others\n\n* Mechanical/technical skills necessary to complete basic troubleshooting and maintenance of equipment\n\n* Ability to motivate and inspire teamwork and high performance\n\n* Extraordinary interpersonal skills and ability to manage challenging situations posed by customers and employees\n\n* Solid verbal and written communication skills\n\n* Ability to manage time effectively, handle multiple priorities, and work in a fast paced environment\n\n* Appreciation for teamwork, combined with an ability to work independently and show initiative\n\n* Focus on safety and accident prevention\n\n* Willingness to work an irregular schedule, including evenings and weekends\n\n* Willingness to work outside in all weather conditions\n\n  \n\n**Technology, Tools,**\n\n**And Equipment:** **\\***Required: Computer, Microsoft Office, telephone,\n\nPreferred: Copy/print/fax machine, Power Washer, Various hand tools, both power and manual;\n\n(Proficiency with preferred items is not required to meet minimum qualifications, but proficiency must be established to complete essential job functions)\n\n  \n\n**Certificates, Licenses**\n\n**and/or Registrations:** None required\n\n  \n\n**PHYSICAL DEMANDS**\n\nThe physical demands described below are representative of those that must be met by an employee to successfully perform the essential functions of this job. Reasonable accommodations may be made to enable individuals with disabilities to perform the essential functions.\n\n  \n\n**Amount of Time**\n\n**None**\n\n**Under 1/3**\n\n**1/3 To 2/3**\n\n**Over 2/3**\n\n**Amount of Time**\n\n**None**\n\n**Under 1/3**\n\n**1/3 To 2/3**\n\n**Over 2/3**\n\nSee:\n\nMust be able clean equipment and facility plus conduct minor troubleshooting and repairs\n\nX\n\nLifting:\n\nStand/Walk:\n\nMust be able to move around car wash\n\nX\n\nUp to 10 pounds\n\nX\n\nSit:\n\nX\n\nUp to 25 pounds\n\nX\n\nTouch/Grasp/Feel:\n\nMust be able to handle cleaning equipment and supplies\n\nX\n\nUp to 50 pounds\n\nX\n\nClimb or Balance:\n\nX\n\nUp to 100 pounds\n\nX\n\nStoop, Kneel or Crawl:\n\nX\n\nOver 100 pounds\n\nX\n\nTalk or Hear:\n\nMust be able to communicate in person and on telephone system\n\nX\n\nWorking Conditions:\n\nOutside facility maintenance\n\nCar Wash\n\nX\n\n*Disclaimer:*\n\nThis job description in no way states or implies that these are the only duties to be performed by the employee occupying this position. Employees may be required to follow other job-related instructions and to perform other job-related duties as requested, subject to all applicable state and federal laws. Wallis Companies reserves the right to make changes to job descriptions as needed with or without notice to affected employees. Certain job functions described herein may be subject to possible modification in accordance with applicable state and federal laws. This job description does not establish a contract for employment."
+  },
+  {
+    "job_id": null,
+    "title": "RN Weekend Supervisor",
+    "company": "Lakeview Post Acute",
+    "location": "Florissant, MO, US",
+    "score_status": "complete",
+    "eligibility_disposition": null,
+    "eligible": null,
+    "fit_recommendation": "Manual Review",
+    "recommendation_status": "Manual Review",
+    "recommendation_policy_trace": {
+      "pbs_threshold_pass": false,
+      "eligibility_pass": null,
+      "lane_resolution": "Unresolved",
+      "title_alignment": 0.0,
+      "career_direction": 0.0,
+      "evidence_confidence": "Low",
+      "supported_dimensions": [],
+      "unresolved_requirements": [
+        "Geographic / Commute"
+      ],
+      "decisive_rules": [
+        "Unresolved material requirements: Geographic / Commute"
+      ]
+    },
+    "professional_lane": "Unresolved",
+    "professional_lane_name": "Unresolved",
+    "target_role_horizon": "Unresolved",
+    "hard_requirement_failures": [
+      "Job location or requirement status unresolved"
+    ],
+    "requirement_details": [
+      {
+        "requirement_type": "Geographic / Commute",
+        "requirement_text": "Location Status Verification",
+        "requirement_level": "required",
+        "state": "unresolved",
+        "candidate_evidence_ids": [],
+        "reason": "Location status unverified; requires validation evidence",
+        "confidence": 0.5
+      }
+    ],
+    "pbs_job_fit_score_pre_calibration": 2.6,
+    "diagnostic_fit_score": 2.6,
+    "capability_fit_score": 4.3,
+    "market_readiness_fit_score": 0.0,
+    "strategic_value": "Insufficient Information",
+    "evidence_confidence": "Low",
+    "evidence_confidence_breakdown": {
+      "strength_distribution": {
+        "high_count": 0,
+        "moderate_count": 0,
+        "low_count": 0
+      },
+      "source_authority": {
+        "candidate_reported_count": 0,
+        "author_architect_count": 0,
+        "artifact_count": 0
+      },
+      "dimension_coverage": {
+        "d2_active": false,
+        "d3_active": false,
+        "d4_active": false
+      },
+      "confidence_score": 0.0,
+      "confidence_level": "Low"
+    },
+    "industry_match_status": "unresolved",
+    "dimension_scores": {
+      "D2_direct_resume": 0.0,
+      "D3_transferable_exp": 0.0,
+      "D4_project_relevance": 0.0,
+      "D5_static_career_keyword_alignment": 0.26,
+      "D6_title_closeness": 0.0,
+      "D7_industry_closeness": 0.0,
+      "D8_career_direction_alignment": 0.0
+    },
+    "evidence_citations": [],
+    "job_url": "https://www.indeed.com/viewjob?jk=a0ca90f15e2bd907",
+    "description": "**Registered Nurse (RN)**\n=========================\n\n**General Purpose**\n\nThe primary responsibility of your job position is to supervise the day-to-day nursing activities of the facility during your tour of duty. Such supervision must be accordance with current federal, state, and local standards, guidelines and regulations that govern the facility and may be required by the Director of Nursing (DON)and or/Assistant Director of Nursing (ADON) when applicable, to ensure that the highest degree of quality care is maintained at all times.\n\n**Essential Duties**\n\nEvery effort has been made to identify the essential functions of this position. However, it in no way states or implies that these are the only duties you will be required to perform. The omission of specific statements of duties does not exclude them from the position if the work is similar, related, or is an essential function of the position.\n\n**Range $45-$55 hourly**\n\nAdministrative Functions\n\n* Assist the Director of Nursing Services in directing the day-to-day functions of the nursing activities in accordance with current rules, regulations, and guidelines that govern the long-term care facility.\n* Participate in developing, maintaining, and updating written policies and procedures that govern the day-to-day functions of the nursing service department.\n* Ensure that reference material (i.e., PDR\u2019S, regulations, professional standards of practice, etc.) maintained at the nurses\u2019 stations is current. Recommend written material that will assist the nursing service department in meeting the day-to-day needs of the resident.\n* Ensure that the Nursing Service Procedures Manual is current and reflects the day-to-day nursing procedures performed in this facility.\n* Ensure that all nursing service personnel comply with the procedures set forth in the Nursing Service Procedures Manual.\n* Make written and oral reports/recommendations to the Director as necessary/required, concerning the operation of the nursing service department.\n* Periodically review the department\u2019s policies, procedure manuals, job descriptions, etc. Make recommendations for revisions to the Director.\n* Assist in developing methods for coordinating nursing services with other resident services to ensure the continuity of the residents\u2019 total regimen of care.\n* Ensure that all nursing service personnel are in compliance with their respective job descriptions.\n* Participate in the development, maintenance and implementation of the facility\u2019s quality assurance program for the nursing service department.\n* Participate in facility surveys (inspections) made by authorized government agencies as requested by the Administrator or Director of Nursing Services.\n* Periodically review the resident\u2019s written discharge plan. Participate in the updating of the resident\u2019s written discharge plan as required.\n* Assist the Director in planning the nursing services portion of the resident\u2019s discharge plan as necessary.\n* Meet with the nursing staff, as well as support personnel, in planning the department\u2019s services, programs, and activities.\n* Admit, transfer, and discharge residents as required.\n* Complete accident/incident reports as necessary.\n* Interpret the department\u2019s policies and procedures to personnel, residents, visitors, and government agencies as required.\n* Perform administrative duties such as completing medical forms, reports, evaluations, studies, charting, etc., asnecessary.\n* Agree not to disclose assigned user ID code and password for accessing resident/facility information and promptly report suspected or known violations of such disclosure to the Administrator.\n* Agree not to disclose resident\u2019s protected health information and promptly report suspected or known violations of such disclosure to the Administrator.\n* Report any known or suspected unauthorized attempt to access facility\u2019s information system.\n\nCommittee Functions\n\n* Attend various committee meetings of the facility (i.e., Infection Control, Policy Advisory, Pharmaceutical, Quality Assessment, etc.) as required.\n* Assist in preparing written and/or oral reports of the nursing service programs and activities to submit to such committee(s) as directed.\n* Provide information to the Quality Assurance and Assessment Committee as requested.\n* Participate in developing the agenda for the Care Plan Committee meetings as necessary.\n* Participate in regularly scheduled reviews of the discharge plans and make such plans available to the Care Plan Committee as required or as may be necessary.\n* Implement recommendations from established committees as instructed by the Director.\n\nPersonnel Functions\n\n* Ensure that a sufficient number of licensed practical and/or registered nurses are available for your tour of duty to ensure that quality care is maintained.\n* Ensure that a sufficient number of certified nursing assistants are available for your tour of duty to ensure that routine nursing care is provided to meet the daily nursing care needs of each resident.\n* Develop work assignments, and/or assist in completing and performing such tasks.\n* Delegate to each Charge Nurse the administrative authority, responsibility, and accountability necessary to perform his/her assigned duties.\n* Ensure that all nursing assistants are enrolled in or have graduated from an approved nursing assistant training program.\n* Ensure that all nurse aide trainees are under the direct supervision of a licensed nurse.\n* Make daily rounds of the nursing service department to ensure that all nursing service personnel are performing their work assignments in accordance with acceptable nursing standards. Report findings to the Director.\n* Monitor absenteeism to ensure that an adequate number of nursing care personnel are on duty at all times. Report problem areas to the Director.\n* Ensure that established policies and procedures, including dress codes, are followed by all departmental personnel.\n* Review complaints and grievances made or filed by department personnel. Make appropriate reports to the Director as required or as may be necessary.\n* Develop and maintain a good working rapport with inter-department personnel, as well as other departments within the facility to ensure that nursing services and activities can be adequately maintained to meet the needs of the residents.\n* Create and maintain an atmosphere of warmth, personal interest and positive emphasis, as well as a calm environment throughout the unit and shift.\n* Meet with your shift on a regularly scheduled basis to assist in identifying and correcting problem areas and/or to assist in the improvement of services.\n* Review and evaluate your department\u2019s work force and make recommendations to the Director.\n* Participate in employee performance evaluations, determining your shift\u2019s staffing requirements, and making recommendations to the Director concerning employee dismissals, transfers, etc.\n* Ensure that departmental disciplinary action is administered fairly and without regard to race, color, creed, national origin, age, sex, religion, handicap, or marital status.\n* Report occupational exposures to blood, body fluids, infectious materials, and hazardous chemicals in accordance with the facility\u2019s policies and procedures governing accidents and incidents.\n* Report known or suspected incidents of fraud to the Administrator.\n* Ensure that departmental computer workstations left unattended are properly logged off or the password protected automatic screen-saver activates within established facility policy guidelines.\n\nNursing Care Functions\n\n* Inform nursing service personnel of new admissions, their expected time of arrival, room assignment, etc.\n* Ensure that rooms are ready for new admissions.\n* Greet newly admitted residents upon admission. Escort them to their rooms as necessary\n* Make rounds with physicians as necessary.\n* Encourage attending physicians to record and sign progress notes, physicians\u2019 orders, etc., on a timely basis and in accordance with current regulations.\n* Inform the Director when physician visits are not made in a timely manner.\n* Consult with the resident, his/her family, and the resident\u2019s physician in planning the resident\u2019s care, treatment, rehabilitation, etc., as necessary.\n* Notify the resident\u2019s attending physician and next-of-kin when there is a change in the resident\u2019s condition.\n* Visit residents on a daily basis in order to observe and evaluate each resident\u2019s physical and emotional status.\n* Ensure that direct nursing care be provided by a licensed nurse, a certified nursing assistant, and/or a nurse aide trainee qualified to perform the procedure.\n* Review nurses\u2019 notes to ensure that they are informative and descriptive of the nursing care being provided, that they reflect the resident\u2019s response to the care, and that such care is provided in accordance with the resident\u2019s wishes.\n* Provide direct nursing care as necessary.\n* Start IVs, obtain sputum, urine and other specimens for lab tests as ordered.\n* Take TPRs, blood pressures, etc., as necessary.\n* Admit, transfer and discharge residents as necessary.\n* Report problem areas to the Director. Assist in developing and implementing corrective action.\n* Keep the Director informed of the status of residents and other related matters through written/oral reports.\n* Assist the Charge Nurse in monitoring seriously ill residents.\n* Authorize the use of restraints when necessary and in accordance with our facilities policies and procedures.\n* Ensure that all RNs and LPNs on your shift comply with written procedures for the administration, storage, and control of medications and supplies.\n* Monitor medication passes and treatment schedules to ensure that medications are being administered as ordered and that treatments are provided as scheduled.\n* Review medication cards for completeness of information, accuracy in the transcription of physician orders, and adherence to stop order policies.\n* Inspect the nursing service treatment areas daily to ensure that they are maintained in a clean and safe manner.\n* Ensure that residents who are unable to call for help are checked frequently.\n* Meet with residents, and/or family members, as necessary. Report problems to the Director.\n* Assist in arranging transportation for discharged residents as necessary.\n* Inform family members of the death of the resident.\n* Call funeral homes when requested by the family.\n\nStaff Development \u2022 Participate in developing, planning, conducting, and scheduling in-service training classes that provide instructions on \u201chow to do the job,\u201d and ensure a well-educated nursing service department. \u2022 Assist the In-service Director/Educator in developing annual facility in-service training programs (e.g., OSHA, TB, HIPAA, Abuse Prevention, Safety, Infection Control, etc.). \u2022 Assist the Director in planning clinical supervision for nurse aide trainees. \u2022 Attend and participate in continuing education programs designed to keep you abreast of changes in your profession, as well as to maintain your license on a current status.\n\nSafety and Sanitation \u2022 Assist the Safety Officer in developing safety standards for the nursing service department as necessary. \u2022 Assist the Director and/or Infection Control Coordinator in identifying, evaluating, and classifying routine and jobrelated functions to ensure that tasks in which there is potential exposure to blood/body fluids are properly identified and recorded. \u2022 Ensure that all personnel performing tasks that involve potential exposure to blood/body fluids participate in appropriate in-service training programs prior to performing such tasks. \u2022 Ensure that an adequate supply of personal protective equipment is on hand and readily available to personnel who perform procedures that involve exposure to blood or body fluids. \u2022 Ensure that personnel follow established procedures for the use and disposal of personal protective equipment. \u2022 Monitor your shift\u2019s personnel to ensure that they are following established safety regulations in the use of equipment and supplies. \u2022 Ensure that all nursing service personnel comply with established departmental policies and procedures. \u2022 Ensure that nursing service work areas (i.e., nurses\u2019 stations, medicine preparation rooms, etc.) are maintained in a clean and sanitary manner. \u2022 Ensure that all resident care rooms, treatment areas, etc., are maintained in a clean, safe, and sanitary manner. \u2022 Ensure that nursing service personnel follow established handwashing and hand hygiene procedures. \u2022 Ensure that nursing service personnel participate in and conduct all fire safety and disaster preparedness drills in a safe and professional manner. \u2022 Participate in the development, implementation, and maintenance of the infection control program for monitoring communicable and/or infectious diseases among the residents and personnel. \u2022 Ensure that nursing service personnel follow established infection control procedures when isolation precautions become necessary. \u2022 Participate in the development, implementation and maintenance of the procedures for reporting hazardous conditions or equipment. \u2022 Ensure that all personnel wear and/or use safety equipment and supplies (e.g., back brace, mechanical lifts, etc.) when lifting or moving residents. \u2022 Report missing/illegible labels and MSDSs to the safety officer or other designated person.\n\nEquipment and Supply Functions \u2022 Recommend to the Director the equipment and supply needs of the department. \u2022 Ensure that an adequate stock level of medications, medical supplies, equipment, etc., is maintained on premises at all times to meet the needs of the resident. \u2022 Assist the Maintenance Director in developing a preventive maintenance program for maintaining the nursing service department\u2019s equipment and supplies in a safe and operable manner. \u2022 Participate in the development and implementation of the procedures for the safe operation of all nursing service equipment. \u2022 Ensure that only trained and authorized personnel operate the nursing service department\u2019s equipment. \u2022 Ensure that all personnel operate nursing service equipment in a safe manner. \u2022 Monitor nursing procedures to ensure that nursing service supplies are used in an efficient manner to avoid waste. \u2022 Ensure that appropriate MSDSs are on file for hazardous chemicals used in the nursing service department.\n\nCare Plan and Assessment Functions \u2022 Participate in the development of written preliminary and comprehensive assessments of the nursing needs of each resident as necessary. \u2022 Participate in the development of a written plan of care (preliminary and comprehensive) for each resident that identifies the problems/needs of the resident, indicates the care to be given, goals to be accomplished, and which professional service is responsible for each element of care. \u2022 Encourage the resident to participate in the development and review of his/her care plan. \u2022 Review resident care plans for appropriate resident goals, problems, approaches, and revisions based on nursing needs. \u2022 Ensure that all personnel involved in providing care to the resident are aware of the resident\u2019s care plan. Ensure that nursing personnel refer to the resident\u2019s care plan prior to administering daily care to the resident. \u2022 Review nurses\u2019 notes to determine if the care plan is being followed. \u2022 Assist the Resident Assessment/Care Plan Coordinator in planning, scheduling, and revising the MDS, including the implementation of RAPs and Triggers. \u2022 Review resident\u2019s medical and nursing treatments to ensure that they are provided in accordance with the resident\u2019s care plan and wishes.\n\nBudget and Planning Functions \u2022 Keep abreast of economic conditions/situations, and recommend to the Director adjustments in nursing services that ensure the continued ability to provide quality care. \u2022 Recommend to the Director the equipment needs of the nursing service department. \u2022 Report suspected or known incidence of fraud relative to false billings, cost reports, kickbacks, etc.\n\n**Supervisory Requirements**\n\nAssist with the overall supervision of and management of the nursing staff. As RN, you are delegated the administrative authority, responsibility, and accountability necessary for carrying out your assigned duties.\n\n**Qualification**\n\nEducation and/or Experience\n\nMust posess, as a minimum, a Nursing Degree an accredited college or university. Must have training in rehabilitative and restorative nursing practices. 2 years or more experience preferably in a long-term care facility.\n\nLanguage Skills\n\nMust be able to read, write, speak, and understand the English language. Ability to read technical procedures. Ability to read and comprehend policy and procedure manuals. Ability to effectively present information and respond to questions from managers and employees.\n\nMathematical Skills\n\nAbility to apply concepts such as fractions, percentages, ratios and proportions to practical situations.\n\nReasoning Ability\n\nMust possess\n\n* the ability to make independent decisions when circumstances warrant such action with the ability to solve practical problems.\n* the ability to deal tactfully with personnel, residents, family members, visitors, government agencies/personnel, and the general public.\n* leadership and supervisory ability and the willingness to work harmoniously with and supervise other personnel.\n* the ability to plan, organize, develop, implement, and interpret the programs, goals, objectives, policies and procedures, etc., that are necessary for providing quality care.\n\nMust demonstrate the knowledge and skills necessary to provide care appropriate to the age-related needs of the residents served.\n\nBe a supportive team member, contribute to and be an example of team work and team concept.\n\nMust be knowledgeable of nursing and medical practices and procedures, as well as laws, regulations, and guidelines that pertain to nursing care facilities.\n\nMust have patience, tact, a cheerful disposition and enthusiasm, as well as the willingness to handle difficult residents.\n\nMust be willing to seek out new methods and principles and be willing to incorporate them into existing nursing practices.\n\nMust be able to relate information concerning a resident\u2019s condition.\n\nMust not pose a direct threat to the health or safety of other individuals in the workplace.\n\n**Certificates, Licenses, Registrations**\n\nMust possess a current, unencumbered, active license to practice as an RN in this state. Current CPR certification.\n\nKnowledge and experience with PCC preferred.\n\nMust maintain all required continuing education/licensing.\n\nMust remain in good standing with the State Board of Nursing at all times.\n\n**Physical Demands**\n\nMust be able to move intermittently throughout the workday.\n\nMust be able to speak and write the English language in an understandable manner.\n\nMust be able to cope with the mental and emotional stress of the position.\n\nMust be able to see and hear or use prosthetics that will enable these senses to function adequately to ensure that the requirements of this position can be fully met.\n\nMust function independently, and have flexibility, personal integrity, and the ability to work effectively with residents, personnel, and support agencies.\n\nMust meet the general health requirements set forth by the policies of this facility, which include a medical and physical examination.\n\nMust be able to relate to and work with the ill, disabled, elderly, emotionally upset, and, at times, hostile people within the facility.\n\nMust be able to push, pull, move, and/or lift a minimum of 25 pounds to a minimum height of 5 feet and be able to push, pull, move, and/or carry such weight a minimum distance of 50 feet. May be necessary to assist in the evacuation of residents during emergency situations.\n\n**Work Environment**\n\nThe work environment characteristics described here are representative of those an employee encounters while performing the essential functions of this job. Reasonable accommodations may be made to enable individuals with disabilities to perform the essential functions.\n\nWorks in office area(s) as well as throughout the nursing service area (i.e., drug rooms, nurses\u2019 stations, resident rooms, etc.). Moves intermittently during working hours. Is subject to frequent interruptions. Is involved with residents, personnel, visitors, government agencies/personnel, etc., under all conditions and circumstances. Is subject to hostile and emotionally upset residents, family members, personnel, and visitors. Communicates with the medical staff, nursing personnel, and other department directors. Works beyond normal working hours and on weekends and holidays when necessary. Is subject to call back during emergency conditions (e.g., severe weather, evacuation, post-disaster, etc.). Is involved in community/civic health matters/projects as appropriate. Attends and participates in continuing educational programs. Is subject to injury from falls, burns from equipment, odors, etc., throughout the workday, as well as reactions from dust, disinfectants, tobacco smoke, and other air contaminants. Is subject to exposure to infectious waste, diseases, conditions, etc., including TB and the AIDS and Hepatitis B viruses. May be subject to the handling of and exposure to hazardous chemicals. Maintains a liaison with the residents, their families, support departments, etc., to adequately plan for the residents\u2019 needs.\n\n**Additional Information**\n\nNote: Nothing in this job specification restricts management\u2019s right to assign or reassign duties and responsibilities to this job at any time. Critical features of this job are described under various headings above. They may be subject to change at any time due to reasonable accommodation or other reasons. The above statements are strictly intended to describe the general nature and level of the work being performed. They are not intended to be construed as a complete list of all responsibilities, duties, and skills required of employees in this position.\n\nWe are an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, age, disability, protected veteran status, or any other legally protected status."
+  },
+  {
+    "job_id": null,
+    "title": "Lab Assistant II",
+    "company": "St. Luke's Hospital (MO)",
+    "location": "Chesterfield, MO, US",
+    "score_status": "complete",
+    "eligibility_disposition": null,
+    "eligible": null,
+    "fit_recommendation": "Manual Review",
+    "recommendation_status": "Manual Review",
+    "recommendation_policy_trace": {
+      "pbs_threshold_pass": false,
+      "eligibility_pass": null,
+      "lane_resolution": "Unresolved",
+      "title_alignment": 0.0,
+      "career_direction": 0.0,
+      "evidence_confidence": "Low",
+      "supported_dimensions": [],
+      "unresolved_requirements": [
+        "Geographic / Commute"
+      ],
+      "decisive_rules": [
+        "Unresolved material requirements: Geographic / Commute"
+      ]
+    },
+    "professional_lane": "Unresolved",
+    "professional_lane_name": "Unresolved",
+    "target_role_horizon": "Unresolved",
+    "hard_requirement_failures": [
+      "Job location or requirement status unresolved"
+    ],
+    "requirement_details": [
+      {
+        "requirement_type": "Geographic / Commute",
+        "requirement_text": "Location Status Verification",
+        "requirement_level": "required",
+        "state": "unresolved",
+        "candidate_evidence_ids": [],
+        "reason": "Location status unverified; requires validation evidence",
+        "confidence": 0.5
+      }
+    ],
+    "pbs_job_fit_score_pre_calibration": 2.1,
+    "diagnostic_fit_score": 2.1,
+    "capability_fit_score": 3.4,
+    "market_readiness_fit_score": 0.0,
+    "strategic_value": "Insufficient Information",
+    "evidence_confidence": "Low",
+    "evidence_confidence_breakdown": {
+      "strength_distribution": {
+        "high_count": 0,
+        "moderate_count": 0,
+        "low_count": 0
+      },
+      "source_authority": {
+        "candidate_reported_count": 0,
+        "author_architect_count": 0,
+        "artifact_count": 0
+      },
+      "dimension_coverage": {
+        "d2_active": false,
+        "d3_active": false,
+        "d4_active": false
+      },
+      "confidence_score": 0.0,
+      "confidence_level": "Low"
+    },
+    "industry_match_status": "unresolved",
+    "dimension_scores": {
+      "D2_direct_resume": 0.0,
+      "D3_transferable_exp": 0.0,
+      "D4_project_relevance": 0.0,
+      "D5_static_career_keyword_alignment": 0.21,
+      "D6_title_closeness": 0.0,
+      "D7_industry_closeness": 0.0,
+      "D8_career_direction_alignment": 0.0
+    },
+    "evidence_citations": [],
+    "job_url": "https://www.indeed.com/viewjob?jk=abff4f0e4345540f",
+    "description": "Performs phlebotomy, processes patient specimens and performs patient registration. Utilizes Laboratory computer system. Prepares specimens to be sent to reference laboratories. Maintains department inventory and operates and maintains equipment. Performs various clerical duties. Adheres to patient identification, laboratory safety, and department policies and procedures. Performs duties and responsibilities in a manner consistent with our mission and values.\n\nPrinciple Accountabilities: % Of Time Spent\n\n1.**Safety/Risk Management**: Maintains an environment for employees, patients, medical staff, and visitors that promote safety consciousness in order to achieve a safe physical environment. A. Complies with Hospital and department Infection Control guidelines.\n\nB. Adheres to chemical hygiene policies.\n\nC. Follows confidentiality policy/procedure.\n\nD. Adheres to hospital wide and department specific safety regulations.\n\nE. Initiates quality improvement reports, and participates in quality improvement audits as necessary.\n\nF. Creates a safe and clean work environment.\n\nG. Utilizes the appropriate safety engineering devices/personal protective equipment. **(10%)**\n\n2. **Coordination of Services**: Coordinates activities, which allow quality work within a timely manner.\n\nA. Functions efficiently and effectively in pertinent areas during normal operations and computer 'downtimes.'\n\nB. Acts as a preceptor of coworkers and non-laboratory personnel up to and including sign off of orientation checklists at the task level.\n\nC. Assures all services are carried out accurately, efficiently, timely and optimally safe.\n\nD. Stocks area, monitors expiration dates of supplies, and alerts appropriate personnel when supplies are low.\n\nE. Receives, labels and stores supplies accurately and in a timely manner.\n\nF. Fill orders from customers for lab supplies.\n\nG. Orders reagents, supplies and instrument consumables in a timely manner to insure continuous service.\n\nH. Coordinates services and resources with laboratory, other department and non-laboratory personnel in a timely manner (i.e. specimens, supplies, reports, etc).\n\nI. Functions as technical resource to physicians and employees.\n\nJ. Works independently, covering all aspects of the job.\n\nK. Serves as the lead coworker of the area.\n\nL. Assists employees with trouble shooting problems and acts as a resource in problem resolution. **(15%)**\n\n3. **Primary Aspects of the Job**: Exhibits organizational skills and a conscientiousness which allows for precise and accurate results in a timely manner.\n\nA. Performs various types of LIS/HIS registration on patients and/or specimens per hospital and laboratory policy.\n\nB. Demonstrates proper time management skills and priority setting, and multi tasking abilities.\n\nC. Collects and/or assists with collection of patient specimens (to include blood, urine, Autologous blood, etc) in a timely manner, following approved procedure with technical expertise.\n\n1. Utilizes equipment proficiently.\n\n2. Assures positive patient identification.\n\n3. Adheres to procedures for special and age related requirements.\n\n4. Verifies tests requested to tests ordered and obtained.\n\n5. Evaluates specimen acceptability.\n\n6. Labels specimen correctly.\n\n7. Verifies work in a timely manner.\n\nD. Processes specimens received accurately and promptly.\n\n1. Computer entry.\n\n2. Confirm interpretation of physician orders.\n\n3. Confirm orders with specimen.\n\n4. Screen samples for acceptability.\n\n5. Takes appropriate action for unsuitable, unacceptable, mislabeled specimens.\n\n6. Directs specimens to proper departments and individuals in a timely manner.\n\nE. Appropriately prepares specimens for transportation to other clinical laboratories for testing.\n\n1. Maintains accurate records.\n\nF. Performs limited waived tests and procedures on biological and environmental materials using automated equipment or manual methods following established laboratory and testing\n\nprocedures. (These tests include bleeding times, finger stick glucose, microbiology set-ups and others as authorized).\n\n1. Performs work accurately and cost effectively.\n\n2. Evaluates specimen acceptability.\n\n3. Verifies work in a timely manner.\n\n4. Prepares and maintains reagents and solutions.\n\nG. Performs quality control and equipment maintenance.\n\n1. Maintains proper quality control records.\n\n2. Documents corrective action for unacceptable results.\n\n3. Performs preventive maintenance on equipment.\n\n4. Performs work accurately and cost effectively.\n\nH. Creates and uses work aid documents correctly and routinely and in a timely manner (pending, batch, error, etc).\n\nI. Performs various clerical duties to include but not limited to:\n\n1. Sending out reports.\n\n2. Typing as necessary.\n\n3. Faxing reports.\n\n4. Filing.\n\nJ. Identifies both operational and technical problems and refers problems to Supervisor or Manager as required.\n\nK. Models professional and customer focused behaviors. **(45%)**\n\n4. **Communication Management**: Maintains good quality relations between staff, patients, physicians and other departments to promote a good working environment.\n\nA. Handles inquiries regarding procedures and test results.\n\nB. Answer telephone in a friendly manner to include:\n\n1. Routing calls to proper location.\n\n2. Taking messages when needed.\n\n3. Answering questions.\n\n4. Making appointments.\n\n5. Giving verbal results.\n\n6. Give accurate instructions (by phone or in person) to patients or physician office personnel regarding proper specimen collection and patient preparation.\n\n7. Documents verbal orders according to procedure.\n\nC. Communicates and enters into computer system test results appropriately, accurately and in a timely manner.\n\n1. Documents communication of critical values as required.\n\nD. Remains current with departmental meeting minutes and other required reading.\n\nE. Performs various computer duties to include:\n\n1. Report generation and distribution.\n\n2. Maintenance of printers.\n\n3. Generation of computer error reports.\n\n4. Generation of computer credits.\n\nF. Reviews appropriate technical and/or operational procedures annually; participates in updating and writing technical and/or operational procedures. **(20%)**\n\n5. **Technology**: Maintains equipment in order to provide a continuous level of quality in test results.\n\nA. Performs laboratory and hospital computer functions with accuracy and promptness (i.e. receipt and verification, order entry, inquiries, labels, etc).\n\n1. Remains knowledgeable of downtime policies and procedures.\n\n2. Monitors, interprets and resolves error log.\n\nB. Performs hospital computer functions with accuracy and promptness (i.e. patient registration, charges, credits, etc).\n\nC. Maintains a working knowledge of personal computer, if applicable.\n\nD. Performs routine maintenance on centrifuges.\n\nE. Troubleshoots computer functions and equipment problems.\n\n1. Reports instrument malfunctions and performs minor repairs.\n\n2. Calls service representative or technical hot-line as necessary.\n\nF. Attends in-service training on new equipment and procedures.\n\nG. Remains current in Laboratory developments though participation in continuing education and self-study (5 hours per year).\n\nH. Performs other work duties as assigned. **(10%)**\n\nTotal 100%\n\nEmployee is required to sit, stand and walk frequently. Employee must lift/carry light (20 lbs. maximum) frequently. Employee is required to bend, squat, climb, lift floor to waist and lift waist to overhead occasionally; reach forward and reach overhead frequently. For repetitive action, employee is required perform simple grasping, pushing/pulling and fine manipulation.\n\nEmployee is exposed to temperature changes (heat, cold, wet, damp) and electrical hazards occasionally; noise, and CRT terminal work frequently; fumes occasionally.\n\nEmployee is frequently exposed to blood borne pathogens.\n\n(Occasionally: 1-33%, Frequently: 34-66%, Continuously: 67-100%)\n\n**The most significant of duties are included but this does not exclude occasional work assignments not mentioned or developmental duties.**\n\n  \n\nHigh School or GED required."
+  },
+  {
+    "job_id": null,
+    "title": "Lab Assistant II",
+    "company": "St. Luke's Hospital (MO)",
+    "location": "Chesterfield, MO, US",
+    "score_status": "complete",
+    "eligibility_disposition": null,
+    "eligible": null,
+    "fit_recommendation": "Manual Review",
+    "recommendation_status": "Manual Review",
+    "recommendation_policy_trace": {
+      "pbs_threshold_pass": false,
+      "eligibility_pass": null,
+      "lane_resolution": "Unresolved",
+      "title_alignment": 0.0,
+      "career_direction": 0.0,
+      "evidence_confidence": "Low",
+      "supported_dimensions": [],
+      "unresolved_requirements": [
+        "Geographic / Commute"
+      ],
+      "decisive_rules": [
+        "Unresolved material requirements: Geographic / Commute"
+      ]
+    },
+    "professional_lane": "Unresolved",
+    "professional_lane_name": "Unresolved",
+    "target_role_horizon": "Unresolved",
+    "hard_requirement_failures": [
+      "Job location or requirement status unresolved"
+    ],
+    "requirement_details": [
+      {
+        "requirement_type": "Geographic / Commute",
+        "requirement_text": "Location Status Verification",
+        "requirement_level": "required",
+        "state": "unresolved",
+        "candidate_evidence_ids": [],
+        "reason": "Location status unverified; requires validation evidence",
+        "confidence": 0.5
+      }
+    ],
+    "pbs_job_fit_score_pre_calibration": 2.1,
+    "diagnostic_fit_score": 2.1,
+    "capability_fit_score": 3.4,
+    "market_readiness_fit_score": 0.0,
+    "strategic_value": "Insufficient Information",
+    "evidence_confidence": "Low",
+    "evidence_confidence_breakdown": {
+      "strength_distribution": {
+        "high_count": 0,
+        "moderate_count": 0,
+        "low_count": 0
+      },
+      "source_authority": {
+        "candidate_reported_count": 0,
+        "author_architect_count": 0,
+        "artifact_count": 0
+      },
+      "dimension_coverage": {
+        "d2_active": false,
+        "d3_active": false,
+        "d4_active": false
+      },
+      "confidence_score": 0.0,
+      "confidence_level": "Low"
+    },
+    "industry_match_status": "unresolved",
+    "dimension_scores": {
+      "D2_direct_resume": 0.0,
+      "D3_transferable_exp": 0.0,
+      "D4_project_relevance": 0.0,
+      "D5_static_career_keyword_alignment": 0.21,
+      "D6_title_closeness": 0.0,
+      "D7_industry_closeness": 0.0,
+      "D8_career_direction_alignment": 0.0
+    },
+    "evidence_citations": [],
+    "job_url": "https://www.indeed.com/viewjob?jk=d80b6c22bf2b1e26",
+    "description": "Performs phlebotomy, processes patient specimens and performs patient registration. Utilizes Laboratory computer system. Prepares specimens to be sent to reference laboratories. Maintains department inventory and operates and maintains equipment. Performs various clerical duties. Adheres to patient identification, laboratory safety, and department policies and procedures. Performs duties and responsibilities in a manner consistent with our mission and values.\n\nPrinciple Accountabilities: % Of Time Spent\n\n1.Safety/Risk Management: Maintains an environment for employees, patients, medical staff, and visitors that promote safety consciousness in order to achieve a safe physical environment. A. Complies with Hospital and department Infection Control guidelines.\n\nB. Adheres to chemical hygiene policies.\n\nC. Follows confidentiality policy/procedure.\n\nD. Adheres to hospital wide and department specific safety regulations.\n\nE. Initiates quality improvement reports, and participates in quality improvement audits as necessary.\n\nF. Creates a safe and clean work environment.\n\nG. Utilizes the appropriate safety engineering devices/personal protective equipment. (10%)\n\n2. Coordination of Services: Coordinates activities, which allow quality work within a timely manner.\n\nA. Functions efficiently and effectively in pertinent areas during normal operations and computer 'downtimes.'\n\nB. Acts as a preceptor of coworkers and non-laboratory personnel up to and including sign off of orientation checklists at the task level.\n\nC. Assures all services are carried out accurately, efficiently, timely and optimally safe.\n\nD. Stocks area, monitors expiration dates of supplies, and alerts appropriate personnel when supplies are low.\n\nE. Receives, labels and stores supplies accurately and in a timely manner.\n\nF. Fill orders from customers for lab supplies.\n\nG. Orders reagents, supplies and instrument consumables in a timely manner to insure continuous service.\n\nH. Coordinates services and resources with laboratory, other department and non-laboratory personnel in a timely manner (i.e. specimens, supplies, reports, etc).\n\nI. Functions as technical resource to physicians and employees.\n\nJ. Works independently, covering all aspects of the job.\n\nK. Serves as the lead coworker of the area.\n\nL. Assists employees with trouble shooting problems and acts as a resource in problem resolution. (15%)\n\n3. Primary Aspects of the Job: Exhibits organizational skills and a conscientiousness which allows for precise and accurate results in a timely manner.\n\nA. Performs various types of LIS/HIS registration on patients and/or specimens per hospital and laboratory policy.\n\nB. Demonstrates proper time management skills and priority setting, and multi tasking abilities.\n\nC. Collects and/or assists with collection of patient specimens (to include blood, urine, Autologous blood, etc) in a timely manner, following approved procedure with technical expertise.\n\n1. Utilizes equipment proficiently.\n\n2. Assures positive patient identification.\n\n3. Adheres to procedures for special and age related requirements.\n\n4. Verifies tests requested to tests ordered and obtained.\n\n5. Evaluates specimen acceptability.\n\n6. Labels specimen correctly.\n\n7. Verifies work in a timely manner.\n\nD. Processes specimens received accurately and promptly.\n\n1. Computer entry.\n\n2. Confirm interpretation of physician orders.\n\n3. Confirm orders with specimen.\n\n4. Screen samples for acceptability.\n\n5. Takes appropriate action for unsuitable, unacceptable, mislabeled specimens.\n\n6. Directs specimens to proper departments and individuals in a timely manner.\n\nE. Appropriately prepares specimens for transportation to other clinical laboratories for testing.\n\n1. Maintains accurate records.\n\nF. Performs limited waived tests and procedures on biological and environmental materials using automated equipment or manual methods following established laboratory and testing\n\nprocedures. (These tests include bleeding times, finger stick glucose, microbiology set-ups and others as authorized).\n\n1. Performs work accurately and cost effectively.\n\n2. Evaluates specimen acceptability.\n\n3. Verifies work in a timely manner.\n\n4. Prepares and maintains reagents and solutions.\n\nG. Performs quality control and equipment maintenance.\n\n1. Maintains proper quality control records.\n\n2. Documents corrective action for unacceptable results.\n\n3. Performs preventive maintenance on equipment.\n\n4. Performs work accurately and cost effectively.\n\nH. Creates and uses work aid documents correctly and routinely and in a timely manner (pending, batch, error, etc).\n\nI. Performs various clerical duties to include but not limited to:\n\n1. Sending out reports.\n\n2. Typing as necessary.\n\n3. Faxing reports.\n\n4. Filing.\n\nJ. Identifies both operational and technical problems and refers problems to Supervisor or Manager as required.\n\nK. Models professional and customer focused behaviors. (45%)\n\n4. Communication Management: Maintains good quality relations between staff, patients, physicians and other departments to promote a good working environment.\n\nA. Handles inquiries regarding procedures and test results.\n\nB. Answer telephone in a friendly manner to include:\n\n1. Routing calls to proper location.\n\n2. Taking messages when needed.\n\n3. Answering questions.\n\n4. Making appointments.\n\n5. Giving verbal results.\n\n6. Give accurate instructions (by phone or in person) to patients or physician office personnel regarding proper specimen collection and patient preparation.\n\n7. Documents verbal orders according to procedure.\n\nC. Communicates and enters into computer system test results appropriately, accurately and in a timely manner.\n\n1. Documents communication of critical values as required.\n\nD. Remains current with departmental meeting minutes and other required reading.\n\nE. Performs various computer duties to include:\n\n1. Report generation and distribution.\n\n2. Maintenance of printers.\n\n3. Generation of computer error reports.\n\n4. Generation of computer credits.\n\nF. Reviews appropriate technical and/or operational procedures annually; participates in updating and writing technical and/or operational procedures. (20%)\n\n5. Technology: Maintains equipment in order to provide a continuous level of quality in test results.\n\nA. Performs laboratory and hospital computer functions with accuracy and promptness (i.e. receipt and verification, order entry, inquiries, labels, etc).\n\n1. Remains knowledgeable of downtime policies and procedures.\n\n2. Monitors, interprets and resolves error log.\n\nB. Performs hospital computer functions with accuracy and promptness (i.e. patient registration, charges, credits, etc).\n\nC. Maintains a working knowledge of personal computer, if applicable.\n\nD. Performs routine maintenance on centrifuges.\n\nE. Troubleshoots computer functions and equipment problems.\n\n1. Reports instrument malfunctions and performs minor repairs.\n\n2. Calls service representative or technical hot-line as necessary.\n\nF. Attends in-service training on new equipment and procedures.\n\nG. Remains current in Laboratory developments though participation in continuing education and self-study (5 hours per year).\n\nH. Performs other work duties as assigned. (10%)\n\nTotal 100%\n\nEmployee is required to sit, stand and walk frequently. Employee must lift/carry light (20 lbs. maximum) frequently. Employee is required to bend, squat, climb, lift floor to waist and lift waist to overhead occasionally; reach forward and reach overhead frequently. For repetitive action, employee is required to use both hands for simple grasping, pushing/pulling and fine manipulation.\n\nEmployee is exposed to temperature changes (heat, cold, wet, damp) and electrical hazards occasionally; noise, and CRT terminal work frequently; fumes occasionally.\n\nEmployee is frequently exposed to blood borne pathogens.\n\n(Occasionally: 1-33%, Frequently: 34-66%, Continuously: 67-100%)\n\n**The most significant of duties are included but this does not exclude occasional work assignments not mentioned or developmental duties.**\n\n**Job Relationships:** Member of a comprehensive healthcare team including other healthcare providers, the patient, the patient's family and significant others.\n\nTakes direction from: Supervisor, Manager, Director of Laboratory, Medical Director, Chief Technologist, Pathologist\n\nSupervised by: Supervisor, Manager, Director of Laboratory, Chief Technologist\n\nHigh School or GED required.  \nPhlebotomy Certification required.  \nCertification requiring educational maintenance by the certifying agency must be kept current and valid."
+  },
+  {
+    "job_id": null,
+    "title": "Student Nurse Tech - SNT - Emergency Department",
+    "company": "St. Luke's Hospital (MO)",
+    "location": "Chesterfield, MO, US",
+    "score_status": "complete",
+    "eligibility_disposition": null,
+    "eligible": null,
+    "fit_recommendation": "Manual Review",
+    "recommendation_status": "Manual Review",
+    "recommendation_policy_trace": {
+      "pbs_threshold_pass": false,
+      "eligibility_pass": null,
+      "lane_resolution": "Unresolved",
+      "title_alignment": 0.0,
+      "career_direction": 0.0,
+      "evidence_confidence": "Low",
+      "supported_dimensions": [],
+      "unresolved_requirements": [
+        "Geographic / Commute"
+      ],
+      "decisive_rules": [
+        "Unresolved material requirements: Geographic / Commute"
+      ]
+    },
+    "professional_lane": "Unresolved",
+    "professional_lane_name": "Unresolved",
+    "target_role_horizon": "Unresolved",
+    "hard_requirement_failures": [
+      "Job location or requirement status unresolved"
+    ],
+    "requirement_details": [
+      {
+        "requirement_type": "Geographic / Commute",
+        "requirement_text": "Location Status Verification",
+        "requirement_level": "required",
+        "state": "unresolved",
+        "candidate_evidence_ids": [],
+        "reason": "Location status unverified; requires validation evidence",
+        "confidence": 0.5
+      }
+    ],
+    "pbs_job_fit_score_pre_calibration": 1.5,
+    "diagnostic_fit_score": 1.5,
+    "capability_fit_score": 2.6,
+    "market_readiness_fit_score": 0.0,
+    "strategic_value": "Insufficient Information",
+    "evidence_confidence": "Low",
+    "evidence_confidence_breakdown": {
+      "strength_distribution": {
+        "high_count": 0,
+        "moderate_count": 0,
+        "low_count": 0
+      },
+      "source_authority": {
+        "candidate_reported_count": 0,
+        "author_architect_count": 0,
+        "artifact_count": 0
+      },
+      "dimension_coverage": {
+        "d2_active": false,
+        "d3_active": false,
+        "d4_active": false
+      },
+      "confidence_score": 0.0,
+      "confidence_level": "Low"
+    },
+    "industry_match_status": "unresolved",
+    "dimension_scores": {
+      "D2_direct_resume": 0.0,
+      "D3_transferable_exp": 0.0,
+      "D4_project_relevance": 0.0,
+      "D5_static_career_keyword_alignment": 0.15,
+      "D6_title_closeness": 0.0,
+      "D7_industry_closeness": 0.0,
+      "D8_career_direction_alignment": 0.0
+    },
+    "evidence_citations": [],
+    "job_url": "https://www.indeed.com/viewjob?jk=0fd2957523f146f8",
+    "description": "Under the direction and supervision of a Registered Professional Nurse, performs the primary function of a Student Nurse Technician in assessing, planning, implementing, educating, prioritization, delegation and evaluating a designated group of patients in accordance with all established Nursing Standards and Hospital Policies. Is responsible for managing all assigned personal supplies, equipment on the unit, and for promoting teamwork with all members of the healthcare team. Performs duties and responsibilities in a manner consistent with our mission and values. This role will prepare the student nurse technician to become a safe provider of care as a future nurse generalist.  \n  \nPrincipal Accountabilities in collaboration with RN:\n\n* Collaborates with all care to team members, students, PCT's, and UA's.\n* Acts as a patient liaison and advocate.\n* Assures proper documentation.\n* Performs general, non-licensed respiratory procedures:\n  + oximetry spot checks\n  + simple oxygen set-ups, tank exchange\n* Assist patients with mobility needs:\n  + Transfers\n  + turning and repositioning in bed\n  + maintaining a clean and safe room environment\n  + assisting patient to bathroom\n  + transporting to tests or other hospital locations\n* Makes continuous patient assessment:\n  + Performs and communicates the preliminary interpretation of 12 lead EKG\u2019s to RN\n  + Performs procedures related to specimen collection, reporting abnormal values to RN\n  + Makes patient rounds, using ICARE model.\n  + Manages patient\u2019s in-house transfer through system.\n  + Assesses ADL\u2019s\n  + Participates in administration of treatments between disciplines.\n* Coordinates with RN all aspects of patient care, including planning, intervention, education, and valuation:\n  + Develops, maintains, and applies age-specific knowledge relevant to the care of the patient population served.\n  + Performs IV insertions, troubleshooting and maintenance with with direct supervision by RN.\n  + Performs phlebotomy.\n  + Performs staple removal with with direct supervision by RN.\n  + Performs drain removal with with direct supervision by RN. (Unit specific)\n  + changing dressing (sterile and nonsterile) with direct supervision by RN.\n  + Participates in Code Blue/RRT team response.\n  + Provides patient education.\n* Performs other patient care activities to include, but not limited to:\n  + simple skin care\n  + oral hygiene\n  + partial bath\n  + complete bath\n  + shaving\n  + bed making (unoccupied and occupied)\n  + Foley care and emptying and recording output from Foley catheters\n  + providing bedpan or urinal as needed\n  + weigh patients\n  + application and reapplication of SCDs, TED hose, Aqua K pads, cold packs\n  + passing trays, water, juice and snacks\n  + administering ice chips\\*\n  + feeding patients\n  + assisting with menu ordering/delivery and food cart transfer as needed\n  + applying restraints (bed alarms) as directed\n  + I&O\n  + obtains vital signs (temp, pulse, respirations, blood pressure, pain score, O2 sat)\n  + emptying drains and ostomy bags, recording output\n  + assisting with after death care\n  + pain assessment screening\n  + blood sugar monitoring\n  + assisting with observation of suicide patients\n* Participates as a team member on the division\n  + Participates in the \"Every Patient is My Patient Initiative\"\n  + Displays FACES behaviors.\n  + Participates in bedside shift report.\n  + Ensures patient handoff to other disciplines through verbal or written communication.\n  + Interprets Hospital Policy for team members.\n  + Participates in and makes suggestions for HCAHPS improvement initiatives.\n  + Assists in providing adequate staffing.\n  + Implements institute\u2019s policies consistent with evidence-based practice.\n  + Performs purposeful rounds on patients at least every 2 hours.\n* Performs other work duties as assigned.\n  + Non-essential function of the job can be assigned to another employee.\n  + Maintains CPR status\n  + Takes inventory of supplies and equipment and restocks as necessary.\n  + Participates in continuing education activities relevant to Nursing Practice.\n  + Transports supplies, mail, labs etc.\n\nThis position is a non-licensed/certified staff member authorized to transport and/or stock medications to meet specified essential job duties.\n\nCapable of working to prescribed Hospital Policies and Nursing Standards.\n\nThe patient care provided will take into consideration the specific age-related needs of the patient. Nursing divisions may provide patient care to neonates/infants, children, adolescents, adults, and geriatric adults.\n\nEmployee is required to walk continuously and sit occasionally. Employee must lift/carry a light (1-20 lbs.) medium (21-50 lbs.) load occasionally and heavy (50lbs. +) load frequently. Employee may be required to lift over 100 lbs with assistance. Employee is frequently required to bend, squat, crawl, kneel, climb, lift waist to overhead. Employee is occasionally required to reach forward and reach overhead. For repetitive action, employee is required to use both hands for simple grasping and pushing/pulling. Employee is occasionally exposed to electrical hazards and CRT terminal work. Verbal and cognitive ability, as well as motor coordination and manual dexterity are required. Speech, hearing, and near-visual acuity are required. May be needed to work any shift due to 24-hour day, 7 days per week operation. May be required to work on other patient care units as needed. Employee is frequently exposed to blood borne pathogens.\n\n(Occasionally: 1-33%, Frequently: 34-66%, Continuously: 67-100%)\n\nThe most significant of duties are included, but this does not exclude occasional work assignments not mentioned or developmental duties.\n\nJob Relationships: Member of a comprehensive healthcare team, including other health care providers, the patient, the patient\u2019s family and significant others.\n\nTakes direction from: Nurse Manager and Assistant Nurse Manager, RN\n\nProvides direction to: PCT, UA, Secretary\n\nSupervised by: Nurse Manager, Assistant Nurse Manager\n\nMinimum of a High School diploma or equivalent.  \nCurrently enrolled in accredited nursing program who will have or will complete fundamentals course within 90 days of hire."
+  }
+]

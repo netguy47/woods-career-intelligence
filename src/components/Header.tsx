@@ -1,7 +1,7 @@
 'use client';
 
 import React from 'react';
-import { Award, Briefcase, CheckCircle, Clock, Filter, Plus, ShieldCheck, Sparkles } from 'lucide-react';
+import { Award, Briefcase, CheckCircle, Clock, Filter, Plus, ShieldCheck, Sparkles, FileText } from 'lucide-react';
 
 interface HeaderProps {
   totalJobs: number;
@@ -9,6 +9,7 @@ interface HeaderProps {
   considerCount: number;
   appliedCount: number;
   onNewJobClick: () => void;
+  onOpenBriefClick: () => void;
 }
 
 export const Header: React.FC<HeaderProps> = ({
@@ -17,6 +18,7 @@ export const Header: React.FC<HeaderProps> = ({
   considerCount,
   appliedCount,
   onNewJobClick,
+  onOpenBriefClick,
 }) => {
   return (
     <header className="sticky top-0 z-30 glass-panel border-b border-slate-800 px-6 py-4">
@@ -40,7 +42,7 @@ export const Header: React.FC<HeaderProps> = ({
           </div>
         </div>
 
-        {/* Quick Stats */}
+        {/* Quick Stats & Action Buttons */}
         <div className="flex items-center gap-3 overflow-x-auto py-1 custom-scrollbar">
           <div className="glass-card px-3.5 py-2 rounded-xl flex items-center gap-2.5">
             <Briefcase className="w-4 h-4 text-sky-400" />
@@ -66,17 +68,17 @@ export const Header: React.FC<HeaderProps> = ({
             </div>
           </div>
 
-          <div className="glass-card px-3.5 py-2 rounded-xl flex items-center gap-2.5 border-indigo-500/30">
-            <CheckCircle className="w-4 h-4 text-indigo-400" />
-            <div>
-              <div className="text-xs text-indigo-300 font-medium">Submitted</div>
-              <div className="text-sm font-bold text-indigo-400">{appliedCount}</div>
-            </div>
-          </div>
+          <button
+            onClick={onOpenBriefClick}
+            className="flex items-center gap-1.5 px-3.5 py-2.5 rounded-xl bg-amber-500/20 hover:bg-amber-500/30 text-amber-300 border border-amber-500/40 text-xs font-semibold transition-all hover:scale-105"
+          >
+            <FileText className="w-4 h-4 text-amber-400" />
+            <span>Executive Brief</span>
+          </button>
 
           <button
             onClick={onNewJobClick}
-            className="flex items-center gap-2 px-4 py-2.5 rounded-xl bg-gradient-to-r from-sky-500 to-blue-600 hover:from-sky-400 hover:to-blue-500 text-white font-medium text-sm shadow-md shadow-sky-500/20 transition-all hover:scale-105 active:scale-95"
+            className="flex items-center gap-2 px-4 py-2.5 rounded-xl bg-gradient-to-r from-sky-500 to-blue-600 hover:from-sky-400 hover:to-blue-500 text-white font-medium text-xs shadow-md shadow-sky-500/20 transition-all hover:scale-105 active:scale-95"
           >
             <Plus className="w-4 h-4" />
             <span>Evaluate Posting</span>

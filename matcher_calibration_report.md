@@ -2,9 +2,9 @@
 
 **Report Version:** 4.3.0  
 **Status:** Implemented, execution-tested, pending independent approval  
-**Execution Timestamp:** `2026-07-28T10:32:39.589988+00:00`  
-**Scorer SHA-256:** `03547419afddb5b0e0fb8856aafca47a13648d2ecaaba65ba333cc3dd349978a`  
-**Registry SHA-256:** `20c18c1405708cb15eae924aa73d1d5515a55de904c1cd28454eed2265fbc488`  
+**Execution Timestamp:** `2026-07-29T15:56:31.165103+00:00`  
+**Scorer SHA-256:** `840e22dc2f65bad83dd166e073b15e5c59eb140dc3f51933e270a213c3dab818`  
+**Registry SHA-256:** `0f7d7d4e670a8d7bac84429c22474a0646ccf881e15fd9ecab12b79489eb69a9`  
 **Assertion Pass Rate:** **73.9%** (34/46)  
 
 ---

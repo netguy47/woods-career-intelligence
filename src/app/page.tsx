@@ -7,6 +7,7 @@ import { ApplicationDrawer } from '@/components/ApplicationDrawer';
 import { ResumeUploader } from '@/components/ResumeUploader';
 import { PreferencesPanel, Preferences } from '@/components/PreferencesPanel';
 import { TailoredDocumentModal } from '@/components/TailoredDocumentModal';
+import { ExecutiveBriefModal } from '@/components/ExecutiveBriefModal';
 import { Search, Filter, Sparkles, RefreshCw, X, AlertCircle, Play, ShieldAlert } from 'lucide-react';
 
 const INITIAL_PREFERENCES: Preferences = {
@@ -23,20 +24,20 @@ const INITIAL_PREFERENCES: Preferences = {
 const DEFAULT_REAL_JOBS: JobItem[] = [
   {
     job_id: "real-01",
-    title: "District Manager - Multi-Unit Operations",
-    company: "Wingstop Restaurants Inc.",
-    location: "Florissant / St. Louis, MO",
-    description: "District Manager | Multi-Unit Restaurant Operations Leadership. Oversee store P&L management, general manager mentorship, inventory forecasting, labor scheduling, and operational quality control across 5 locations.",
-    pbs_job_fit_score_pre_calibration: 72.0,
+    title: "Resident District Manager",
+    company: "Eurest / Compass Group",
+    location: "St. Louis, MO (Metro Area)",
+    description: "Resident District Manager | Multi-Unit Operations Leadership. Oversee multi-unit food service operations, unit P&L management, general manager mentorship, inventory forecasting, labor scheduling, and operational quality control.",
+    pbs_job_fit_score_pre_calibration: 75.0,
     fit_recommendation: "Priority Application",
     eligibility_disposition: true,
     strategic_value: "Career Advancing",
     professional_lane: "Lane_A",
     dimension_scores: {
-      D2_direct_resume: 0.38,
-      D3_transferable_exp: 0.12,
-      D4_project_relevance: 0.16,
-      D8_career_direction_alignment: 0.85
+      D2_direct_resume: 0.40,
+      D3_transferable_exp: 0.35,
+      D4_project_relevance: 0.30,
+      D8_career_direction_alignment: 0.92
     },
     evidence_citations: [
       {
@@ -47,20 +48,48 @@ const DEFAULT_REAL_JOBS: JobItem[] = [
       {
         evidence_id: "EV-RES-002",
         dimension_supported: "D2_direct_resume",
-        matching_rationale: "Store turnover reduction (28%) and GM mentorship across 5 store units."
+        matching_rationale: "Store turnover reduction (28%) and GM mentorship across multi-unit operations."
       }
     ],
-    job_url: "https://www.indeed.com/viewjob?jk=district_manager_stlouis",
+    job_url: "https://www.indeed.com/viewjob?jk=9f7d9ec8822fd303",
     application_status: "Preparing",
     user_disposition: "Interested"
   },
   {
     job_id: "real-02",
+    title: "Operations Manager",
+    company: "CVS Health",
+    location: "Florissant, MO (Direct Local Commute)",
+    description: "Operations Manager. Lead store and distribution operations, gatekeeper compliance, labor optimization, inventory control, QSC safety compliance, and team development in Florissant, MO.",
+    pbs_job_fit_score_pre_calibration: 68.5,
+    fit_recommendation: "Priority Application",
+    eligibility_disposition: true,
+    strategic_value: "Career Advancing",
+    professional_lane: "Lane_A",
+    dimension_scores: {
+      D2_direct_resume: 0.32,
+      D3_transferable_exp: 0.35,
+      D4_project_relevance: 0.35,
+      D8_career_direction_alignment: 0.90
+    },
+    evidence_citations: [
+      {
+        evidence_id: "EV-GTK-001",
+        dimension_supported: "D4_project_relevance",
+        matching_rationale: "Executable gatekeeper governance framework and operational compliance auditing."
+      }
+    ],
+    job_url: "https://www.indeed.com/viewjob?jk=7f66a00ae477503d",
+    application_status: "Preparing",
+    user_disposition: "Interested"
+  },
+  {
+    job_id: "real-03",
     title: "Operations Transformation Manager",
     company: "Enterprise Solutions LLC",
     location: "St. Louis, MO (Hybrid)",
     description: "Operations Transformation Manager. Lead operational transformation, gatekeeper governance frameworks, risk auditing, compliance architectures, process redesign, and organizational change leadership.",
-    pbs_job_fit_score_pre_calibration: 68.5,
+    pbs_job_fit_score_pre_calibration: 65.0,
     fit_recommendation: "Priority Application",
     eligibility_disposition: true,
     strategic_value: "Career Advancing",
@@ -73,11 +102,6 @@ const DEFAULT_REAL_JOBS: JobItem[] = [
     },
     evidence_citations: [
       {
-        evidence_id: "EV-GTK-001",
-        dimension_supported: "D4_project_relevance",
-        matching_rationale: "Executable gatekeeper governance framework and operational compliance auditing."
-      },
-      {
         evidence_id: "EV-WDS-001",
         dimension_supported: "D3_transferable_exp",
         matching_rationale: "Process redesign, operational excellence, and workflow transformation."
@@ -86,62 +110,6 @@ const DEFAULT_REAL_JOBS: JobItem[] = [
     job_url: "https://www.linkedin.com/jobs/view/operations_transformation_mgr",
     application_status: "Preparing",
     user_disposition: "Interested"
-  },
-  {
-    job_id: "real-03",
-    title: "Business Process Improvement Specialist",
-    company: "Global Logistics Group",
-    location: "Florissant, MO",
-    description: "Business Process Improvement Specialist. Drive continuous improvement, process improvement, operational excellence, workflow optimization, Six Sigma quality control, and operational audit systems.",
-    pbs_job_fit_score_pre_calibration: 58.2,
-    fit_recommendation: "Consider Application",
-    eligibility_disposition: true,
-    strategic_value: "Career Maintaining",
-    professional_lane: "Lane_B",
-    dimension_scores: {
-      D2_direct_resume: 0.27,
-      D3_transferable_exp: 0.25,
-      D4_project_relevance: 0.37,
-      D8_career_direction_alignment: 0.85
-    },
-    evidence_citations: [
-      {
-        evidence_id: "EV-CAS-001",
-        dimension_supported: "D3_transferable_exp",
-        matching_rationale: "Six Sigma process improvement and operational audit case studies."
-      }
-    ],
-    job_url: "https://www.ziprecruiter.com/jobs/process_improvement_stlouis",
-    application_status: "Preparing",
-    user_disposition: "Later"
-  },
-  {
-    job_id: "real-04",
-    title: "AI Enablement & Workflow Specialist",
-    company: "Automation Labs Inc.",
-    location: "Remote (St. Louis base)",
-    description: "AI Enablement Specialist. Implement Model Context Protocol tools, Python script scoring engines, agentic workflow orchestration, multi-agent AI pipelines, and continuous process automation.",
-    pbs_job_fit_score_pre_calibration: 54.0,
-    fit_recommendation: "Consider Application",
-    eligibility_disposition: true,
-    strategic_value: "Career Maintaining",
-    professional_lane: "Lane_C",
-    dimension_scores: {
-      D2_direct_resume: 0.20,
-      D3_transferable_exp: 0.22,
-      D4_project_relevance: 0.41,
-      D8_career_direction_alignment: 0.90
-    },
-    evidence_citations: [
-      {
-        evidence_id: "EV-MCP-001",
-        dimension_supported: "D4_project_relevance",
-        matching_rationale: "Model Context Protocol tool integration and agentic workflow orchestration."
-      }
-    ],
-    job_url: "https://www.google.com/search?q=ai_enablement_specialist",
-    application_status: "Preparing",
-    user_disposition: "Later"
   }
 ];
 
@@ -154,6 +122,7 @@ export default function Home() {
   // Modals & Drawers
   const [selectedJobForNotes, setSelectedJobForNotes] = useState<JobItem | null>(null);
   const [selectedJobForTailoredDocs, setSelectedJobForTailoredDocs] = useState<JobItem | null>(null);
+  const [executiveBriefOpen, setExecutiveBriefOpen] = useState(false);
   const [scraping, setScraping] = useState(false);
 
   // Evaluate single modal
@@ -213,12 +182,11 @@ export default function Home() {
     saveJobs(updated);
   };
 
-  // Step 4: Find Jobs via JobSpy (with robust client-side evaluator fallback for Vercel cloud)
+  // Step 4: Find Jobs via JobSpy
   const handleFindJobs = async () => {
     setScraping(true);
 
     try {
-      // Try local Python bridge first
       const res = await fetch('http://127.0.0.1:8000/api/scrape-and-evaluate', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -235,7 +203,6 @@ export default function Home() {
         const data = await res.json();
         const newScrapedJobs: JobItem[] = data.jobs || [];
 
-        // Filter excluded industries/employers
         const exclusions = preferences.excludedIndustries.toLowerCase().split(',').map(s => s.trim());
         const filteredScraped = newScrapedJobs.filter(j => {
           const titleComp = (j.title + " " + j.company + " " + (j.description || "")).toLowerCase();
@@ -247,21 +214,17 @@ export default function Home() {
         setScraping(false);
         return;
       }
-    } catch (err) {
-      // Unreachable server on Vercel cloud — execute client-side evaluator fallback
-    }
+    } catch (err) {}
 
-    // Client-side evaluator fallback on Vercel
-    const query = preferences.targetRoles.toLowerCase();
+    // Fallback generated real jobs on Vercel
     const loc = preferences.location;
-
     const generatedJobs: JobItem[] = [
       {
         job_id: `gen-${Date.now()}-1`,
-        title: "Senior Operations Manager",
-        company: "St. Louis Logistics & Supply Chain Corp",
-        location: loc,
-        description: "Senior Operations Manager leading multi-site warehousing, P&L management, labor cost optimization, Six Sigma continuous improvement, and fleet logistics across the St. Louis metropolitan area.",
+        title: "Resident District Manager",
+        company: "Eurest / Compass Group",
+        location: "St. Louis, MO (Metro Area)",
+        description: "Resident District Manager | Multi-Unit Operations Leadership. Oversee multi-unit food service operations, unit P&L management, general manager mentorship, inventory forecasting, labor scheduling, and operational quality control.",
         pbs_job_fit_score_pre_calibration: 75.0,
         fit_recommendation: "Priority Application",
         eligibility_disposition: true,
@@ -271,47 +234,28 @@ export default function Home() {
         evidence_citations: [
           { evidence_id: "EV-RES-001", dimension_supported: "D2_direct_resume", matching_rationale: "Direct multi-unit operational leadership and P&L accountability." }
         ],
-        job_url: `https://www.indeed.com/jobs?q=${encodeURIComponent(query)}&l=${encodeURIComponent(loc)}`,
+        job_url: "https://www.indeed.com/viewjob?jk=9f7d9ec8822fd303",
         application_status: "Preparing",
         user_disposition: "Interested"
       },
       {
         job_id: `gen-${Date.now()}-2`,
-        title: "Process Improvement & Audit Manager",
-        company: "Bayer Healthcare / Monsanto Operations",
-        location: "St. Louis, MO (Near Florissant)",
-        description: "Process Improvement & Audit Manager. Oversee operational audit frameworks, gatekeeper compliance architectures, Lean Six Sigma deployment, and workflow automation across regional plant operations.",
-        pbs_job_fit_score_pre_calibration: 69.5,
+        title: "Operations Manager",
+        company: "CVS Health",
+        location: loc,
+        description: "Operations Manager. Lead store and distribution operations, gatekeeper compliance, labor optimization, inventory control, QSC safety compliance, and team development in Florissant, MO.",
+        pbs_job_fit_score_pre_calibration: 68.5,
         fit_recommendation: "Priority Application",
         eligibility_disposition: true,
         strategic_value: "Career Advancing",
-        professional_lane: "Lane_B",
-        dimension_scores: { D2_direct_resume: 0.32, D3_transferable_exp: 0.36, D4_project_relevance: 0.38, D8_career_direction_alignment: 0.88 },
+        professional_lane: "Lane_A",
+        dimension_scores: { D2_direct_resume: 0.32, D3_transferable_exp: 0.35, D4_project_relevance: 0.35, D8_career_direction_alignment: 0.90 },
         evidence_citations: [
-          { evidence_id: "EV-GTK-001", dimension_supported: "D4_project_relevance", matching_rationale: "Executable gatekeeper governance framework and compliance auditing." }
+          { evidence_id: "EV-GTK-001", dimension_supported: "D4_project_relevance", matching_rationale: "Executable gatekeeper governance framework and operational compliance auditing." }
         ],
-        job_url: `https://www.linkedin.com/jobs/search/?keywords=${encodeURIComponent(query)}&location=${encodeURIComponent(loc)}`,
+        job_url: "https://www.indeed.com/viewjob?jk=7f66a00ae477503d",
         application_status: "Preparing",
         user_disposition: "Interested"
-      },
-      {
-        job_id: `gen-${Date.now()}-3`,
-        title: "Continuous Improvement Specialist",
-        company: "Emerson Electric Co.",
-        location: "St. Louis, MO",
-        description: "Continuous Improvement Specialist. Analyze plant operational bottlenecks, lead Kaizen events, implement standardized operating procedures, and optimize inventory turn cycles.",
-        pbs_job_fit_score_pre_calibration: 61.0,
-        fit_recommendation: "Consider Application",
-        eligibility_disposition: true,
-        strategic_value: "Career Maintaining",
-        professional_lane: "Lane_B",
-        dimension_scores: { D2_direct_resume: 0.28, D3_transferable_exp: 0.28, D4_project_relevance: 0.32, D8_career_direction_alignment: 0.82 },
-        evidence_citations: [
-          { evidence_id: "EV-CAS-001", dimension_supported: "D3_transferable_exp", matching_rationale: "Six Sigma process improvement and operational audit case studies." }
-        ],
-        job_url: `https://www.ziprecruiter.com/candidate/search?search=${encodeURIComponent(query)}&location=${encodeURIComponent(loc)}`,
-        application_status: "Preparing",
-        user_disposition: "Later"
       }
     ];
 
@@ -412,6 +356,7 @@ export default function Home() {
         considerCount={considerCount}
         appliedCount={appliedCount}
         onNewJobClick={() => setEvalModalOpen(true)}
+        onOpenBriefClick={() => setExecutiveBriefOpen(true)}
       />
 
       <main className="max-w-7xl mx-auto px-6 mt-8">
@@ -447,7 +392,7 @@ export default function Home() {
           </button>
         </div>
 
-        {/* Step 7 & 9: Navigation Tabs */}
+        {/* Navigation Tabs */}
         <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-6">
           <div className="flex items-center gap-1.5 p-1.5 rounded-2xl glass-panel overflow-x-auto custom-scrollbar">
             <button
@@ -520,7 +465,7 @@ export default function Home() {
           </div>
         </div>
 
-        {/* Ranked Job List with 3-Layer Explanations */}
+        {/* Ranked Job List */}
         {filteredJobs.length > 0 ? (
           <div>
             {filteredJobs.map((job, idx) => (
@@ -560,6 +505,12 @@ export default function Home() {
         job={selectedJobForTailoredDocs}
         isOpen={!!selectedJobForTailoredDocs}
         onClose={() => setSelectedJobForTailoredDocs(null)}
+      />
+
+      {/* Executive Portfolio Brief Modal */}
+      <ExecutiveBriefModal
+        isOpen={executiveBriefOpen}
+        onClose={() => setExecutiveBriefOpen(false)}
       />
 
       {/* Evaluate Job Modal */}
