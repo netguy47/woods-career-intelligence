@@ -1,12 +1,14 @@
 # EXECUTIVE PORTFOLIO BRIEF
+
 ## The Woods Operational Intelligence Framework & 90-Day Scaling Playbook
-**Candidate**: Donald Woods | Florissant, MO 63033 | 314-917-3503 | donaldwoods@live.com | [linkedin.com/in/woodsdon40](https://linkedin.com/in/woodsdon40)
+
+**Candidate**: Donald Woods | Florissant, MO 63033 | 314-917-3503 | [donaldwoods@live.com](mailto:donaldwoods@live.com) | [linkedin.com/in/woodsdon40](https://linkedin.com/in/woodsdon40)
 
 ---
 
 ### Executive Overview & Verified Value Proposition
 
-Donald Woods is an Executive Operations Leader with **25+ years of multi-unit leadership, P&L stewardship, and continuous process improvement** across high-volume food service, retail, and field logistics environments. 
+Donald Woods is an Executive Operations Leader with **25+ years of multi-unit leadership, P&L stewardship, and continuous process improvement** across high-volume food service, retail, and field logistics environments.
 
 Holding an **Associate of Arts & Sciences (A.A.S.) in Computer Programming** alongside advanced Six Sigma process control training, Donald bridges traditional multi-unit district management with modern data analytics, custom inventory forecasting algorithms, and automated operational audit systems.
 
